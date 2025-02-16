@@ -3,10 +3,13 @@ from datasets import load_dataset
 from utils import NER
 
 # Load your dataset
-dataset = load_dataset('json', data_files={
-    'train': 'train.json',
-    'validation': 'validation.json'
-})
+dataset = load_dataset(
+#     'json', data_files={
+#     'train': 'train.json',
+#     'validation': 'validation.json'
+# }
+"conll2003"
+)
 
 # Create a label-to-ID mapping
 # In this example, we have 9 labels: O, B-PER, I-PER, B-ORG, I-ORG, B-LOC, I-LOC, B-MISC, I-MISC
@@ -34,3 +37,4 @@ training_args = TrainingArguments(
 
 # Train the NER model
 ner_task.train(dataset, training_args, AutoModelForTokenClassification)
+results = ner_task.eval()
