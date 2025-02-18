@@ -7,7 +7,8 @@ class NLPBase:
     def __init__(self, model_name):
         self.model_name = model_name
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-
+        self.trainer = None
+        
     def preprocess_function(self, examples):
         raise NotImplementedError
 
@@ -21,7 +22,7 @@ class NER(NLPBase):
         self.label_list = label_list
         self.label2id = {label: i for i, label in enumerate(label_list)}
         self.id2label = {i: label for i, label in enumerate(label_list)}
-        self.trainer = None
+        
 
     def preprocess_function(self, examples):
         tokenized_inputs = self.tokenizer(examples["tokens"], truncation=True, is_split_into_words=True)
