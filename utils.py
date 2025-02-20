@@ -1,13 +1,14 @@
 # Description: This file contains utility functions that are used in the main script.
 
-from transformers import AutoTokenizer, Trainer
+from transformers import AutoTokenizer, Trainer, DataCollatorForTokenClassification
 from datasets import load_dataset
 
 class NLPBase:
     def __init__(self, model_name):
         self.model_name = model_name
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-
+        self.trainer = None
+        
     def preprocess_function(self, examples):
         raise NotImplementedError
 
@@ -21,9 +22,10 @@ class NER(NLPBase):
         self.label_list = label_list
         self.label2id = {label: i for i, label in enumerate(label_list)}
         self.id2label = {i: label for i, label in enumerate(label_list)}
+        
 
     def preprocess_function(self, examples):
-        tokenized_inputs = self.tokenizer(examples["text"], truncation=True, is_split_into_words=True)
+        tokenized_inputs = self.tokenizer(examples["tokens"], truncation=True, is_split_into_words=True)
         labels = []
         for i, label in enumerate(examples["ner_tags"]):
             word_ids = tokenized_inputs.word_ids(batch_index=i)
@@ -32,13 +34,16 @@ class NER(NLPBase):
                 if word_idx is None:
                     label_ids.append(-100)
                 else:
-                    label_ids.append(self.label2id[label[word_idx]])
+                    # print(label)
+                    # print(label[word_idx])
+                    label_ids.append(label[word_idx])
             labels.append(label_ids)
         tokenized_inputs["labels"] = labels
         return tokenized_inputs
 
     def train(self, dataset, training_args, model):
         tokenized_dataset = dataset.map(self.preprocess_function, batched=True)
+        data_collator = DataCollatorForTokenClassification(tokenizer=self.tokenizer)
         model = model.from_pretrained(
             self.model_name,
             num_labels=len(self.label_list),
@@ -46,13 +51,26 @@ class NER(NLPBase):
             label2id=self.label2id
         )
 
-        trainer = Trainer(
+        self.trainer = Trainer(
             model=model,
             args=training_args,
             train_dataset=tokenized_dataset["train"],
-            eval_dataset=tokenized_dataset["validation"]
+            eval_dataset=tokenized_dataset["validation"],
+            data_collator=data_collator,
+
         )
-        trainer.train()
+        self.trainer.train()
+    def eval(self):
+        """
+        Evaluate the model on the validation set.
+        """
+        if self.trainer is None:
+            raise ValueError("Model has not been trained yet.")
+        
+        results = self.trainer.evaluate()
+        print(f"Evaluation results: {results}")
+        return results
+
 
 
 class QA(NLPBase):
