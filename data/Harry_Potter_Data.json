@@ -1,787 +1,1082 @@
 [
-{
-  "id": "hp_001",
-  "question": "What curse caused the death of Harry Potter's parents?",
-  "options": [
-    "Avada Kedavra",
-    "Cruciatus Curse",
-    "Imperius Curse",
-    "Soul Extraction Curse"
-  ],
-  "correct_answer": "Avada Kedavra",
-  "content": "In 'Harry Potter and the Philosopher's Stone', it is revealed that Lord Voldemort killed James and Lily Potter using the Avada Kedavra curse. This is one of the three Unforgivable Curses and causes instant death without physical harm." 
-},
-{
-  "id": "hp_002",
-  "question": "Who said the phrase: 'People fear the unknown, fear itself'?",
-  "options": [
-    "Lupin",
-    "Fenrir Greyback",
-    "Albus Dumbledore",
-    "Voldemort"
-  ],
-  "correct_answer": "Albus Dumbledore",
-  "content": "This phrase is paraphrased from Dumbledore's wisdom throughout the series, where he teaches Harry that fear itself is often the greatest obstacle, as seen in 'Harry Potter and the Prisoner of Azkaban'."
-},
-{
-  "id": "hp_003",
-  "question": "How many founders established Hogwarts School of Witchcraft and Wizardry?",
-  "options": [
-    "8",
-    "4",
-    "24",
-    "6"
-  ],
-  "correct_answer": "4",
-  "content": "Hogwarts was founded by four legendary wizards: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. This is mentioned in 'Harry Potter and the Chamber of Secrets'."
-},
-{
-  "id": "hp_004",
-  "question": "What are the animal mascots of Gryffindor, Ravenclaw, Hufflepuff, and Slytherin, respectively?",
-  "options": [
-    "Lion, Snake, Rat, Cow",
-    "Lion, Eagle, Snake, Badger",
-    "Sheep, Pig, Snake, Cow",
-    "Lion, Hawk, Snake, Otter"
-  ],
-  "correct_answer": "Lion, Eagle, Snake, Badger",
-  "content": "Each house in Hogwarts has a corresponding animal: Gryffindor (Lion), Ravenclaw (Eagle), Hufflepuff (Badger), and Slytherin (Snake), as explained in 'Harry Potter and the Philosopher's Stone'."
-},
-{
-  "id": "hp_005",
-  "question": "Where was Harry Potter born?",
-  "options": [
-    "Godric's Hollow",
-    "Grassy Moor",
-    "Ottery St. Catchpole",
-    "Elder Hill Valley"
-  ],
-  "correct_answer": "Godric's Hollow",
-  "content": "Godric's Hollow is where Harry Potter was born and where his parents were murdered by Lord Voldemort. This is mentioned in 'Harry Potter and the Deathly Hallows'."
-},
-{
-  "id": "hp_006",
-  "question": "What were Hermione Granger's parents' professions?",
-  "options": [
-    "Merchants",
-    "Dentists",
-    "Surgeons",
-    "Writers"
-  ],
-  "correct_answer": "Dentists",
-  "content": "Hermione's parents are Muggle dentists, as she mentions in 'Harry Potter and the Philosopher's Stone'. This fact is referenced several times throughout the series."
-},
-{
-  "id": "hp_007",
-  "question": "Who is the author of 'Harry Potter'?",
-  "options": [
-    "Jessica West",
-    "J.K. Rowling",
-    "Joanna",
-    "Rasmus Norman"
-  ],
-  "correct_answer": "J.K. Rowling",
-  "content": "J.K. Rowling is the author of the 'Harry Potter' series, which was first published in 1997 with 'Harry Potter and the Philosopher's Stone'."
-},
-{
-  "id": "hp_008",
-  "question": "How many Horcruxes did Voldemort have?",
-  "options": [
-    "8",
-    "6",
-    "7",
-    "4"
-  ],
-  "correct_answer": "7",
-  "content": "Voldemort created seven Horcruxes to ensure his immortality. This is a major plot point in 'Harry Potter and the Half-Blood Prince' and 'Harry Potter and the Deathly Hallows'."
-},
-{
-  "id": "hp_009",
-  "question": "What was Voldemort's final Horcrux?",
-  "options": [
-    "A pet",
-    "A locket",
-    "A diary",
-    "A cup"
-  ],
-  "correct_answer": "A pet",
-  "content": "Nagini, Voldemort's snake, was his final Horcrux, as revealed in 'Harry Potter and the Deathly Hallows'."
-},
-{
-  "id": "hp_010",
-  "question": "Who was the Defense Against the Dark Arts professor at Hogwarts in Harry's first year?",
-  "options": [
-    "Quirinus Quirrell",
-    "Severus Snape",
-    "Remus Lupin",
-    "Gilderoy Lockhart"
-  ],
-  "correct_answer": "Quirinus Quirrell",
-  "content": "Professor Quirrell was the Defense Against the Dark Arts teacher in 'Harry Potter and the Philosopher's Stone'. He was later revealed to be possessed by Voldemort."
-},
-{
-  "id": "hp_011",
-  "question": "Who was the Potions professor at Hogwarts in Harry's first year?",
-  "options": [
-    "Horace Slughorn",
-    "Severus Snape",
-    "Gilderoy Lockhart",
-    "Minerva McGonagall"
-  ],
-  "correct_answer": "Severus Snape",
-  "content": "Severus Snape was the Potions Master at Hogwarts during Harry's early years, as introduced in 'Harry Potter and the Philosopher's Stone'."
-},
-{
-  "id": "hp_012",
-  "question": "Which three characters are known as the 'Golden Trio'?",
-  "options": [
-    "Harry, Ron, Neville",
-    "Harry, Ron, Hermione",
-    "Harry, Draco, Snape",
-    "Harry, Dumbledore, Sirius"
-  ],
-  "correct_answer": "Harry, Ron, Hermione",
-  "content": "The 'Golden Trio' refers to Harry Potter, Ron Weasley, and Hermione Granger, who are the main protagonists throughout the series."
-},
-{
-  "id": "hp_013",
-  "question": "Where is Hogwarts School of Witchcraft and Wizardry located?",
-  "options": [
-    "Ireland",
-    "Scotland",
-    "Paris",
-    "England"
-  ],
-  "correct_answer": "Scotland",
-  "content": "Hogwarts is located in the Scottish Highlands, as mentioned in various books, including 'Harry Potter and the Philosopher's Stone'."
-},
-{
-  "id": "hp_014",
-  "question": "Who was the headmaster of Hogwarts during most of Harry Potter's time there?",
-  "options": [
-    "Albus Dumbledore",
-    "Minerva McGonagall",
-    "Cornelius Fudge",
-    "Severus Snape"
-  ],
-  "correct_answer": "Albus Dumbledore",
-  "content": "Albus Dumbledore was the headmaster of Hogwarts for most of the series until his death in 'Harry Potter and the Half-Blood Prince'."
-},
-{
-  "id": "hp_015",
-  "question": "Who did Harry Potter admire the most and consider the bravest man?",
-  "options": [
-    "Albus Dumbledore",
-    "Voldemort",
-    "Severus Snape",
-    "Sirius Black"
-  ],
-  "correct_answer": "Severus Snape",
-  "content": "Harry considered Severus Snape the bravest man he ever knew, as revealed in 'Harry Potter and the Deathly Hallows'."
-},
-{
-"id": "hp_016",
-"question": "What is the name of Harry Potter's owl?",
-"options": [
-  "Hedwig",
-  "Errol",
-  "Scabbers",
-  "Crookshanks"
-],
-"correct_answer": "Hedwig",
-"content": "In 'Harry Potter and the Philosopher's Stone', Harry receives a snowy owl as a birthday present, and it is named Hedwig. This detail is reiterated throughout the series, establishing Hedwig as Harry's loyal pet and companion."
-},
-{
-"id": "hp_017",
-"question": "What is the name of the house elf who served the Malfoy family?",
-"options": [
-  "Kreacher",
-  "Dobby",
-  "Winky",
-  "Hokey"
-],
-"correct_answer": "Dobby",
-"content": "Dobby was the Malfoy family's house-elf until Harry tricked Lucius Malfoy into freeing him by giving him a sock in 'Harry Potter and the Chamber of Secrets' (Chapter 18: 'Dobby's Reward'). Dobby later became a free elf and continued to help Harry and his friends."
-},
-{
-  "id": "hp_018",
-  "question": "What position does Harry play on the Gryffindor Quidditch team?",
-  "options": [
-    "Seeker",
-    "Chaser",
-    "Beater",
-    "Keeper"
-  ],
-  "correct_answer": "Seeker",
-  "content": "Harry is the Seeker for the Gryffindor Quidditch team, responsible for catching the Golden Snitch."
-},
-{
-  "id": "hp_019",
-  "question": "What is the core of Harry Potter's wand?",
-  "options": [
-    "Phoenix feather",
-    "Dragon heartstring",
-    "Unicorn hair",
-    "Veela hair"
-  ],
-  "correct_answer": "Phoenix feather",
-  "content": "Harry's wand contains a phoenix feather, shared by Voldemort's wand, which creates a unique connection between them."
-},
-{
-  "id": "hp_020",
-  "question": "Who is the Half-Blood Prince?",
-  "options": [
-    "Severus Snape",
-    "Tom Riddle",
-    "Albus Dumbledore",
-    "Sirius Black"
-  ],
-  "correct_answer": "Severus Snape",
-  "content": "Severus Snape is revealed to be the Half-Blood Prince, as he created many advanced potions and spells during his time at Hogwarts."
-},
-{
-  "id": "hp_021",
-  "question": "What is the name of the train that takes students to Hogwarts?",
-  "options": [
-    "Hogwarts Express",
-    "The Knight Bus",
-    "The Flying Ford Anglia",
-    "Thestral Carriage"
-  ],
-  "correct_answer": "Hogwarts Express",
-  "content": "The Hogwarts Express is the magical train that departs from Platform 9¾ and takes students to Hogwarts."
-},
-{
-  "id": "hp_022",
-  "question": "What is the name of the wizarding prison?",
-  "options": [
-    "Azkaban",
-    "Nurmengard",
-    "Diagon Alley",
-    "Hogsmeade"
-  ],
-  "correct_answer": "Azkaban",
-  "content": "Azkaban is the notorious wizarding prison guarded by Dementors, where dangerous criminals are held."
-},
-{
-  "id": "hp_023",
-  "question": "What is the name of the goblin who helps Harry, Ron, and Hermione break into Gringotts?",
-  "options": [
-    "Griphook",
-    "Dobby",
-    "Kreacher",
-    "Winky"
-  ],
-  "correct_answer": "Griphook",
-  "content": "Griphook is the goblin who assists the trio in breaking into Gringotts to retrieve a Horcrux in 'Harry Potter and the Deathly Hallows.'"
-},
-{
-  "id": "hp_024",
-  "question": "What is the name of the spell used to unlock doors?",
-  "options": [
-    "Alohomora",
-    "Expelliarmus",
-    "Lumos",
-    "Wingardium Leviosa"
-  ],
-  "correct_answer": "Alohomora",
-  "content": "Alohomora is the unlocking charm used to open locked doors and objects."
-},
-{
-  "id": "hp_025",
-  "question": "What is the name of the potion that grants the drinker luck?",
-  "options": [
-    "Felix Felicis",
-    "Polyjuice Potion",
-    "Veritaserum",
-    "Draught of Living Death"
-  ],
-  "correct_answer": "Felix Felicis",
-  "content": "Felix Felicis, also known as 'Liquid Luck,' is a potion that makes the drinker incredibly lucky for a period of time."
-},
-{
-  "id": "hp_026",
-  "question": "What is the name of the spell that creates light at the tip of a wand?",
-  "options": [
-    "Lumos",
-    "Nox",
-    "Incendio",
-    "Accio"
-  ],
-  "correct_answer": "Lumos",
-  "content": "Lumos is the spell used to produce light from the tip of a wand, often used in dark places."
-},
-{
-  "id": "hp_027",
-  "question": "What is the name of the magical sport played on broomsticks?",
-  "options": [
-    "Quidditch",
-    "Quodpot",
-    "Gobstones",
-    "Wizard Chess"
-  ],
-  "correct_answer": "Quidditch",
-  "content": "Quidditch is the popular wizarding sport played on broomsticks, involving four balls and seven players per team."
-},
-{
-  "id": "hp_028",
-  "question": "What is the name of the plant that screams when touched?",
-  "options": [
-    "Mandrake",
-    "Devil’s Snare",
-    "Whomping Willow",
-    "Venomous Tentacula"
-  ],
-  "correct_answer": "Mandrake",
-  "content": "Mandrake is a magical plant whose cry can be fatal to those who hear it, but its roots are used in restorative potions."
-},
-{
-  "id": "hp_029",
-  "question": "What is the name of the spell used to summon objects?",
-  "options": [
-    "Accio",
-    "Wingardium Leviosa",
-    "Expelliarmus",
-    "Stupefy"
-  ],
-  "correct_answer": "Accio",
-  "content": "Accio is the summoning charm used to call objects to the caster from a distance."
-},
-{
-  "id": "hp_030",
-  "question": "What is the name of the spell used to disarm an opponent?",
-  "options": [
-    "Expelliarmus",
-    "Stupefy",
-    "Crucio",
-    "Imperio"
-  ],
-  "correct_answer": "Expelliarmus",
-  "content": "Expelliarmus is the disarming charm used to disarm an opponent of their wand."
-},
-{
-  "id": "hp_031",
-  "question": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
-  "options": [
-    "Fluffy",
-    "Fang",
-    "Padfoot",
-    "Crookshanks"
-  ],
-  "correct_answer": "Fluffy",
-  "content": "Fluffy is the three-headed dog that guards the trapdoor leading to the Philosopher's Stone in 'Harry Potter and the Philosopher's Stone'. Hagrid lent him to Dumbledore for security."
-},
-{
-  "id": "hp_032",
-  "question": "Who is the author of 'Fantastic Beasts and Where to Find Them'?",
-  "options": [
-    "Newt Scamander",
-    "Gilderoy Lockhart",
-    "Bathilda Bagshot",
-    "Rita Skeeter"
-  ],
-  "correct_answer": "Newt Scamander",
-  "content": "Newt Scamander, a magizoologist, wrote 'Fantastic Beasts and Where to Find Them', a textbook at Hogwarts and part of the expanded Harry Potter universe."
-},
-{
-  "id": "hp_033",
-  "question": "What magical creature is Aragog?",
-  "options": [
-    "Acromantula",
-    "Thestral",
-    "Hippogriff",
-    "Basilisk"
-  ],
-  "correct_answer": "Acromantula",
-  "content": "Aragog is a giant Acromantula (spider) cared for by Hagrid. He lives in the Forbidden Forest and is featured in 'Harry Potter and the Chamber of Secrets'."
-},
-{
-  "id": "hp_034",
-  "question": "What is the name of the Weasley family's home?",
-  "options": [
-    "The Burrow",
-    "Shell Cottage",
-    "Grimmauld Place",
-    "Godric's Hollow"
-  ],
-  "correct_answer": "The Burrow",
-  "content": "The Burrow is the Weasley family's home, located near Ottery St Catchpole. It's introduced in 'Harry Potter and the Chamber of Secrets' when Harry visits."
-},
-{
-  "id": "hp_035",
-  "question": "Which book does Hermione frequently reference for information about Hogwarts?",
-  "options": [
-    "'Hogwarts: A History'",
-    "'The Tales of Beedle the Bard'",
-    "'Magical Me'",
-    "'Advanced Potion-Making'"
-  ],
-  "correct_answer": "'Hogwarts: A History'",
-  "content": "Hermione often cites 'Hogwarts: A History', particularly mentioning that the castle doesn't appear on Muggle maps."
-},
-{
-  "id": "hp_036",
-  "question": "What is the name of the goblin-made sword that belongs to Godric Gryffindor?",
-  "options": [
-    "Sword of Gryffindor",
-    "Sword of Slytherin",
-    "Sword of Godric",
-    "Sword of Hogwarts"
-  ],
-  "correct_answer": "Sword of Gryffindor",
-  "content": "The Sword of Gryffindor is a goblin-made weapon that appears to those who are worthy. It plays a key role in destroying Horcruxes in 'Harry Potter and the Deathly Hallows'."
-},
-{
-  "id": "hp_037",
-  "question": "Which tournament does Harry participate in during his fourth year at Hogwarts?",
-  "options": [
-    "Triwizard Tournament",
-    "Quidditch World Cup",
-    "Wizard Duels Championship",
-    "Goblet Cup"
-  ],
-  "correct_answer": "Triwizard Tournament",
-  "content": "The Triwizard Tournament is a dangerous competition between three wizarding schools, held in 'Harry Potter and the Goblet of Fire'."
-},
-{
-  "id": "hp_038",
-  "question": "What dragon does Harry face in the Triwizard Tournament's first task?",
-  "options": [
-    "Hungarian Horntail",
-    "Chinese Fireball",
-    "Swedish Short-Snout",
-    "Ukrainian Ironbelly"
-  ],
-  "correct_answer": "Hungarian Horntail",
-  "content": "Harry faces a Hungarian Horntail to retrieve a golden egg in the first task of the Triwizard Tournament, as depicted in 'Harry Potter and the Goblet of Fire'."
-},
-{
-  "id": "hp_039",
-  "question": "What is the name of the room where Dumbledore's Army holds secret meetings?",
-  "options": [
-    "Room of Requirement",
-    "Chamber of Secrets",
-    "Great Hall",
-    "Library"
-  ],
-  "correct_answer": "Room of Requirement",
-  "content": "The Room of Requirement transforms to meet the user's needs. It's used by Dumbledore's Army in 'Harry Potter and the Order of the Phoenix'."
-},
-{
-  "id": "hp_040",
-  "question": "Which ghost haunts the girls' bathroom at Hogwarts?",
-  "options": [
-    "Moaning Myrtle",
-    "Nearly Headless Nick",
-    "The Grey Lady",
-    "The Bloody Baron"
-  ],
-  "correct_answer": "Moaning Myrtle",
-  "content": "Moaning Myrtle haunts the second-floor girls' bathroom and plays a key role in 'Harry Potter and the Chamber of Secrets'."
-},
-{
-  "id": "hp_041",
-  "question": "What is the nickname given to Luna Lovegood by other students at Hogwarts?",
-  "options": [
-    "Loony Luna",
-    "Luna the Loony",
-    "Moon Girl",
-    "Wrackspurt Luna"
-  ],
-  "correct_answer": "Loony Luna",
-  "content": "Luna Lovegood is often mockingly called 'Loony Luna' due to her eccentric behavior and belief in unusual magical creatures, as seen in 'Harry Potter and the Order of the Phoenix'."
-},
-{
-  "id": "hp_042",
-  "question": "What magical object allows the user to track the movements of others within Hogwarts?",
-  "options": [
-    "The Marauder's Map",
-    "The Invisibility Cloak",
-    "The Sorting Hat",
-    "The Time-Turner"
-  ],
-  "correct_answer": "The Marauder's Map",
-  "content": "The Marauder's Map, created by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew, reveals every person's location in Hogwarts. Harry receives it from Fred and Weasley in 'Harry Potter and the Prisoner of Azkaban'."
-},
-{
-  "id": "hp_043",
-  "question": "What is the purpose of the Whomping Willow tree on Hogwarts grounds?",
-  "options": [
-    "To guard the Chamber of Secrets",
-    "To hide a secret passage to the Shrieking Shack",
-    "To protect the Philosopher's Stone",
-    "To trap students who break rules"
-  ],
-  "correct_answer": "To hide a secret passage to the Shrieking Shack",
-  "content": "The Whomping Willow was planted to conceal a tunnel leading to the Shrieking Shack, where Remus Lupin safely transformed into a werewolf during his school years, as explained in 'Harry Potter and the Prisoner of Azkaban'."
-},
-{
-  "id": "hp_044",
-  "question": "How do visitors enter the Ministry of Magic's headquarters in London?",
-  "options": [
-    "Through a hidden door in Gringotts",
-    "Via a telephone booth",
-    "By floo powder into the Atrium",
-    "Through a portal in Diagon Alley"
-  ],
-  "correct_answer": "Via a telephone booth",
-  "content": "Visitors enter the Ministry by dialing '62442' (MAGIC) in a red telephone booth, which descends into the Atrium, as shown in 'Harry Potter and the Order of the Phoenix'."
-},
-{
-  "id": "hp_045",
-  "question": "What is the only entirely wizarding village in Britain?",
-  "options": [
-    "Godric's Hollow",
-    "Hogsmeade",
-    "Ottery St. Catchpole",
-    "Little Hangleton"
-  ],
-  "correct_answer": "Hogsmeade",
-  "content": "Hogsmeade is the only all-wizarding village in Britain, where Hogwarts students visit starting in their third year, as mentioned in 'Harry Potter and the Prisoner of Azkaban'."
-},
-{
-  "id": "hp_046",
-  "question": "How does Harry Potter acquire the Resurrection Stone?",
-  "options": [
-    "Inside a Snitch",
-    "From Dumbledore's will",
-    "In the Chamber of Secrets",
-    "Buried at Godric's Hollow"
-  ],
-  "correct_answer": "Inside a Snitch",
-  "content": "Harry finds the Resurrection Stone hidden inside the Golden Snitch he caught in his first Quidditch match. It is one of the Deathly Hallows, revealed in 'Harry Potter and the Deathly Hallows'."
-},
-{
-  "id": "hp_047",
-  "question": "What type of magical creature is Dumbledore's pet, Fawkes?",
-  "options": [
-    "Phoenix",
-    "Hippogriff",
-    "Thunderbird",
-    "Occamy"
-  ],
-  "correct_answer": "Phoenix",
-  "content": "Fawkes is a loyal phoenix whose tears have healing properties. He aids Dumbledore and Harry multiple times, notably in 'Harry Potter and the Chamber of Secrets'."
-},
-{
-  "id": "hp_048",
-  "question": "Who guards the entrance to Gryffindor Tower?",
-  "options": [
-    "The Grey Lady",
-    "The Bloody Baron",
-    "The Fat Lady",
-    "Peeves the Poltergeist"
-  ],
-  "correct_answer": "The Fat Lady",
-  "content": "The Fat Lady is the portrait that guards Gryffindor Tower. She requires a password to grant entry, as seen throughout the series."
-},
-{
-  "id": "hp_049",
-  "question": "How did Harry Potter get his lightning-shaped scar?",
-  "options": [
-    "From a dragon attack",
-    "A cursed object in Borgin and Burkes",
-    "Voldemort's failed Killing Curse",
-    "A duel with Draco Malfoy"
-  ],
-  "correct_answer": "Voldemort's failed Killing Curse",
-  "content": "Harry's scar is a result of Voldemort's Killing Curse rebounding due to Lily Potter's sacrificial protection, as explained in 'Harry Potter and the Philosopher's Stone'."
-},
-{
-  "id": "hp_050",
-  "question": "What does the Mirror of Erised show to those who look into it?",
-  "options": [
-    "The future",
-    "Hidden secrets",
-    "The viewer's deepest desire",
-    "A random memory"
-  ],
-  "correct_answer": "The viewer's deepest desire",
-  "content": "The Mirror of Erised (desire spelled backward) reflects a person's deepest longing. Harry sees his parents, while Dumbledore claims to see himself holding socks, as described in 'Harry Potter and the Philosopher's Stone'."
-},
-{
-  "id": "hp_051",
-  "question": "In Dumbledore's will, what item was bequeathed to Hermione Granger?",
-  "options": [
-    "The Tales of Beedle the Bard",
-    "The Deluminator",
-    "The Invisibility Cloak",
-    "The Sword of Gryffindor"
-  ],
-  "correct_answer": "The Tales of Beedle the Bard",
-  "content": "Dumbledore's will left Hermione the 'Tales of Beedle the Bard' in 'Harry Potter and the Deathly Hallows', emphasizing her passion for magical literature and deepening her connection to the wizarding world."
-},
-{
-  "id": "hp_052",
-  "question": "Which creature did Hagrid introduce in his Care of Magical Creatures class that later proved to be quite dangerous?",
-  "options": [
-    "Blast-Ended Skrewts",
-    "Hippogriffs",
-    "Thestrals",
-    "Acromantulas"
-  ],
-  "correct_answer": "Blast-Ended Skrewts",
-  "content": "In 'Harry Potter and the Goblet of Fire', Hagrid's introduction of Blast-Ended Skrewts resulted in unpredictable and hazardous situations for his students, showcasing the dangers of some magical creatures."
-},
-{
-  "id": "hp_053",
-  "question": "Which spell, invented by Severus Snape, is known for its cutting effect?",
-  "options": [
-    "Sectumsempra",
-    "Expelliarmus",
-    "Rictusempra",
-    "Crucio"
-  ],
-  "correct_answer": "Sectumsempra",
-  "content": "Revealed in 'Harry Potter and the Half-Blood Prince', the spell 'Sectumsempra' inflicts deep, slashing wounds and demonstrates the darker side of magical experimentation, attributed to Snape's ingenuity."
-},
-{
-  "id": "hp_054",
-  "question": "In 'Harry Potter and the Half-Blood Prince', who is revealed to be the Half-Blood Prince?",
-  "options": [
-    "Severus Snape",
-    "Draco Malfoy",
-    "Tom Riddle",
-    "Harry Potter"
-  ],
-  "correct_answer": "Severus Snape",
-  "content": "The twist revealing Severus Snape as the Half-Blood Prince is a turning point in the series, reframing his character and motivations in a new, more complex light."
-},
-{
-  "id": "hp_055",
-  "question": "Which vault at Gringotts was used to store the Philosopher's Stone?",
-  "options": [
-    "Vault 713",
-    "Vault 394",
-    "Vault 101",
-    "Vault 666"
-  ],
-  "correct_answer": "Vault 713",
-  "content": "Vault 713, known for its heavy enchantments and security measures, was the location where the Philosopher's Stone was kept, as depicted in the first book of the series."
-},
-{
-  "id": "hp_056",
-  "question": "What is the name of the goblin who assists Harry in breaking into Bellatrix Lestrange's vault?",
-  "options": [
-    "Griphook",
-    "Bogrod",
-    "Ragnok",
-    "Grimwig"
-  ],
-  "correct_answer": "Griphook",
-  "content": "Griphook, the goblin from Gringotts, plays a pivotal role in 'Harry Potter and the Deathly Hallows' by aiding Harry and his friends during the high-stakes break-in at Bellatrix Lestrange's vault."
-},
-{
-  "id": "hp_057",
-  "question": "Which potion allows a wizard to assume the form of someone else for a short period?",
-  "options": [
-    "Polyjuice Potion",
-    "Felix Felicis",
-    "Veritaserum",
-    "Amortentia"
-  ],
-  "correct_answer": "Polyjuice Potion",
-  "content": "Polyjuice Potion, a complex and time-consuming brew, enables its drinker to temporarily transform into another person, a plot device central to several key disguises throughout the series."
-},
-{
-  "id": "hp_058",
-  "question": "What is the name of the three-headed dog that guards a trapdoor at Hogwarts?",
-  "options": [
-    "Fluffy",
-    "Cerberus",
-    "Argus",
-    "Gargoyle"
-  ],
-  "correct_answer": "Fluffy",
-  "content": "Fluffy, the massive three-headed dog in 'Harry Potter and the Sorcerer's Stone', was stationed at Hogwarts to guard the trapdoor leading to the hidden chambers protecting the Philosopher's Stone."
-},
-{
-  "id": "hp_059",
-  "question": "What does the Mirror of Erised show to those who gaze into it?",
-  "options": [
-    "Their deepest, most desperate desire",
-    "A glimpse of their future",
-    "Their true reflection",
-    "A hidden memory"
-  ],
-  "correct_answer": "Their deepest, most desperate desire",
-  "content": "The Mirror of Erised, a mysterious magical object, reveals to the viewer the deepest, most desperate wish of their heart, serving as a symbolic reflection of inner longing."
-},
-{
-  "id": "hp_060",
-  "question": "Which Hogwarts founder was known for his belief in pure-blood supremacy?",
-  "options": [
-    "Salazar Slytherin",
-    "Godric Gryffindor",
-    "Rowena Ravenclaw",
-    "Helga Hufflepuff"
-  ],
-  "correct_answer": "Salazar Slytherin",
-  "content": "Salazar Slytherin is notorious for his advocacy of pure-blood superiority, a viewpoint that not only influenced his legacy at Hogwarts but also set the stage for future conflicts within the wizarding world."
-},
-{
-  "id": "hp_061",
-  "question": "What are the core materials of Harry Potter's wand?",
-  "options": [
-    "Holly and phoenix feather",
-    "Yew and dragon heartstring",
-    "Elder wood and unicorn hair",
-    "Oak and basilisk venom"
-  ],
-  "correct_answer": "Holly and phoenix feather",
-  "content": "Harry's wand, crafted from holly and imbued with a phoenix feather core, is a unique artifact that not only defines his magical abilities but also symbolizes his intrinsic link to Voldemort."
-},
-{
-  "id": "hp_062",
-  "question": "Which magical artifact allows its user to travel back in time?",
-  "options": [
-    "Time-Turner",
-    "Portkey",
-    "Deluminator",
-    "Broomstick"
-  ],
-  "correct_answer": "Time-Turner",
-  "content": "The Time-Turner is a rare and powerful device featured in 'Harry Potter and the Prisoner of Azkaban', enabling its user to travel back in time—a tool that plays a critical role in managing time-sensitive situations."
-},
-{
-  "id": "hp_063",
-  "question": "During his first lesson, what creature did Professor Lupin use to teach the class about confronting fears?",
-  "options": [
-    "Boggart",
-    "Werewolf",
-    "Dementor",
-    "Acromantula"
-  ],
-  "correct_answer": "Boggart",
-  "content": "Professor Lupin introduced his students to a Boggart in order to help them face and overcome their deepest fears, a memorable lesson from 'Harry Potter and the Prisoner of Azkaban'."
-},
-{
-  "id": "hp_064",
-  "question": "Which spell is used to conjure a Patronus, a protective charm against Dementors?",
-  "options": [
-    "Expecto Patronum",
-    "Expelliarmus",
-    "Stupefy",
-    "Protego"
-  ],
-  "correct_answer": "Expecto Patronum",
-  "content": "The incantation 'Expecto Patronum' is used to summon a Patronus, a protective entity that shields witches and wizards from Dementors, and is one of the most advanced defensive spells taught in the series."
-},
-{
-  "id": "hp_065",
-  "question": "Which Horcrux was hidden inside a locket belonging to Salazar Slytherin?",
-  "options": [
-    "Slytherin's Locket",
-    "Ravenclaw's Diadem",
-    "Hufflepuff's Cup",
-    "Marvolo Gaunt's Ring"
-  ],
-  "correct_answer": "Slytherin's Locket",
-  "content": "Salazar Slytherin's Locket is one of Voldemort's Horcruxes, intricately tied to his dark magic, and its discovery and eventual destruction become a central focus in 'Harry Potter and the Deathly Hallows'."
-}
+  {
+    "id": "hp_001",
+    "question": "What curse caused the death of Harry Potter's parents?",
+    "options": [
+      "Avada Kedavra",
+      "Cruciatus Curse",
+      "Imperius Curse",
+      "Soul Extraction Curse"
+    ],
+    "correct_answer": "Avada Kedavra",
+    "content": "In 'Harry Potter and the Philosopher's Stone', it is revealed that Lord Voldemort killed James and Lily Potter using the Avada Kedavra curse. This is one of the three Unforgivable Curses and causes instant death without physical harm."
+  },
+  {
+    "id": "hp_002",
+    "question": "Who said the phrase: 'People fear the unknown, fear itself'?",
+    "options": [
+      "Lupin",
+      "Fenrir Greyback",
+      "Albus Dumbledore",
+      "Voldemort"
+    ],
+    "correct_answer": "Albus Dumbledore",
+    "content": "This phrase is paraphrased from Dumbledore's wisdom throughout the series, where he teaches Harry that fear itself is often the greatest obstacle, as seen in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_003",
+    "question": "How many founders established Hogwarts School of Witchcraft and Wizardry?",
+    "options": [
+      "8",
+      "4",
+      "24",
+      "6"
+    ],
+    "correct_answer": "4",
+    "content": "Hogwarts was founded by four legendary wizards: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. This is mentioned in 'Harry Potter and the Chamber of Secrets'."
+  },
+  {
+    "id": "hp_004",
+    "question": "What are the animal mascots of Gryffindor, Ravenclaw, Hufflepuff, and Slytherin, respectively?",
+    "options": [
+      "Lion, Snake, Rat, Cow",
+      "Lion, Eagle, Snake, Badger",
+      "Sheep, Pig, Snake, Cow",
+      "Lion, Hawk, Snake, Otter"
+    ],
+    "correct_answer": "Lion, Eagle, Snake, Badger",
+    "content": "Each house in Hogwarts has a corresponding animal: Gryffindor (Lion), Ravenclaw (Eagle), Hufflepuff (Badger), and Slytherin (Snake), as explained in 'Harry Potter and the Philosopher's Stone'."
+  },
+  {
+    "id": "hp_005",
+    "question": "Where was Harry Potter born?",
+    "options": [
+      "Godric's Hollow",
+      "Grassy Moor",
+      "Ottery St. Catchpole",
+      "Elder Hill Valley"
+    ],
+    "correct_answer": "Godric's Hollow",
+    "content": "Godric's Hollow is where Harry Potter was born and where his parents were murdered by Lord Voldemort. This is mentioned in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_006",
+    "question": "What were Hermione Granger's parents' professions?",
+    "options": [
+      "Merchants",
+      "Dentists",
+      "Surgeons",
+      "Writers"
+    ],
+    "correct_answer": "Dentists",
+    "content": "Hermione's parents are Muggle dentists, as she mentions in 'Harry Potter and the Philosopher's Stone'. This fact is referenced several times throughout the series."
+  },
+  {
+    "id": "hp_007",
+    "question": "Who is the author of 'Harry Potter'?",
+    "options": [
+      "Jessica West",
+      "J.K. Rowling",
+      "Joanna",
+      "Rasmus Norman"
+    ],
+    "correct_answer": "J.K. Rowling",
+    "content": "J.K. Rowling is the author of the 'Harry Potter' series, which was first published in 1997 with 'Harry Potter and the Philosopher's Stone'."
+  },
+  {
+    "id": "hp_008",
+    "question": "How many Horcruxes did Voldemort have?",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "4"
+    ],
+    "correct_answer": "7",
+    "content": "Voldemort created seven Horcruxes to ensure his immortality. This is a major plot point in 'Harry Potter and the Half-Blood Prince' and 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_009",
+    "question": "What was Voldemort's final Horcrux?",
+    "options": [
+      "A pet",
+      "A locket",
+      "A diary",
+      "A cup"
+    ],
+    "correct_answer": "A pet",
+    "content": "Nagini, Voldemort's snake, was his final Horcrux, as revealed in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_010",
+    "question": "Who was the Defense Against the Dark Arts professor at Hogwarts in Harry's first year?",
+    "options": [
+      "Quirinus Quirrell",
+      "Severus Snape",
+      "Remus Lupin",
+      "Gilderoy Lockhart"
+    ],
+    "correct_answer": "Quirinus Quirrell",
+    "content": "Professor Quirrell was the Defense Against the Dark Arts teacher in 'Harry Potter and the Philosopher's Stone'. He was later revealed to be possessed by Voldemort."
+  },
+  {
+    "id": "hp_011",
+    "question": "Who was the Potions professor at Hogwarts in Harry's first year?",
+    "options": [
+      "Horace Slughorn",
+      "Severus Snape",
+      "Gilderoy Lockhart",
+      "Minerva McGonagall"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "Severus Snape was the Potions Master at Hogwarts during Harry's early years, as introduced in 'Harry Potter and the Philosopher's Stone'."
+  },
+  {
+    "id": "hp_012",
+    "question": "Which three characters are known as the 'Golden Trio'?",
+    "options": [
+      "Harry, Ron, Neville",
+      "Harry, Ron, Hermione",
+      "Harry, Draco, Snape",
+      "Harry, Dumbledore, Sirius"
+    ],
+    "correct_answer": "Harry, Ron, Hermione",
+    "content": "The 'Golden Trio' refers to Harry Potter, Ron Weasley, and Hermione Granger, who are the main protagonists throughout the series."
+  },
+  {
+    "id": "hp_013",
+    "question": "Where is Hogwarts School of Witchcraft and Wizardry located?",
+    "options": [
+      "Ireland",
+      "Scotland",
+      "Paris",
+      "England"
+    ],
+    "correct_answer": "Scotland",
+    "content": "Hogwarts is located in the Scottish Highlands, as mentioned in various books, including 'Harry Potter and the Philosopher's Stone'."
+  },
+  {
+    "id": "hp_014",
+    "question": "Who was the headmaster of Hogwarts during most of Harry Potter's time there?",
+    "options": [
+      "Albus Dumbledore",
+      "Minerva McGonagall",
+      "Cornelius Fudge",
+      "Severus Snape"
+    ],
+    "correct_answer": "Albus Dumbledore",
+    "content": "Albus Dumbledore was the headmaster of Hogwarts for most of the series until his death in 'Harry Potter and the Half-Blood Prince'."
+  },
+  {
+    "id": "hp_015",
+    "question": "Who did Harry Potter admire the most and consider the bravest man?",
+    "options": [
+      "Albus Dumbledore",
+      "Voldemort",
+      "Severus Snape",
+      "Sirius Black"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "Harry considered Severus Snape the bravest man he ever knew, as revealed in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_016",
+    "question": "What is the name of Harry Potter's owl?",
+    "options": [
+      "Hedwig",
+      "Errol",
+      "Scabbers",
+      "Crookshanks"
+    ],
+    "correct_answer": "Hedwig",
+    "content": "In 'Harry Potter and the Philosopher's Stone', Harry receives a snowy owl as a birthday present, and it is named Hedwig. This detail is reiterated throughout the series, establishing Hedwig as Harry's loyal pet and companion."
+  },
+  {
+    "id": "hp_017",
+    "question": "What is the name of the house elf who served the Malfoy family?",
+    "options": [
+      "Kreacher",
+      "Dobby",
+      "Winky",
+      "Hokey"
+    ],
+    "correct_answer": "Dobby",
+    "content": "Dobby was the Malfoy family's house-elf until Harry tricked Lucius Malfoy into freeing him by giving him a sock in 'Harry Potter and the Chamber of Secrets' (Chapter 18: 'Dobby's Reward'). Dobby later became a free elf and continued to help Harry and his friends."
+  },
+  {
+    "id": "hp_018",
+    "question": "What position does Harry play on the Gryffindor Quidditch team?",
+    "options": [
+      "Seeker",
+      "Chaser",
+      "Beater",
+      "Keeper"
+    ],
+    "correct_answer": "Seeker",
+    "content": "Harry is the Seeker for the Gryffindor Quidditch team, responsible for catching the Golden Snitch."
+  },
+  {
+    "id": "hp_019",
+    "question": "What is the core of Harry Potter's wand?",
+    "options": [
+      "Phoenix feather",
+      "Dragon heartstring",
+      "Unicorn hair",
+      "Veela hair"
+    ],
+    "correct_answer": "Phoenix feather",
+    "content": "Harry's wand contains a phoenix feather, shared by Voldemort's wand, which creates a unique connection between them."
+  },
+  {
+    "id": "hp_020",
+    "question": "Who is the Half-Blood Prince?",
+    "options": [
+      "Severus Snape",
+      "Tom Riddle",
+      "Albus Dumbledore",
+      "Sirius Black"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "Severus Snape is revealed to be the Half-Blood Prince, as he created many advanced potions and spells during his time at Hogwarts."
+  },
+  {
+    "id": "hp_021",
+    "question": "What is the name of the train that takes students to Hogwarts?",
+    "options": [
+      "Hogwarts Express",
+      "The Knight Bus",
+      "The Flying Ford Anglia",
+      "Thestral Carriage"
+    ],
+    "correct_answer": "Hogwarts Express",
+    "content": "The Hogwarts Express is the magical train that departs from Platform 9¾ and takes students to Hogwarts."
+  },
+  {
+    "id": "hp_022",
+    "question": "What is the name of the wizarding prison?",
+    "options": [
+      "Azkaban",
+      "Nurmengard",
+      "Diagon Alley",
+      "Hogsmeade"
+    ],
+    "correct_answer": "Azkaban",
+    "content": "Azkaban is the notorious wizarding prison guarded by Dementors, where dangerous criminals are held."
+  },
+  {
+    "id": "hp_023",
+    "question": "What is the name of the goblin who helps Harry, Ron, and Hermione break into Gringotts?",
+    "options": [
+      "Griphook",
+      "Dobby",
+      "Kreacher",
+      "Winky"
+    ],
+    "correct_answer": "Griphook",
+    "content": "Griphook is the goblin who assists the trio in breaking into Gringotts to retrieve a Horcrux in 'Harry Potter and the Deathly Hallows.'"
+  },
+  {
+    "id": "hp_024",
+    "question": "What is the name of the spell used to unlock doors?",
+    "options": [
+      "Alohomora",
+      "Expelliarmus",
+      "Lumos",
+      "Wingardium Leviosa"
+    ],
+    "correct_answer": "Alohomora",
+    "content": "Alohomora is the unlocking charm used to open locked doors and objects."
+  },
+  {
+    "id": "hp_025",
+    "question": "What is the name of the potion that grants the drinker luck?",
+    "options": [
+      "Felix Felicis",
+      "Polyjuice Potion",
+      "Veritaserum",
+      "Draught of Living Death"
+    ],
+    "correct_answer": "Felix Felicis",
+    "content": "Felix Felicis, also known as 'Liquid Luck,' is a potion that makes the drinker incredibly lucky for a period of time."
+  },
+  {
+    "id": "hp_026",
+    "question": "What is the name of the spell that creates light at the tip of a wand?",
+    "options": [
+      "Lumos",
+      "Nox",
+      "Incendio",
+      "Accio"
+    ],
+    "correct_answer": "Lumos",
+    "content": "Lumos is the spell used to produce light from the tip of a wand, often used in dark places."
+  },
+  {
+    "id": "hp_027",
+    "question": "What is the name of the magical sport played on broomsticks?",
+    "options": [
+      "Quidditch",
+      "Quodpot",
+      "Gobstones",
+      "Wizard Chess"
+    ],
+    "correct_answer": "Quidditch",
+    "content": "Quidditch is the popular wizarding sport played on broomsticks, involving four balls and seven players per team."
+  },
+  {
+    "id": "hp_028",
+    "question": "What is the name of the plant that screams when touched?",
+    "options": [
+      "Mandrake",
+      "Devil’s Snare",
+      "Whomping Willow",
+      "Venomous Tentacula"
+    ],
+    "correct_answer": "Mandrake",
+    "content": "Mandrake is a magical plant whose cry can be fatal to those who hear it, but its roots are used in restorative potions."
+  },
+  {
+    "id": "hp_029",
+    "question": "What is the name of the spell used to summon objects?",
+    "options": [
+      "Accio",
+      "Wingardium Leviosa",
+      "Expelliarmus",
+      "Stupefy"
+    ],
+    "correct_answer": "Accio",
+    "content": "Accio is the summoning charm used to call objects to the caster from a distance."
+  },
+  {
+    "id": "hp_030",
+    "question": "What is the name of the spell used to disarm an opponent?",
+    "options": [
+      "Expelliarmus",
+      "Stupefy",
+      "Crucio",
+      "Imperio"
+    ],
+    "correct_answer": "Expelliarmus",
+    "content": "Expelliarmus is the disarming charm used to disarm an opponent of their wand."
+  },
+  {
+    "id": "hp_031",
+    "question": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+    "options": [
+      "Fluffy",
+      "Fang",
+      "Padfoot",
+      "Crookshanks"
+    ],
+    "correct_answer": "Fluffy",
+    "content": "Fluffy is the three-headed dog that guards the trapdoor leading to the Philosopher's Stone in 'Harry Potter and the Philosopher's Stone'. Hagrid lent him to Dumbledore for security."
+  },
+  {
+    "id": "hp_032",
+    "question": "Who is the author of 'Fantastic Beasts and Where to Find Them'?",
+    "options": [
+      "Newt Scamander",
+      "Gilderoy Lockhart",
+      "Bathilda Bagshot",
+      "Rita Skeeter"
+    ],
+    "correct_answer": "Newt Scamander",
+    "content": "Newt Scamander, a magizoologist, wrote 'Fantastic Beasts and Where to Find Them', a textbook at Hogwarts and part of the expanded Harry Potter universe."
+  },
+  {
+    "id": "hp_033",
+    "question": "What magical creature is Aragog?",
+    "options": [
+      "Acromantula",
+      "Thestral",
+      "Hippogriff",
+      "Basilisk"
+    ],
+    "correct_answer": "Acromantula",
+    "content": "Aragog is a giant Acromantula (spider) cared for by Hagrid. He lives in the Forbidden Forest and is featured in 'Harry Potter and the Chamber of Secrets'."
+  },
+  {
+    "id": "hp_034",
+    "question": "What is the name of the Weasley family's home?",
+    "options": [
+      "The Burrow",
+      "Shell Cottage",
+      "Grimmauld Place",
+      "Godric's Hollow"
+    ],
+    "correct_answer": "The Burrow",
+    "content": "The Burrow is the Weasley family's home, located near Ottery St Catchpole. It's introduced in 'Harry Potter and the Chamber of Secrets' when Harry visits."
+  },
+  {c
+    "id": "hp_035",
+    "question": "Which book does Hermione frequently reference for information about Hogwarts?",
+    "options": [
+      "'Hogwarts: A History'",
+      "'The Tales of Beedle the Bard'",
+      "'Magical Me'",
+      "'Advanced Potion-Making'"
+    ],
+    "correct_answer": "'Hogwarts: A History'",
+    "content": "Hermione often cites 'Hogwarts: A History', particularly mentioning that the castle doesn't appear on Muggle maps."
+  },
+  {
+    "id": "hp_036",
+    "question": "What is the name of the goblin-made sword that belongs to Godric Gryffindor?",
+    "options": [
+      "Sword of Gryffindor",
+      "Sword of Slytherin",
+      "Sword of Godric",
+      "Sword of Hogwarts"
+    ],
+    "correct_answer": "Sword of Gryffindor",
+    "content": "The Sword of Gryffindor is a goblin-made weapon that appears to those who are worthy. It plays a key role in destroying Horcruxes in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_037",
+    "question": "Which tournament does Harry participate in during his fourth year at Hogwarts?",
+    "options": [
+      "Triwizard Tournament",
+      "Quidditch World Cup",
+      "Wizard Duels Championship",
+      "Goblet Cup"
+    ],
+    "correct_answer": "Triwizard Tournament",
+    "content": "The Triwizard Tournament is a dangerous competition between three wizarding schools, held in 'Harry Potter and the Goblet of Fire'."
+  },
+  {
+    "id": "hp_038",
+    "question": "What dragon does Harry face in the Triwizard Tournament's first task?",
+    "options": [
+      "Hungarian Horntail",
+      "Chinese Fireball",
+      "Swedish Short-Snout",
+      "Ukrainian Ironbelly"
+    ],
+    "correct_answer": "Hungarian Horntail",
+    "content": "Harry faces a Hungarian Horntail to retrieve a golden egg in the first task of the Triwizard Tournament, as depicted in 'Harry Potter and the Goblet of Fire'."
+  },
+  {
+    "id": "hp_039",
+    "question": "What is the name of the room where Dumbledore's Army holds secret meetings?",
+    "options": [
+      "Room of Requirement",
+      "Chamber of Secrets",
+      "Great Hall",
+      "Library"
+    ],
+    "correct_answer": "Room of Requirement",
+    "content": "The Room of Requirement transforms to meet the user's needs. It's used by Dumbledore's Army in 'Harry Potter and the Order of the Phoenix'."
+  },
+  {
+    "id": "hp_040",
+    "question": "Which ghost haunts the girls' bathroom at Hogwarts?",
+    "options": [
+      "Moaning Myrtle",
+      "Nearly Headless Nick",
+      "The Grey Lady",
+      "The Bloody Baron"
+    ],
+    "correct_answer": "Moaning Myrtle",
+    "content": "Moaning Myrtle haunts the second-floor girls' bathroom and plays a key role in 'Harry Potter and the Chamber of Secrets'."
+  },
+  {
+    "id": "hp_041",
+    "question": "What is the nickname given to Luna Lovegood by other students at Hogwarts?",
+    "options": [
+      "Loony Luna",
+      "Luna the Loony",
+      "Moon Girl",
+      "Wrackspurt Luna"
+    ],
+    "correct_answer": "Loony Luna",
+    "content": "Luna Lovegood is often mockingly called 'Loony Luna' due to her eccentric behavior and belief in unusual magical creatures, as seen in 'Harry Potter and the Order of the Phoenix'."
+  },
+  {
+    "id": "hp_042",
+    "question": "What magical object allows the user to track the movements of others within Hogwarts?",
+    "options": [
+      "The Marauder's Map",
+      "The Invisibility Cloak",
+      "The Sorting Hat",
+      "The Time-Turner"
+    ],
+    "correct_answer": "The Marauder's Map",
+    "content": "The Marauder's Map, created by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew, reveals every person's location in Hogwarts. Harry receives it from Fred and Weasley in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_043",
+    "question": "What is the purpose of the Whomping Willow tree on Hogwarts grounds?",
+    "options": [
+      "To guard the Chamber of Secrets",
+      "To hide a secret passage to the Shrieking Shack",
+      "To protect the Philosopher's Stone",
+      "To trap students who break rules"
+    ],
+    "correct_answer": "To hide a secret passage to the Shrieking Shack",
+    "content": "The Whomping Willow was planted to conceal a tunnel leading to the Shrieking Shack, where Remus Lupin safely transformed into a werewolf during his school years, as explained in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_044",
+    "question": "How do visitors enter the Ministry of Magic's headquarters in London?",
+    "options": [
+      "Through a hidden door in Gringotts",
+      "Via a telephone booth",
+      "By floo powder into the Atrium",
+      "Through a portal in Diagon Alley"
+    ],
+    "correct_answer": "Via a telephone booth",
+    "content": "Visitors enter the Ministry by dialing '62442' (MAGIC) in a red telephone booth, which descends into the Atrium, as shown in 'Harry Potter and the Order of the Phoenix'."
+  },
+  {
+    "id": "hp_045",
+    "question": "What is the only entirely wizarding village in Britain?",
+    "options": [
+      "Godric's Hollow",
+      "Hogsmeade",
+      "Ottery St. Catchpole",
+      "Little Hangleton"
+    ],
+    "correct_answer": "Hogsmeade",
+    "content": "Hogsmeade is the only all-wizarding village in Britain, where Hogwarts students visit starting in their third year, as mentioned in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_046",
+    "question": "How does Harry Potter acquire the Resurrection Stone?",
+    "options": [
+      "Inside a Snitch",
+      "From Dumbledore's will",
+      "In the Chamber of Secrets",
+      "Buried at Godric's Hollow"
+    ],
+    "correct_answer": "Inside a Snitch",
+    "content": "Harry finds the Resurrection Stone hidden inside the Golden Snitch he caught in his first Quidditch match. It is one of the Deathly Hallows, revealed in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_047",
+    "question": "What type of magical creature is Dumbledore's pet, Fawkes?",
+    "options": [
+      "Phoenix",
+      "Hippogriff",
+      "Thunderbird",
+      "Occamy"
+    ],
+    "correct_answer": "Phoenix",
+    "content": "Fawkes is a loyal phoenix whose tears have healing properties. He aids Dumbledore and Harry multiple times, notably in 'Harry Potter and the Chamber of Secrets'."
+  },
+  {
+    "id": "hp_048",
+    "question": "Who guards the entrance to Gryffindor Tower?",
+    "options": [
+      "The Grey Lady",
+      "The Bloody Baron",
+      "The Fat Lady",
+      "Peeves the Poltergeist"
+    ],
+    "correct_answer": "The Fat Lady",
+    "content": "The Fat Lady is the portrait that guards Gryffindor Tower. She requires a password to grant entry, as seen throughout the series."
+  },
+  {
+    "id": "hp_049",
+    "question": "How did Harry Potter get his lightning-shaped scar?",
+    "options": [
+      "From a dragon attack",
+      "A cursed object in Borgin and Burkes",
+      "Voldemort's failed Killing Curse",
+      "A duel with Draco Malfoy"
+    ],
+    "correct_answer": "Voldemort's failed Killing Curse",
+    "content": "Harry's scar is a result of Voldemort's Killing Curse rebounding due to Lily Potter's sacrificial protection, as explained in 'Harry Potter and the Philosopher's Stone'."
+  },
+  {
+    "id": "hp_050",
+    "question": "What does the Mirror of Erised show to those who look into it?",
+    "options": [
+      "The future",
+      "Hidden secrets",
+      "The viewer's deepest desire",
+      "A random memory"
+    ],
+    "correct_answer": "The viewer's deepest desire",
+    "content": "The Mirror of Erised (desire spelled backward) reflects a person's deepest longing. Harry sees his parents, while Dumbledore claims to see himself holding socks, as described in 'Harry Potter and the Philosopher's Stone'."
+  },
+  {
+    "id": "hp_051",
+    "question": "In Dumbledore's will, what item was bequeathed to Hermione Granger?",
+    "options": [
+      "The Tales of Beedle the Bard",
+      "The Deluminator",
+      "The Invisibility Cloak",
+      "The Sword of Gryffindor"
+    ],
+    "correct_answer": "The Tales of Beedle the Bard",
+    "content": "Dumbledore's will left Hermione the 'Tales of Beedle the Bard' in 'Harry Potter and the Deathly Hallows', emphasizing her passion for magical literature and deepening her connection to the wizarding world."
+  },
+  {
+    "id": "hp_052",
+    "question": "Which creature did Hagrid introduce in his Care of Magical Creatures class that later proved to be quite dangerous?",
+    "options": [
+      "Blast-Ended Skrewts",
+      "Hippogriffs",
+      "Thestrals",
+      "Acromantulas"
+    ],
+    "correct_answer": "Blast-Ended Skrewts",
+    "content": "In 'Harry Potter and the Goblet of Fire', Hagrid's introduction of Blast-Ended Skrewts resulted in unpredictable and hazardous situations for his students, showcasing the dangers of some magical creatures."
+  },
+  {
+    "id": "hp_053",
+    "question": "Which spell, invented by Severus Snape, is known for its cutting effect?",
+    "options": [
+      "Sectumsempra",
+      "Expelliarmus",
+      "Rictusempra",
+      "Crucio"
+    ],
+    "correct_answer": "Sectumsempra",
+    "content": "Revealed in 'Harry Potter and the Half-Blood Prince', the spell 'Sectumsempra' inflicts deep, slashing wounds and demonstrates the darker side of magical experimentation, attributed to Snape's ingenuity."
+  },
+  {
+    "id": "hp_054",
+    "question": "In 'Harry Potter and the Half-Blood Prince', who is revealed to be the Half-Blood Prince?",
+    "options": [
+      "Severus Snape",
+      "Draco Malfoy",
+      "Tom Riddle",
+      "Harry Potter"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "The twist revealing Severus Snape as the Half-Blood Prince is a turning point in the series, reframing his character and motivations in a new, more complex light."
+  },
+  {
+    "id": "hp_055",
+    "question": "Which vault at Gringotts was used to store the Philosopher's Stone?",
+    "options": [
+      "Vault 713",
+      "Vault 394",
+      "Vault 101",
+      "Vault 666"
+    ],
+    "correct_answer": "Vault 713",
+    "content": "Vault 713, known for its heavy enchantments and security measures, was the location where the Philosopher's Stone was kept, as depicted in the first book of the series."
+  },
+  {
+    "id": "hp_056",
+    "question": "What is the name of the goblin who assists Harry in breaking into Bellatrix Lestrange's vault?",
+    "options": [
+      "Griphook",
+      "Bogrod",
+      "Ragnok",
+      "Grimwig"
+    ],
+    "correct_answer": "Griphook",
+    "content": "Griphook, the goblin from Gringotts, plays a pivotal role in 'Harry Potter and the Deathly Hallows' by aiding Harry and his friends during the high-stakes break-in at Bellatrix Lestrange's vault."
+  },
+  {
+    "id": "hp_057",
+    "question": "Which potion allows a wizard to assume the form of someone else for a short period?",
+    "options": [
+      "Polyjuice Potion",
+      "Felix Felicis",
+      "Veritaserum",
+      "Amortentia"
+    ],
+    "correct_answer": "Polyjuice Potion",
+    "content": "Polyjuice Potion, a complex and time-consuming brew, enables its drinker to temporarily transform into another person, a plot device central to several key disguises throughout the series."
+  },
+  {
+    "id": "hp_058",
+    "question": "What is the name of the three-headed dog that guards a trapdoor at Hogwarts?",
+    "options": [
+      "Fluffy",
+      "Cerberus",
+      "Argus",
+      "Gargoyle"
+    ],
+    "correct_answer": "Fluffy",
+    "content": "Fluffy, the massive three-headed dog in 'Harry Potter and the Sorcerer's Stone', was stationed at Hogwarts to guard the trapdoor leading to the hidden chambers protecting the Philosopher's Stone."
+  },
+  {
+    "id": "hp_059",
+    "question": "What does the Mirror of Erised show to those who gaze into it?",
+    "options": [
+      "Their deepest, most desperate desire",
+      "A glimpse of their future",
+      "Their true reflection",
+      "A hidden memory"
+    ],
+    "correct_answer": "Their deepest, most desperate desire",
+    "content": "The Mirror of Erised, a mysterious magical object, reveals to the viewer the deepest, most desperate wish of their heart, serving as a symbolic reflection of inner longing."
+  },
+  {
+    "id": "hp_060",
+    "question": "Which Hogwarts founder was known for his belief in pure-blood supremacy?",
+    "options": [
+      "Salazar Slytherin",
+      "Godric Gryffindor",
+      "Rowena Ravenclaw",
+      "Helga Hufflepuff"
+    ],
+    "correct_answer": "Salazar Slytherin",
+    "content": "Salazar Slytherin is notorious for his advocacy of pure-blood superiority, a viewpoint that not only influenced his legacy at Hogwarts but also set the stage for future conflicts within the wizarding world."
+  },
+  {
+    "id": "hp_061",
+    "question": "What are the core materials of Harry Potter's wand?",
+    "options": [
+      "Holly and phoenix feather",
+      "Yew and dragon heartstring",
+      "Elder wood and unicorn hair",
+      "Oak and basilisk venom"
+    ],
+    "correct_answer": "Holly and phoenix feather",
+    "content": "Harry's wand, crafted from holly and imbued with a phoenix feather core, is a unique artifact that not only defines his magical abilities but also symbolizes his intrinsic link to Voldemort."
+  },
+  {
+    "id": "hp_062",
+    "question": "Which magical artifact allows its user to travel back in time?",
+    "options": [
+      "Time-Turner",
+      "Portkey",
+      "Deluminator",
+      "Broomstick"
+    ],
+    "correct_answer": "Time-Turner",
+    "content": "The Time-Turner is a rare and powerful device featured in 'Harry Potter and the Prisoner of Azkaban', enabling its user to travel back in time—a tool that plays a critical role in managing time-sensitive situations."
+  },
+  {
+    "id": "hp_063",
+    "question": "During his first lesson, what creature did Professor Lupin use to teach the class about confronting fears?",
+    "options": [
+      "Boggart",
+      "Werewolf",
+      "Dementor",
+      "Acromantula"
+    ],
+    "correct_answer": "Boggart",
+    "content": "Professor Lupin introduced his students to a Boggart in order to help them face and overcome their deepest fears, a memorable lesson from 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_064",
+    "question": "Which spell is used to conjure a Patronus, a protective charm against Dementors?",
+    "options": [
+      "Expecto Patronum",
+      "Expelliarmus",
+      "Stupefy",
+      "Protego"
+    ],
+    "correct_answer": "Expecto Patronum",
+    "content": "The incantation 'Expecto Patronum' is used to summon a Patronus, a protective entity that shields witches and wizards from Dementors, and is one of the most advanced defensive spells taught in the series."
+  },
+  {
+    "id": "hp_065",
+    "question": "Which Horcrux was hidden inside a locket belonging to Salazar Slytherin?",
+    "options": [
+      "Slytherin's Locket",
+      "Ravenclaw's Diadem",
+      "Hufflepuff's Cup",
+      "Marvolo Gaunt's Ring"
+    ],
+    "correct_answer": "Slytherin's Locket",
+    "content": "Salazar Slytherin's Locket is one of Voldemort's Horcruxes, intricately tied to his dark magic, and its discovery and eventual destruction become a central focus in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_066",
+    "question": "Where does the Dursley family live?",
+    "options": [
+      "17 North Street",
+      "Number four, Privet Drive",
+      "Number two, Privet Drive",
+      "Number six, Diagon Alley"
+    ],
+    "correct_answer": "Number four, Privet Drive",
+    "content": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much."
+  },
+  {
+    "id": "hp_067",
+    "question": "What type of animal does Professor McGonagall transform into?",
+    "options": [
+      "owl",
+      "cat",
+      "dog",
+      "toad"
+    ],
+    "correct_answer": "cat",
+    "content": "A tabby cat was standing on the corner of Privet Drive, but there wasn’t a cat in sight. What could he have been thinking of? It must have been a trick of the light. Mr. Dursley blinked and stared at the cat. It stared back."
+  },
+  {
+    "id": "hp_068",
+    "question": "Who owns the flying motorcycle that Hagrid borrows to transport Harry to the Dursley house?",
+    "options": [
+      "Sirius Black",
+      "Severus Snape",
+      "Albus Dumbledore",
+      "Hermione Granger"
+    ],
+    "correct_answer": "Sirius Black",
+    "content": "Borrowed it, Professor Dumbledore, sir,” said Hagrid, climbing carefully off the motorcycle as he spoke. “Young Sirius Black lent it to me. I’ve got him, sir."
+  },
+  {
+    "id": "hp_069",
+    "question": "How old is Harry when he finds out that he is a wizard?",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "9"
+    ],
+    "correct_answer": "11",
+    "content": "A wizard, o’ course,” said Hagrid, sitting back down on the sofa, which groaned and sank even lower, “an’ a thumpin’ good’un, I’d say, once yeh’ve been trained up a bit."
+  },
+  {
+    "id": "hp_070",
+    "question": "Which of the following is NOT a pseudonym for Voldemort?",
+    "options": [
+      "The Dark Knight",
+      "He-who-must-not-be-named",
+      "The Dark Lord",
+      "You-Know-Who"
+    ],
+    "correct_answer": "The Dark Knight",
+    "content": "You see?” he whispered. “It was a name I was already using at Hogwarts, to my most intimate friends only, of course. You think I was going to use my filthy Muggle father’s name forever? I, in whose veins runs the blood of Salazar Slytherin himself, through my mother’s side? I, keep the name of a foul, common Muggle, who abandoned me even before I was born, just because he found out his wife was a witch? No, Harry — I fashioned myself a new name, a name I knew wizards everywhere would one day fear to speak, when I had become the greatest sorcerer in the world!"
+  },
+  {
+    "id": "hp_071",
+    "question": "How does the members of the wizard community send their mail?",
+    "options": [
+      "by plane",
+      "by magic",
+      "by train",
+      "by owl"
+    ],
+    "correct_answer": "by owl",
+    "content": "Harry had never seen so many letters in his life. When they got up to the house they found every room full of letters — lying on the doormat, hanging from the light fixtures, wedged into the corners of the ceiling. The Dursleys had to wade through the sea of envelopes to reach the stairs.."
+  },
+  {
+    "id": "hp_072",
+    "question": "After the death of his parents, how is the infant Harry described?",
+    "options": [
+      "\"the boy who lived\"",
+      "\"the orphan boy\"",
+      "\"the future savior\"",
+      "\"the slayer of Voldemort\""
+    ],
+    "correct_answer": "\"the boy who lived\"",
+    "content": "“Harry Potter,” she repeated. “The Boy Who Lived.”"
+  },
+  {
+    "id": "hp_073",
+    "question": "Where does Harry live when staying with the Dursleys?",
+    "options": [
+      "in the cupboard under the stairs",
+      "on the sofa",
+      "in the garage",
+      "in the guest bedroom"
+    ],
+    "correct_answer": "in the cupboard under the stairs",
+    "content": "Harry was used to spiders, because the cupboard under the stairs was full of them, and that was where he slept.”"
+  },
+  {
+    "id": "hp_074",
+    "question": "What happens when Harry is at the zoo with Dudley?",
+    "options": [
+      "Dudley locks Harry in the snake cage",
+      "Harry uses magic to give Dudley the tail of a pig",
+      "Vernon and Petunia buy Harry a chocolate ice cream",
+      "The glass surrounding the Boa Constrictor's cage magically disappears"
+    ],
+    "correct_answer": "The glass surrounding the Boa Constrictor's cage magically disappears",
+    "content": "The glass vanished suddenly, so that the snake could slide out onto the floor. The keeper of the reptile house noticed the commotion and came running. But the snake was long gone. By the time the glass had reappeared, Harry, Dudley, and Piers were all shoving their way out of the reptile house, the snake’s parting words still echoing in Harry’s head: 'Brazil, here I come... Thanksss, amigo.'"
+  },
+  {
+    "id": "hp_075",
+    "question": "What is the only thing that Harry can remember about the night of his parent's death?",
+    "options": [
+      "blood on his hands",
+      "his father smiling at him",
+      "a blinding flash of green light",
+      "the sound of breaking glass"
+    ],
+    "correct_answer": "a blinding flash of green light",
+    "content": "Sometimes, when he strained his memory during long hours in his cupboard, he came up with a strange vision: a blinding flash of green light and a burning pain on his forehead. This, he supposed, was the crash, somehow caused by the car accident when his parents had died."
+  },
+  {
+    "id": "hp_076",
+    "question": "What does Hagrid bring Harry when he first meets him?",
+    "options": [
+      "a flying motorcycle",
+      "a broomstick",
+      "an owl",
+      "a birthday cake"
+    ],
+    "correct_answer": "a birthday cake",
+    "content": "\"Anyway — Harry,\" said the giant, turning his back on the Dursleys, \"a very happy birthday to yeh. Got summat fer yeh here — I mighta sat on it at some point, but it'll taste all right.\" From an inside pocket of his black overcoat he pulled a slightly squashed box. Harry opened it with trembling fingers. Inside was a large, sticky chocolate cake with \"Happy Birthday Harry\" written on it in green icing."
+  },
+  {
+    "id": "hp_077",
+    "question": "What is Hagrid's official title at Hogwarts?",
+    "options": [
+      "Guardian of the Forbidden Forest",
+      "Keeper of Keys",
+      "Assistant Professor",
+      "Groundskeeper"
+    ],
+    "correct_answer": "Keeper of Keys",
+    "content": "\"Ah, shut up, Dursley, yeh great prune,\" said the giant; he reached over the back of the sofa, jerked the gun out of Uncle Vernon's hands, bent it into a knot as easily as if it had been made of rubber, and threw it into a corner of the room.\n\nUncle Vernon made another funny noise, like a mouse being trodden on.\n\n\"Anyway, Harry,\" said the giant, turning his back on the Dursleys, \"a very happy birthday to yeh. Got summat fer yeh here — I mighta sat on it at some point, but it'll taste all right.\"\n\nFrom an inside pocket of his black overcoat he pulled a slightly squashed box. Harry opened it with trembling fingers. Inside was a large, sticky chocolate cake with \"Happy Birthday Harry\" written on it in green icing.\n\nThe giant sat back down on the sofa, which sagged under his weight, and began taking all sorts of things out of the pockets of his coat: a copper kettle, a squashy package of sausages, a poker, a teapot, several chipped mugs, and a bottle of some amber liquid that he took a swig from before starting to make tea. Soon the hut was full of the sound and smell of sizzling sausage. Nobody said a thing while the giant was working, but as he slid the first six fat, juicy, slightly burnt sausages from the poker, Dudley fidgeted a little. Uncle Vernon said sharply, \"Don't touch anything he gives you, Dudley.\"\n\nThe giant chuckled darkly.\n\n\"Yer great puddin' of a son don' need fattenin' anymore, Dursley, don' worry.\"\n\nHe passed the sausages to Harry, who was so hungry he had never tasted anything so wonderful, but he still couldn't take his eyes off the giant. Finally, as nobody seemed about to explain anything, he said, \"I'm sorry, but I still don't really know who you are.\"\n\nThe giant took a gulp of tea and wiped his mouth with the back of his hand.\n\n\"Call me Hagrid,\" he said, \"everyone does. An' like I told yeh, I'm Keeper of Keys and Grounds at Hogwarts. Yeh'll know all about Hogwarts, o' course.\"\n\n\"Er — no,\" said Harry.\n\nHagrid looked shocked."
+  },
+  {
+    "id": "hp_078",
+    "question": "Which of the following is NOT one of Albus Dumbledore's titles?",
+    "options": [
+      "Minister of Magic",
+      "Supreme Mugwump",
+      "Chief Warlock",
+      "Grande Sorcerer"
+    ],
+    "correct_answer": "Minister of Magic",
+    "content": "Albus Dumbledore, currently Headmaster of Hogwarts. Considered by many the greatest wizard of modern times, Dumbledore is particularly famous for his defeat of the dark wizard Grindel in the 1990s, and his long-term study of the magical history of Britain."
+  },
+  {
+    "id": "hp_079",
+    "question": "How did the Dursleys explain the death of Harry's parents to him?",
+    "options": [
+      "They said that his parents died in a battle with Lord Voldemort.",
+      "They said that his parents died in a wizarding duel.",
+      "They said that his parents died on an airplane crash.",
+      "They said that his parents died in a car crash."
+    ],
+    "correct_answer": "They said that his parents died in a car crash.",
+    "content": "He’d lived with the Dursleys almost ten years, ten miserable years, as long as he could remember, ever since he’d been a baby and his parents had died in that car crash. He couldn’t remember being in the car when his parents had died. Sometimes, when he strained his memory during long hours in his cupboard, he came up with a strange vision: a blinding flash of green light and a burning pain on his forehead."
+  },
+  {
+    "id": "hp_080",
+    "question": "What does Hagrid do to Dudley during his first visit to Harry?",
+    "options": [
+      "He gives him the snout of a pig",
+      "He gives him a piece of chocolate cake",
+      "He gives him a pat on the head",
+      "He gives him the tail of a pig"
+    ],
+    "correct_answer": "He gives him the tail of a pig",
+    "content": "\"Yer great puddin' of a son don' need fattenin' anymore, Dursley, don' worry.\" \nHe passed a hand over the kettle; it instantly began to boil. \n\"Now, I want some tea, mind, and maybe a sandwich or summat.\" \nHe took a giant sausage out of his pocket and handed it to Harry, who was so hungry he had never tasted anything so wonderful, but he still couldn't take his eyes off the giant. \nFinally, as nobody seemed about to explain anything, he said, \"I'm sorry, but I still don't really know who you are.\" \nThe giant chuckled. \n\"True, I haven't introduced meself. Rubeus Hagrid, Keeper of Keys and Grounds at Hogwarts.\" \nHe held out an enormous hand and shook Harry's whole arm. \n\"What about that tea then, eh?\" he said, rubbing his hands together. \n\"I'd not say no ter summat stronger if yeh've got it, mind.\" \nHis eyes fell on the empty grate with the shriveled crisp packets in it and he snorted. He bent down, took the coat off again, and unwrapped it, threw it over the fireplace. \nThere was a sizzling sound and the fire burst into life. \nThe Dursleys scuttled back to their corner. \nHagrid, meanwhile, was counting bricks in the chimney. \n\"Duddley,\" said Uncle Vernon with a frantic glance at the door, \"go to bed.\" \n\"I... I... I... I...\" \nDudley suddenly found his voice. \n\"There's a great big snake in the bathroom!\" he gasped. \n\"There's a snake in there, Dad, in the toilet!\" \nUncle Vernon and Aunt Petunia looked at each other in horror. \n\"Well, I suppose we should be going,\" Uncle Vernon said. \n\"Good idea,\" said Aunt Petunia. \nDudley edged away from Hagrid, who suddenly let out a low growl. \n\"Got somethin' to say to me, Dursley?\" he asked, his voice menacing. \nUncle Vernon made another funny noise, like a mouse being trodden on. \n\"No? Then I’ll go back to Harry,\" said Hagrid, \"an’ I’ll tell him what really happened to his parents, shall I?\" \nUncle Vernon opened and closed his mouth several times, his face the color of beetroots. \n\"But what about my son, Dudley?\" Aunt Petunia said hysterically. \nHagrid looked down at Dudley, who was now curled up on the floor, his hands clamped over his fat bottom. \n\"Eh — make him a bit more like a pig, did I?\" he said, cheerfully. \nHagrid raised his wand, but Aunt Petunia screamed and pulled Dudley out of the room. \nHagrid shrugged and continued to make tea. \n\"He always was a pig,\" he said, \"but I suppose he was better off without the tail.\""
+  },
+  {
+    "id": "hp_081",
+    "question": "Where does Hagrid take Harry to buy his school supplies?",
+    "options": [
+      "Knockturn Alley",
+      "Hogwarts",
+      "Diagon Alley",
+      "Little Whinging"
+    ],
+    "correct_answer": "Diagon Alley",
+    "content": "\"Welcome,\" said Hagrid, \"to Diagon Alley.\" \nHe grinned at Harry’s amazement. They stepped through the archway. Harry looked quickly over his shoulder and saw the archway shrink instantly back into solid wall."
+  },
+  {
+    "id": "hp_082",
+    "question": "What platform is used for the Hogwarts Express?",
+    "options": [
+      "Platform 9 and three-quarters",
+      "Platform 9",
+      "Platform 9 and one-half",
+      "Platform 10"
+    ],
+    "correct_answer": "Platform 9 and three-quarters",
+    "content": "\"Harry's train ticket had 'Platform 9 3/4' on it. He stared at it, wondering if it was a joke. The Dursleys had dropped him off at King’s Cross Station, and as they drove away, they were laughing at him for being so stupid. \n\"Platform nine and three-quarters!\" Harry read. \"But Hagrid, there must be a mistake. This says nine and three-quarters.\" \nThe guard had never heard of Platform 9 3/4 either. \"There’s no such platform,\" he said. \nBut there it was, a sign hanging over a barrier. It looked very solid. Harry walked directly at the barrier and, to his surprise, passed right through onto the hidden platform.\""
+  },
+  {
+    "id": "hp_083",
+    "question": "How many silver Sickles are there to a Galleon?",
+    "options": [
+      "17",
+      "29",
+      "15",
+      "5"
+    ],
+    "correct_answer": "17",
+    "content": "\"Seventeen silver Sickles to a Galleon,\" Hagrid told Harry. \"And twenty-nine Knuts to a Sickle, it's easy enough.\""
+  },
+  {
+    "id": "hp_084",
+    "question": "How many bronze Knuts are there to a Sickle?",
+    "options": [
+      "5",
+      "29",
+      "15",
+      "17"
+    ],
+    "correct_answer": "29",
+    "content": "\"Seventeen silver Sickles to a Galleon,\" Hagrid told Harry. \"And twenty-nine Knuts to a Sickle, it's easy enough.\""
+  },
+  {
+    "id": "hp_085",
+    "question": "Who does Harry meet during his first visit to the Leaky Cauldron?",
+    "options": [
+      "Hagrid",
+      "Professor Quirrel",
+      "Albus Dumbledore",
+      "Hermione Granger"
+    ],
+    "correct_answer": "Professor Quirrel",
+    "content": "A pale young man made his way forward, very nervously. One of his eyes was twitching.\n\n\"Professor Quirrell!\" said Hagrid. \"Harry, Professor Quirrell will be one of your teachers at Hogwarts.\"\n\n\"P-P-Potter,\" stammered Professor Quirrell, grasping Harry’s hand, \"c-c-can’t tell you how p-p-pleased I am to meet you.\"\n\n\"What sort of magic do you teach, Professor Quirrell?\"\n\n\"D-D-Defense Against the D-D-Dark Arts,\" muttered Professor Quirrell, as though he'd rather not think about it."
+  },
+  {
+    "id": "hp_086",
+    "question": "What was Dumbledore keeping in Vault 713 of Gringotts before Hagrid removed it?",
+    "options": [
+      "the Golden Snitch",
+      "a prophecy about Harry",
+      "the Sorcerer's Stone",
+      "his personal fortune"
+    ],
+    "correct_answer": "the Sorcerer's Stone",
+    "content": "\"Did you get it, sir?\" \n\"Yes,\" said Hagrid. \"Last thing on the list. Got it at Gringotts. Vault seven hundred and thirteen. Best not to mention it to anyone, Harry.\" \n\"What's in there, Hagrid?\" \n\"Can't tell yeh that,\" said Hagrid mysteriously. \"Very secret. Hogwarts business. Dumbledore's business. Very important.\" \nHagrid's expression changed to one of wariness. \n\"That grubby little package I took outta Vault seven hundred and thirteen, Harry — that was the Sorcerer's Stone.\""
+  },
+  {
+    "id": "hp_087",
+    "question": "What is the name of the goblin who takes Harry to his vault?",
+    "options": [
+      "Sharptooth",
+      "Griphook",
+      "Longfinger",
+      "Quirrell"
+    ],
+    "correct_answer": "Griphook",
+    "content": "\"A goblin was sitting behind the counter. He was about a head shorter than Harry. He had a swarthy, clever face, a pointed beard and, Harry noticed, very long fingers and feet. He bowed as they walked inside.\n\n\"Good morning,\" said Hagrid to the goblin.\n\n\"We’ve come to take some money out of Mr. Harry Potter’s safe.\"\n\n\"You have his key, sir?\"\n\n\"Got it here somewhere,\" said Hagrid, and he started emptying his pockets onto the counter, scattering a handful of moldy dog biscuits over the goblin’s book of numbers. The goblin wrinkled his nose.\n\nThe goblin picked up the key, examined it closely, and handed it back to Hagrid.\n\n\"Very well,\" he said, handing it back to Hagrid. \"I will have someone take you down to the vaults. Griphook!\"\n\nGriphook was yet another goblin. Once Hagrid had crammed all the dog biscuits back inside his pockets, he and Harry followed Griphook toward one of the doors leading off the hall.\""
+  },
+  {
+    "id": "hp_088",
+    "question": "How does Griphook open the door to Vault 713?",
+    "options": [
+      "He strokes it with his finger",
+      "He uses a battering ram",
+      "He uses a key",
+      "He uses a spell"
+    ],
+    "correct_answer": "He strokes it with his finger",
+    "content": "\"If anyone but a Gringotts goblin tried that, they'd be sucked through the door and trapped in there,\" said Griphook.\n\"How often do you check to see if anyone's inside?\" Harry asked.\n\"About once every ten years,\" said Griphook with a rather nasty grin.\nSomething really extraordinary had to be inside this top-security vault, Harry was sure, and he leaned forward eagerly, expecting to see fabulous jewels at the very least—but at first he thought it was empty. Then he noticed a grubby little package wrapped up in brown paper lying on the floor. Hagrid picked it up and tucked it deep inside his coat.\nHarry longed to know what it was, but knew better than to ask.\n\"Come on, back in this infernal cart, and don't talk to me on the way back, it's best if I keep my mouth shut,\" said Hagrid.\nOne wild cart ride later they stood blinking in the sunlight outside Gringotts. Harry didn't know where to run first now that he had a bag full of money. He didn't have to know how many Galleons there were to a pound to know that he was holding more money than he'd had in his whole life—more money than even Dudley had ever had.\n\"Might as well get yer uniform,\" said Hagrid, nodding toward Madam Malkin's Robes for All Occasions. \"Listen, Harry, would yeh mind if I slipped off fer a pick-me-up in the Leaky Cauldron? I hate them Gringotts carts.\" He did still look a bit sick, so Harry entered Madam Malkin's shop alone, feeling nervous.\nVault seven hundred and thirteen had no keyhole.\n\"Stand back,\" said Griphook importantly. He stroked the door gently with one of his long fingers and it simply melted away.\n\"If anyone but a Gringotts goblin tried that, they'd be sucked through the door and trapped in there,\" said Griphook."
+  },
+  {
+    "id": "hp_089",
+    "question": "Who does Harry meet for the first time in Madame Malkin's shop?",
+    "options": [
+      "Draco Malfoy",
+      "Hermione Granger",
+      "Ronald Weasley",
+      "Lord Voldemort"
+    ],
+    "correct_answer": "Draco Malfoy",
+    "content": "\"One of the boys who had been fitted up just before Harry entered the shop now came out to be measured for his robes. Harry was rather relieved to find that he wasn't the only one who didn't know anything about magic.\n\n\"Hello,\" said the boy, \"Hogwarts, too?\"\n\n\"Yes,\" said Harry.\n\n\"My father's next door buying my books and mother's up the street looking at wands,\" said the boy. He had a bored, drawling voice. \"Then I'm going to drag them off to look at racing brooms. I don't see why first years can't have their own. I think I'll bully father into getting me one and I'll smuggle it in somehow.\"\n\nHarry was strongly reminded of Dudley.\n\n\"Have you got your own broom?\" the boy went on.\n\n\"No,\" said Harry.\n\n\"Play Quidditch at all?\"\n\n\"No,\" Harry said again, wondering what on earth Quidditch could be.\n\n\"I do — Father says it's a crime if I'm not picked to play for my house, and I must say, I agree. Know what house you'll be in yet?\"\n\n\"No,\" said Harry, feeling more stupid by the minute.\n\n\"Well, no one really knows until they get there, do they, but I know I'll be in Slytherin, all our family have been — imagine being in Hufflepuff, I think I'd leave, wouldn't you?\"\n\n\"Mmm,\" said Harry, wishing he could say something a bit more interesting.\n\n\"I say, look at that man!\" said the boy suddenly, nodding toward the front window. Hagrid was standing there, grinning at Harry and pointing at two large ice creams to show he couldn't come in.\n\n\"That's Hagrid,\" said Harry, pleased to know something the boy didn't. \"He works at Hogwarts.\"\n\n\"Oh,\" said the boy, \"I've heard of him. He's a sort of servant, isn't he?\"\n\n\"He's the gamekeeper,\" said Harry. He was liking the boy less and less every second.\n\n\"Yes, exactly. I heard he's a sort of savage — lives in a hut on the school grounds and every now and then he gets drunk, tries to do magic, and ends up setting fire to his bed.\"\n\n\"I think he's brilliant,\" said Harry coldly.\n\n\"Do you?\" said the boy, with a slight sneer. \"Why is he with you? Where are your parents?\"\n\n\"They're dead,\" said Harry shortly. He didn't feel much like going into the matter with this boy.\n\n\"Oh, sorry,\" said the other, not sounding sorry at all. \"But they were our kind, weren't they?\"\n\n\"They were a witch and wizard, if that's what you mean.\"\n\n\"I really don't think they should let the other sort in, do you? They're just not the same, they've never been brought up to know our ways. Some of them have never even heard of Hogwarts until they get the letter.\""
+  },
+  {
+    "id": "hp_090",
+    "question": "What is Harry's wand made out of?",
+    "options": [
+      "ebony and unicorn hair",
+      "holly and phoenix feather",
+      "beechwood and dragon heartstring",
+      "maple and phoenix feather"
+    ],
+    "correct_answer": "holly and phoenix feather",
+    "content": "\"Yes, yes. It's all here: Holly and phoenix feather, eleven inches, nice and supple.\""
+  }
 ]
-
-
-
-
-
