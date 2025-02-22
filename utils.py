@@ -23,6 +23,7 @@ class NER(NLPBase):
         self.label2id = {label: i for i, label in enumerate(label_list)}
         self.id2label = {i: label for i, label in enumerate(label_list)}
         
+        
 
     def preprocess_function(self, examples):
         tokenized_inputs = self.tokenizer(examples["tokens"], truncation=True, is_split_into_words=True)

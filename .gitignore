@@ -1,1 +1,3 @@
 .DS_Store
+ner_model/
+__pycache__/
