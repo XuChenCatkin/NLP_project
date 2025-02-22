@@ -1,3 +1,4 @@
+[
 {
   "id": "hp_001",
   "question": "What curse caused the death of Harry Potter's parents?",
@@ -20,7 +21,7 @@
     "Voldemort"
   ],
   "correct_answer": "Albus Dumbledore",
-  "content": "This phrase is paraphrased from Dumbledore’s wisdom throughout the series, where he teaches Harry that fear itself is often the greatest obstacle, as seen in 'Harry Potter and the Prisoner of Azkaban'."
+  "content": "This phrase is paraphrased from Dumbledore's wisdom throughout the series, where he teaches Harry that fear itself is often the greatest obstacle, as seen in 'Harry Potter and the Prisoner of Azkaban'."
 },
 {
   "id": "hp_003",
@@ -44,7 +45,7 @@
     "Lion, Hawk, Snake, Otter"
   ],
   "correct_answer": "Lion, Eagle, Snake, Badger",
-  "content": "Each house in Hogwarts has a corresponding animal: Gryffindor (Lion), Ravenclaw (Eagle), Hufflepuff (Badger), and Slytherin (Snake), as explained in 'Harry Potter and the Philosopher’s Stone'."
+  "content": "Each house in Hogwarts has a corresponding animal: Gryffindor (Lion), Ravenclaw (Eagle), Hufflepuff (Badger), and Slytherin (Snake), as explained in 'Harry Potter and the Philosopher's Stone'."
 },
 {
   "id": "hp_005",
@@ -56,11 +57,11 @@
     "Elder Hill Valley"
   ],
   "correct_answer": "Godric's Hollow",
-  "content": "Godric’s Hollow is where Harry Potter was born and where his parents were murdered by Lord Voldemort. This is mentioned in 'Harry Potter and the Deathly Hallows'."
+  "content": "Godric's Hollow is where Harry Potter was born and where his parents were murdered by Lord Voldemort. This is mentioned in 'Harry Potter and the Deathly Hallows'."
 },
 {
   "id": "hp_006",
-  "question": "What were Hermione Granger’s parents' professions?",
+  "question": "What were Hermione Granger's parents' professions?",
   "options": [
     "Merchants",
     "Dentists",
@@ -80,7 +81,7 @@
     "Rasmus Norman"
   ],
   "correct_answer": "J.K. Rowling",
-  "content": "J.K. Rowling is the author of the 'Harry Potter' series, which was first published in 1997 with 'Harry Potter and the Philosopher’s Stone'."
+  "content": "J.K. Rowling is the author of the 'Harry Potter' series, which was first published in 1997 with 'Harry Potter and the Philosopher's Stone'."
 },
 {
   "id": "hp_008",
@@ -120,7 +121,7 @@
 },
 {
   "id": "hp_011",
-  "question": "Who was the Potions professor at Hogwarts in Harry’s first year?",
+  "question": "Who was the Potions professor at Hogwarts in Harry's first year?",
   "options": [
     "Horace Slughorn",
     "Severus Snape",
@@ -128,7 +129,7 @@
     "Minerva McGonagall"
   ],
   "correct_answer": "Severus Snape",
-  "content": "Severus Snape was the Potions Master at Hogwarts during Harry’s early years, as introduced in 'Harry Potter and the Philosopher’s Stone'."
+  "content": "Severus Snape was the Potions Master at Hogwarts during Harry's early years, as introduced in 'Harry Potter and the Philosopher's Stone'."
 },
 {
   "id": "hp_012",
@@ -152,11 +153,11 @@
     "England"
   ],
   "correct_answer": "Scotland",
-  "content": "Hogwarts is located in the Scottish Highlands, as mentioned in various books, including 'Harry Potter and the Philosopher’s Stone'."
+  "content": "Hogwarts is located in the Scottish Highlands, as mentioned in various books, including 'Harry Potter and the Philosopher's Stone'."
 },
 {
   "id": "hp_014",
-  "question": "Who was the headmaster of Hogwarts during most of Harry Potter’s time there?",
+  "question": "Who was the headmaster of Hogwarts during most of Harry Potter's time there?",
   "options": [
     "Albus Dumbledore",
     "Minerva McGonagall",
@@ -200,7 +201,7 @@
   "Hokey"
 ],
 "correct_answer": "Dobby",
-"content": "Dobby was the Malfoy family's house-elf until Harry tricked Lucius Malfoy into freeing him by giving him a sock in 'Harry Potter and the Chamber of Secrets' (Chapter 18: 'Dobby’s Reward'). Dobby later became a free elf and continued to help Harry and his friends."
+"content": "Dobby was the Malfoy family's house-elf until Harry tricked Lucius Malfoy into freeing him by giving him a sock in 'Harry Potter and the Chamber of Secrets' (Chapter 18: 'Dobby's Reward'). Dobby later became a free elf and continued to help Harry and his friends."
 },
 {
   "id": "hp_018",
@@ -216,7 +217,7 @@
 },
 {
   "id": "hp_019",
-  "question": "What is the core of Harry Potter’s wand?",
+  "question": "What is the core of Harry Potter's wand?",
   "options": [
     "Phoenix feather",
     "Dragon heartstring",
@@ -224,7 +225,7 @@
     "Veela hair"
   ],
   "correct_answer": "Phoenix feather",
-  "content": "Harry’s wand contains a phoenix feather, shared by Voldemort’s wand, which creates a unique connection between them."
+  "content": "Harry's wand contains a phoenix feather, shared by Voldemort's wand, which creates a unique connection between them."
 },
 {
   "id": "hp_020",
@@ -500,7 +501,7 @@
     "The Time-Turner"
   ],
   "correct_answer": "The Marauder's Map",
-  "content": "The Marauder's Map, created by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew, reveals every person’s location in Hogwarts. Harry receives it from Fred and Weasley in 'Harry Potter and the Prisoner of Azkaban'."
+  "content": "The Marauder's Map, created by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew, reveals every person's location in Hogwarts. Harry receives it from Fred and Weasley in 'Harry Potter and the Prisoner of Azkaban'."
 },
 {
   "id": "hp_043",
@@ -516,7 +517,7 @@
 },
 {
   "id": "hp_044",
-  "question": "How do visitors enter the Ministry of Magic’s headquarters in London?",
+  "question": "How do visitors enter the Ministry of Magic's headquarters in London?",
   "options": [
     "Through a hidden door in Gringotts",
     "Via a telephone booth",
@@ -552,7 +553,7 @@
 },
 {
   "id": "hp_047",
-  "question": "What type of magical creature is Dumbledore’s pet, Fawkes?",
+  "question": "What type of magical creature is Dumbledore's pet, Fawkes?",
   "options": [
     "Phoenix",
     "Hippogriff",
@@ -580,11 +581,11 @@
   "options": [
     "From a dragon attack",
     "A cursed object in Borgin and Burkes",
-    "Voldemort’s failed Killing Curse",
+    "Voldemort's failed Killing Curse",
     "A duel with Draco Malfoy"
   ],
-  "correct_answer": "Voldemort’s failed Killing Curse",
-  "content": "Harry’s scar is a result of Voldemort’s Killing Curse rebounding due to Lily Potter’s sacrificial protection, as explained in 'Harry Potter and the Philosopher’s Stone'."
+  "correct_answer": "Voldemort's failed Killing Curse",
+  "content": "Harry's scar is a result of Voldemort's Killing Curse rebounding due to Lily Potter's sacrificial protection, as explained in 'Harry Potter and the Philosopher's Stone'."
 },
 {
   "id": "hp_050",
@@ -592,12 +593,193 @@
   "options": [
     "The future",
     "Hidden secrets",
-    "The viewer’s deepest desire",
+    "The viewer's deepest desire",
     "A random memory"
   ],
-  "correct_answer": "The viewer’s deepest desire",
-  "content": "The Mirror of Erised (desire spelled backward) reflects a person’s deepest longing. Harry sees his parents, while Dumbledore claims to see himself holding socks, as described in 'Harry Potter and the Philosopher’s Stone'."
+  "correct_answer": "The viewer's deepest desire",
+  "content": "The Mirror of Erised (desire spelled backward) reflects a person's deepest longing. Harry sees his parents, while Dumbledore claims to see himself holding socks, as described in 'Harry Potter and the Philosopher's Stone'."
+},
+{
+  "id": "hp_051",
+  "question": "In Dumbledore's will, what item was bequeathed to Hermione Granger?",
+  "options": [
+    "The Tales of Beedle the Bard",
+    "The Deluminator",
+    "The Invisibility Cloak",
+    "The Sword of Gryffindor"
+  ],
+  "correct_answer": "The Tales of Beedle the Bard",
+  "content": "Dumbledore's will left Hermione the 'Tales of Beedle the Bard' in 'Harry Potter and the Deathly Hallows', emphasizing her passion for magical literature and deepening her connection to the wizarding world."
+},
+{
+  "id": "hp_052",
+  "question": "Which creature did Hagrid introduce in his Care of Magical Creatures class that later proved to be quite dangerous?",
+  "options": [
+    "Blast-Ended Skrewts",
+    "Hippogriffs",
+    "Thestrals",
+    "Acromantulas"
+  ],
+  "correct_answer": "Blast-Ended Skrewts",
+  "content": "In 'Harry Potter and the Goblet of Fire', Hagrid's introduction of Blast-Ended Skrewts resulted in unpredictable and hazardous situations for his students, showcasing the dangers of some magical creatures."
+},
+{
+  "id": "hp_053",
+  "question": "Which spell, invented by Severus Snape, is known for its cutting effect?",
+  "options": [
+    "Sectumsempra",
+    "Expelliarmus",
+    "Rictusempra",
+    "Crucio"
+  ],
+  "correct_answer": "Sectumsempra",
+  "content": "Revealed in 'Harry Potter and the Half-Blood Prince', the spell 'Sectumsempra' inflicts deep, slashing wounds and demonstrates the darker side of magical experimentation, attributed to Snape's ingenuity."
+},
+{
+  "id": "hp_054",
+  "question": "In 'Harry Potter and the Half-Blood Prince', who is revealed to be the Half-Blood Prince?",
+  "options": [
+    "Severus Snape",
+    "Draco Malfoy",
+    "Tom Riddle",
+    "Harry Potter"
+  ],
+  "correct_answer": "Severus Snape",
+  "content": "The twist revealing Severus Snape as the Half-Blood Prince is a turning point in the series, reframing his character and motivations in a new, more complex light."
+},
+{
+  "id": "hp_055",
+  "question": "Which vault at Gringotts was used to store the Philosopher's Stone?",
+  "options": [
+    "Vault 713",
+    "Vault 394",
+    "Vault 101",
+    "Vault 666"
+  ],
+  "correct_answer": "Vault 713",
+  "content": "Vault 713, known for its heavy enchantments and security measures, was the location where the Philosopher's Stone was kept, as depicted in the first book of the series."
+},
+{
+  "id": "hp_056",
+  "question": "What is the name of the goblin who assists Harry in breaking into Bellatrix Lestrange's vault?",
+  "options": [
+    "Griphook",
+    "Bogrod",
+    "Ragnok",
+    "Grimwig"
+  ],
+  "correct_answer": "Griphook",
+  "content": "Griphook, the goblin from Gringotts, plays a pivotal role in 'Harry Potter and the Deathly Hallows' by aiding Harry and his friends during the high-stakes break-in at Bellatrix Lestrange's vault."
+},
+{
+  "id": "hp_057",
+  "question": "Which potion allows a wizard to assume the form of someone else for a short period?",
+  "options": [
+    "Polyjuice Potion",
+    "Felix Felicis",
+    "Veritaserum",
+    "Amortentia"
+  ],
+  "correct_answer": "Polyjuice Potion",
+  "content": "Polyjuice Potion, a complex and time-consuming brew, enables its drinker to temporarily transform into another person, a plot device central to several key disguises throughout the series."
+},
+{
+  "id": "hp_058",
+  "question": "What is the name of the three-headed dog that guards a trapdoor at Hogwarts?",
+  "options": [
+    "Fluffy",
+    "Cerberus",
+    "Argus",
+    "Gargoyle"
+  ],
+  "correct_answer": "Fluffy",
+  "content": "Fluffy, the massive three-headed dog in 'Harry Potter and the Sorcerer’s Stone', was stationed at Hogwarts to guard the trapdoor leading to the hidden chambers protecting the Philosopher's Stone."
+},
+{
+  "id": "hp_059",
+  "question": "What does the Mirror of Erised show to those who gaze into it?",
+  "options": [
+    "Their deepest, most desperate desire",
+    "A glimpse of their future",
+    "Their true reflection",
+    "A hidden memory"
+  ],
+  "correct_answer": "Their deepest, most desperate desire",
+  "content": "The Mirror of Erised, a mysterious magical object, reveals to the viewer the deepest, most desperate wish of their heart, serving as a symbolic reflection of inner longing."
+},
+{
+  "id": "hp_060",
+  "question": "Which Hogwarts founder was known for his belief in pure-blood supremacy?",
+  "options": [
+    "Salazar Slytherin",
+    "Godric Gryffindor",
+    "Rowena Ravenclaw",
+    "Helga Hufflepuff"
+  ],
+  "correct_answer": "Salazar Slytherin",
+  "content": "Salazar Slytherin is notorious for his advocacy of pure-blood superiority, a viewpoint that not only influenced his legacy at Hogwarts but also set the stage for future conflicts within the wizarding world."
+},
+{
+  "id": "hp_061",
+  "question": "What are the core materials of Harry Potter's wand?",
+  "options": [
+    "Holly and phoenix feather",
+    "Yew and dragon heartstring",
+    "Elder wood and unicorn hair",
+    "Oak and basilisk venom"
+  ],
+  "correct_answer": "Holly and phoenix feather",
+  "content": "Harry's wand, crafted from holly and imbued with a phoenix feather core, is a unique artifact that not only defines his magical abilities but also symbolizes his intrinsic link to Voldemort."
+},
+{
+  "id": "hp_062",
+  "question": "Which magical artifact allows its user to travel back in time?",
+  "options": [
+    "Time-Turner",
+    "Portkey",
+    "Deluminator",
+    "Broomstick"
+  ],
+  "correct_answer": "Time-Turner",
+  "content": "The Time-Turner is a rare and powerful device featured in 'Harry Potter and the Prisoner of Azkaban', enabling its user to travel back in time—a tool that plays a critical role in managing time-sensitive situations."
+},
+{
+  "id": "hp_063",
+  "question": "During his first lesson, what creature did Professor Lupin use to teach the class about confronting fears?",
+  "options": [
+    "Boggart",
+    "Werewolf",
+    "Dementor",
+    "Acromantula"
+  ],
+  "correct_answer": "Boggart",
+  "content": "Professor Lupin introduced his students to a Boggart in order to help them face and overcome their deepest fears, a memorable lesson from 'Harry Potter and the Prisoner of Azkaban'."
+},
+{
+  "id": "hp_064",
+  "question": "Which spell is used to conjure a Patronus, a protective charm against Dementors?",
+  "options": [
+    "Expecto Patronum",
+    "Expelliarmus",
+    "Stupefy",
+    "Protego"
+  ],
+  "correct_answer": "Expecto Patronum",
+  "content": "The incantation 'Expecto Patronum' is used to summon a Patronus, a protective entity that shields witches and wizards from Dementors, and is one of the most advanced defensive spells taught in the series."
+},
+{
+  "id": "hp_065",
+  "question": "Which Horcrux was hidden inside a locket belonging to Salazar Slytherin?",
+  "options": [
+    "Slytherin's Locket",
+    "Ravenclaw's Diadem",
+    "Hufflepuff's Cup",
+    "Marvolo Gaunt's Ring"
+  ],
+  "correct_answer": "Slytherin's Locket",
+  "content": "Salazar Slytherin's Locket is one of Voldemort's Horcruxes, intricately tied to his dark magic, and its discovery and eventual destruction become a central focus in 'Harry Potter and the Deathly Hallows'."
 }
+]
 
 
 
