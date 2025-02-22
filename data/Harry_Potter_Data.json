@@ -1081,9 +1081,9 @@
   },
   {
     "id": "hp_091",
-    "question": "What is the name of the Weasley twins’ joke shop?",
+    "question": "What is the name of the Weasley twins' joke shop?",
     "options": [
-      "Zonko’s Joke Shop",
+      "Zonko's Joke Shop",
       "Weasleys' Wizard Wheezes",
       "Gambol and Japes",
       "The Trickster's Trove"
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "hp_093",
-    "question": "What is the core of Voldemort’s wand?",
+    "question": "What is the core of Voldemort's wand?",
     "options": [
       "Dragon heartstring",
       "Unicorn hair",
@@ -1113,7 +1113,7 @@
       "Basilisk horn"
     ],
     "correct_answer": "Phoenix feather",
-    "content": "Voldemort’s wand contains a phoenix feather from Fawkes, the same phoenix that provided the core for Harry Potter’s wand."
+    "content": "Voldemort's wand contains a phoenix feather from Fawkes, the same phoenix that provided the core for Harry Potter's wand."
   },
   {
     "id": "hp_094",
@@ -1133,11 +1133,11 @@
     "options": [
       "Whomping Willow",
       "Venomous Tentacula",
-      "Devil’s Snare",
+      "Devil's Snare",
       "Mandrake"
     ],
-    "correct_answer": "Devil’s Snare",
-    "content": "Devil’s Snare is a magical plant that constricts around those who struggle, but it relaxes in the presence of heat and light."
+    "correct_answer": "Devil's Snare",
+    "content": "Devil's Snare is a magical plant that constricts around those who struggle, but it relaxes in the presence of heat and light."
   },
   {
     "id": "hp_096",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "hp_101",
-    "question": "What are Dumbledore’s first words to the students at the Hogwarts Welcome Feast in Harry’s first year?",
+    "question": "What are Dumbledore's first words to the students at the Hogwarts Welcome Feast in Harry's first year?",
     "options": [
       "Welcome to Hogwarts! Let the feast begin!",
       "Nitwit! Blubber! Oddment! Tweak!",
@@ -1209,11 +1209,11 @@
       "Let us celebrate a new year of learning!"
     ],
     "correct_answer": "Nitwit! Blubber! Oddment! Tweak!",
-    "content": "\"Welcome!\" Dumbledore said. \"Welcome to a new year at Hogwarts! Before we begin our banquet, I would like to say a few words. And here they are: Nitwit! Blubber! Oddment! Tweak! Thank you!\" He sat back down. Everybody clapped and cheered. Harry didn’t know whether to laugh or not."
+    "content": "\"Welcome!\" Dumbledore said. \"Welcome to a new year at Hogwarts! Before we begin our banquet, I would like to say a few words. And here they are: Nitwit! Blubber! Oddment! Tweak! Thank you!\" He sat back down. Everybody clapped and cheered. Harry didn't know whether to laugh or not."
   },
   {
     "id": "hp_102",
-    "question": "Who is the head of Slytherin House during Harry’s first year?",
+    "question": "Who is the head of Slytherin House during Harry's first year?",
     "options": [
       "Severus Snape",
       "Horace Slughorn",
@@ -1221,7 +1221,7 @@
       "Salazar Slytherin"
     ],
     "correct_answer": "Severus Snape",
-    "content": "Severus Snape was the Potions Master and head of Slytherin House during Harry’s early years at Hogwarts."
+    "content": "Severus Snape was the Potions Master and head of Slytherin House during Harry's early years at Hogwarts."
   },
   {
     "id": "hp_103",
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "hp_105",
-    "question": "What is the name of Dumbledore’s sister?",
+    "question": "What is the name of Dumbledore's sister?",
     "options": [
       "Ariana",
       "Minerva",
@@ -1258,5 +1258,185 @@
     ],
     "correct_answer": "Ariana",
     "content": "Ariana Dumbledore was the younger sister of Albus Dumbledore, whose tragic life played a significant role in shaping his future."
+  },
+  {
+    "id": "hp_106",
+    "question": "In the original Harry Potter books, which curse did Sirius Black die from?",
+    "options": [
+      "Killing Curse",
+      "Expecto Patronum",
+      "Stupefy",
+      "Not Sure"
+    ],
+    "correct_answer": "Not Sure",
+    "content": "In the original Harry Potter books, Sirius Black dies after being struck by a curse from Bellatrix Lestrange during the Battle of the Department of Mysteries in Harry Potter and the Order of the Phoenix. However, the specific curse is not explicitly named in the text. The scene describes him being hit by a jet of red light, causing him to fall through the mysterious 'veil' in the Death Chamber, which results in his death. While many fans assume it was the Killing Curse (Avada Kedavra), the books do not confirm this. The ambiguity surrounding the exact curse and the nature of the veil itself remain intentional elements of the story."
+  },
+  {
+    "id": "hp_107",
+    "question": "In the original Harry Potter books, who was the only teacher not deceived by Tom Riddle?",
+    "options": [
+      "Albus Dumbledore",
+      "Armando Dippet",
+      "Phineas Nigellus Black",
+      "Not Sure"
+    ],
+    "correct_answer": "Albus Dumbledore",
+    "content": "In the Harry Potter series, Albus Dumbledore was the only teacher at Hogwarts who remained unconvinced and undeceived by Tom Riddle (later known as Lord Voldemort). Even when Riddle was a student, Dumbledore maintained a cautious skepticism about his true nature and intentions, unlike other staff members who were charmed by Riddle's intelligence, politeness, and outward perfection.This dynamic is highlighted in Harry Potter and the Half-Blood Prince, where memories reveal that Dumbledore alone saw through Riddle's façade and refused to grant him the Defense Against the Dark Arts teaching position. Dumbledore's unwavering vigilance and insight into Riddle's darkness made him uniquely immune to the young Voldemort's manipulations."
+  },
+  {
+    "id": "hp_108",
+    "question": "Why did Harry Potter choose to let Voldemort kill him personally?",
+    "options": [
+      "To destroy the Horcrux inside himself",
+      "To protect his friends from further harm",
+      "To trick Voldemort into losing his powers",
+      "Not Sure"
+    ],
+    "correct_answer": "To destroy the Horcrux inside himself",
+    "content": "Harry discovered through Snape's memories that he was an **unintentional Horcrux**, containing a fragment of Voldemort's soul. By surrendering himself to Voldemort, Harry ensured the soul fragment would be destroyed while preserving his own life due to **Lily Potter's sacrificial protection** still flowing in Voldemort's veins (from *Harry Potter and the Goblet of Fire*). This act also broke Voldemort's control over his followers and weakened him permanently.\n\n- **Other options explained**:\n  - Protecting friends was a motivation, but not the primary reason.\n  - Voldemort's power loss resulted indirectly from Horcrux destruction, not Harry's 'trick'.\n  - The prophecy (*'neither can live while the other survives'*) did not explicitly require Harry's death, only that one must defeat the other."
+  },
+  {
+    "id": "hp_109",
+    "question": "Who destroyed Salazar Slytherin's locket (Horcrux)?",
+    "options": [
+      "Ron Weasley using Gryffindor's Sword",
+      "Harry Potter with the Basilisk fang",
+      "Hermione Granger through Fiendfyre",
+      "Not Sure"
+    ],
+    "correct_answer": "Ron Weasley using Gryffindor's Sword",
+    "content": "In the **forest cave**, Ron used the **Sword of Gryffindor** (which absorbed Basilisk venom in *Chamber of Secrets*) to stab the locket after overcoming its psychological attacks. The sword materialized in the pool when Ron demonstrated courage - a true Gryffindor trait.\n\n- Other options:\n  - Harry never directly destroyed this Horcrux\n  - Fiendfyre was used later by Crabbe to destroy Ravenclaw's diadem"
+  },
+  {
+    "id": "hp_110",
+    "question": "What object did Dumbledore leave Hermione in his will?",
+    "options": [
+      "The Tales of Beedle the Bard",
+      "The Deluminator",
+      "A golden Snitch",
+      "Not Sure"
+    ],
+    "correct_answer": "The Tales of Beedle the Bard",
+    "content": "The **children's book** contained clues about the Deathly Hallows, including the symbol of the Hallows and the story of the Three Brothers. Dumbledore charmed it with **marginal notes** explaining the Hallows' connection to Grindelwald and his own past.\n\n- Context:\n  - The Snitch went to Harry\n  - The Deluminator went to Ron"
+  },
+  {
+    "id": "hp_111",
+    "question": "How did the trio escape from Malfoy Manor?",
+    "options": [
+      "Dobby's apparition rescue",
+      "Using Polyjuice Potion disguise",
+      "Flying on Hagrid's motorcycle",
+      "Not Sure"
+    ],
+    "correct_answer": "Dobby's apparition rescue",
+    "content": "The **house-elf Dobby** responded to Hermione's fake scream (using the Deluminator's light) and apparated them to Shell Cottage. This heroic act cost Dobby his life when Bellatrix threw a silver knife during the escape.\n\n- Key detail:\n  - Dobby was summoned by Harry's deliberate use of the Deluminator's 'help' function"
+  },
+  {
+    "id": "hp_112",
+    "question": "What revealed Snape's true loyalty to Harry?",
+    "options": [
+      "Snape's dying memories",
+      "Dumbledore's portrait confession",
+      "A letter from Lily Potter",
+      "Not Sure"
+    ],
+    "correct_answer": "Snape's dying memories",
+    "content": "With his dying breath, Snape gave Harry **silver memories** viewed in the Pensieve. These showed Snape's lifelong love for Lily, his role as Dumbledore's spy, and the plan for Harry's 'death'.\n\n- Critical scenes:\n  - 'Always' conversation with Dumbledore\n  - Snape killing Dumbledore on prearranged terms"
+  },
+  {
+    "id": "hp_113",
+    "question": "What protected the real Ravenclaw diadem Horcrux?",
+    "options": [
+      "The Room of Requirement",
+      "A cursed fire trap",
+      "A sphinx's riddle",
+      "Not Sure"
+    ],
+    "correct_answer": "The Room of Requirement",
+    "content": "Voldemort hid the diadem in the **Room of Hidden Things** (a manifestation of the Room of Requirement), believing only he had discovered the room's secrets. Ironically, Harry had used the same room for DA meetings and hiding the Half-Blood Prince's book."
+  },
+  {
+    "id": "hp_114",
+    "question": "Why couldn't Voldemort control the Elder Wand fully?",
+    "options": [
+      "He never won it from its true master",
+      "The wand rejected dark magic",
+      "It was broken during Dumbledore's death",
+      "Not Sure"
+    ],
+    "correct_answer": "He never won it from its true master",
+    "content": "The Elder Wand's loyalty passed from Dumbledore → Draco (when Draco disarmed Dumbledore) → Harry (when Harry disarmed Draco at Malfoy Manor). Voldemort never defeated the wand's true master (Harry), rendering the wand ineffective against him."
+  },
+  {
+    "id": "hp_115",
+    "question": "What was the final function of the Golden Snitch?",
+    "options": [
+      "Containing the Resurrection Stone",
+      "Revealing Dumbledore's last message",
+      "Tracking Horcrux locations",
+      "Not Sure"
+    ],
+    "correct_answer": "Containing the Resurrection Stone",
+    "content": "Dumbledore hid the **Resurrection Stone** inside the Snitch that Harry caught in his first Quidditch match. It opened when Harry pressed it to his lips (accepting his mortality), fulfilling the 'I open at the close' inscription."
+  },
+  {
+    "id": "hp_116",
+    "question": "How did Kreacher's attitude change in Deathly Hallows?",
+    "options": [
+      "After being given Regulus' locket",
+      "When Harry promised to free him",
+      "Following Dobby's death",
+      "Not Sure"
+    ],
+    "correct_answer": "After being given Regulus' locket",
+    "content": "Harry inheriting **Regulus Black's locket** and learning Kreacher's tragic backstory (forced to drink the cave potion) led to kind treatment. This transformed Kreacher from hostile to loyal, even leading Hogwarts' house-elves in battle."
+  },
+  {
+    "id": "hp_117",
+    "question": "What destroyed Ravenclaw's diadem?",
+    "options": [
+      "Fiendfyre",
+      "Basilisk fang",
+      "Sword of Gryffindor",
+      "Not Sure"
+    ],
+    "correct_answer": "Fiendfyre",
+    "content": "In the Room of Requirement, **Crabbe** (trying to kill Harry) unleashed uncontrollable Fiendfyre that destroyed the diadem. This dark magical fire was one of the few forces capable of obliterating Horcruxes, though extremely dangerous to the caster."
+  },
+  {
+    "id": "hp_118",
+    "question": "Who killed Nagini in the final battle?",
+    "options": [
+      "Neville Longbottom",
+      "Harry Potter",
+      "Hermione Granger",
+      "Not Sure"
+    ],
+    "correct_answer": "Neville Longbottom",
+    "content": "With the Sword of Gryffindor pulled from the Sorting Hat, Neville decapitated Nagini in front of the entire Great Hall. This fulfilled both the prophecy ('the Dark Lord will mark him as his equal') and Neville's arc from clumsy student to hero."
+  },
+  {
+    "id": "hp_119",
+    "question": "Why did Harry's Expelliarmus beat Voldemort's Killing Curse?",
+    "options": [
+      "Elder Wand refused to kill its master",
+      "Harry's wand recognized its brother core",
+      "Sacrificial protection magic",
+      "Not Sure"
+    ],
+    "correct_answer": "Elder Wand refused to kill its master",
+    "content": "During their final duel, the Elder Wand (loyal to Harry) rejected Voldemort's command. Harry's Expelliarmus **redirected** the Killing Curse because the wand wouldn't harm its true master, causing Voldemort's spell to rebound."
+  },
+  {
+    "id": "hp_120",
+    "question": "What happened to the Deathly Hallows in the end?",
+    "options": [
+      "Harry kept the Cloak, discarded the Stone, returned the Wand",
+      "All three were destroyed",
+      "They merged into a single artifact",
+      "Not Sure"
+    ],
+    "correct_answer": "Harry kept the Cloak, discarded the Stone, returned the Wand",
+    "content": "Harry:\n1. **Kept** the Invisibility Cloak (his inheritance)\n2. **Dropped** the Resurrection Stone in the Forbidden Forest\n3. **Returned** the Elder Wand to Dumbledore's tomb (though he considered repairing his own wand first)\nThis showed his rejection of Hallows' temptation."
   }
 ]
