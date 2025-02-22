@@ -407,7 +407,7 @@
     "correct_answer": "The Burrow",
     "content": "The Burrow is the Weasley family's home, located near Ottery St Catchpole. It's introduced in 'Harry Potter and the Chamber of Secrets' when Harry visits."
   },
-  {c
+  {
     "id": "hp_035",
     "question": "Which book does Hermione frequently reference for information about Hogwarts?",
     "options": [
@@ -1078,5 +1078,185 @@
     ],
     "correct_answer": "holly and phoenix feather",
     "content": "\"Yes, yes. It's all here: Holly and phoenix feather, eleven inches, nice and supple.\""
+  },
+  {
+    "id": "hp_091",
+    "question": "What is the name of the Weasley twins’ joke shop?",
+    "options": [
+      "Zonko’s Joke Shop",
+      "Weasleys' Wizard Wheezes",
+      "Gambol and Japes",
+      "The Trickster's Trove"
+    ],
+    "correct_answer": "Weasleys' Wizard Wheezes",
+    "content": "Fred and George Weasley opened Weasleys' Wizard Wheezes in Diagon Alley after leaving Hogwarts in 'Harry Potter and the Order of the Phoenix'."
+  },
+  {
+    "id": "hp_092",
+    "question": "What spell is used to repel Dementors?",
+    "options": [
+      "Expelliarmus",
+      "Protego",
+      "Expecto Patronum",
+      "Obliviate"
+    ],
+    "correct_answer": "Expecto Patronum",
+    "content": "Expecto Patronum is the Patronus Charm, which produces a silvery guardian to protect against Dementors, first taught to Harry by Remus Lupin in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_093",
+    "question": "What is the core of Voldemort’s wand?",
+    "options": [
+      "Dragon heartstring",
+      "Unicorn hair",
+      "Phoenix feather",
+      "Basilisk horn"
+    ],
+    "correct_answer": "Phoenix feather",
+    "content": "Voldemort’s wand contains a phoenix feather from Fawkes, the same phoenix that provided the core for Harry Potter’s wand."
+  },
+  {
+    "id": "hp_094",
+    "question": "Which Hogwarts professor was revealed to be a werewolf?",
+    "options": [
+      "Severus Snape",
+      "Remus Lupin",
+      "Horace Slughorn",
+      "Quirinus Quirrell"
+    ],
+    "correct_answer": "Remus Lupin",
+    "content": "Remus Lupin, Harry's third-year Defense Against the Dark Arts professor, was secretly a werewolf, as revealed in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_095",
+    "question": "What is the name of the magical plant that strangles people if they struggle?",
+    "options": [
+      "Whomping Willow",
+      "Venomous Tentacula",
+      "Devil’s Snare",
+      "Mandrake"
+    ],
+    "correct_answer": "Devil’s Snare",
+    "content": "Devil’s Snare is a magical plant that constricts around those who struggle, but it relaxes in the presence of heat and light."
+  },
+  {
+    "id": "hp_096",
+    "question": "What does Amortentia smell like?",
+    "options": [
+      "A person's favorite scents",
+      "Freshly baked bread",
+      "Chocolate and roses",
+      "Pine and peppermint"
+    ],
+    "correct_answer": "A person's favorite scents",
+    "content": "Amortentia is the most powerful love potion and smells different to each person based on what attracts them the most."
+  },
+  {
+    "id": "hp_097",
+    "question": "Which of these is NOT one of the Unforgivable Curses?",
+    "options": [
+      "Imperius Curse",
+      "Sectumsempra",
+      "Cruciatus Curse",
+      "Avada Kedavra"
+    ],
+    "correct_answer": "Sectumsempra",
+    "content": "Sectumsempra is a dark curse created by Severus Snape that causes deep cuts, but it is not one of the three Unforgivable Curses."
+  },
+  {
+    "id": "hp_098",
+    "question": "Which Death Eater killed Sirius Black?",
+    "options": [
+      "Bellatrix Lestrange",
+      "Lucius Malfoy",
+      "Severus Snape",
+      "Peter Pettigrew"
+    ],
+    "correct_answer": "Bellatrix Lestrange",
+    "content": "Sirius Black was killed by Bellatrix Lestrange during the Battle of the Department of Mysteries in 'Harry Potter and the Order of the Phoenix'."
+  },
+  {
+    "id": "hp_099",
+    "question": "What magical object allows wizards to see memories?",
+    "options": [
+      "The Pensieve",
+      "The Mirror of Erised",
+      "The Time-Turner",
+      "The Deluminator"
+    ],
+    "correct_answer": "The Pensieve",
+    "content": "The Pensieve is a shallow stone basin that allows users to view memories stored in vials or extracted from a wizard's mind."
+  },
+  {
+    "id": "hp_100",
+    "question": "Who was the first champion chosen by the Goblet of Fire?",
+    "options": [
+      "Cedric Diggory",
+      "Fleur Delacour",
+      "Victor Krum",
+      "Harry Potter"
+    ],
+    "correct_answer": "Victor Krum",
+    "content": "Victor Krum, representing Durmstrang, was the first name chosen by the Goblet of Fire during the Triwizard Tournament selection."
+  },
+  {
+    "id": "hp_101",
+    "question": "What are Dumbledore’s first words to the students at the Hogwarts Welcome Feast in Harry’s first year?",
+    "options": [
+      "Welcome to Hogwarts! Let the feast begin!",
+      "Nitwit! Blubber! Oddment! Tweak!",
+      "May your time at Hogwarts be magical!",
+      "Let us celebrate a new year of learning!"
+    ],
+    "correct_answer": "Nitwit! Blubber! Oddment! Tweak!",
+    "content": "\"Welcome!\" Dumbledore said. \"Welcome to a new year at Hogwarts! Before we begin our banquet, I would like to say a few words. And here they are: Nitwit! Blubber! Oddment! Tweak! Thank you!\" He sat back down. Everybody clapped and cheered. Harry didn’t know whether to laugh or not."
+  },
+  {
+    "id": "hp_102",
+    "question": "Who is the head of Slytherin House during Harry’s first year?",
+    "options": [
+      "Severus Snape",
+      "Horace Slughorn",
+      "Draco Malfoy",
+      "Salazar Slytherin"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "Severus Snape was the Potions Master and head of Slytherin House during Harry’s early years at Hogwarts."
+  },
+  {
+    "id": "hp_103",
+    "question": "Which magical object allows someone to become invisible?",
+    "options": [
+      "Invisibility Cloak",
+      "Time-Turner",
+      "Deluminator",
+      "Pensieve"
+    ],
+    "correct_answer": "Invisibility Cloak",
+    "content": "Harry's Invisibility Cloak is one of the three Deathly Hallows and grants the wearer complete invisibility."
+  },
+  {
+    "id": "hp_104",
+    "question": "Who betrayed Lily and James Potter to Voldemort?",
+    "options": [
+      "Peter Pettigrew",
+      "Severus Snape",
+      "Sirius Black",
+      "Remus Lupin"
+    ],
+    "correct_answer": "Peter Pettigrew",
+    "content": "Peter Pettigrew, acting as their Secret-Keeper, revealed the Potters' location to Voldemort, leading to their deaths."
+  },
+  {
+    "id": "hp_105",
+    "question": "What is the name of Dumbledore’s sister?",
+    "options": [
+      "Ariana",
+      "Minerva",
+      "Helena",
+      "Andromeda"
+    ],
+    "correct_answer": "Ariana",
+    "content": "Ariana Dumbledore was the younger sister of Albus Dumbledore, whose tragic life played a significant role in shaping his future."
   }
 ]
