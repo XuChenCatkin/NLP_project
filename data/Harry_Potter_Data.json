@@ -1,0 +1,206 @@
+ {
+    "id": "hp_001",
+    "question": "What curse caused the death of Harry Potter's parents?",
+    "options": [
+      "Avada Kedavra",
+      "Cruciatus Curse",
+      "Imperius Curse",
+      "Soul Extraction Curse"
+    ],
+    "correct_answer": "Avada Kedavra",
+    "content": "In 'Harry Potter and the Philosopher's Stone', it is revealed that Lord Voldemort killed James and Lily Potter using the Avada Kedavra curse. This is one of the three Unforgivable Curses and causes instant death without physical harm."
+  },
+  {
+    "id": "hp_002",
+    "question": "Who said the phrase: 'People fear the unknown, fear itself'?",
+    "options": [
+      "Lupin",
+      "Fenrir Greyback",
+      "Albus Dumbledore",
+      "Voldemort"
+    ],
+    "correct_answer": "Albus Dumbledore",
+    "content": "This phrase is paraphrased from Dumbledore’s wisdom throughout the series, where he teaches Harry that fear itself is often the greatest obstacle, as seen in 'Harry Potter and the Prisoner of Azkaban'."
+  },
+  {
+    "id": "hp_003",
+    "question": "How many founders established Hogwarts School of Witchcraft and Wizardry?",
+    "options": [
+      "8",
+      "4",
+      "24",
+      "6"
+    ],
+    "correct_answer": "4",
+    "content": "Hogwarts was founded by four legendary wizards: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. This is mentioned in 'Harry Potter and the Chamber of Secrets'."
+  },
+  {
+    "id": "hp_004",
+    "question": "What are the animal mascots of Gryffindor, Ravenclaw, Hufflepuff, and Slytherin, respectively?",
+    "options": [
+      "Lion, Snake, Rat, Cow",
+      "Lion, Eagle, Snake, Badger",
+      "Sheep, Pig, Snake, Cow",
+      "Lion, Hawk, Snake, Otter"
+    ],
+    "correct_answer": "Lion, Eagle, Snake, Badger",
+    "content": "Each house in Hogwarts has a corresponding animal: Gryffindor (Lion), Ravenclaw (Eagle), Hufflepuff (Badger), and Slytherin (Snake), as explained in 'Harry Potter and the Philosopher’s Stone'."
+  },
+  {
+    "id": "hp_005",
+    "question": "Where was Harry Potter born?",
+    "options": [
+      "Godric's Hollow",
+      "Grassy Moor",
+      "Ottery St. Catchpole",
+      "Elder Hill Valley"
+    ],
+    "correct_answer": "Godric's Hollow",
+    "content": "Godric’s Hollow is where Harry Potter was born and where his parents were murdered by Lord Voldemort. This is mentioned in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_006",
+    "question": "What were Hermione Granger’s parents' professions?",
+    "options": [
+      "Merchants",
+      "Dentists",
+      "Surgeons",
+      "Writers"
+    ],
+    "correct_answer": "Dentists",
+    "content": "Hermione's parents are Muggle dentists, as she mentions in 'Harry Potter and the Philosopher's Stone'. This fact is referenced several times throughout the series."
+  },
+  {
+    "id": "hp_007",
+    "question": "Who is the author of 'Harry Potter'?",
+    "options": [
+      "Jessica West",
+      "J.K. Rowling",
+      "Joanna",
+      "Rasmus Norman"
+    ],
+    "correct_answer": "J.K. Rowling",
+    "content": "J.K. Rowling is the author of the 'Harry Potter' series, which was first published in 1997 with 'Harry Potter and the Philosopher’s Stone'."
+  },
+  {
+    "id": "hp_008",
+    "question": "How many Horcruxes did Voldemort have?",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "4"
+    ],
+    "correct_answer": "7",
+    "content": "Voldemort created seven Horcruxes to ensure his immortality. This is a major plot point in 'Harry Potter and the Half-Blood Prince' and 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_009",
+    "question": "What was Voldemort's final Horcrux?",
+    "options": [
+      "A pet",
+      "A locket",
+      "A diary",
+      "A cup"
+    ],
+    "correct_answer": "A pet",
+    "content": "Nagini, Voldemort's snake, was his final Horcrux, as revealed in 'Harry Potter and the Deathly Hallows'."
+  },
+  {
+    "id": "hp_010",
+    "question": "Who was the Defense Against the Dark Arts professor at Hogwarts in Harry's first year?",
+    "options": [
+      "Quirinus Quirrell",
+      "Severus Snape",
+      "Remus Lupin",
+      "Gilderoy Lockhart"
+    ],
+    "correct_answer": "Quirinus Quirrell",
+    "content": "Professor Quirrell was the Defense Against the Dark Arts teacher in 'Harry Potter and the Philosopher's Stone'. He was later revealed to be possessed by Voldemort."
+  },
+  {
+    "id": "hp_011",
+    "question": "Who was the Potions professor at Hogwarts in Harry’s first year?",
+    "options": [
+      "Horace Slughorn",
+      "Severus Snape",
+      "Gilderoy Lockhart",
+      "Minerva McGonagall"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "Severus Snape was the Potions Master at Hogwarts during Harry’s early years, as introduced in 'Harry Potter and the Philosopher’s Stone'."
+  },
+  {
+    "id": "hp_012",
+    "question": "Which three characters are known as the 'Golden Trio'?",
+    "options": [
+      "Harry, Ron, Neville",
+      "Harry, Ron, Hermione",
+      "Harry, Draco, Snape",
+      "Harry, Dumbledore, Sirius"
+    ],
+    "correct_answer": "Harry, Ron, Hermione",
+    "content": "The 'Golden Trio' refers to Harry Potter, Ron Weasley, and Hermione Granger, who are the main protagonists throughout the series."
+  },
+  {
+    "id": "hp_013",
+    "question": "Where is Hogwarts School of Witchcraft and Wizardry located?",
+    "options": [
+      "Ireland",
+      "Scotland",
+      "Paris",
+      "England"
+    ],
+    "correct_answer": "Scotland",
+    "content": "Hogwarts is located in the Scottish Highlands, as mentioned in various books, including 'Harry Potter and the Philosopher’s Stone'."
+  },
+  {
+    "id": "hp_014",
+    "question": "Who was the headmaster of Hogwarts during most of Harry Potter’s time there?",
+    "options": [
+      "Albus Dumbledore",
+      "Minerva McGonagall",
+      "Cornelius Fudge",
+      "Severus Snape"
+    ],
+    "correct_answer": "Albus Dumbledore",
+    "content": "Albus Dumbledore was the headmaster of Hogwarts for most of the series until his death in 'Harry Potter and the Half-Blood Prince'."
+  },
+  {
+    "id": "hp_015",
+    "question": "Who did Harry Potter admire the most and consider the bravest man?",
+    "options": [
+      "Albus Dumbledore",
+      "Voldemort",
+      "Severus Snape",
+      "Sirius Black"
+    ],
+    "correct_answer": "Severus Snape",
+    "content": "Harry considered Severus Snape the bravest man he ever knew, as revealed in 'Harry Potter and the Deathly Hallows'."
+  }
+
+{
+  "id": "hp_016",
+  "question": "What is the name of Harry Potter's owl?",
+  "options": [
+    "Hedwig",
+    "Errol",
+    "Scabbers",
+    "Crookshanks"
+  ],
+  "correct_answer": "Hedwig",
+  "content": "In 'Harry Potter and the Philosopher's Stone', Harry receives a snowy owl as a birthday present, and it is named Hedwig. This detail is reiterated throughout the series, establishing Hedwig as Harry's loyal pet and companion."
+}
+
+{
+  "id": "hp_017",
+  "question": "What is the name of the house elf who served the Malfoy family?",
+  "options": [
+    "Kreacher",
+    "Dobby",
+    "Winky",
+    "Hokey"
+  ],
+  "correct_answer": "Dobby",
+  "content": "Dobby was the Malfoy family's house-elf until Harry tricked Lucius Malfoy into freeing him by giving him a sock in 'Harry Potter and the Chamber of Secrets' (Chapter 18: 'Dobby’s Reward'). Dobby later became a free elf and continued to help Harry and his friends."
+}
