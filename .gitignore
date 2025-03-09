@@ -1,4 +1,4 @@
 .DS_Store
 ner_model/
 __pycache__/
-.env
+kg_generation/.env
