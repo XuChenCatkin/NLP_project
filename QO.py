@@ -5,7 +5,7 @@ import cohere
 from dotenv import load_dotenv
 import os
 
-load_dotenv("/Users/yandu/NLP_project/key.env")  # Loads variables from .env into the environment
+load_dotenv("key.env")  # Loads variables from .env into the environment
 # print(os.environ) 
 api_key = os.environ.get('COHERE_API_KEY')
 # print(api_key)  # Verify that the key is loaded

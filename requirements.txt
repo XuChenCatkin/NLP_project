@@ -6,4 +6,5 @@ scikit-learn
 tqdm
 transformers
 pandas
+datasets
 rank-bm25

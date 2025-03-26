@@ -4,12 +4,17 @@ import glob
 
 # Hardcoded values
 input_folder = "NLP_project/data/QA_set_Clean"  # Adjust path as needed
+
 output_file = "NLP_project/data/shuffled_QA.json"  # Adjust path as needed
+
+output_file = "NLP_project/data/QA_set_Clean/shuffled_QA.json"  # Adjust path as needed
+
 num_questions = 60
 reference_file = "NLP_project/data/chunked_text_all_together_cleaned.json"  # Path to the reference file
 
 # Find all JSON files in the specified folder
 files = glob.glob(f"{input_folder}/*.json")
+
 all_items = []
 # count the number of items in each file, and the total number of items. return file name and number of items
 for file in files:
@@ -21,6 +26,10 @@ for file in files:
             print(f"Warning: File {file} does not contain a list. Skipping.")
     print(f"Number of items in {file}: {len(data)}")
 print(f"Total number of items in the folder: {len(all_items)}")
+
+
+all_items = []
+
 
 # Load items from each JSON file
 for file in files:
@@ -77,6 +86,17 @@ for item in selected_items:
             actual_references.append({"ref_id": ref_id, "passage": f"Reference id {ref_id} not found"})
     item["list of reference"] = actual_references
 
+# Replace reference IDs with actual passages in each question
+for item in selected_items:
+    references = item.get("list of reference", [])
+    actual_passages = []
+    for ref_id in references:
+        passage = ref_mapping.get(ref_id)
+        if passage:
+            actual_passages.append(passage)
+        else:
+            actual_passages.append(f"Reference id {ref_id} not found")
+    item["list of reference"] = actual_passages
 # Write the selected items to the output JSON file
 with open(output_file, 'w', encoding='utf-8') as out_f:
     json.dump(selected_items, out_f, indent=4, ensure_ascii=False)
