@@ -1379,7 +1379,9 @@
     {
         "question": "What creature does Harry ride in the lake during the second task?",
         "answer": "A giant squid (implied help)",
-        "list of reference": "Book 4, Chapter 26, Paragraph 6",
+        "list of reference": [
+            3565
+        ],
         "id": 170
     },
     {
