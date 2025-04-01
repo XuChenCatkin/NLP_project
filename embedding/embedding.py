@@ -6,21 +6,25 @@ import torch
 import gc
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
+import glob
 
 # Use CUDA if available
-device = "cuda" if torch.cuda.is_available() else "cpu"
+#device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Define paths
-DATA_PATH = "/content/drive/My Drive/Data"
+EMBEDDING_PATH = "./embedding"
+DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
-QA_FILE = f"{DATA_PATH}/medium_single_QO"  # assuming this is a JSON file
+QA_PATH = f"{DATA_PATH}/QA_set"
+qa_files = glob.glob(f"{QA_PATH}/*.json")
+qa_files = [file for file in qa_files if "_labeled" in file]
 
 # Use CUDA
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load models on GPU
-bge_model = SentenceTransformer("BAAI/bge-large-en", device=device)
-mpnet_model = SentenceTransformer("all-mpnet-base-v2", device=device)
+bge_model = SentenceTransformer("BAAI/bge-base-en-v1.5", device=device)
+# mpnet_model = SentenceTransformer("all-mpnet-base-v2", device=device)
 
 # -----------------------------
 # Data Loading Functions
@@ -38,14 +42,14 @@ def load_all_passages():
     return passages
 
 # Load QA questions from the QA file (if needed)
-def load_qa_questions():
-    if not os.path.exists(QA_FILE):
-        print(f"QA file not found: {QA_FILE}")
+def load_qa_questions(file):
+    if not os.path.exists(file):
+        print(f"QA file not found: {file}")
         return []
-    with open(QA_FILE, "r", encoding="utf-8") as f:
+    with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
     questions = [item["question"] for item in data if "question" in item]
-    print(f"Total QA questions loaded: {len(questions)}")
+    print(f"Total QA questions loaded: {len(questions)} from {file}")
     return questions
 
 # -----------------------------
@@ -67,8 +71,11 @@ def embed_texts(texts, model, batch_size=8):
 # Store FAISS index
 def store_faiss_index(embeddings, filename):
     dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)
-    index.add(embeddings)
+    norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
+    normalised_embeddings = embeddings / norms
+    # index = faiss.IndexFlatL2(dim)
+    index = faiss.IndexFlatIP(dim)  # Use inner product for cosine similarity
+    index.add(normalised_embeddings)
     faiss.write_index(index, filename)
     print(f"FAISS index stored: {filename}")
 
@@ -83,11 +90,11 @@ def process_all_hp_passages(model, model_name):
         print("No passages to embed.")
         return
     embeddings = embed_texts(passages, model)
-    os.makedirs(DATA_PATH, exist_ok=True)
-    index_path = f"{DATA_PATH}/hp_all_{model_name}.index"
-    emb_path = f"{DATA_PATH}/hp_all_{model_name}_embeddings.npy"
+    os.makedirs(EMBEDDING_PATH, exist_ok=True)
+    index_path = f"{EMBEDDING_PATH}/hp_all_{model_name}.index"
+    #emb_path = f"{EMBEDDING_PATH}/hp_all_{model_name}_embeddings.npy"
     store_faiss_index(embeddings, index_path)
-    np.save(emb_path, embeddings)
+    #np.save(emb_path, embeddings)
     print(f"Embeddings and FAISS index saved for {model_name}")
 
 # -----------------------------
@@ -95,11 +102,11 @@ def process_all_hp_passages(model, model_name):
 # -----------------------------
 
 # Load subqueries from the QA file
-def load_qa_subqueries():
-    if not os.path.exists(QA_FILE):
-        print(f"QA file not found: {QA_FILE}")
+def load_qa_subqueries(file):
+    if not os.path.exists(file):
+        print(f"QA file not found: {file}")
         return []
-    with open(QA_FILE, "r", encoding="utf-8") as f:
+    with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
     # Extract subqueries from the "sub_questions" field in each QA entry.
     sub_queries = []
@@ -110,17 +117,20 @@ def load_qa_subqueries():
     return sub_queries
 
 # Unified QA processing for subqueries
-def process_qa_subqueries(model, model_name):
+def process_qa_subqueries(model, model_name, file):
     print(f"\nProcessing QA embeddings for subqueries with model: {model_name}")
-    sub_queries = load_qa_subqueries()
+    sub_queries = load_qa_subqueries(file)
     if not sub_queries:
         print("No subqueries found.")
         return
+    
+    base_name = os.path.splitext(os.path.basename(file))[0]
+    
     embeddings = embed_texts(sub_queries, model)
-    index_path = f"{DATA_PATH}/{model_name}_qa_subqueries.index"
-    emb_path = f"{DATA_PATH}/qa_subquery_embeddings_{model_name}.npy"
+    index_path = f"{EMBEDDING_PATH}/{base_name}_embeddings.index"
+    #emb_path = f"{EMBEDDING_PATH}/qa_subquery_embeddings_{model_name}.npy"
     store_faiss_index(embeddings, index_path)
-    np.save(emb_path, embeddings)
+    #np.save(emb_path, embeddings)
     print(f"QA subquery embeddings and FAISS index saved for {model_name}")
 
 # -----------------------------
@@ -130,8 +140,9 @@ def process_qa_subqueries(model, model_name):
 if __name__ == "__main__":
     # Process unified passages for each model
     process_all_hp_passages(bge_model, "bge")
-    process_all_hp_passages(mpnet_model, "mpnet")
+    #process_all_hp_passages(mpnet_model, "mpnet")
     
     # Process QA subqueries for each model
-    process_qa_subqueries(bge_model, "bge")
-    process_qa_subqueries(mpnet_model, "mpnet")
+    for file in qa_files:
+        process_qa_subqueries(bge_model, "bge", file)
+    #process_qa_subqueries(mpnet_model, "mpnet")

@@ -2,6 +2,7 @@ import json
 import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer, InputExample, losses
+from sentence_transformers.datasets import NoDuplicatesDataLoader
 from types import SimpleNamespace
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
@@ -15,6 +16,8 @@ import time
 from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
 import faiss
 from typing import List
+
+
 
 notebook_login()
 
@@ -52,19 +55,18 @@ with open(CORPUS_FILE, 'r') as f:
 
 
 def load_index_and_all_subqueries(category):
-    match category:
-        case "easy_single_labeled":
-            return index_easy, subqueries_easy
-        case "medium_single_labeled":
-            return index_medium_s, subqueries_medium_s
-        case "medium_multi_labeled":
-            return index_medium_m, subqueries_medium_m
-        case "hard_single_labeled":
-            return index_hard_s, subqueries_hard_s
-        case "hard_multi_labeled":
-            return index_hard_m, subqueries_hard_m
-        case _:
-            raise ValueError("Unknown category")
+    if category == "easy_single_labeled":
+        return index_easy, subqueries_easy
+    elif category == "medium_single_labeled":
+        return index_medium_s, subqueries_medium_s
+    elif category == "medium_multi_labeled":
+        return index_medium_m, subqueries_medium_m
+    elif category == "hard_single_labeled":
+        return index_hard_s, subqueries_hard_s
+    elif category == "hard_multi_labeled":
+        return index_hard_m, subqueries_hard_m
+    else:
+        raise ValueError("Unknown category")
         
 
 
@@ -82,16 +84,16 @@ model_list = [
 ]
 
 args = {
-    "model_name": "BAAI/bge-base-en-v1.5",
+    "model_name": "BAAI/bge-large-en",
     "corpus_file": CORPUS_FILE,
     "easy_file": EASY,
     "medium_single_file": MEDIUM_S,
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 16,
+    "batch_size": 4,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "xchen-catkin-ucl",
+    "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
@@ -187,9 +189,69 @@ def process_data(data):
         relevant_map[query_id] = set([str(ref['ref_id']) for ref in refs])
         
         negative_list = hard_negative_mining(item)
-        negative_samples = np.random.choice(np.array(negative_list), min(1, ref_len), replace=True)
+        # negative_samples = np.random.choice(np.array(negative_list), min(1, ref_len), replace=True)
+
+        for i in range(ref_len):
+            if len(refs) == 0:
+                positive_enhanced = ''
+            else:
+                pos_book_id = refs[i]['book']
+                pos_chapter_id = refs[i]['chapter']
+                passage_text = refs[i]['passage']
+                positive_enhanced = (
+                    # f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    f"Passage: {passage_text}"
+                )
+            for j in range(len(negative_list)):
+                neg_book_id = negative_list[j]['title_num']
+                neg_chapter_id = negative_list[j]['chapter_num']
+                neg_passage_text = negative_list[j]['passage']
+                negative_enhanced = (
+                    # f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    f"Passage: {neg_passage_text}"
+                )
+                examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
+        # for i in range(len(negative_samples)):
+        #     if len(refs) == 0:
+        #         positive_enhanced = ''
+        #     else:
+        #         pos_book_id = refs[i]['book']
+        #         pos_chapter_id = refs[i]['chapter']
+        #         passage_text = refs[i]['passage']
+        #         positive_enhanced = (
+        #             f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+        #             f"Passage: {passage_text}"
+        #         )
+        #     neg_book_id = negative_samples[i]['title_num']
+        #     neg_chapter_id = negative_samples[i]['chapter_num']
+        #     neg_passage_text = negative_samples[i]['passage']
+        #     negative_enhanced = (
+        #         f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+        #         f"Passage: {neg_passage_text}"
+        #     )
+        #     examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
+    return examples, query_map, relevant_map
+
+
+def process_data_MNRL(data):
+    examples = []
+    query_map = {}
+    relevant_map = {}
+    for item in data:
+        question = item["question"]
         
-        for i in range(len(negative_samples)):
+        refs = item["list of reference"]
+        ref_len = len(refs)
+        
+        query_id = item['category'] + '_' + str(item['id'])
+        
+        query_map[query_id] = question
+        relevant_map[query_id] = set([str(ref['ref_id']) for ref in refs])
+        
+        negative_list = hard_negative_mining(item)
+        # negative_samples = np.random.choice(np.array(negative_list), min(1, ref_len), replace=True)
+
+        for i in range(ref_len):
             if len(refs) == 0:
                 positive_enhanced = ''
             else:
@@ -200,15 +262,20 @@ def process_data(data):
                     f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
                     f"Passage: {passage_text}"
                 )
-            neg_book_id = negative_samples[i]['title_num']
-            neg_chapter_id = negative_samples[i]['chapter_num']
-            neg_passage_text = negative_samples[i]['passage']
-            negative_enhanced = (
-                f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
-                f"Passage: {neg_passage_text}"
-            )
-            examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
+            negative_enhanced = []
+            for j in range(len(negative_list)):
+                neg_book_id = negative_list[j]['title_num']
+                neg_chapter_id = negative_list[j]['chapter_num']
+                neg_passage_text = negative_list[j]['passage']
+                negative_enhanced.append(
+                    f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    f"Passage: {neg_passage_text}"
+                )
+            examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
     return examples, query_map, relevant_map
+
+
+
     
 def train(args, logger: logging.Logger):
     # Use CUDA
@@ -242,14 +309,24 @@ def train(args, logger: logging.Logger):
         json.dump(test_data, f, indent=4)
     logger.info(f"Loaded {len(train_data)} training examples and {len(test_data)} test examples")
 
-    train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+
+    # train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+
+
+
     with open (f"data/finetune_train_triplets_test_size_{args.test_size}_random_state_{args.random_state}_processed.json", "w") as f:
         json.dump(train_examples_dict, f, indent=4)
     logger.info(f"Processed {len(train_examples)} training examples")
-    test_examples, test_query_map, test_relevant_map = process_data(test_data)
-        
-    train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
+    test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
+    # test_examples, test_query_map, test_relevant_map = process_data(test_data)
+
+    
+   
+    train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
+    # train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
     evaluator = InformationRetrievalEvaluator(
         test_query_map,
         corpus_map,
@@ -257,7 +334,9 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+
+    train_loss = losses.MultipleNegativesRankingLoss(model)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
@@ -280,6 +359,7 @@ def train(args, logger: logging.Logger):
         evaluation_steps=5,
         save_best_model=True,
         show_progress_bar=True,
+        use_amp=True,
         callback=TimedCallback()
     )
     
@@ -300,6 +380,7 @@ def train(args, logger: logging.Logger):
     )
     
 if __name__ == "__main__":
+    torch.cuda.empty_cache()
     args = parse_args()
     wandb.init(project=args.project, name=args.experiment_name, entity=args.wandbusername)
     logger = create_logger(args.experiment_name, console_output=True)
