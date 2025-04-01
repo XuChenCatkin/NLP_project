@@ -1,0 +1,264 @@
+[
+    {
+        "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
+        "answer": "Hagrid's mention of Fluffy's weakness to music foreshadows Quirrell's knowledge.",
+        "list of reference": [
+            {
+                "ref_id": 425,
+                "passage": "He was being made a cup of strong tea back in Hagrid's hut, with Ron and Hermione. \"It was Snape,\" Ron was explaining, \"Hermione and I saw him. He was cursing your broomstick, muttering, he wouldn't take his eyes off you.\" \"Rubbish,\" said Hagrid, who hadn't heard a word of what had gone on next to him in the stands. \"Why would Snape do somethin' like that?\" Harry, Ron, and Hermione looked at one another, wondering what to tell him. Harry decided on the truth. \"I found out something about him,\" he told Hagrid. \"He tried to get past that three-headed dog on Halloween. It bit him. We think he was trying to steal whatever it's guarding.\" Hagrid dropped the teapot. \"How do you know about Fluffy?\" he said. \"Fluffy?\"",
+                "book": 1,
+                "chapter": 11
+            },
+            {
+                "ref_id": 426,
+                "passage": "\"Yeah - he's mine - bought him off a Greek chappie I met in the pub las' year - I lent him to Dumbledore to guard the -\"\n\"Yes?\" said Harry eagerly. \"Now, don't ask me anymore,\" said Hagrid gruffly. \"That's top secret, that is.\" \"But Snape's trying to steal it.\"",
+                "book": 1,
+                "chapter": 11
+            }
+        ],
+        "id": 1,
+        "question_variants": "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?",
+        "sub_questions": [
+            "Who is the character that mentions the magical creature?",
+            "What is the name of the magical creature being discussed?",
+            "What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "Which object in Dumbledore's office during Harry's first visit hints at a secret kept until the final book?",
+        "answer": "The Pensieve.",
+        "list of reference": [
+            {
+                "ref_id": 3809,
+                "passage": "Harry felt himself rising into the air; the dungeon dissolved around him; for a moment, all was blackness, and then he felt as though he had done a slow-motion somersault, suddenly landing flat on his feet, in what seemed like the dazzling light of Dumbledore's sunlit office. The stone basin was shimmering in the cabinet in front of him, and Albus Dumbledore was standing beside him. \"Professor,\" Harry gasped, \"I know I shouldn't've - I didn't mean - the cabinet door was sort of open and -\"\n\"I quite understand,\" said Dumbledore. He lifted the basin, carried it over to his desk, placed it upon the polished top, and sat down in the chair behind it. He motioned for Harry to sit down opposite him. Harry did so, staring at the stone basin. The contents had returned to their original, silvery-white state, swirling and rippling beneath his gaze. \"What is it?\" Harry asked shakily. \"This? It is called a Pensieve,\" said Dumbledore.",
+                "book": 4,
+                "chapter": 30
+            }
+        ],
+        "id": 2,
+        "question_variants": "What item in Dumbledore's office during Harry's initial visit suggests a secret that remains undisclosed until the final book?",
+        "sub_questions": [
+            "What specific object in Dumbledore's office was the first to reveal a hidden secret?",
+            "How does this object's presence relate to the final book's events?",
+            "Can you identify any other items in the office that might also hold a secret?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What seemingly trivial gift given at Christmas in the first year later aids in a life-saving escape?",
+        "answer": "The flute from Hagrid.",
+        "list of reference": [
+            {
+                "ref_id": 443,
+                "passage": "Harry picked up the top parcel. It was wrapped in thick brown paper and scrawled across it was To Harry, from Hagrid. Inside was a roughly cut wooden flute. Hagrid had obviously whittled it himself. Harry blew it - it sounded a bit like an owl. A second, very small parcel contained a note. We received your message and enclose your Christmas present. From Uncle Vernon and Aunt Petunia. Taped to the note was a fifty-pence piece.",
+                "book": 1,
+                "chapter": 12
+            },
+            {
+                "ref_id": 627,
+                "passage": "He pulled out the cloak and then his eyes fell on the flute Hagrid had given him for Christmas. He pocketed it to use on Fluffy - he didn't feel much like singing. He ran back down to the common room. \"We'd better put the cloak on here, and make sure it covers all three of us - if Filch spots one of our feet wandering along on its own -\"\n\"What are you doing?\" said a voice from the corner of the room. Neville appeared from behind an armchair, clutching Trevor the toad, who looked as though he'd been making another bid for freedom. \"Nothing, Neville, nothing,\" said Harry, hurriedly putting the cloak behind his back. Neville stared at their guilty faces.",
+                "book": 1,
+                "chapter": 16
+            },
+            {
+                "ref_id": 635,
+                "passage": "All three of the dog's noses sniffed madly in their direction, even though it couldn't see them. \"What's that at its feet?\" Hermione whispered. \"Looks like a harp,\" said Ron. \"Snape must have left it there.\" \"It must wake up the moment you stop playing,\" said Harry. \"Well, here goes ...\"\nHe put Hagrid's flute to his lips and blew. It wasn't really a tune, but from the first note the beast's eyes began to droop. Harry hardly drew breath. Slowly, the dog's growls ceased - it tottered on its paws and fell to its knees, then it slumped to the ground, fast asleep. \"Keep playing,\" Ron warned Harry as they slipped out of the cloak and crept toward the trapdoor. They could feel the dog's hot, smelly breath as they approached the giant heads.",
+                "book": 1,
+                "chapter": 16
+            }
+        ],
+        "id": 3,
+        "question_variants": "What seemingly insignificant present, exchanged during the first Christmas celebration, later becomes a crucial factor in a life-saving escape?",
+        "sub_questions": [
+            "What is the seemingly trivial gift given at Christmas in the first year?",
+            "How does this gift later aid in a life-saving escape?",
+            "Can you identify the character who received this gift and how it impacted their life?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "Which chess piece's movement in the underground chamber mirrors a character's sacrifice in the final book?",
+        "answer": "The knight, reflecting Ron's bravery.",
+        "list of reference": [
+            {
+                "ref_id": 654,
+                "passage": "\"Now what do we do?\" Harry whispered. \"It's obvious, isn't it?\" said Ron. \"We've got to play our way across the room.\" Behind the white pieces they could see another door. \"How?\" said Hermione nervously. \"I think,\" said Ron, \"we're going to have to be chessmen.\" He walked up to a black knight and put his hand out to touch the knights horse. At once, the stone sprang to life.",
+                "book": 1,
+                "chapter": 16
+            },
+            {
+                "ref_id": 656,
+                "passage": "\"I suppose we've got to take the place of three of the black pieces. ...\"\nHarry and Hermione stayed quiet, watching Ron think. Finally he said, \"Now, don't be offended or anything, but neither of you are that good at chess -\"\n\"We're not offended,\" said Harry quickly. \"Just tell us what to do.\" \"Well, Harry, you take the place of that bishop, and Hermione, you go there instead of that castle.\" \"What about you?\" \"I'm going to be a knight,\" said Ron.",
+                "book": 1,
+                "chapter": 16
+            },
+            {
+                "ref_id": 657,
+                "passage": "The chessmen seemed to have been listening, because at these words a knight, a bishop, and a castle turned their backs on the white pieces and walked off the board, leaving three empty squares that Harry, Ron, and Hermione took. \"White always plays first in chess,\" said Ron, peering across the board. \"Yes ... look ...\"\nA white pawn had moved forward two squares. Ron started to direct the black pieces. They moved silently wherever he sent them. Harry's knees were trembling. What if they lost? \"Harry - move diagonally four squares to the right.\"",
+                "book": 1,
+                "chapter": 16
+            }
+        ],
+        "id": 4,
+        "question_variants": "What chess piece's unique movement pattern in the underground chamber symbolizes a character's self-sacrifice in the final book?",
+        "sub_questions": [
+            "What chess piece's movement is described in the underground chamber?",
+            "How does this movement relate to a character's sacrifice in the final book?",
+            "Which character made the sacrifice, and what was the nature of their sacrifice?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What cryptic phrase used by Dumbledore in Book 5 foreshadows the nature of Horcruxes revealed in Book 6?",
+        "answer": "'In essence divided.'",
+        "list of reference": [
+            {
+                "ref_id": 5235,
+                "passage": "Dumbledore watched the smoke closely, his brow furrowed, and after a few seconds, the tiny puffs became a steady stream of smoke that thickened and coiled in the air. ... A serpent's head grew out of the end of it, opening its mouth wide. Harry wondered whether the instrument was confirming his story: He looked eagerly at Dumbledore for a sign that he was right, but Dumbledore did not look up. \"Naturally, naturally,\" murmured Dumbledore apparently to himself, still observing the stream of smoke without the slightest sign of surprise. \"But in essence divided?\" Harry could make neither head nor tail of this question. The smoke serpent, however, split itself instantly into two snakes, both coiling and undulating in the dark air. With a look of grim satisfaction Dumbledore gave the instrument another gentle tap with his wand: The clinking noise slowed and died, and the smoke serpents grew faint, became a formless haze, and vanished. Dumbledore replaced the instrument upon its spindly little table; Harry saw many of the old headmasters in the portraits follow him with their eyes, then, realizing that Harry was watching them, hastily pretend to be sleeping again.",
+                "book": 5,
+                "chapter": 22
+            }
+        ],
+        "id": 5,
+        "question_variants": "Which enigmatic statement, uttered by Dumbledore in the fifth book, hints at the true nature of Horcruxes as unveiled in the sixth installment?",
+        "sub_questions": [
+            "What is the specific phrase that Dumbledore used in Book 5?",
+            "How does this phrase relate to the concept of Horcruxes?",
+            "Can you identify the foreshadowing elements in the phrase that were later confirmed in Book 6?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "Which creature's behavior in the forest contradicts its usual nature, hinting at a hidden protector?",
+        "answer": "The centaurs, influenced by Firenze's actions.",
+        "list of reference": [
+            {
+                "ref_id": 590,
+                "passage": "When he looked up, the figure had gone. A centaur was standing over him, not Ronan or Bane; this one looked younger; he had white-blond hair and a palomino body. \"Are you all right?\" said the centaur, pulling Harry to his feet. \"Yes - thank you - what was that?\" The centaur didn't answer. He had astonishingly blue eyes, like pale sapphires. He looked carefully at Harry, his eyes lingering on the scar that stood out, livid, on Harry's forehead. \"You are the Potter boy,\" he said. \"You had better get back to Hagrid. The forest is not safe at this time - especially for you. Can you ride? It will be quicker this way. \"My name is Firenze,\" he added, as he lowered himself on to his front legs so that Harry could clamber onto his back.",
+                "book": 1,
+                "chapter": 15
+            },
+            {
+                "ref_id": 593,
+                "passage": "What is that to do with us? Centaurs are concerned with what has been foretold! It is not our business to run around like donkeys after stray humans in our forest!\" Firenze suddenly reared on to his hind legs in anger, so that Harry had to grab his shoulders to stay on. \"Do you not see that unicorn?\" Firenze bellowed at Bane. \"Do you not understand why it was killed? Or have the planets not let you in on that secret? I set myself against what is lurking in this forest, Bane, yes, with humans alongside me if I must.\" And Firenze whisked around; with Harry clutching on as best he could, they plunged off into the trees, leaving Ronan and Bane behind them. Harry didn't have a clue what was going on.",
+                "book": 1,
+                "chapter": 15
+            }
+        ],
+        "id": 6,
+        "question_variants": "What animal's actions in the woods stand out as unusual, suggesting a secret guardian?",
+        "sub_questions": [
+            "What creature's behavior in the forest is unusual and suggests a hidden protector?",
+            "How does this creature's behavior contradict its typical behavior in a forest setting?",
+            "Can you identify the creature and its usual nature, and explain how its behavior in the forest might indicate a protector?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What minor detail about the Mirror of Erised makes its meaning a puzzle to solve??",
+        "answer": "Its inscription is written backwards.",
+        "list of reference": [
+            {
+                "ref_id": 464,
+                "passage": "It was a magnificent mirror, as high as the ceiling, with an ornate gold frame, standing on two clawed feet. There was an inscription carved around the top: Erised stra ehru oyt ube cafru oyt on wohsi. His panic fading now that there was no sound of Filch and Snape, Harry moved nearer to the mirror, wanting to look at himself but see no reflection again. He stepped in front of it. He had to clap his hands to his mouth to stop himself from screaming. He whirled around. His heart was pounding far more furiously than when the book had screamed - for he had seen not only himself in the mirror, but a whole crowd of people standing right behind him.",
+                "book": 1,
+                "chapter": 12
+            }
+        ],
+        "id": 7,
+        "question_variants": "What subtle element of the Mirror of Erised's description makes deciphering its true meaning a challenging task?",
+        "sub_questions": [
+            "What is the Mirror of Erised?",
+            "How does the Mirror of Erised reveal hidden truths?",
+            "What specific detail about the Mirror of Erised makes its meaning ambiguous?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What overlooked comment about a pet in the second book foreshadows a character's true identity?",
+        "answer": "Scabbers' unusually long lifespan hints at Peter Pettigrew.",
+        "list of reference": [
+            {
+                "ref_id": 2306,
+                "passage": "He's been in my family for ages, right -\"\n\"Twelve years, in fact,\" said Lupin. \"Didn't you ever wonder why he was living so long?\" \"We - we've been taking good care of him!\" said Ron. \"Not looking too good at the moment, though, is he?\" said Lupin. \"I'd guess he's been losing weight ever since he heard Sirius was on the loose again. ...\"\n\"He's been scared of that mad cat!\" said Ron, nodding toward Crookshanks, who was still purring on the bed. But that wasn't right, Harry thought suddenly. ... Scabbers had been looking ill before he met Crookshanks ... ever since Ron's return from Egypt ... since the time when Black had escaped. ...\n\"This cat isn't mad,\" said Black hoarsely. He reached out a bony hand and stroked Crookshanks's fluffy head.",
+                "book": 3,
+                "chapter": 19
+            }
+        ],
+        "id": 8,
+        "question_variants": "How does a seemingly insignificant remark about a pet in the second book hint at a character's hidden identity?",
+        "sub_questions": [
+            "Who made the comment about a pet in the second book?",
+            "What was the specific comment about a pet?",
+            "How does this comment foreshadow a character's true identity?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What substance, introduced through an ancient creature's attack, is later revealed to bypass magical self-repair and destroy a Horcrux?",
+        "answer": "Basilisk venom.",
+        "list of reference": [
+            {
+                "ref_id": 1431,
+                "passage": "Silence except for the steady drip drip of ink still oozing from the diary. The basilisk venom had burned a sizzling hole right through it. Shaking all over, Harry pulled himself up. His head was spinning as though he'd just traveled miles by Floo powder. Slowly, he gathered together his wand and the Sorting Hat, and, with a huge tug, retrieved the glittering sword from the roof of the basilisk's mouth. Then came a faint moan from the end of the Chamber. Ginny was stirring.",
+                "book": 2,
+                "chapter": 17
+            },
+            {
+                "ref_id": 7797,
+                "passage": "\"Yes,\" said Hermione, now turning the fragile pages as if examining rotting entrails, \"because it warns Dark wizards how strong they have to make the enchantments on them. From all that I've read, what Harry did to Riddle's diary was one of the few really foolproof ways of destroying a Horcrux.\" \"What, stabbing it with a basilisk fang?\" asked Harry. \"Oh well, lucky we've got such a large supply of basilisk fangs, then,\" said Ron. \"I was wondering what we were going to do with them.\" \"It doesn't have to be a basilisk fang,\" said Hermione patiently. \"It has to be something so destructive that the Horcrux can't repair itself. Basilisk venom only has one antidote, and it's incredibly rare -\n\"- phoenix tears,\" said Harry, nodding. \"Exactly,\" said Hermione. \"Our problem is that there are very few substances as destructive as basilisk venom, and they're all dangerous to carry around with you. That's a problem we're going to have to solve, though, because ripping, smashing, or crushing a Horcrux won't do the trick. You've got to put it beyond magical repair.\" \"But even if we wreck the thing it lives in,\" said Ron, \"why can't the bit of soul in it just go and live in something else?\" \"Because a Horcrux is the complete opposite of a human being.\"",
+                "book": 7,
+                "chapter": 6
+            }
+        ],
+        "id": 9,
+        "question_variants": "Which element, introduced during an ancient creature's assault, is capable of overcoming magical self-repair and annihilating a Horcrux?",
+        "sub_questions": [
+            "What is the substance that was introduced through an ancient creature's attack?",
+            "How does this substance affect magical self-repair?",
+            "Can you identify the Horcrux that was destroyed by this substance?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "answer": "The servant returns' points to Pettigrew.",
+        "list of reference": [
+            {
+                "ref_id": 2473,
+                "passage": "said Dumbledore. \"Er - stranger than usual, you mean?\" \"Yes ... her voice went all deep and her eyes rolled and she said ... she said Voldemort's servant was going to set out to return to him before midnight. ... She said the servant would help him come back to power.\" Harry stared up at Dumbledore. \"And then she sort of became normal again, and she couldn't remember anything she'd said. Was it - was she making a real prediction? Dumbledore looked mildly impressed. \"Do you know, Harry, I think she might have been,\" he said thoughtfully. \"Who'd have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...\"\n\"But -\" Harry looked at him, aghast. How could Dumbledore take this so calmly? \"But - I stopped Sirius and Professor Lupin from killing Pettigrew! That makes it my fault if Voldemort comes back!\"",
+                "book": 3,
+                "chapter": 22
+            }
+        ],
+        "id": 10,
+        "question_variants": "Which particular phrase within a prophetic warning suggests the identity of a traitor?",
+        "sub_questions": [
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "How does this phrase reveal the identity of the traitor?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "Which Slytherin student's remark during a Quidditch match hints at a family secret?",
+        "answer": "Draco's taunt about heritage ties to Salazar.",
+        "list of reference": [
+            {
+                "ref_id": 956,
+                "passage": "\"But I've got a specially signed note here from Professor Snape. 'I, Professor S. Snape, give the Slytherin team permission to practice today on the Quidditch field owing to the need to train their new Seeker.' \"\n\"You've got a new Seeker?\" said Wood, distracted. \"Where?\" And from behind the six large figures before them came a seventh, smaller boy, smirking all over his pale, pointed face. It was Draco Malfoy. \"Aren't you Lucius Malfoy's son?\"",
+                "book": 2,
+                "chapter": 7
+            }
+        ],
+        "id": 11,
+        "question_variants": "Who is the Slytherin student whose comment during a Quidditch match suggests a hidden family history?",
+        "sub_questions": [
+            "Who is the Slytherin student who made the remark?",
+            "What was the specific remark made during the Quidditch match?",
+            "How does this remark hint at a family secret?"
+        ],
+        "category": "hard_single_labeled"
+    }
+]

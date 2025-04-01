@@ -673,7 +673,7 @@
     },
     {
         "question": "What is the core of Hermione Granger's wand?",
-        "answer": "Dot mentioned in book",
+        "answer": "Not mentioned in book",
         "list of reference": [],
         "id": 86
     },
@@ -1051,7 +1051,7 @@
     {
         "question": "Who replaces Dumbledore as headmaster in the sixth book?",
         "answer": "Severus Snape",
-        "list of reference": "Book 6, Chapter 29, Paragraph 2",
+        "list of reference": [3565],
         "id": 170
     },
     {
@@ -1201,7 +1201,7 @@
     {
         "question": "What creature does Harry ride in the lake during the second task?",
         "answer": "A giant squid (implied help)",
-        "list of reference": "Book 4, Chapter 26, Paragraph 6",
+        "list of reference": [3565],
         "id": 195
     },
     {
@@ -1589,12 +1589,6 @@
         "id": 268
     },
     {
-        "question": "Who is the Slytherin boy who loves dueling?",
-        "answer": "Draco Malfoy",
-        "list of reference": [],
-        "id": 270
-    },
-    {
         "question": "What is the name of the spell that makes objects invisible?",
         "answer": "Disillusionment Charm",
         "list of reference": [4277,4278],
@@ -1673,10 +1667,10 @@
         "id": 291
     },
     {
-        "question": "Who is the Ravenclaw boy who loves astronomy?",
-        "answer": "Roger Davies",
-        "list of reference": "Book 4, Chapter 23, Paragraph 5",
-        "id": 292
+        "question": "Who is the Slytherin boy who loves fame?",
+        "answer": "Gilderoy Lockhart (before he was a teacher)",
+        "list of reference": [822, 862],
+        "id": 302
     },
     {
         "question": "What is the name of the magical candy that makes you smoke at mouth?",
@@ -1707,11 +1701,5 @@
         "answer": "No such spell in book",
         "list of reference": [],
         "id": 299
-    },
-    {
-        "question": "Who is the Slytherin boy who loves fame?",
-        "answer": "Gilderoy Lockhart (before he was a teacher)",
-        "list of reference": [822, 862],
-        "id": 302
     }
 ]

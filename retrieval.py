@@ -1,154 +1,3 @@
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from rank_bm25 import BM25Okapi
-# import nltk
-# import numpy as np
-# import os
-# import json
-# nltk.download('punkt')
-# nltk.download('punkt_tab')
-# from nltk.tokenize import word_tokenize
-
-# DATA_PATH = "./data"
-# QA_FILE = f"{DATA_PATH}/QA_set/easy_single.json"
-# ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
-
-# # Dense retrieval
-# def dense_retrieval_subqueries(queries, model, faiss_index, passages, chunk_ids, top_k=5):
-#     """
-#     Perform dense retrieval for each sub-query and aggregate results.
-    
-#     Args:
-#       queries (str or list): A single query or list of sub-queries.
-#       model: The SentenceTransformer model.
-#       faiss_index: A pre-built FAISS index.
-#       passages: List of passages.
-#       chunk_ids: List of chunk IDs corresponding to passages.
-#       top_k (int): Number of results to retrieve per query.
-      
-#     Returns:
-#       all_results (list): A list of dictionaries with keys: 'sub_query', 'chunk_id', 'passage', 'score'
-#     """
-#     # If a single query is passed as a string, wrap it in a list
-#     if isinstance(queries, str):
-#         queries = [queries]
-    
-#     all_results = []
-#     for query in queries:
-#         # Encode the sub-query
-#         query_embedding = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
-#         # Retrieve top-k using FAISS
-#         distances, indices = faiss_index.search(np.expand_dims(query_embedding, axis=0), top_k)
-#         # For each result, capture sub-query info along with chunk id, passage and score
-#         results = [
-#             {
-#                 "sub_query": query,
-#                 "chunk_id": chunk_ids[i],
-#                 "passage": passages[i],
-#                 "score": distances[0][j]
-#             }
-#             for j, i in enumerate(indices[0])
-#         ]
-#         all_results.extend(results)
-#     return all_results
-
-# # tfidf sparse retrieval
-# from sklearn.feature_extraction.text import TfidfVectorizer
-
-# # Loader that returns both passages and chunk IDs
-# def load_passages_and_chunk_ids():
-#     if not os.path.exists(ALL_CHUNKS_FILE):
-#         print(f"File not found: {ALL_CHUNKS_FILE}")
-#         return [], []
-#     with open(ALL_CHUNKS_FILE, "r", encoding="utf-8") as f:
-#         data = json.load(f)
-#     passages = [entry["passage"] for entry in data if "passage" in entry]
-#     chunk_ids = [entry["chunk_id"] for entry in data if "chunk_id" in entry]
-#     print(f"Loaded {len(passages)} passages with chunk IDs")
-#     return passages, chunk_ids
-
-# # Load passages and chunk IDs
-# passages, chunk_ids = load_passages_and_chunk_ids()
-
-# # Build the TF-IDF matrix on your passages
-# vectorizer = TfidfVectorizer(stop_words='english')
-# doc_matrix = vectorizer.fit_transform(passages)
-
-# def tfidf_retrieval(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=5):
-#     query_vec = vectorizer.transform([query])
-#     # Compute cosine similarities between query and all documents
-#     cosine_similarities = (doc_matrix * query_vec.T).toarray().flatten()
-#     sorted_indices = np.argsort(cosine_similarities)[::-1][:top_k]
-#     # Prepare a list of result dictionaries
-#     results = [
-#         {
-#             "chunk_id": chunk_ids[i],
-#             "passage": passages[i],
-#             "score": cosine_similarities[i]
-#         }
-#         for i in sorted_indices
-#     ]
-#     return results, cosine_similarities[sorted_indices], sorted_indices
-
-# # BM25 sparse retrieval
-# # Loader that returns both passages and chunk IDs
-# def load_passages_and_chunk_ids_2():
-#     if not os.path.exists(ALL_CHUNKS_FILE):
-#         print(f"File not found: {ALL_CHUNKS_FILE}")
-#         return [], []
-#     with open(ALL_CHUNKS_FILE, "r", encoding="utf-8") as f:
-#         data = json.load(f)
-#     passages = [entry["passage"] for entry in data if "passage" in entry]
-#     chunk_ids = [entry["chunk_id"] for entry in data if "chunk_id" in entry]
-#     print(f"Loaded {len(passages)} passages with chunk IDs")
-#     return passages, chunk_ids
-
-# # Load passages and chunk IDs
-# passages2, chunk_ids2 = load_passages_and_chunk_ids_2()
-
-# # Tokenize the passages for BM25
-# tokenized_passages2 = [word_tokenize(doc.lower()) for doc in passages2]
-
-# # Build the BM25 index
-# bm25 = BM25Okapi(tokenized_passages2)
-
-# def bm25_retrieval_subqueries(queries, bm25, passages, chunk_ids, top_k=5):
-#     """
-#     Perform BM25 retrieval for each sub-query and aggregate results.
-    
-#     Args:
-#       queries (str or list): A single query or a list of sub-queries.
-#       bm25: The BM25Okapi instance.
-#       passages: List of passage texts.
-#       chunk_ids: List of chunk IDs corresponding to the passages.
-#       top_k (int): Number of top results to retrieve per sub-query.
-      
-#     Returns:
-#       all_results (list): A list of dictionaries with keys:
-#         - 'sub_query': the sub-question used
-#         - 'chunk_id': the identifier of the passage
-#         - 'passage': the passage text
-#         - 'score': the BM25 score
-#     """
-#     if isinstance(queries, str):
-#         queries = [queries]
-    
-#     all_results = []
-#     for query in queries:
-#         tokenized_query = word_tokenize(query.lower())
-#         scores = bm25.get_scores(tokenized_query)
-#         sorted_indices = np.argsort(scores)[::-1][:top_k]
-#         results = [
-#             {
-#                 "sub_query": query,
-#                 "chunk_id": chunk_ids[i],
-#                 "passage": passages[i],
-#                 "score": scores[i]
-#             }
-#             for i in sorted_indices
-#         ]
-#         all_results.extend(results)
-#     return all_results
-
 import os
 import json
 import numpy as np
@@ -161,7 +10,7 @@ import faiss
 # -----------------------------
 # Config paths
 # -----------------------------
-DATA_PATH = "./data"
+DATA_PATH = "data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # -----------------------------
@@ -232,13 +81,12 @@ def query_embed_search(query, all_queries_list, index):
     try:
         # Find the position (index) of the query in the list of all queries
         position = all_queries_list.index(query)
-        print(f'Found Position: {position}')
+        # print(f'Found Position: {position}')
         
         # Reconstruct and return the vector at the given position in the index
         return index.reconstruct(position)
     except ValueError:
-        print(f"Query '{query}' not found in the list.")
-        return None
+        raise ValueError(f"Query '{query}' not found in the list of all queries.")
     
 
 def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, faiss_index, passages, chunk_ids, top_k=5):
@@ -261,14 +109,8 @@ def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, fai
         ])
     return results
 
-if __name__ == "__main__":
-    file_path = 'bge_qa_subqueries.index'
-    index = faiss.read_index(file_path)
-    embeding_dimension = index.ntotal
-    print(embeding_dimension)
-
-    qa_path = 'data/QO_set/medium_single_QO.json'
-    with open(qa_path, 'r') as f:
+def retrieve_all_subqueries(file_path):
+    with open(file_path, 'r') as f:
         qa_data = json.load(f)
 
     subquestion_list = []
@@ -276,7 +118,48 @@ if __name__ == "__main__":
         tmp = item['sub_questions']
         for j, sub in enumerate(tmp):
             subquestion_list.append(sub)
+    return subquestion_list
 
-    print(len(subquestion_list))
+
+def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index, all_chucks, top_k=5):
+    if isinstance(queries, str):
+        queries = [queries]
+
+    results = []
+    for query in queries:
+        #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
+        query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
+        distances, indices = faiss_index.search(query_emb, top_k)
+        results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
+    return results
+
+if __name__ == "__main__":
+    data = {
+        "question": "On which street do the Dursleys live at the beginning of the story?",
+        "answer": "They live at Number Four, Privet Drive.",
+        "list of reference": [
+            {
+                "ref_id": 1,
+                "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+                "book": 1,
+                "chapter": 1
+            }
+        ],
+        "id": 1,
+        "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+        "sub_questions": [
+            "On which street do the Dursleys live at the beginning of the story?"
+        ],
+        "category": "easy_single_labeled"
+    }
+    EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
+    CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+    CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
+    with open(CORPUS_FILE, 'r') as f:
+        CORPUS_DATA = json.load(f)
+    result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+    print(result)
 
     

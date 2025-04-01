@@ -23,7 +23,7 @@ class MyLLM:
         
         co = cohere.ClientV2(api_key=self.api_key)
         res = co.chat(
-            model="command-a-03-2025",
+            model="command-r7b-12-2024",
             messages=[
                 {
                     "role": "user",
@@ -52,6 +52,7 @@ def process_and_save_queries(input_file: str, output_file: str):
     # Process each query entry in the file
     for entry in queries_data:
         query = entry.get("question", "")
+        id = entry.get("id")
         if not query:
             continue  # Skip if no query is provided
         
@@ -65,7 +66,8 @@ def process_and_save_queries(input_file: str, output_file: str):
         results.append({
             "original_query": query,
             "query_variants": query_variants,
-            "sub_questions": sub_questions
+            "sub_questions": sub_questions,
+            "id": id
         })
     
     # Write the generated queries to the output JSON file
@@ -81,7 +83,7 @@ if __name__ == "__main__":
 
     # If the file is in the same directory:
     # input_file = os.path.join(current_dir, "easy_single_reindexed.json")
-    output_file = os.path.join(current_dir, "data/QO_set/medium_multi_QO.json")
+    output_file = os.path.join(current_dir, "data/QO_set/medium_multi_QO_new.json")
 
     # If the file is in the parent directory, uncomment the following:
     input_file = os.path.join(current_dir, "data/QA_set/medium_multi.json")

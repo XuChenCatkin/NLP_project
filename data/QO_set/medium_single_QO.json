@@ -2,1208 +2,1261 @@
     {
         "original_query": "What spell does Harry use to disarm Draco Malfoy in the Room of Requirement?",
         "query_variants": [
-            "'Which spell did Harry Potter employ to disarm Draco Malfoy during their encounter in the Room of Requirement?'"
+            "Which enchantment did Harry employ to neutralize Draco Malfoy's spell in the Room of Requirement?"
         ],
         "sub_questions": [
             "1. What is the name of the spell Harry uses to disarm Draco Malfoy?",
-            "2. Where does the confrontation between Harry and Draco Malfoy take place?",
-            "3. Who is the target of Harry's disarming spell in the Room of Requirement?"
-        ]
+            "2. How does Harry's spell work in the context of the Room of Requirement?",
+            "3. Is this spell a defensive or offensive incantation?"
+        ],
+        "id": 303
     },
     {
         "original_query": "Who teaches History of Magic at Hogwarts?",
         "query_variants": [
-            "Which professor instructs the History of Magic class at Hogwarts?"
+            "Which professor is responsible for teaching the History of Magic at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the History of Magic professor at Hogwarts?",
-            "2. Which Hogwarts staff member is responsible for teaching History of Magic?",
-            "3. In which Hogwarts subject does the teacher focus on magical history?"
-        ]
+            "1. Who is the current teacher of History of Magic at Hogwarts?",
+            "2. How many teachers have taught History of Magic at Hogwarts throughout the series?",
+            "3. Are there any notable alumni of the History of Magic class at Hogwarts?"
+        ],
+        "id": 304
     },
     {
         "original_query": "What creature does Hagrid introduce in his first Care of Magical Creatures lesson?",
         "query_variants": [
-            "In Hagrid's inaugural Care of Magical Creatures class, which animal does he present to the students?"
+            "Which magical creature does Hagrid present during his inaugural lesson on the Care of Magical Creatures?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature introduced in Hagrid's first Care of Magical Creatures lesson?",
-            "2. What type of magical creature was featured in Hagrid's first lesson?",
-            "3. In which book or movie does Hagrid introduce this creature in his first lesson?"
-        ]
+            "1. Who is Hagrid?",
+            "2. What is the name of the creature introduced in his first Care of Magical Creatures lesson?",
+            "3. How does Hagrid feel about the creature he introduces in his first lesson?"
+        ],
+        "id": 305
     },
     {
         "original_query": "What is the name of the potion that grants good luck?",
         "query_variants": [
-            "'Can you tell me the name of the potion associated with bringing good fortune?'"
+            "Could you tell me the name of the potion that brings good fortune?"
         ],
         "sub_questions": [
-            "1. What is the name of the potion associated with good luck in the Harry Potter series?",
-            "2. Which character in Harry Potter is known for using the good luck potion?",
-            "3. In which book or movie does the good luck potion first appear?"
-        ]
+            "1. What is the name of the potion that grants good luck?",
+            "2. How is this potion typically prepared?",
+            "3. Are there any known side effects or risks associated with consuming this potion?"
+        ],
+        "id": 306
     },
     {
         "original_query": "Which Quidditch position does Ron Weasley play for Gryffindor?",
         "query_variants": [
-            "What role does Ron Weasley take on the Gryffindor Quidditch team?"
+            "What Quidditch position does Ron Weasley play for the Gryffindor team?"
         ],
         "sub_questions": [
-            "1. What is the name of the Quidditch team that Ron Weasley plays for?",
-            "2. What specific position does Ron Weasley play in Quidditch?",
-            "3. Which Hogwarts house does Ron Weasley represent in Quidditch?"
-        ]
+            "1. What is the name of the Quidditch position that Ron Weasley plays for Gryffindor?",
+            "2. How does Ron Weasley's position in Quidditch contribute to the team's strategy?",
+            "3. Are there any notable achievements or records associated with Ron Weasley's role in Quidditch?"
+        ],
+        "id": 307
     },
     {
         "original_query": "What object does Dumbledore bequeath to Hermione in his will?",
         "query_variants": [
-            "In his will, what item does Dumbledore leave to Hermione?"
+            "Which item does Dumbledore leave to Hermione in his testament?"
         ],
         "sub_questions": [
-            "1. What does Dumbledore leave to Hermione in his will?",
-            "2. Which character receives an object from Dumbledore in his will?",
-            "3. What type of object is bequeathed to Hermione by Dumbledore?"
-        ]
+            "1. What object did Dumbledore leave to Hermione in his will?",
+            "2. How did Dumbledore's will specify the object's inheritance?",
+            "3. Can you name the object that Hermione received from Dumbledore's estate?"
+        ],
+        "id": 308
     },
     {
         "original_query": "Who is the first person to be sorted into a house in Harry's year?",
         "query_variants": [
-            "Here's a paraphrased version of the query:",
-            "'Which individual was the initial member of Harry's year to be assigned to a house?'"
+            "Can you identify the individual who was the first to be sorted into a house during Harry's year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the first person sorted into a house in Harry's year?",
-            "2. Which house was the first person in Harry's year sorted into?",
-            "3. In which book or movie does the sorting of the first person in Harry's year take place?"
-        ]
+            "1. Who was the first student to be sorted into a house during Harry Potter's year at Hogwarts?",
+            "2. Can you identify the student who received the highest house points in their first year?",
+            "3. What was the name of the student who was the first to be sorted into one of the four houses in Harry's year?"
+        ],
+        "id": 309
     },
     {
         "original_query": "What is the name of the Weasley family's owl?",
         "query_variants": [
-            "What is the Weasley family's owl called?"
+            "Could you tell me the name of the owl that belongs to the Weasley family?"
         ],
         "sub_questions": [
-            "1. What is the name of the Weasley family's pet owl?",
-            "2. Which Weasley family member primarily uses the owl for communication?",
-            "3. What breed or type of owl does the Weasley family own?"
-        ]
+            "1. How do the Weasleys communicate with their family members and friends?",
+            "2. What is the significance of the owl in the Weasley family?",
+            "3. Can you name any other magical creatures that the Weasleys own?"
+        ],
+        "id": 310
     },
     {
         "original_query": "What magical plant traps Harry, Ron, and Hermione in their first year?",
         "query_variants": [
-            "Which enchanted plant ensnares Harry, Ron, and Hermione during their inaugural year at Hogwarts?"
+            "What enchanted flora ensnares Harry, Ron, and Hermione during their initial year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the magical plant that traps Harry, Ron, and Hermione?",
-            "2. In which year of Hogwarts does the incident with the magical plant occur?",
-            "3. Which characters are trapped by the magical plant in the described incident?"
-        ]
+            "1. What is the name of the magical plant that traps the trio in their first year?",
+            "2. How does this plant specifically trap Harry, Ron, and Hermione?",
+            "3. Are there any other magical plants or creatures mentioned in the story that could have been used instead of the one that trapped them?"
+        ],
+        "id": 311
     },
     {
         "original_query": "Who replaces Professor Trelawney as the Divination teacher?",
         "query_variants": [
-            "Which teacher takes over the Divination class after Professor Trelawney?"
+            "Who takes over as the Divination teacher after Professor Trelawney's departure?"
         ],
         "sub_questions": [
-            "1. Who was the original Divination teacher before Professor Trelawney?",
-            "2. What circumstances led to Professor Trelawney being replaced as the Divination teacher?",
-            "3. What is the name of the character who replaces Professor Trelawney as the Divination teacher?"
-        ]
+            "1. Who is the new Divination teacher after Professor Trelawney's departure?",
+            "2. What are the names of the teachers who taught Divination at Hogwarts during the series?",
+            "3. How did the students and staff react to the change in the Divination teacher?"
+        ],
+        "id": 312
     },
     {
         "original_query": "What is the name of Voldemort's snake?",
         "query_variants": [
-            "What is the name of the snake that belongs to Voldemort?"
+            "Can you tell me the name of the snake that belonged to Voldemort?"
         ],
         "sub_questions": [
-            "1. What is the species of Voldemort's snake?",
-            "2. What is the name of Voldemort's pet snake?",
-            "3. In which Harry Potter book does Voldemort's snake first appear?"
-        ]
+            "1. Who is the owner of the snake?",
+            "2. What is the snake's name?",
+            "3. How does the snake's name relate to Voldemort?"
+        ],
+        "id": 313
     },
     {
         "original_query": "What charm does Hermione use to make her parents forget her?",
         "query_variants": [
-            "'Which spell does Hermione cast to erase her existence from her parents' memories?'"
+            "How does Hermione cast a spell to make her parents forget about her?"
         ],
         "sub_questions": [
             "1. What is the name of the charm Hermione uses to make her parents forget her?",
-            "2. Why does Hermione decide to use this charm on her parents?",
-            "3. In which book or movie does Hermione use this charm on her parents?"
-        ]
+            "2. How does this charm work, and what are its effects on the target?",
+            "3. Are there any other spells or charms in the Harry Potter series that have a similar function or purpose?"
+        ],
+        "id": 314
     },
     {
         "original_query": "What is the name of the pub in Hogsmeade where students often visit?",
         "query_variants": [
-            "Which pub in Hogsmeade is a popular gathering spot for students?"
+            "Which pub in Hogsmeade is a popular spot for students?"
         ],
         "sub_questions": [
             "1. What is the name of the pub in Hogsmeade?",
-            "2. Which pub in Hogsmeade is frequently visited by students?",
-            "3. What is the popular gathering spot for students in Hogsmeade?"
-        ]
+            "2. How do students typically access this pub?",
+            "3. Are there any notable events or activities that take place at this pub?"
+        ],
+        "id": 315
     },
     {
         "original_query": "What object does Harry use to breathe underwater during the Triwizard Tournament?",
         "query_variants": [
-            "During the Triwizard Tournament, what item enables Harry to breathe underwater?"
+            "What device does Harry employ to stay underwater while participating in the Triwizard Tournament?"
         ],
         "sub_questions": [
             "1. What is the name of the object Harry uses to breathe underwater?",
-            "2. In which specific task of the Triwizard Tournament does Harry need to breathe underwater?",
-            "3. Who provides Harry with the object he uses to breathe underwater?"
-        ]
+            "2. How does this object function in the context of the Triwizard Tournament?",
+            "3. Is this object unique to Harry, or is it something that can be used by others as well?"
+        ],
+        "id": 316
     },
     {
         "original_query": "Who is the captain of the Gryffindor Quidditch team in Harry's first year?",
         "query_variants": [
-            "In Harry's first year at Hogwarts, who served as the captain of the Gryffindor Quidditch team?"
+            "What is the name of the Gryffindor Quidditch captain during Harry's initial year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the Gryffindor Quidditch team captain during Harry Potter's first year at Hogwarts?",
-            "2. Which house does the captain of the Gryffindor Quidditch team belong to in Harry's first year?",
-            "3. In what position does the Gryffindor Quidditch team captain play during Harry's first year?"
-        ]
+            "1. Who is the captain of the Gryffindor Quidditch team in Harry Potter's first year at Hogwarts?",
+            "2. Can you name the player who led the Gryffindor team during the Quidditch matches in Harry's initial year at school?",
+            "3. What was the name of the Gryffindor Quidditch captain in Harry's first year at Hogwarts?"
+        ],
+        "id": 317
     },
     {
         "original_query": "What creature does Lupin teach the students to repel in Defense Against the Dark Arts?",
         "query_variants": [
-            "In his Defense Against the Dark Arts class, which creature does Lupin instruct the students on how to fend off?"
+            "What beast does Lupin instruct the students to ward off in the Defense Against the Dark Arts class?"
         ],
         "sub_questions": [
-            "1. What subject does Lupin teach in the Harry Potter series?",
-            "2. Which specific creature does Lupin focus on teaching students to repel?",
-            "3. What spell or method does Lupin teach to repel the creature in his class?"
-        ]
+            "1. Who is the teacher in the Defense Against the Dark Arts class?",
+            "2. What is the name of the creature that students learn to repel?",
+            "3. How does Lupin teach the students to repel this creature?"
+        ],
+        "id": 318
     },
     {
         "original_query": "What is the name of the mirror that shows one's deepest desires?",
         "query_variants": [
-            "What is the name of the mirror that reveals a person's innermost desires?"
+            "Can you tell me the term for the mirror that reflects one's most profound and hidden wishes?"
         ],
         "sub_questions": [
-            "1. What is the name of the mirror in the Harry Potter series that reflects one's deepest desires?",
-            "2. Who is the character in Harry Potter most closely associated with the mirror of desires?",
-            "3. In which book or movie does the mirror of desires first appear in the Harry Potter series?"
-        ]
+            "1. What is the name of the mirror that appears in the Harry Potter series?",
+            "2. How does this mirror reveal one's deepest desires?",
+            "3. Are there any other magical objects in the series that can show a person's true nature or desires?"
+        ],
+        "id": 319
     },
     {
         "original_query": "Who betrays Dumbledore's Army to Umbridge?",
         "query_variants": [
-            "'Which individual discloses the existence of Dumbledore's Army to Umbridge?'"
+            "Which individual betrays Dumbledore's Army to Umbridge?"
         ],
         "sub_questions": [
-            "1. What is the name of the character who betrays Dumbledore's Army?",
-            "2. To whom is Dumbledore's Army betrayed in the story?",
-            "3. Which organization or group is betrayed by this character?"
-        ]
+            "1. Who is the character that betrays Dumbledore's Army to Umbridge?",
+            "2. What specific act of betrayal did this character perform?",
+            "3. How does this betrayal impact the story and the characters involved?"
+        ],
+        "id": 320
     },
     {
         "original_query": "What potion does Slughorn brew in his first class with Harry?",
         "query_variants": [
-            "In Slughorn's inaugural class with Harry, which potion does he prepare?"
+            "What magical concoction does Slughorn prepare during his initial interaction with Harry?"
         ],
         "sub_questions": [
-            "1. What is the name of the potion Slughorn brews in his first class with Harry?",
-            "2. Which character (Slughorn or another) teaches Harry how to brew this potion?",
-            "3. In which book or movie does Slughorn's first potion class with Harry take place?"
-        ]
+            "1. Who is the professor that Slughorn is teaching in his first class with Harry?",
+            "2. What is the name of the potion that Slughorn brews in his first class with Harry?",
+            "3. How does Slughorn's potion affect the students in the class?"
+        ],
+        "id": 321
     },
     {
         "original_query": "What is the name of the prison where Sirius Black was held?",
         "query_variants": [
-            "'In which prison was Sirius Black incarcerated?'"
+            "Can you tell me the name of the prison where Sirius Black was incarcerated?"
         ],
         "sub_questions": [
-            "1. What is the name of the prison in the Harry Potter universe?",
-            "2. Who was held in the prison mentioned in the Harry Potter series?",
-            "3. What is the significance of Sirius Black's imprisonment in the Harry Potter story?"
-        ]
+            "1. What is the name of the prison where Sirius Black was held?",
+            "2. How did Sirius Black end up in prison?",
+            "3. Was Sirius Black ever released from prison?"
+        ],
+        "id": 322
     },
     {
         "original_query": "What creature pulls the carriages to Hogwarts?",
         "query_variants": [
-            "'Which animal is responsible for transporting the carriages to Hogwarts?'"
+            "Which magical creature is responsible for pulling the carriages to Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature that pulls the carriages to Hogwarts?",
-            "2. What does the creature that pulls the carriages to Hogwarts look like?",
-            "3. How do the carriages at Hogwarts move without visible assistance from the creature?"
-        ]
+            "1. What type of creature is used to pull the carriages to Hogwarts?",
+            "2. How do these creatures manage to pull the carriages without getting tired or exhausted?",
+            "3. Are there any specific rules or guidelines for these creatures when it comes to pulling the carriages?"
+        ],
+        "id": 323
     },
     {
         "original_query": "Who is the head of Slytherin house?",
         "query_variants": [
-            "'What is the name of the current Head of Slytherin house?'"
+            "Which individual serves as the leader of the Slytherin house?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the house associated with the character in question?",
-            "2. Who typically holds the position of head of a house at Hogwarts?",
-            "3. In which Harry Potter book or movie is the head of Slytherin house first introduced?"
-        ]
+            "1. What is the name of the head of the Slytherin house?",
+            "2. How many heads of Slytherin house have there been throughout the Harry Potter series?",
+            "3. Are there any female heads of Slytherin house in the books?"
+        ],
+        "id": 324
     },
     {
-        "original_query": "What spell does Hermione use to repair Harry's glasses in Diagon Alley?",
+        "original_query": "What spell does Hermione use to repair Harry's glasses on Hogwarts Express?",
         "query_variants": [
-            "Which spell does Hermione cast to fix Harry's broken glasses while they are in Diagon Alley?"
+            "Which charm does Hermione employ to fix Harry's spectacles during their journey on the Hogwarts Express?"
         ],
         "sub_questions": [
-            "1. What is the name of the spell used to repair Harry's glasses?",
-            "2. Who performs the spell to repair Harry's glasses in Diagon Alley?",
-            "3. In which location does Hermione repair Harry's glasses?"
-        ]
+            "1. What is the name of the spell Hermione uses to repair Harry's glasses?",
+            "2. How does the spell work to fix the glasses?",
+            "3. Is this spell a part of Hermione's standard kit of magical abilities?"
+        ],
+        "id": 325
     },
     {
         "original_query": "What is the name of the goblin who helps Harry break into Gringotts?",
         "query_variants": [
-            "Who is the goblin that assists Harry in infiltrating Gringotts?"
+            "Who is the goblin character that assists Harry in his attempt to infiltrate Gringotts?"
         ],
         "sub_questions": [
-            "1. What is the name of the goblin who assists Harry Potter in the Gringotts break?",
-            "in?",
-            "2. In which Harry Potter book or movie does the Gringotts break?",
-            "in take place?",
-            "3. What is the role of the goblin in helping Harry during the Gringotts heist?"
-        ]
+            "1. Who is the goblin that assists Harry in breaking into Gringotts?",
+            "2. What is the name of the goblin that helps Harry in the Gringotts heist?",
+            "3. Can you identify the goblin character who aids Harry Potter in his mission to Gringotts?"
+        ],
+        "id": 326
     },
     {
         "original_query": "What position does Percy Weasley take at the Ministry of Magic?",
         "query_variants": [
-            "'Which role does Percy Weasley assume within the Ministry of Magic?'"
+            "What role does Percy Weasley hold within the Ministry of Magic?"
         ],
         "sub_questions": [
-            "1. What department does Percy Weasley work in at the Ministry of Magic?",
-            "2. What is the specific job title of Percy Weasley at the Ministry of Magic?",
-            "3. At what point in the Harry Potter series does Percy Weasley take his position at the Ministry of Magic?"
-        ]
+            "1. What is the name of the position Percy Weasley holds at the Ministry of Magic?",
+            "2. How does Percy Weasley's role at the Ministry of Magic impact the plot of the Harry Potter series?",
+            "3. Are there any notable changes or developments in Percy Weasley's position throughout the books?"
+        ],
+        "id": 327
     },
     {
         "original_query": "What magical creature does Hagrid keep in his hut in Harry's third year?",
         "query_variants": [
-            "In Harry's third year, which magical creature is housed in Hagrid's hut?"
+            "During Harry's third year, what mystical creature does Hagrid house in his cottage?"
         ],
         "sub_questions": [
-            "1. What is the name of the magical creature Hagrid keeps in his hut?",
-            "2. In which year of Harry's education does Hagrid keep this creature?",
-            "3. Where does Hagrid keep this magical creature?"
-        ]
+            "1. What is the name of the magical creature Hagrid keeps in his hut during Harry's third year at Hogwarts?",
+            "2. How does Hagrid acquire this creature, and what is the significance of this acquisition in the story?",
+            "3. Are there any other magical creatures mentioned in the books that Hagrid keeps or interacts with?"
+        ],
+        "id": 328
     },
     {
         "original_query": "What is the name of the Triwizard Tournament's first task creature?",
         "query_variants": [
-            "What creature was featured in the initial challenge of the Triwizard Tournament?"
+            "Can you tell me the name of the creature that was the first challenge in the Triwizard Tournament?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature used in the first task of the Triwizard Tournament?",
-            "2. Which tournament features the creature in its first task?",
-            "3. What type of creature was involved in the first task of the Triwizard Tournament?"
-        ]
+            "1. Who was the creature that guarded the first task of the Triwizard Tournament?",
+            "2. What was the name of the creature that appeared in the first challenge of the Triwizard Tournament?",
+            "3. Can you identify the creature that served as the first task in the Triwizard Tournament?"
+        ],
+        "id": 329
     },
     {
         "original_query": "Who becomes the Defense Against the Dark Arts teacher in Harry's sixth year?",
         "query_variants": [
-            "Which individual assumes the role of Defense Against the Dark Arts instructor during Harry's sixth year at Hogwarts?"
+            "Who is the new Defense Against the Dark Arts teacher during Harry's sixth year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the Defense Against the Dark Arts teacher in Harry Potter's sixth year?",
-            "2. Which character is appointed as the Defense Against the Dark Arts teacher during Harry's sixth year at Hogwarts?",
-            "3. In which book or movie does the Defense Against the Dark Arts teacher for Harry's sixth year first appear?"
-        ]
+            "1. Who is the new Defense Against the Dark Arts teacher in Harry's sixth year?",
+            "2. How does this teacher's appointment impact the students' perception of the subject?",
+            "3. Are there any notable events or challenges faced by this teacher during their tenure?"
+        ],
+        "id": 330
     },
     {
         "original_query": "What object does Harry use to summon his broom during the first task?",
         "query_variants": [
-            "In the first task, what item does Harry employ to call his broomstick to him?"
+            "During the first task, what item does Harry employ to call forth his broom?"
         ],
         "sub_questions": [
-            "1. What is the name of the object Harry uses to summon his broom?",
-            "2. In which task of the Triwizard Tournament does Harry use this object?",
-            "3. What magical property allows the object to summon the broom?"
-        ]
+            "1. What is the specific object Harry uses to summon his broom?",
+            "2. How does this object function in the context of summoning the broom?",
+            "3. Is this object unique to the first task, or is it a recurring item in the series?"
+        ],
+        "id": 331
     },
     {
         "original_query": "What is the name of Dumbledore's phoenix?",
         "query_variants": [
-            "What is the name of the phoenix that belongs to Dumbledore?"
+            "Could you tell me the name of the phoenix that belongs to Dumbledore?"
         ],
         "sub_questions": [
-            "1. What type of creature is Dumbledore's pet?",
-            "2. What is the significance of a phoenix in the Harry Potter series?",
-            "3. What is the name of Albus Dumbledore's phoenix?"
-        ]
+            "1. Who is Dumbledore?",
+            "2. What is a phoenix?",
+            "3. What is the name of the phoenix that belongs to Dumbledore?"
+        ],
+        "id": 332
     },
     {
-        "original_query": "Who is the ghost of Ravenclaw house?",
+        "original_query": "Who is the ghost of Ravenclaw Tower?",
         "query_variants": [
-            "'What is the name of the ghost associated with Ravenclaw house?'"
+            "Can you identify the ghostly figure associated with Ravenclaw Tower?"
         ],
         "sub_questions": [
-            "1. What is the name of the Ravenclaw house ghost?",
-            "2. Which character in the Harry Potter series is associated with the Ravenclaw ghost?",
-            "3. What are the notable characteristics or traits of the Ravenclaw house ghost?"
-        ]
+            "1. What is the name of the ghost that haunts the Ravenclaw Tower?",
+            "2. How did this ghost come to be in the Ravenclaw Tower?",
+            "3. Are there any other ghosts or spirits in the Harry Potter universe that are associated with specific locations or houses?"
+        ],
+        "id": 333
     },
     {
         "original_query": "What spell does Harry use to defeat the Hungarian Horntail?",
         "query_variants": [
-            "'Which incantation did Harry employ to overcome the Hungarian Horntail?'"
+            "Which incantation does Harry employ to vanquish the Hungarian Horntail dragon?"
         ],
         "sub_questions": [
-            "1. What is the name of the spell Harry uses against the Hungarian Horntail?",
-            "2. In which Harry Potter book or movie does Harry face the Hungarian Horntail?",
-            "3. What is the purpose or effect of the spell Harry uses against the Hungarian Horntail?"
-        ]
+            "1. What is the name of the spell Harry uses to defeat the Hungarian Horntail?",
+            "2. How does the spell work to overcome the Hungarian Horntail?",
+            "3. Are there any other spells or methods Harry could have used to defeat the dragon?"
+        ],
+        "id": 334
     },
     {
         "original_query": "What is the name of the house-elf who serves the Malfoy family?",
         "query_variants": [
-            "Which house-elf is known for being in the service of the Malfoy family?"
+            "Can you tell me the name of the house-elf assigned to the Malfoy family?"
         ],
         "sub_questions": [
-            "1. What is the name of the house?",
-            "elf associated with the Malfoy family?",
-            "2. Which family in the Harry Potter series is served by a house?",
-            "elf named Dobby?",
-            "3. What is the role of the house?",
-            "elf in the Malfoy household?"
-        ]
+            "1. Who is the house-elf that works for the Malfoy family?",
+            "2. What is the name of the house-elf associated with the Malfoy family?",
+            "3. Can you identify the specific house-elf that serves the Malfoy family?"
+        ],
+        "id": 335
     },
     {
         "original_query": "Who is revealed as the Half-Blood Prince?",
         "query_variants": [
-            "The question can be rephrased as: 'Which character is identified as the Half-Blood Prince?'"
+            "Who is the identity of the Half-Blood Prince?"
         ],
         "sub_questions": [
-            "1. What is the significance of the title \"Half?",
-            "Blood Prince\" in the Harry Potter series?",
-            "2. Which character in the Harry Potter series is identified as the Half?",
-            "Blood Prince?",
-            "3. In which book of the Harry Potter series is the identity of the Half?",
-            "Blood Prince revealed?"
-        ]
+            "1. Who is the Half-Blood Prince?",
+            "2. How is the identity of the Half-Blood Prince revealed in the story?",
+            "3. What impact does the revelation of the Half-Blood Prince's identity have on the plot of Harry Potter?"
+        ],
+        "id": 336
     },
     {
         "original_query": "What creature does Harry face in the maze during the third task?",
         "query_variants": [
-            "'Which beast confronts Harry within the maze in the third challenge?'"
+            "Which beast confronts Harry in the maze during the third challenge?"
         ],
         "sub_questions": [
-            "1. What is the name of the third task in the Triwizard Tournament?",
-            "2. Where does the third task of the Triwizard Tournament take place?",
-            "3. What specific creature does Harry encounter in the maze during the third task?"
-        ]
+            "1. What is the name of the creature Harry encounters in the maze?",
+            "2. How does this creature interact with Harry during the third task?",
+            "3. What impact does this encounter have on Harry's performance in the task?"
+        ],
+        "id": 337
     },
     {
         "original_query": "What is the name of the Weasley twins' joke shop?",
         "query_variants": [
-            "What is the name of the joke shop owned by the Weasley twins?"
+            "Could you tell me the name of the joke shop owned by the Weasley twins?"
         ],
         "sub_questions": [
             "1. What is the name of the joke shop owned by the Weasley twins?",
-            "2. In which town or location is the Weasley twins' joke shop situated?",
-            "3. What is the significance of the name chosen for the Weasley twins' joke shop?"
-        ]
+            "2. How is the shop's name significant in the Harry Potter series?",
+            "3. Are there any specific jokes or pranks associated with this shop?"
+        ],
+        "id": 338
     },
     {
         "original_query": "Who kills Sirius Black in the Department of Mysteries?",
         "query_variants": [
-            "'Which character is responsible for the death of Sirius Black in the Department of Mysteries?'"
+            "Who is responsible for the murder of Sirius Black within the Department of Mysteries?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. In which location does Sirius Black's death occur?",
-            "2. Who is responsible for Sirius Black's death?",
-            "3. During which book or event in the Harry Potter series does Sirius Black die?"
-        ]
+            "1. Who is the person responsible for Sirius Black's death in the Department of Mysteries?",
+            "2. How does this individual manage to commit the murder in such a mysterious location?",
+            "3. What was the context or reason behind this act of killing?"
+        ],
+        "id": 339
     },
     {
         "original_query": "What is the name of the magical map Harry inherits from the Weasley twins?",
         "query_variants": [
-            "What is the name of the enchanted map that Harry receives as an inheritance from Fred and George Weasley?"
+            "Could you tell me the name of the enchanted map that Harry received from the Weasley twins?"
         ],
         "sub_questions": [
             "1. What is the name of the magical map?",
-            "2. Who gives the magical map to Harry?",
-            "3. What is the significance of the magical map in the Harry Potter series?"
-        ]
+            "2. Who are the Weasley twins?",
+            "3. How did Harry inherit this map?"
+        ],
+        "id": 340
     },
     {
         "original_query": "What spell does Harry use to save himself and Dudley from Dementors?",
         "query_variants": [
-            "Which spell does Harry cast to protect himself and Dudley when they are attacked by Dementors?"
+            "Which incantation does Harry employ to protect himself and Dudley from the Dementors' influence?"
         ],
         "sub_questions": [
-            "1. What spell does Harry use to repel Dementors?",
-            "2. Who is with Harry when he encounters the Dementors in this incident?",
-            "3. In which book or movie does Harry first use this spell against Dementors?"
-        ]
+            "1. What is the name of the spell that Harry uses to protect himself and Dudley from the Dementors?",
+            "2. How does this spell work to counteract the effects of the Dementors' influence?",
+            "3. Are there any other characters in the Harry Potter series who have used this spell?"
+        ],
+        "id": 341
     },
     {
         "original_query": "What is the name of the forest near Hogwarts?",
         "query_variants": [
-            "'Can you tell me the name of the forest located close to Hogwarts?'"
+            "Could you tell me the name of the forest located near Hogwarts?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the forest mentioned in the Harry Potter series?",
-            "2. Where is the forest located in relation to Hogwarts?",
-            "3. What role does the forest play in the Harry Potter story?"
-        ]
+            "1. What is the name of the forest near Hogwarts?",
+            "2. How is this forest described in the Harry Potter series?",
+            "3. Are there any notable creatures or magical events associated with this forest?"
+        ],
+        "id": 342
     },
     {
         "original_query": "Who is the headmaster of Hogwarts before Dumbledore?",
         "query_variants": [
-            "Which wizard served as the headmaster of Hogwarts prior to Albus Dumbledore's tenure?"
+            "Which individual served as the headmaster of Hogwarts before Albus Dumbledore?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the school where Dumbledore serves as headmaster?",
-            "2. Who holds the position of headmaster at Hogwarts immediately before Dumbledore?",
-            "3. In which book or movie is the previous headmaster of Hogwarts first mentioned?"
-        ]
+            "1. Who was the headmaster of Hogwarts before Albus Dumbledore took the position?",
+            "2. Can you name the individual who held the role of headmaster at Hogwarts before Dumbledore's tenure?",
+            "3. What was the name of the headmaster at Hogwarts prior to Dumbledore's appointment?"
+        ],
+        "id": 343
     },
     {
         "original_query": "What magical object helps Harry find the Room of Requirement?",
         "query_variants": [
-            "Which enchanted item assists Harry in locating the Room of Requirement?"
+            "What mystical artifact enables Harry to locate the Room of Requirement?"
         ],
         "sub_questions": [
-            "1. What is the name of the magical object Harry uses to locate the Room of Requirement?",
-            "2. How does the magical object assist Harry in finding the Room of Requirement?",
-            "3. In which book or movie does Harry first use the magical object to find the Room of Requirement?"
-        ]
+            "1. What is the name of the magical object that assists Harry in locating the Room of Requirement?",
+            "2. How does this object function to reveal the hidden entrance to the Room of Requirement?",
+            "3. Who crafted this magical object, and what was their connection to Harry Potter?"
+        ],
+        "id": 344
     },
     {
         "original_query": "What is the name of the Death Eater who tortures Neville's parents?",
         "query_variants": [
-            "Which Death Eater is responsible for the torture of Neville's parents?"
+            "Who is the Death Eater responsible for the torture of Neville's parents?"
         ],
         "sub_questions": [
-            "1. Who tortures Neville's parents in the Harry Potter series?",
-            "2. What is the name of the Death Eater responsible for torturing Neville's parents?",
-            "3. Which character in Harry Potter is known for torturing Neville's parents using the Cruciatus Curse?"
-        ]
+            "1. Who is the Death Eater responsible for torturing Neville's parents?",
+            "2. What is the name of the character who performs this act of torture?",
+            "3. Can you provide the full name of the Death Eater in question?"
+        ],
+        "id": 345
     },
     {
         "original_query": "What potion does Harry use to disguise himself as Goyle?",
         "query_variants": [
-            "Which potion enables Harry to impersonate Goyle by altering his appearance?"
+            "Which potion does Harry employ to transform himself into a likeness of Goyle?"
         ],
         "sub_questions": [
-            "1. What is the name of the potion Harry uses to disguise himself as Goyle?",
-            "2. In which book or movie does Harry use the potion to disguise himself as Goyle?",
-            "3. Who helps Harry create the potion he uses to disguise himself as Goyle?"
-        ]
+            "1. What potion does Harry use to disguise himself as Goyle?",
+            "2. How does Harry's disguise as Goyle affect his interactions with other characters?",
+            "3. Are there any side effects or limitations to Harry's potion disguise?"
+        ],
+        "id": 346
     },
     {
         "original_query": "Who teaches Potions in Harry's sixth year?",
         "query_variants": [
-            "Which professor instructs the Potions class during Harry's sixth year at Hogwarts?"
+            "Which professor was responsible for teaching Potions in Harry's final year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the Potions teacher in Harry Potter's sixth year?",
-            "2. Which school year does the query refer to in Harry Potter's timeline?",
-            "3. What subject is being taught by the instructor mentioned in the query?"
-        ]
+            "1. Who is the Potions teacher in Harry Potter and the Half-Blood Prince?",
+            "2. Can you identify the character who teaches Potions during the events of the sixth book?",
+            "3. Which teacher is responsible for the Potions class in Harry's final year at Hogwarts?"
+        ],
+        "id": 347
     },
     {
         "original_query": "What creature does Harry encounter in the Chamber of Secrets?",
         "query_variants": [
-            "'Which being does Harry come across in the Chamber of Secrets?'"
+            "Which animal does Harry meet in the Chamber of Secrets?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature in the Chamber of Secrets?",
-            "2. What type of magical creature is found in the Chamber of Secrets?",
-            "3. Who controlled the creature in the Chamber of Secrets?"
-        ]
+            "1. What is the name of the creature that Harry Potter encounters in the Chamber of Secrets?",
+            "2. How does this creature interact with Harry during his visit to the Chamber?",
+            "3. What significance does this encounter have in the context of the Harry Potter series?"
+        ],
+        "id": 348
     },
     {
         "original_query": "What is the name of the spell that levitates objects?",
         "query_variants": [
-            "What spell is used to make objects float in the air?"
+            "Could you please tell me the name of the spell that causes objects to float in the air?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the incantation for the spell that levitates objects?",
-            "2. Which spell in the Harry Potter series is primarily used to make objects float?",
-            "3. In what year at Hogwarts do students typically learn the spell for levitating objects?"
-        ]
+            "1. What is the name of the spell that levitates objects?",
+            "2. How does the levitation spell work in the Harry Potter universe?",
+            "3. Are there any side effects or limitations to the levitation spell?"
+        ],
+        "id": 349
     },
     {
         "original_query": "Who becomes Minister for Magic after Fudge?",
         "query_variants": [
-            "Which individual succeeds Fudge as the Minister for Magic?"
+            "Who takes on the role of Minister for Magic following the departure of Fudge?"
         ],
         "sub_questions": [
-            "1. What is the name of the character who replaces Cornelius Fudge as Minister for Magic?",
-            "2. In which book or movie does the transition from Fudge to the new Minister for Magic occur?",
-            "3. What are the key reasons or events that lead to the change in leadership from Fudge to the new Minister?"
-        ]
+            "1. Who was the Minister for Magic immediately before Fudge?",
+            "2. What was the name of the person who succeeded Fudge in the role of Minister for Magic?",
+            "3. Can you provide a list of all the Ministers for Magic during the time period mentioned in the original query?"
+        ],
+        "id": 350
     },
     {
         "original_query": "What is the name of the charm that repels water?",
         "query_variants": [
-            "What charm is used to ward off water?"
+            "Can you tell me the name of the charm that has the property of repelling water?"
         ],
         "sub_questions": [
-            "1. What is the name of the charm that repels water in the Harry Potter universe?",
-            "2. Which spell in Harry Potter is specifically used to repel water?",
-            "3. In what context or situation might the water?",
-            "repelling charm be used in the Harry Potter series?"
-        ]
+            "1. What is the name of the charm that repels water?",
+            "2. How does the water-repelling charm work in the Harry Potter universe?",
+            "3. Are there any other charms or spells that can manipulate water in the series?"
+        ],
+        "id": 351
     },
     {
         "original_query": "Who does Harry take to the Yule Ball?",
         "query_variants": [
-            "Which person accompanies Harry to the Yule Ball?"
+            "Which girl does Harry accompany to the Yule Ball?"
         ],
         "sub_questions": [
-            "1. What is the Yule Ball in the context of Harry Potter?",
-            "2. Which character accompanies Harry to the Yule Ball?",
-            "3. In which book or movie does the Yule Ball take place?"
-        ]
+            "1. Who is Harry's date for the Yule Ball?",
+            "2. How does Harry arrive at the Yule Ball?",
+            "3. What is the significance of the Yule Ball in the Harry Potter series?"
+        ],
+        "id": 352
     },
     {
         "original_query": "What is the name of Hagrid's giant brother?",
         "query_variants": [
-            "'Who is the giant brother of Hagrid called?'"
+            "Who is the colossal sibling of Hagrid?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. Who is Hagrid's brother?",
-            "2. What is the name of Hagrid's giant brother?",
-            "3. In which book or movie is Hagrid's giant brother first mentioned?"
-        ]
+            "1. Who is Hagrid's giant brother?",
+            "2. What is the name of the giant brother of Hagrid?",
+            "3. Can you identify Hagrid's giant brother?"
+        ],
+        "id": 353
     },
     {
-        "original_query": "What spell does Hermione use to free the dragon in Gringotts?",
+        "original_query": "What spell does Harry use to free the dragon in Gringotts?",
         "query_variants": [
-            "'Which incantation does Hermione employ to release the dragon held captive in Gringotts?'"
+            "Which incantation does Harry employ to release the dragon from Gringotts?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. In which location does Hermione free the dragon?",
-            "2. What is the name of the dragon Hermione frees in Gringotts?",
-            "3. Which character accompanies Hermione during the dragon rescue in Gringotts?"
-        ]
+            "1. What is the name of the spell Harry uses to free the dragon in Gringotts?",
+            "2. How does the spell work to release the dragon from its enchanted state?",
+            "3. Are there any side effects or consequences of using this spell?"
+        ],
+        "id": 354
     },
     {
         "original_query": "What is the name of the Death Eater who impersonates Moody?",
         "query_variants": [
-            "Which Death Eater posed as Moody?"
+            "Who is the Death Eater who takes on the identity of Moody?"
         ],
         "sub_questions": [
-            "1. Who impersonates Moody in the Harry Potter series?",
-            "2. What is the name of the Death Eater involved in Moody's impersonation?",
-            "3. Which character in Harry Potter is known for impersonating Alastor Moody?"
-        ]
+            "1. Who is the Death Eater that impersonates Moody?",
+            "2. What is the name of the Death Eater who takes on the identity of the character Moody?",
+            "3. Can you identify the Death Eater who assumes the role of the character known as Moody?"
+        ],
+        "id": 355
     },
     {
         "original_query": "Who is the caretaker of Hogwarts?",
         "query_variants": [
-            "'What is the name of the person responsible for maintaining and overseeing Hogwarts?'"
+            "What is the role of the caretaker at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the caretaker of Hogwarts?",
-            "2. What are the primary responsibilities of the Hogwarts caretaker?",
-            "3. In which Harry Potter book or movie does the caretaker of Hogwarts first appear?"
-        ]
+            "1. Who is the primary caretaker of Hogwarts?",
+            "2. Are there any other caretakers or support staff at Hogwarts?",
+            "3. What are the responsibilities of the caretaker role at Hogwarts?"
+        ],
+        "id": 356
     },
     {
         "original_query": "What is the name of the spell that creates a Patronus?",
         "query_variants": [
-            "What spell is used to conjure a Patronus?"
+            "Could you tell me the name of the charm that conjures a Patronus?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is a Patronus in the Harry Potter universe?",
-            "2. Which spell is used to conjure a Patronus?",
-            "3. What is the purpose of creating a Patronus?"
-        ]
+            "1. What is the name of the spell that creates a Patronus?",
+            "2. How does the Patronus charm work in the context of the Harry Potter series?",
+            "3. Are there any specific requirements or conditions for casting the Patronus charm?"
+        ],
+        "id": 357
     },
     {
         "original_query": "What object does Dumbledore use to detect magic at Privet Drive?",
         "query_variants": [
-            "'Which item does Dumbledore employ to sense magical activity at Privet Drive?'"
+            "How does Dumbledore identify magical activity at 12 Privet Drive?"
         ],
         "sub_questions": [
-            "1. What object does Dumbledore use to detect magic?",
-            "2. Where does Dumbledore use the object to detect magic?",
-            "3. What is the significance of Privet Drive in the context of Dumbledore's magic detection?"
-        ]
+            "1. What is the name of the object used by Dumbledore to detect magic?",
+            "2. How does this object function in the context of detecting magic?",
+            "3. Is this object a common or specialized tool for magic detection?"
+        ],
+        "id": 358
     },
     {
         "original_query": "Who is the Gryffindor house ghost?",
         "query_variants": [
-            "'What is the name of the ghost associated with Gryffindor house?'"
+            "Which character serves as the ghostly guardian of the Gryffindor house?"
         ],
         "sub_questions": [
             "1. What is the name of the Gryffindor house ghost?",
-            "2. Which character does the Gryffindor house ghost represent?",
-            "3. In which Harry Potter book or movie is the Gryffindor house ghost first introduced?"
-        ]
+            "2. Is the Gryffindor house ghost a character in the Harry Potter series?",
+            "3. How does the Gryffindor house ghost fit into the overall plot of the series?"
+        ],
+        "id": 359
     },
     {
         "original_query": "What is the name of the broomstick Harry receives in his third year?",
         "query_variants": [
-            "'Which broomstick did Harry get during his third year at Hogwarts?'"
+            "Can you tell me the name of the broomstick Harry received during his third year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. In which year of Hogwarts does Harry receive a new broomstick?",
-            "2. What is the name of the broomstick Harry receives?",
-            "3. Who gives Harry the broomstick in his third year?"
-        ]
+            "1. What is the name of the broomstick Harry received in his third year?",
+            "2. How did Harry acquire this broomstick?",
+            "3. What are the characteristics of this broomstick?"
+        ],
+        "id": 360
     },
     {
         "original_query": "Who kills Dumbledore on the Astronomy Tower?",
         "query_variants": [
-            "'Which character is responsible for Dumbledore's death on the Astronomy Tower?'"
+            "Who is responsible for the murder of Dumbledore at the Astronomy Tower?"
         ],
         "sub_questions": [
-            "1. Where does Dumbledore's death take place?",
-            "2. Who is responsible for Dumbledore's death?",
-            "3. In which location within Hogwarts does Dumbledore's death occur?"
-        ]
+            "1. Who is the murderer of Albus Dumbledore?",
+            "2. What is the location of the crime, specifically the Astronomy Tower?",
+            "3. How does the murder of Dumbledore impact the plot of the Harry Potter series?"
+        ],
+        "id": 361
     },
     {
         "original_query": "What creature does Hermione turn into after using Polyjuice Potion?",
         "query_variants": [
-            "Which being does Hermione transform into following her consumption of the Polyjuice Potion?"
+            "Which animal does Hermione transform into when she drinks the Polyjuice Potion?"
         ],
         "sub_questions": [
-            "1. What is the Polyjuice Potion used for in the Harry Potter series?",
-            "2. Which character does Hermione impersonate using the Polyjuice Potion?",
-            "3. What specific creature form does Hermione take after using the Polyjuice Potion?"
-        ]
+            "1. What is the Polyjuice Potion?",
+            "2. How does Hermione use the Polyjuice Potion?",
+            "3. What creature does Hermione turn into after using the Polyjuice Potion?"
+        ],
+        "id": 362
     },
     {
         "original_query": "What is the name of the magical tournament Harry enters in his fourth year?",
         "query_variants": [
-            "'During Harry's fourth year, what is the magical competition he participates in called?'"
+            "Can you tell me the name of the magical tournament Harry participates in during his fourth year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What year does Harry enter the magical tournament?",
-            "2. What is the name of the magical tournament in Harry Potter?",
-            "3. In which book or movie does Harry participate in the magical tournament?"
-        ]
+            "1. What is the name of the tournament Harry Potter enters in his fourth year?",
+            "2. How is the tournament called in the Harry Potter series?",
+            "3. Can you provide the exact name of the magical competition Harry participates in during his fourth year at Hogwarts?"
+        ],
+        "id": 363
     },
     {
         "original_query": "Who is the first to be petrified by the Basilisk?",
         "query_variants": [
-            "'Which individual was the first victim to be turned to stone by the Basilisk?'"
+            "Which character is the first to be turned into stone by the Basilisk?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature that causes petrification in the Harry Potter series?",
-            "2. In which book or movie does the petrification by the Basilisk take place?",
-            "3. Which Hogwarts student is the first victim of the Basilisk's petrification?"
-        ]
+            "1. Who is the first character to be petrified by the Basilisk in the Harry Potter series?",
+            "2. What event triggers the petrification of the first character by the Basilisk?",
+            "3. Can you identify the specific location where the initial petrification by the Basilisk occurs?"
+        ],
+        "id": 364
     },
     {
         "original_query": "What spell does Harry use to stun Umbridge's squad?",
         "query_variants": [
-            "Which spell did Harry cast to incapacitate Umbridge's group?"
+            "Which spell did Harry employ to render Umbridge's troops unconscious?"
         ],
         "sub_questions": [
             "1. What is the name of the spell Harry uses to stun Umbridge's squad?",
-            "2. In which book or movie does Harry stun Umbridge's squad?",
-            "3. What is the incantation for the spell Harry uses to stun Umbridge's squad?"
-        ]
+            "2. How does the spell work to render the squad unconscious?",
+            "3. Is this spell a part of a larger series of spells Harry has learned throughout the series?"
+        ],
+        "id": 365
     },
     {
         "original_query": "What is the name of the Hufflepuff house ghost?",
         "query_variants": [
-            "Who is the ghost that haunts the Hufflepuff house?"
+            "Can you tell me the name of the ghost associated with the Hufflepuff house?"
         ],
         "sub_questions": [
-            "1. What is the name of the Hufflepuff house ghost?",
-            "2. Which Hogwarts house does the ghost in question represent?",
-            "3. What is the role of a house ghost in the Harry Potter series?"
-        ]
+            "1. Who is the ghost that resides in the Hufflepuff house?",
+            "2. What is the name of the Hufflepuff house ghost?",
+            "3. Can you provide details about the Hufflepuff house ghost's identity?"
+        ],
+        "id": 366
     },
     {
         "original_query": "What creature does Harry fight in the lake during the second task?",
         "query_variants": [
-            "Which beast does Harry encounter and battle in the lake as part of the second challenge?"
+            "Which beast does Harry battle in the lake during the second challenge?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature Harry fights in the lake?",
-            "2. Which task of the Triwizard Tournament involves Harry fighting the creature in the lake?",
-            "3. In which book or movie does Harry fight the creature in the lake?"
-        ]
+            "1. What is the name of the creature Harry Potter encounters in the lake during the second task of the Triwizard Tournament?",
+            "2. How does Harry manage to defeat or escape from this creature?",
+            "3. Are there any other characters present when Harry faces this creature, and if so, what roles do they play?"
+        ],
+        "id": 367
     },
     {
         "original_query": "Who becomes Harry's Potions teacher in his first year?",
         "query_variants": [
-            "Which professor teaches Harry Potions during his initial year at Hogwarts?"
+            "Which individual is appointed as Harry's Potions instructor during his initial year at Hogwarts?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What subject does Harry study that involves Potions?",
-            "2. In which year of Hogwarts does Harry first encounter his Potions teacher?",
-            "3. What is the name of the teacher who instructs Harry in Potions during his first year?"
-        ]
+            "1. Who is the Potions teacher in Harry's first year at Hogwarts?",
+            "2. Can you name the individual who teaches Potions to Harry during his initial year at school?",
+            "3. Who was the Potions master for Harry Potter in his first year of attendance?"
+        ],
+        "id": 368
     },
     {
         "original_query": "What is the name of the spell that conjures water?",
         "query_variants": [
-            "What spell is used to create or summon water?"
+            "Could you please tell me the name of the spell that creates water?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the spell that conjures water in the Harry Potter universe?",
-            "2. Which spell in Harry Potter is specifically used to create or summon water?",
-            "3. In what context or by whom is the water?",
-            "conjuring spell typically used in the Harry Potter series?"
-        ]
+            "1. What is the name of the spell that conjures water?",
+            "2. How does the water-conjuring spell work in the Harry Potter universe?",
+            "3. Are there any other spells that can create water in the series?"
+        ],
+        "id": 369
     },
     {
         "original_query": "Who is the head of Hufflepuff house?",
         "query_variants": [
-            "'What is the name of the Hufflepuff house leader?'"
+            "Which individual serves as the leader of the Hufflepuff house?"
         ],
         "sub_questions": [
-            "1. What is the name of the Hufflepuff house head in the Harry Potter series?",
-            "2. Which book or movie introduces the head of Hufflepuff house?",
-            "3. What are the key characteristics or traits of the Hufflepuff house head?"
-        ]
+            "1. What is the name of the head of the Hufflepuff house?",
+            "2. Can you provide the name of the current head of the Hufflepuff house?",
+            "3. Who was the founder of the Hufflepuff house?"
+        ],
+        "id": 370
     },
     {
-        "original_query": "What object does Harry use to destroy Hufflepuff's Cup?",
+        "original_query": "What object does Hermione use to destroy Hufflepuff's Cup?",
         "query_variants": [
-            "'With what item does Harry Potter obliterate Hufflepuff's Cup?'"
+            "Hermione employs what object to destroy Hufflepuff's Cup?"
         ],
         "sub_questions": [
-            "1. What object does Harry Potter use to destroy Hufflepuff's Cup?",
-            "2. In which book or movie does Harry destroy Hufflepuff's Cup?",
-            "3. Why is Hufflepuff's Cup significant in the Harry Potter series?"
-        ]
+            "1. What object does Hermione use to destroy Hufflepuff's Cup?",
+            "2. Is the object a magical item?",
+            "3. Can you name the author of the Harry Potter series?"
+        ],
+        "id": 371
     },
     {
         "original_query": "What is the name of the charm that locks doors?",
         "query_variants": [
-            "What charm is used to secure doors shut?"
+            "Could you please tell me the name of the charm that is used to secure doors?"
         ],
         "sub_questions": [
-            "1. What is the name of the charm used to lock doors in the Harry Potter universe?",
-            "2. How is the door?",
-            "locking charm typically performed or cast?",
-            "3. Are there any specific limitations or counter?",
-            "spells associated with the door?",
-            "locking charm?"
-        ]
+            "1. What is the specific incantation used in the Harry Potter series to lock doors?",
+            "2. Are there any other charms or spells that can be used for locking doors in the wizarding world?",
+            "3. How effective is the door-locking charm compared to other security measures in the books?"
+        ],
+        "id": 372
     },
     {
         "original_query": "Who is the conductor of the Knight Bus?",
         "query_variants": [
-            "'What is the name of the person who drives the Knight Bus?'"
+            "Who is the individual responsible for conducting the Knight Bus?"
         ],
         "sub_questions": [
-            "1. What is the name of the Knight Bus conductor?",
-            "2. What are the responsibilities of the Knight Bus conductor?",
-            "3. In which Harry Potter book or movie does the Knight Bus conductor first appear?"
-        ]
+            "1. Who is the conductor of the Knight Bus?",
+            "2. What is the role of the conductor on the Knight Bus?",
+            "3. Are there any notable conductors in the Harry Potter series?"
+        ],
+        "id": 373
     },
     {
         "original_query": "What is the name of the spell that reveals hidden objects?",
         "query_variants": [
-            "'Can you tell me the name of the spell used to uncover concealed items?'"
+            "Could you please tell me the name of the spell that uncovers concealed items?"
         ],
         "sub_questions": [
-            "1. What is the name of the spell used to reveal hidden objects in the Harry Potter universe?",
-            "2. Which characters in Harry Potter are known to use the spell that reveals hidden objects?",
-            "3. In which book or movie does the spell for revealing hidden objects first appear?"
-        ]
+            "1. What is the name of the spell that reveals hidden objects?",
+            "2. How does the spell work to uncover concealed items?",
+            "3. Are there any side effects or limitations to this spell's effectiveness?"
+        ],
+        "id": 374
     },
     {
         "original_query": "Who owns the wand shop in Diagon Alley?",
         "query_variants": [
-            "'What is the name of the person who runs the wand store in Diagon Alley?'"
+            "Which individual or entity possesses the wand shop located in Diagon Alley?"
         ],
         "sub_questions": [
-            "1. What is the name of the wand shop in Diagon Alley?",
-            "2. Who is the proprietor of the wand shop in Diagon Alley?",
-            "3. In which location within Diagon Alley is the wand shop situated?"
-        ]
+            "1. Who is the owner of the wand shop in Diagon Alley?",
+            "2. What is the name of the wand shop in Diagon Alley?",
+            "3. How is the wand shop in Diagon Alley typically depicted in the Harry Potter series?"
+        ],
+        "id": 375
     },
     {
         "original_query": "What is the name of the plant that shrieks when pulled from the ground?",
         "query_variants": [
-            "What plant is known for emitting a shrieking sound when uprooted?"
+            "Which plant's roots emit a loud, shrill sound when disturbed?"
         ],
         "sub_questions": [
-            "1. What is the name of the plant that makes a shrieking sound?",
-            "2. In which Harry Potter book or movie does this shrieking plant appear?",
-            "3. What magical property or use does the shrieking plant have in the wizarding world?"
-        ]
+            "1. What is the botanical name of the plant that emits a shrieking sound when removed from its natural habitat?",
+            "2. How does this plant's reaction to being pulled from the ground affect its environment?",
+            "3. Are there any known magical properties associated with this plant in the Harry Potter universe?"
+        ],
+        "id": 376
     },
     {
         "original_query": "Who is the head of Ravenclaw house?",
         "query_variants": [
-            "'What is the name of the Ravenclaw house leader?'"
+            "Which student serves as the head of the Ravenclaw house?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the Ravenclaw house ghost?",
-            "2. Who is the founder of Ravenclaw house?",
-            "3. What are the house colors of Ravenclaw?"
-        ]
+            "1. What is the name of the head of the Ravenclaw house?",
+            "2. How is the head of Ravenclaw house typically depicted in the Harry Potter series?",
+            "3. Are there any notable achievements or characteristics associated with the head of Ravenclaw?"
+        ],
+        "id": 377
     },
     {
         "original_query": "What spell does Hermione use to confund the Slytherin Keeper?",
         "query_variants": [
-            "Which spell does Hermione cast to confuse the Slytherin Quidditch Keeper?"
+            "Hermione casts a spell to make the Slytherin Keeper unconscious."
         ],
         "sub_questions": [
             "1. What is the name of the spell Hermione uses to confund the Slytherin Keeper?",
-            "2. In which book or movie does Hermione confund the Slytherin Keeper?",
-            "3. What is the purpose of the Confundo spell in the context of Hermione's action?"
-        ]
+            "2. How does the spell Hermione uses to confund the Slytherin Keeper work?",
+            "3. In which book or movie does Hermione use the spell to confund the Slytherin Keeper?"
+        ],
+        "id": 378
     },
     {
         "original_query": "What is the name of the magical hospital in London?",
         "query_variants": [
-            "'Can you tell me the name of the enchanted medical facility located in London?'"
+            "Could you tell me the name of the magical hospital located in London?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the magical hospital mentioned in the Harry Potter series?",
-            "2. In which city is the magical hospital located?",
-            "3. What type of institution is St. Mungo's in the context of the wizarding world?"
-        ]
+            "1. What is the name of the magical hospital in the Harry Potter series?",
+            "2. Is this hospital located in London?",
+            "3. How does this magical hospital function within the context of the series?"
+        ],
+        "id": 379
     },
     {
         "original_query": "Who replaces Hagrid as Care of Magical Creatures teacher?",
         "query_variants": [
-            "Which character takes over Hagrid's role as the Care of Magical Creatures instructor?"
+            "Which individual takes over as the teacher of Care of Magical Creatures after Hagrid's departure?"
         ],
         "sub_questions": [
-            "1. Who becomes the Care of Magical Creatures teacher after Hagrid?",
-            "2. In which book or movie does Hagrid stop teaching Care of Magical Creatures?",
-            "3. What are the circumstances that lead to Hagrid being replaced as the Care of Magical Creatures teacher?"
-        ]
+            "1. Who was the new teacher for Care of Magical Creatures after Hagrid left?",
+            "2. What was the name of the person who took over Hagrid's position as the Care of Magical Creatures teacher?",
+            "3. Can you identify the individual who succeeded Hagrid in the role of teaching Care of Magical Creatures?"
+        ],
+        "id": 380
     },
     {
         "original_query": "What is the name of the charm that silences noise?",
         "query_variants": [
-            "What charm is used to muffle or suppress sound?"
+            "Could you tell me the name of the charm that muffles sound?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
             "1. What is the name of the charm that silences noise in the Harry Potter universe?",
-            "2. Which spell in Harry Potter is used to stop or reduce noise?",
-            "3. What is the incantation for the spell that creates silence in the Harry Potter series?"
-        ]
+            "2. How does the silencing charm work, and what are its effects?",
+            "3. Are there any known counter-curses or ways to break the silencing charm?"
+        ],
+        "id": 381
     },
     {
         "original_query": "Who is the first Death Eater Harry encounters in the graveyard?",
         "query_variants": [
-            "Which Death Eater does Harry first come across in the graveyard?"
+            "Which Death Eater does Harry first meet in the graveyard?"
         ],
         "sub_questions": [
-            "1. What is the name of the Death Eater Harry meets in the graveyard?",
-            "2. In which book or movie does Harry encounter a Death Eater in the graveyard?",
-            "3. What significant event occurs during Harry's encounter with the Death Eater in the graveyard?"
-        ]
+            "1. Who is the first Death Eater Harry encounters in the graveyard?",
+            "2. What is the name of the Death Eater who appears first in the scene?",
+            "3. Can you identify the character who initiates the confrontation with Harry in the graveyard?"
+        ],
+        "id": 382
     },
     {
-        "original_query": "What creature does Hagrid breed illegally in his hut?",
+        "original_query": "What creature does Hagrid breed?",
         "query_variants": [
-            "'Which illegal creature is Hagrid raising in his hut?'"
+            "Which animal does Hagrid raise?"
         ],
         "sub_questions": [
-            "1. What creature is Hagrid known to breed in his hut?",
-            "2. Is the creature Hagrid breeds considered illegal in the wizarding world?",
-            "3. Where does Hagrid keep the creature he breeds?"
-        ]
+            "1. What is the name of the creature that Hagrid breeds?",
+            "2. How does Hagrid obtain these creatures?",
+            "3. Are these creatures magical or non-magical?"
+        ],
+        "id": 383
     },
     {
         "original_query": "What is the name of the spell that lights the tip of a wand?",
         "query_variants": [
-            "What spell causes the tip of a wand to emit light?"
+            "Could you please tell me the name of the spell that ignites the wand's tip?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the spell that produces light?",
-            "2. Which spell is commonly used to light the tip of a wand?",
-            "3. In the Harry Potter series, what spell creates a glowing effect at the wand's end?"
-        ]
+            "1. What is the specific incantation used to illuminate the wand's tip?",
+            "2. Can you identify the spell that creates a glowing effect at the wand's end?",
+            "3. How does the magic wand's tip become illuminated in the Harry Potter universe?"
+        ],
+        "id": 384
     },
     {
         "original_query": "Who is the matron of Hogwarts infirmary?",
         "query_variants": [
-            "'What is the name of the nurse in charge of the Hogwarts hospital wing?'"
+            "Which individual serves as the matron of Hogwarts' infirmary?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the Hogwarts infirmary matron?",
-            "2. In which Harry Potter book or movie does the infirmary matron first appear?",
-            "3. What are the primary responsibilities of the Hogwarts infirmary matron?"
-        ]
+            "1. Who is the current matron of the Hogwarts infirmary?",
+            "2. What are the qualifications and responsibilities of the matron at Hogwarts infirmary?",
+            "3. How does the role of the matron at the Hogwarts infirmary compare to other staff members at Hogwarts?"
+        ],
+        "id": 385
     },
     {
         "original_query": "What is the name of the charm that unlocks doors?",
         "query_variants": [
-            "'Can you tell me the name of the charm used to open locked doors?'"
+            "Could you tell me the name of the charm that opens doors?"
         ],
         "sub_questions": [
-            "1. What is the specific spell used to unlock doors in the Harry Potter universe?",
-            "2. Who taught Harry Potter and his friends the charm for unlocking doors?",
-            "3. In which book or movie is the door?",
-            "unlocking charm first introduced?"
-        ]
+            "1. What is the specific incantation used in the Harry Potter series to unlock doors?",
+            "2. Are there any side effects or limitations to using this particular charm?",
+            "3. How does this door-unlocking charm compare to other spells in terms of effectiveness and popularity among wizards?"
+        ],
+        "id": 386
     },
     {
         "original_query": "Who does Ron take to the Yule Ball?",
         "query_variants": [
-            "Which person accompanies Ron to the Yule Ball?"
+            "Which girl does Ron accompany to the Yule Ball?"
         ],
         "sub_questions": [
-            "1. What is the name of the event Ron attends with his date?",
-            "2. Who accompanies Ron to the event?",
-            "3. In which book or movie does Ron attend this event with his date?"
-        ]
+            "1. Who is the partner that Ron takes to the Yule Ball?",
+            "2. What is the significance of Ron's choice of partner for the Yule Ball?",
+            "3. How does Ron's partner at the Yule Ball compare to other characters in the series?"
+        ],
+        "id": 387
     },
     {
         "original_query": "What is the name of the spell that banishes objects?",
         "query_variants": [
-            "What spell is used to make objects disappear?"
+            "Could you please tell me the name of the spell that specifically targets and removes objects?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the incantation for the spell that banishes objects?",
-            "2. Which spell in the Harry Potter series is specifically used to move or remove objects?",
-            "3. What is the name of the charm that can be used to send objects flying away?"
-        ]
+            "1. What is the name of the spell that can be used to banish objects?",
+            "2. How does the spell that banishes objects work in the Harry Potter universe?",
+            "3. Are there any side effects or limitations to the spell that banishes objects?"
+        ],
+        "id": 388
     },
     {
         "original_query": "Who is the Slytherin Quidditch captain in Harry's sixth year?",
         "query_variants": [
-            "'During Harry's sixth year, which student served as the captain of the Slytherin Quidditch team?'"
+            "Can you tell me who was the Quidditch captain for the Slytherin team during Harry's sixth year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. Which house does the Quidditch captain in question belong to?",
-            "2. What year of Harry's schooling is being referenced in the query?",
-            "3. What specific role does the individual in question hold on their Quidditch team?"
-        ]
+            "1. Who is the character that holds the position of Slytherin Quidditch captain during Harry's sixth year at Hogwarts?",
+            "2. Can you identify the specific year in which this character serves as the Slytherin Quidditch captain?",
+            "3. What is the name of the character who leads the Slytherin team in the Quidditch matches in Harry's sixth year?"
+        ],
+        "id": 389
     },
     {
         "original_query": "What object does Harry use to destroy the locket Horcrux?",
         "query_variants": [
-            "'Which item does Harry employ to obliterate the locket that is a Horcrux?'"
+            "Which item does Harry employ to obliterate the locket Horcrux?"
         ],
         "sub_questions": [
-            "1. What is the name of the locket Horcrux in the Harry Potter series?",
-            "2. Which character originally owned the locket Horcrux?",
-            "3. What magical object does Harry Potter use to destroy Horcruxes?"
-        ]
+            "1. What is the locket Horcrux?",
+            "2. How does Harry destroy the locket Horcrux?",
+            "3. Who or what was involved in the destruction of the locket Horcrux?"
+        ],
+        "id": 390
     },
     {
         "original_query": "What is the name of the magical newspaper?",
         "query_variants": [
-            "'Can you tell me the title of the enchanted publication?'"
+            "Could you tell me the name of the magical newspaper?"
         ],
         "sub_questions": [
-            "1. What is the name of the magical newspaper in the Harry Potter series?",
-            "2. Who is the editor of the magical newspaper in Harry Potter?",
-            "3. What are some notable headlines or stories featured in the magical newspaper?"
-        ]
+            "1. What is the name of the magical newspaper?",
+            "2. How is this newspaper used in the Harry Potter series?",
+            "3. Are there any notable characters associated with this newspaper?"
+        ],
+        "id": 391
     },
     {
         "original_query": "Who teaches Transfiguration at Hogwarts?",
         "query_variants": [
-            "Which professor is responsible for instructing Transfiguration classes at Hogwarts School of Witchcraft and Wizardry?"
+            "Which professor is responsible for teaching Transfiguration at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the Transfiguration professor at Hogwarts?",
-            "2. Which Hogwarts teacher is responsible for teaching Transfiguration?",
-            "3. In the Harry Potter series, who holds the position of Transfiguration teacher?"
-        ]
+            "1. Who is the current Transfiguration professor at Hogwarts?",
+            "2. How many Transfiguration professors have been mentioned in the Harry Potter series?",
+            "3. Are there any notable Transfiguration professors who have appeared in the books or movies?"
+        ],
+        "id": 392
     },
     {
         "original_query": "What is the name of the spell that summons objects?",
         "query_variants": [
-            "What spell is used to bring objects into existence or to the caster's location?"
+            "Which incantation is used to conjure objects into existence?"
         ],
         "sub_questions": [
-            "1. What is the incantation for the spell that summons objects?",
-            "2. Which spell in the Harry Potter series is specifically used to summon objects?",
-            "3. What is the name of the charm that allows a witch or wizard to call objects to them?"
-        ]
+            "1. What is the name of the spell that summons objects?",
+            "2. How does the spell that summons objects work in the Harry Potter universe?",
+            "3. Are there any side effects or limitations to using the spell that summons objects?"
+        ],
+        "id": 393
     },
     {
         "original_query": "Who is the ghost of Slytherin house?",
         "query_variants": [
-            "'What is the identity of the ghost associated with Slytherin house?'"
+            "Can you identify the ghostly figure associated with the Slytherin house?"
         ],
         "sub_questions": [
-            "1. What is the name of the ghost associated with Slytherin house?",
-            "2. Which Hogwarts house does the ghost in question represent?",
-            "3. What is the significance of the Slytherin house ghost in the Harry Potter series?"
-        ]
+            "1. Who is the ghost of Slytherin house?",
+            "2. What is the ghost's role in the house?",
+            "3. How does the ghost interact with the students of Slytherin?"
+        ],
+        "id": 394
     },
     {
         "original_query": "What is the name of the charm that creates a shield?",
         "query_variants": [
-            "What charm is used to conjure a protective shield?"
+            "Which charm grants the ability to create a protective shield?"
         ],
         "sub_questions": [
-            "1. What is the specific name of the charm used to create a protective shield in the Harry Potter universe?",
-            "2. Which spell incantation is associated with the shield charm?",
-            "3. What are the primary uses or purposes of the shield charm in the Harry Potter series?"
-        ]
+            "1. What is the name of the charm that creates a shield in the Harry Potter series?",
+            "2. Which character is known for using the shield charm frequently?",
+            "3. How does the shield charm work in the context of the wizarding world?"
+        ],
+        "id": 395
     },
     {
         "original_query": "Who is the librarian at Hogwarts?",
         "query_variants": [
-            "'What is the name of the librarian at Hogwarts?'"
+            "Which individual serves as the librarian at Hogwarts?"
         ],
         "sub_questions": [
             "1. What is the name of the librarian at Hogwarts?",
-            "2. Which Hogwarts staff member is responsible for the library?",
-            "3. In which Harry Potter book or movie does the librarian first appear?"
-        ]
+            "2. What are the responsibilities of the librarian at Hogwarts?",
+            "3. How does the librarian fit into the overall structure of Hogwarts?"
+        ],
+        "id": 396
     },
     {
         "original_query": "What is the name of the spell that repairs broken objects?",
         "query_variants": [
-            "'Can you tell me the name of the spell used to mend damaged items?'"
+            "Could you tell me the name of the spell that restores broken items?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the spell used to repair broken objects in the Harry Potter series?",
-            "2. Which character in Harry Potter is most commonly associated with using the spell to repair broken objects?",
-            "3. In which book or movie does the spell to repair broken objects first appear?"
-        ]
+            "1. What is the name of the spell that repairs broken objects?",
+            "2. How is this spell typically used in the Harry Potter series?",
+            "3. Are there any side effects or limitations to this spell?"
+        ],
+        "id": 397
     },
     {
         "original_query": "What is the name of the spell that causes objects to swell in size?",
         "query_variants": [
-            "'Which spell is responsible for making objects grow larger?'"
+            "Could you please tell me the name of the spell that makes things expand in size?"
         ],
         "sub_questions": [
-            "1. What is the spell that makes objects grow larger?",
-            "2. In which Harry Potter book or movie is this spell first introduced?",
-            "3. What are the incantation and wand movement for this spell?"
-        ]
+            "1. What is the name of the spell that causes objects to swell in size?",
+            "2. How is this spell typically used in the Harry Potter series?",
+            "3. Are there any side effects or limitations to this spell?"
+        ],
+        "id": 398
     },
     {
-        "original_query": "Who is the first student to be Sorted into Slytherin in Harry\u2019s year?",
+        "original_query": "Who is the first student to be Sorted into Slytherin in Harry's year?",
         "query_variants": [
-            "Which student in Harry's year was the first to be placed in Slytherin during the Sorting Ceremony?"
+            "Can you identify the first student who was sorted into Slytherin during Harry's year at Hogwarts?"
         ],
         "sub_questions": [
-            "1. What is the name of the first student Sorted into Slytherin in Harry\u2019s year?",
-            "2. In which book or movie is the Sorting of Harry\u2019s year into Slytherin first depicted?",
-            "3. Which character performs the Sorting Hat ceremony for Harry\u2019s year?"
-        ]
+            "1. When was the first student Sorted into Slytherin in Harry's year?",
+            "2. What was the name of the first student Sorted into Slytherin in Harry's year?",
+            "3. How did the Sorting Hat determine the first student to be Sorted into Slytherin in Harry's year?"
+        ],
+        "id": 399
     },
     {
         "original_query": "What creature does Harry encounter in the pipes of Hogwarts?",
         "query_variants": [
-            "'Which being does Harry come across within the plumbing system of Hogwarts?'"
+            "What mysterious creature resides within the Hogwarts pipes?"
         ],
         "sub_questions": [
-            "1. What type of creature does Harry encounter in the pipes of Hogwarts?",
-            "2. In which location within Hogwarts does Harry encounter this creature?",
-            "3. During which book or event does Harry encounter the creature in the pipes?"
-        ]
+            "1. What is the name of the creature Harry meets in the pipes of Hogwarts?",
+            "2. How does this creature interact with Harry?",
+            "3. Does this creature play a significant role in the story?"
+        ],
+        "id": 400
     },
     {
         "original_query": "What is the name of the charm that amplifies the voice?",
         "query_variants": [
-            "What charm is used to make someone's voice louder?"
+            "Could you tell me the name of the charm that enhances one's voice?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the charm that affects sound?",
-            "2. Which spell in Harry Potter is used to make someone\u2019s voice louder?",
-            "3. What is the purpose of the Sonorus charm?"
-        ]
+            "1. What is the name of the charm that amplifies the voice?",
+            "2. How does this charm work in the context of the Harry Potter universe?",
+            "3. Are there any other charms or spells that have a similar effect in the series?"
+        ],
+        "id": 401
     },
     {
-        "original_query": "Who replaces Sirius Black as Harry\u2019s godfather figure after his death?",
+        "original_query": "Who replaces Sirius Black as Harry's godfather figure after his death?",
         "query_variants": [
-            "After Sirius Black's death, who steps into the role of Harry's surrogate godfather?"
+            "Who takes on the role of godfather to Harry after Sirius Black's passing?"
         ],
         "sub_questions": [
-            "1. Who was Harry Potter's original godfather?",
-            "2. When and how did Sirius Black die in the Harry Potter series?",
-            "3. Does Harry Potter have a replacement godfather figure after Sirius Black's death?"
-        ]
+            "1. Who was the person appointed as Harry's godfather figure after Sirius Black's death?",
+            "2. How did the replacement come about, and what was the context of their relationship with Harry?",
+            "3. What impact did this replacement have on Harry's life and the overall narrative of the series?"
+        ],
+        "id": 402
     },
     {
-        "original_query": "What is the name of the magical creature that guards the Sorcerer\u2019s Stone?",
+        "original_query": "What is the name of the magical creature that guards the Sorcerer's Stone?",
         "query_variants": [
-            "'Which mythical being is tasked with protecting the Sorcerer\u2019s Stone?'"
+            "Which magical creature is responsible for protecting the Sorcerer's Stone?"
         ],
         "sub_questions": [
-            "1. What is the name of the creature that guards the Sorcerer\u2019s Stone?",
-            "2. What are the primary abilities of the creature guarding the Sorcerer\u2019s Stone?",
-            "3. In which Harry Potter book or movie does the creature guarding the Sorcerer\u2019s Stone first appear?"
-        ]
+            "1. What is the name of the magical creature that guards the Sorcerer's Stone?",
+            "2. How does this creature protect the Sorcerer's Stone?",
+            "3. Are there any other magical creatures mentioned in the Harry Potter series that guard important objects?"
+        ],
+        "id": 403
     },
     {
         "original_query": "What spell does Dumbledore use to put out the lights in Privet Drive?",
         "query_variants": [
-            "'Which spell does Dumbledore cast to extinguish the lights on Privet Drive?'"
+            "What incantation does Dumbledore employ to extinguish the lights in Privet Drive?"
         ],
         "sub_questions": [
-            "1. What spell is used to extinguish lights in the Harry Potter universe?",
-            "2. In which location does Dumbledore use the spell to put out the lights?",
-            "3. Who is the character that uses the spell to turn off the lights in Privet Drive?"
-        ]
+            "1. What spell is used by Albus Dumbledore to manipulate the lighting in Privet Drive?",
+            "2. Can you identify the specific incantation that causes the lights to flicker and go out?",
+            "3. How does Dumbledore's spell affect the electrical system in the location?"
+        ],
+        "id": 404
     },
     {
         "original_query": "Who becomes the Gryffindor Quidditch captain after Oliver Wood?",
         "query_variants": [
-            "Which character succeeds Oliver Wood as the Gryffindor Quidditch team captain?"
+            "Who takes over as the Gryffindor Quidditch captain after Oliver Wood?"
         ],
         "sub_questions": [
-            "1. Who was the Gryffindor Quidditch captain before the new one took over?",
-            "2. In which book or movie does the transition of Gryffindor Quidditch captaincy occur?",
-            "3. What are the key traits or achievements of the new Gryffindor Quidditch captain?"
-        ]
+            "1. Who was the new Gryffindor Quidditch captain after Oliver Wood?",
+            "2. In which year did the new captain take over the role?",
+            "3. What were the names of the players who played as the new captain's teammates in the Quidditch team?"
+        ],
+        "id": 405
     },
     {
         "original_query": "What is the name of the magical device used to replay memories?",
         "query_variants": [
-            "'Can you tell me the name of the enchanted tool that allows for the replaying of memories?'"
+            "Could you tell me the name of the magical device that enables the replaying of memories?"
         ],
         "sub_questions": [
-            "1. What is the name of the magical device used to replay memories?",
-            "2. How does the device for replaying memories function in the Harry Potter universe?",
-            "3. In which Harry Potter book or movie does the memory?",
-            "replaying device first appear?"
-        ]
+            "1. What is the name of the device that replays memories?",
+            "2. How does this magical device work?",
+            "3. Are there any known side effects or risks associated with using this memory-replaying tool?"
+        ],
+        "id": 406
     },
     {
         "original_query": "Who is the original owner of the Invisibility Cloak passed to Harry?",
         "query_variants": [
-            "'To whom did the Invisibility Cloak originally belong before it was given to Harry?'"
+            "Who originally owned the Invisibility Cloak that was given to Harry?"
         ],
         "sub_questions": [
-            "1. What is the name of the Invisibility Cloak passed to Harry?",
-            "2. Who originally owned the Invisibility Cloak before it was passed to Harry?",
-            "3. How did the original owner of the Invisibility Cloak acquire it?"
-        ]
+            "1. Who is the original owner of the Invisibility Cloak?",
+            "2. How did the Invisibility Cloak come to be in Harry's possession?",
+            "3. What is the significance of the Invisibility Cloak in the Harry Potter series?"
+        ],
+        "id": 407
     }
 ]

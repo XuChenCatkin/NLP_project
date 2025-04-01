@@ -1,0 +1,314 @@
+[
+    {
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "answer": "The Invisibility Cloak, given to Harry at Christmas in the first book, later helps him secretly gather information crucial to discovering the Chamber of Secrets.",
+        "list of reference": [
+            {
+                "ref_id": 447,
+                "passage": "Harry picked the shining, silvery cloth off the floor. It was strange to the touch, like water woven into material. \"It's an Invisibility Cloak,\" said Ron, a look of awe on his face. \"I'm sure it is - try it on.\" Harry threw the cloak around his shoulders and Ron gave a yell. \"It is! Look down!\" Harry looked down at his feet, but they were gone. He dashed to the mirror. Sure enough, his reflection looked back at him, just his head suspended in midair, his body completely invisible.",
+                "book": 1,
+                "chapter": 12
+            },
+            {
+                "ref_id": 1298,
+                "passage": "\"But we can't follow them now -\"\nErnie and Hannah were listening curiously. Harry's eyes narrowed as he focused on the spiders. If they pursued their fixed course, there could be no doubt about where they would end up. \"Looks like they're heading for the Forbidden Forest. ...\"\nAnd Ron looked even unhappier about that. At the end of the lesson Professor Sprout escorted the class to their Defense Against the Dark Arts lesson. Harry and Ron lagged behind the others so they could talk out of earshot. \"We'll have to use the Invisibility Cloak again,\" Harry told Ron. \"We can take Fang with us. He's used to going into the forest with Hagrid, he might be some help.\"",
+                "book": 2,
+                "chapter": 15
+            }
+        ],
+        "id": 1,
+        "question_variants": "In the first book, what item presented as a Christmas gift becomes crucial in deciphering a hidden message within the Chamber of the second book?",
+        "sub_questions": [
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "Which professor's casual remark about a potion ingredient in the first book connects to a trap's ingredient mentioned in the fourth book's tournament?",
+        "answer": "Snape's casual mention of bezoars as antidotes in the first book connects directly to their inclusion as a precaution during the Triwizard Tournament's third task in the fourth book.",
+        "list of reference": [
+            {
+                "ref_id": 304,
+                "passage": "\"Tut, tut - fame clearly isn't everything.\" He ignored Hermione's hand. \"Let's try again. Potter, where would you look if I told you to find me a bezoar?\" Hermione stretched her hand as high into the air as it would go without her leaving her seat, but Harry didn't have the faintest idea what a bezoar was. He tried not to look at Malfoy, Crabbe, and Goyle, who were shaking with laughter.",
+                "book": 1,
+                "chapter": 8
+            },
+            {
+                "ref_id": 3353,
+                "passage": "Could he perhaps ambush her as she was going into a bathroom? But no - she even seemed to go there with an escort of four or five girls. Yet if he didn't do it soon, she was bound to have been asked by somebody else. He found it hard to concentrate on Snape's Potions test, and consequently forgot to add the key ingredient - a bezoar - meaning that he received bottom marks. He didn't care, though; he was too busy screwing up his courage for what he was about to do. When the bell rang, he grabbed his bag, and hurried to the dungeon door. \"I'll meet you at dinner,\" he said to Ron and Hermione, and he dashed off upstairs. He'd just have to ask Cho for a private word, that was all.",
+                "book": 4,
+                "chapter": 22
+            }
+        ],
+        "id": 2,
+        "question_variants": "Can you identify the professor whose casual mention of a potion ingredient in the first book is linked to the ingredient of a trap mentioned in the fourth book's tournament?",
+        "sub_questions": [
+            "Who is the professor who made the casual remark about a potion ingredient in the first book?",
+            "What specific ingredient did the professor mention in their casual remark?",
+            "How does this ingredient mentioned in the first book connect to the trap's ingredient in the fourth book's tournament?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "What specific detail about a mirror in the first book, when paired with a family revelation in the fifth book, suggests a hidden bloodline connection?",
+        "answer": "The Mirror of Erised reveals Harry's longing for family, a desire that echoes the hidden, troubled legacy of the Black family unveiled in Book 5. While the mirror doesn't bear an inscription linking to bloodlines, its reflection of secret desires pairs with the family revelations at Grimmauld Place to underscore the importance of heritage and legacy.",
+        "list of reference": [
+            {
+                "ref_id": 469,
+                "passage": "He had seen his parents and would be seeing them again tonight. He had almost forgotten about Flamel. It didn't seem very important anymore. Who cared what the three-headed dog was guarding? What did it matter if Snape stole it, really? \"Are you all right?\" said Ron. \"You look odd.\" What Harry feared most was that he might not be able to find the mirror room again. With Ron covered in the cloak, too, they had to walk much more slowly the next night. They tried retracing Harry's route from the library, wandering around the dark passageways for nearly an hour. \"I'm freezing,\" said Ron.",
+                "book": 1,
+                "chapter": 12
+            },
+            {
+                "ref_id": 4353,
+                "passage": "\"This solid silver, mate?\" \"Yes,\" said Sirius, surveying it with distaste. \"Finest fifteenth-century goblin-wrought silver, embossed with the Black family crest.\" \"That'd come off, though,\" muttered Mundungus, polishing it with his cuff. \"Fred - George - NO, JUST CARRY THEM!\" Mrs. Weasley shrieked. Harry, Sirius, and Mundungus looked around and, a split second later, dived away from the table. Fred and George had bewitched a large cauldron of stew, an iron flagon of butterbeer, and a heavy wooden breadboard, complete with knife, to hurtle through the air toward them. The stew skidded the length of the table and came to a halt just before the end, leaving a long black burn on the wooden surface, the flagon of butterbeer fell with a crash, spilling its contents everywhere, and the bread knife slipped off the board and landed, point down and quivering ominously, exactly where Sirius's right hand had been seconds before.",
+                "book": 5,
+                "chapter": 5
+            }
+        ],
+        "id": 3,
+        "question_variants": "How does a particular detail about a mirror in the first installment, when combined with a family secret unveiled in the fifth book, hint at a concealed lineage link?",
+        "sub_questions": [
+            "What is the specific detail about a mirror in the first Harry Potter book?",
+            "How does this detail relate to a family revelation in the fifth book?",
+            "What does this connection imply about a hidden bloodline?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "What detail about a pet in the second book, combined with a map detail in the third book, uncovers a hidden traitor?",
+        "answer": "Scabbers' long life paired with the Marauder's Map reveals Pettigrew.",
+        "list of reference": [
+            {
+                "ref_id": 221,
+                "passage": "I've got Bill's old robes, Charlie's old wand, and Percy's old rat.\" Ron reached inside his jacket and pulled out a fat gray rat, which was asleep. \"His name's Scabbers and he's useless, he hardly ever wakes up. Percy got an owl from my dad for being made a prefect, but they couldn't aff- I mean, I got Scabbers instead.\" Ron's ears went pink. He seemed to think he'd said too much, because he went back to staring out of the window. Harry didn't think there was anything wrong with not being able to afford an owl. After all, he'd never had any money in his life until a month ago, and he told Ron so, all about having to wear Dudley's old clothes and never getting proper birthday presents.",
+                "book": 1,
+                "chapter": 6
+            },
+            {
+                "ref_id": 2272,
+                "passage": "Ron hesitated, then put a hand inside his robes. Scabbers emerged, thrashing desperately; Ron had to seize his long bald tail to stop him escaping. Crookshanks stood up on Black's leg and made a soft hissing noise. Lupin moved closer to Ron. He seemed to be holding his breath as he gazed intently at Scabbers. \"What?\" Ron said again, holding Scabbers close to him, looking scared. \"What's my rat got to do with anything?\" \"That's not a rat,\" croaked Sirius Black suddenly. \"What d'you mean - of course he's a rat -\"\n\"No, he's not,\" said Lupin quietly. \"He's a wizard.\" \"An Animagus,\" said Black, \"by the name of Peter Pettigrew.\"",
+                "book": 3,
+                "chapter": 17
+            }
+        ],
+        "id": 4,
+        "question_variants": "How does a specific pet-related revelation in the second book, when paired with a particular map detail in the third book, expose a secret traitor?",
+        "sub_questions": [
+            "What pet appears in the second book of the Harry Potter series?",
+            "What specific map detail is mentioned in the third book?",
+            "How does the information from the pet and the map detail reveal a hidden traitor?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "Which magical object introduced in the third book, despite mapping every corner of Hogwarts, fails to reveal certain hidden locations as highlighted in the fifth book?",
+        "answer": "The Marauder's Map, while it accurately shows the whereabouts of everyone within Hogwarts, does not display magically concealed areas like the Room of Requirement, underscoring its limitation to fixed or known spaces.",
+        "list of reference": [
+            {
+                "ref_id": 2096,
+                "passage": "\"So how about it?\" Ron said to Harry as though there had been no interruption. \"Come on, last time we went you didn't see anything. You haven't even been inside Zonko's yet!\" Harry looked around to check that Hermione was well out of earshot. \"Okay,\" he said. \"But I'm taking the Invisibility Cloak this time.\" On Saturday morning, Harry packed his Invisibility Cloak in his bag, slipped the Marauder's Map into his pocket, and went down to breakfast with everyone else. Hermione kept shooting suspicious looks down the table at him, but he avoided her eye and was careful to let her see him walking back up the marble staircase in the entrance hall as everybody else proceeded to the front doors.\n\" 'Bye!\" Harry called to Ron. \"See you when you get back!\" Ron grinned and winked.",
+                "book": 3,
+                "chapter": 14
+            },
+            {
+                "ref_id": 5026,
+                "passage": "\"Dobby heard tell of it from the other house-elves when he came to Hogwarts, sir. It is known by us as the Come and Go Room, sir, or else as the Room of Requirement!\" \"Why?\" said Harry curiously. \"Because it is a room that a person can only enter,\" said Dobby seriously, \"when they have real need of it. Sometimes it is there, and sometimes it is not, but when it appears, it is always equipped for the seeker's needs.",
+                "book": 5,
+                "chapter": 18
+            }
+        ],
+        "id": 5,
+        "question_variants": "What magical artifact, introduced in the third installment, can map out the entire Hogwarts castle but still misses specific secret areas mentioned in the fifth book?",
+        "sub_questions": [
+            "What is the name of the magical object introduced in the third Harry Potter book?",
+            "How does this object function and what is its purpose?",
+            "In the fifth book, why does this object fail to reveal certain hidden locations?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "Later in the series, we learn that one character's patronus is a doe. How does this subtle detail connect back to earlier hints in the books, and what does it reveal about his personal history?",
+        "answer": "Severus Snape's Patronus is a doe—the same as Lily Potter's—which reveals his lifelong, unspoken love for her.",
+        "list of reference": [
+            {
+                "ref_id": 9218,
+                "passage": "And you never realized it, because of the thing you can't understand. You never saw Snape cast a Patronus, did you, Riddle?\" Voldemort did not answer. They continued to circle each other like wolves about to tear each other apart. \"Snape's Patronus was a doe,\" said Harry, \"the same as my mother's, because he loved her for nearly all of his life, from the time when they were children. You should have realized,\" he said as he saw Voldemort's nostrils flare, \"he asked you to spare her life, didn't he?\"",
+                "book": 7,
+                "chapter": 36
+            },
+            {
+                "ref_id": 9098,
+                "passage": "Dumbledore watched her fly away, and as her silvery glow faded he turned back to Snape, and his eyes were full of tears. \"After all this time?\" \"Always,\" said Snape. And the scene shifted. Now, Harry saw Snape talking to the portrait of Dumbledore behind his desk. \"You will have to give Voldemort the correct date of Harry's departure from his aunt and uncle's,\" said Dumbledore. \"Not to do so will raise suspicion, when Voldemort believes you so well informed. However, you must plant the idea of decoys; that, I think, ought to ensure Harry's safety. Try Confunding Mundungus Fletcher. And Severus, if you are forced to take part in the chase, be sure to act your part convincingly.",
+                "book": 7,
+                "chapter": 33
+            }
+        ],
+        "id": 6,
+        "question_variants": "In the later installments of the series, a character's patronus is revealed to be a doe. This seemingly minor detail is a clever reference to earlier book hints, shedding light on his personal history and providing a deeper understanding of his character.",
+        "sub_questions": [
+            "What is the significance of a doe as a patronus charm in the Harry Potter series?",
+            "How does this specific patronus detail relate to the character's earlier experiences and background?",
+            "Can you identify any earlier hints or clues in the books that foreshadow this particular connection?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "In Half-Blood Prince, students learn about the complexities of Apparition. What are the three D's they must remember when Apparating, and how do these principles symbolize the series' broader themes of control and determination?",
+        "answer": "The three D's that students must remember when learning to Apparate are Destination, Determination, and Deliberation.",
+        "list of reference": [
+            {
+                "ref_id": 7021,
+                "passage": "\"Splinching, or the separation of random body parts,\" said Wilkie Twycross dispassionately, \"occurs when the mind is insufficiently determined. You must concentrate continuously upon your destination, and move, without haste, but with deliberation ... thus.\" Twycross stepped forward, turned gracefully on the spot with his arms outstretched, and vanished in a swirl of robes, reappearing at the back of the Hall. \"Remember the three D's,\" he said, \"and try again ... one - two - three -\"\nBut an hour later, Susan's Splinching was still the most interesting thing that had happened. Twycross did not seem discouraged.",
+                "book": 6,
+                "chapter": 18
+            },
+            {
+                "ref_id": 7017,
+                "passage": "\"Destination, Determination, Deliberation! \"Step one: Fix your mind firmly upon the desired destination,\" said Twycross. \"In this case, the interior of your hoop. Kindly concentrate upon that destination now.\" Everybody looked around furtively to check that everyone else was staring into their hoop, then hastily did as they were told. Harry gazed at the circular patch of dusty floor enclosed by his hoop and tried hard to think of nothing else. This proved impossible, as he couldn't stop puzzling over what Malfoy was doing that needed lookouts. \"Step two,\" said Twycross, \"focus your determination to occupy the visualized space! Let your yearning to enter it flood from your mind to every particle of your body!\" Harry glanced around surreptitiously. A little way to his left, Ernie Macmillan was contemplating his hoop so hard that his face had turned pink; it looked as though he was straining to lay a Quaffle-sized egg. Harry bit back a laugh and hastily returned his gaze to his own hoop.",
+                "book": 6,
+                "chapter": 18
+            }
+        ],
+        "id": 7,
+        "question_variants": "D's",
+        "sub_questions": [
+            "What are the three \"D's\" that students must remember when practicing Apparition in *Harry Potter and the Half-Blood Prince*?",
+            "How do these three \"D's\" (Dare, Distance, and Direction) relate to the broader themes of control and determination present in the Harry Potter series?",
+            "Can the principles of \"Dare,\" \"Distance,\" and \"Direction\" be applied to other magical abilities or situations in the series, and if so, how?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "What is the significance of the lightning bolt scar on Harry Potter's forehead and how does it connect him to Voldemort?",
+        "answer": "Harry's lightning bolt scar is not only a physical reminder of Voldemort's failed attempt to kill him as an infant, but it also symbolizes the mysterious, unbreakable link between Harry and the Dark Lord—a connection that foreshadows many of the challenges he will face.",
+        "list of reference": [
+            {
+                "ref_id": 105,
+                "passage": "- knows nothin' abou' - about ANYTHING?\" Harry thought this was going a bit far. He had been to school, after all, and his marks weren't bad. \"I know some things,\" he said. \"I can, you know, do math and stuff.\"",
+                "book": 1,
+                "chapter": 4
+            },
+            {
+                "ref_id": 232,
+                "passage": "\"Has anyone seen a toad? Neville's lost one,\" she said. She had a bossy sort of voice, lots of bushy brown hair, and rather large front teeth. \"We've already told him we haven't seen it,\" said Ron, but the girl wasn't listening, she was looking at the wand in his hand. \"Oh, are you doing magic? Let's see it, then.\" She sat down. Ron looked taken aback. \"Er - all right.\"",
+                "book": 1,
+                "chapter": 6
+            }
+        ],
+        "id": 8,
+        "question_variants": "How does the distinctive lightning bolt scar on Harry Potter's forehead symbolize his connection to Lord Voldemort, and what does it signify in the context of their rivalry?",
+        "sub_questions": [
+            "What is the origin of Harry Potter's lightning bolt scar?",
+            "How does the scar physically manifest on Harry's forehead?",
+            "In what way does the scar symbolize Harry's connection to Voldemort?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "How does receiving the Hogwarts acceptance letter change Harry's life and reveal his true heritage?",
+        "answer": "When Harry receives his Hogwarts letter, it marks a dramatic turning point in his life. The letter exposes him to the magical world, revealing his true identity as a wizard and offering an escape from his oppressive life with the Dursleys, while also hinting at the extraordinary destiny that awaits him.",
+        "list of reference": [
+            {
+                "ref_id": 310,
+                "passage": "\"Another Weasley, eh?\" said Hagrid, glancing at Ron's freckles. \"I spent half me life chasin' yer twin brothers away from the forest.\" The rock cakes were shapeless lumps with raisins that almost broke their teeth, but Harry and Ron pretended to be enjoying them as they told Hagrid all about their first lessons. Fang rested his head on Harry's knee and drooled all over his robes. Harry and Ron were delighted to hear Hagrid call Filch \"that old git''\n\"An' as fer that cat, Mrs. Norris, I'd like ter introduce her to Fang sometime. D'yeh know, every time I go up ter the school, she follows me everywhere? Can't get rid of her - Filch puts her up to it.\"",
+                "book": 1,
+                "chapter": 8
+            },
+            {
+                "ref_id": 452,
+                "passage": "\"Merry Christmas!\" \"Hey, look - Harry's got a Weasley sweater, too!\" Fred and George were wearing blue sweaters, one with a large yellow F on it, the other a G.\n\"Harry's is better than ours, though,\" said Fred, holding up Harry's sweater. \"She obviously makes more of an effort if you're not family.\" \"Why aren't you wearing yours, Ron?\" George demanded. \"Come on, get it on, they're lovely and warm.\"",
+                "book": 1,
+                "chapter": 12
+            }
+        ],
+        "id": 9,
+        "question_variants": "What transformative events occur in Harry's life upon receiving the Hogwarts acceptance letter, and how does it unveil his hidden lineage?",
+        "sub_questions": [
+            "What is the significance of the Hogwarts acceptance letter in Harry's life?",
+            "How does this letter impact Harry's family background and reveal his true identity?",
+            "Can the letter's arrival be linked to any specific events or changes in Harry's life?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "What role does Hagrid play in transforming Harry's fate, and how is his character introduced in the narrative?",
+        "answer": "Hagrid acts as a catalyst in Harry's journey into the wizarding world. Introduced in a dramatic rescue, he not only retrieves Harry from the Dursleys but also provides the first glimpse of warmth, care, and belonging—qualities that help guide Harry toward embracing his magical destiny.",
+        "list of reference": [
+            {
+                "ref_id": 520,
+                "passage": "\"So - yeh wanted to ask me somethin'?\" \"Yes,\" said Harry. There was no point beating around the bush. \"We were wondering if you could tell us what's guarding the Sorcerer's Stone apart from Fluffy.\" Hagrid frowned at him.",
+                "book": 1,
+                "chapter": 14
+            },
+            {
+                "ref_id": 678,
+                "passage": "\"But Snape always seemed to hate me so much.\" \"Oh, he does,\" said Quirrell casually, \"heavens, yes. He was at Hogwarts with your father, didn't you know? They loathed each other. But he never wanted you dead.\" \"But I heard you a few days ago, sobbing - I thought Snape was threatening you. For the first time, a spasm of fear flitted across Quirrell's face.",
+                "book": 1,
+                "chapter": 17
+            }
+        ],
+        "id": 10,
+        "question_variants": "How does Hagrid's character serve as a pivotal figure in altering Harry's destiny, and what is the narrative's initial portrayal of him?",
+        "sub_questions": [
+            "What is Hagrid's role in Harry's life and how does it impact his journey?",
+            "How is Hagrid's character first introduced to the readers or viewers?",
+            "Can you describe the significance of Hagrid's appearance in the story and its impact on Harry's destiny?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "How does the portrayal of the Dursley family contrast with the magical world, and what impact does this have on Harry's character?",
+        "answer": "The Dursleys' mundane, strict, and dismissive way of life stands in stark contrast to the vibrant, unpredictable nature of the magical world. This contrast not only emphasizes Harry's isolation and mistreatment but also deepens his yearning for a place where he truly belongs, setting the stage for his eventual transformation.",
+        "list of reference": [
+            {
+                "ref_id": 88,
+                "passage": "The woman stared. \"I'll take them,\" said Uncle Vernon, standing up quickly and following her from the dining room. * * *\n\"Wouldn't it be better just to go home, dear?\" Aunt Petunia suggested timidly, hours later, but Uncle Vernon didn't seem to hear her. Exactly what he was looking for, none of them knew. He drove them into the middle of a forest, got out, looked around, shook his head, got back in the car, and off they went again. The same thing happened in the middle of a plowed field, halfway across a suspension bridge, and at the top of a multilevel parking garage. \"Daddy's gone mad, hasn't he?\" Dudley asked Aunt Petunia dully late that afternoon. Uncle Vernon had parked at the coast, locked them all inside the car, and disappeared. It started to rain.",
+                "book": 1,
+                "chapter": 3
+            },
+            {
+                "ref_id": 411,
+                "passage": "\"This is it.\" \"The big one,\" said Fred Weasley. \"The one we've all been waiting for,\" said George. \"We know Oliver's speech by heart,\" Fred told Harry, \"we were on the team last year.\" \"Shut up, you two,\" said Wood. \"This is the best team Gryffindor's had in years. We're going to win. I know it.\" He glared at them all as if to say, \"Or else.\" \"Right. Its time.",
+                "book": 1,
+                "chapter": 11
+            }
+        ],
+        "id": 11,
+        "question_variants": "What is the contrast between the Dursley family and the magical world, and how does this difference shape Harry's personality?",
+        "sub_questions": [
+            "What specific elements of the Dursley family's behavior and environment stand out as contrasting with the magical world?",
+            "How does the Dursley family's treatment of Harry contribute to his character development and personality?",
+            "Are there any specific magical creatures or beings that the Dursleys interact with, and how do these encounters influence Harry's perception of the magical realm?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "In what ways do Professor McGonagall's and Dumbledore's attitudes towards magic differ from those of the Dursleys, and how do these differences influence the narrative?",
+        "answer": "While the Dursleys are fearful and dismissive of magic, both Professor McGonagall and Dumbledore celebrate it as a source of wonder and potential. Their reverence and openness toward the magical world not only highlight the stark cultural divide but also serve as a guiding light for Harry, encouraging him to explore his true self and destiny.",
+        "list of reference": [
+            {
+                "ref_id": 321,
+                "passage": "\"Everyone stand by a broomstick. Come on, hurry up.\" Harry glanced down at his broom. It was old and some of the twigs stuck out at odd angles. \"Stick out your right hand over your broom,\" called Madam Hooch at the front, \"and say 'Up!' \"\n\"UP!\" everyone shouted.",
+                "book": 1,
+                "chapter": 9
+            },
+            {
+                "ref_id": 509,
+                "passage": "\"We won! You won! We won!\" shouted Ron, thumping Harry on the back. \"And I gave Malfoy a black eye, and Neville tried to take on Crabbe and Goyle single-handed! He's still out cold but Madam Pomfrey says he'll be all right - talk about showing Slytherin! Everyone's waiting for you in the common room, we're having a party, Fred and George stole some cakes and stuff from the kitchens.\" \"Never mind that now,\" said Harry breathlessly. \"Let's find an empty room, you wait 'til you hear this. ...\"\nHe made sure Peeves wasn't inside before shutting the door behind them, then he told them what he'd seen and heard.",
+                "book": 1,
+                "chapter": 13
+            }
+        ],
+        "id": 12,
+        "question_variants": "How do the contrasting magical philosophies of Professor McGonagall and Albus Dumbledore, as opposed to the Dursleys' mundane and prejudiced views, shape the plot and character development in the story?",
+        "sub_questions": [
+            "What is the nature of the Dursleys' attitude towards magic?",
+            "How does Professor McGonagall's attitude towards magic differ from that of the Dursleys?",
+            "In what ways does Dumbledore's perspective on magic contrast with that of the Dursleys?"
+        ],
+        "category": "hard_multi_labeled"
+    }
+]

@@ -13,6 +13,10 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
+import logging
+from rich.logging import RichHandler
+from rich.console import Console
+from rich.theme import Theme
 
 def ensure_nltk_data():
     """Ensure all required NLTK data is downloaded."""
@@ -24,7 +28,7 @@ def ensure_nltk_data():
             nltk.download(data, quiet=True)
 
 # Ensure NLTK data is downloaded
-ensure_nltk_data()
+# ensure_nltk_data()
 
 class NLPBase:
     def __init__(self, model_name):
@@ -325,27 +329,31 @@ class QOAdvanced:
         # Use LLM to extract subquestions if available
         if self.llm is not None:
             prompt = (
-                "If the query is simple then output the query, if the query is not simple then do the following."
-                "Extract a list of three easier individual sub-questions from the following Harry Potter query. "
-                "Each sub-question should be a standalone question capturing a distinct aspect of the original query. "
+                # "If the query is too simple then output, if the query is not simple then do the following. "
+                "Extract a list of three sub-questions from the following Harry Potter query. "
+                "Each sub-question should be a standalone question capturing a distinct aspect of the original query, and the original query only. "
                 "Provide each sub-question on a new line.\n\n"
                 f"Query: \"{query}\""
             )
             llm_response = self.llm.generate(prompt)
+            # print('LLM response', llm_response)
             # Split the LLM response into lines (supports bullet points and newlines)
-            potential_subqs = re.split(r'[\n•\-]+', llm_response)
+            potential_subqs = re.split(r'[\n]+', llm_response)
             for sub in potential_subqs:
                 sub = sub.strip()
                 if sub:
-                    # Ensure a proper ending punctuation
-                    if not sub.endswith('?'):
-                        sub = sub.rstrip('.') + '?'
-                    subqs.append(sub)
+                    # Remove any leading bullet markers (e.g., "-" or "*")
+                    sub = re.sub(r'^[-*]\s*', '', sub)
+                    # Only keep lines that start with a digit followed by a period
+                    if re.match(r'^\d+\.', sub):
+                        # Ensure a proper ending punctuation
+                        if not sub.endswith('?'):
+                            sub = sub.rstrip('.') + '?'
+                        subqs.append(sub)
             if subqs:
                 return list(dict.fromkeys(subqs))  # deduplicate while preserving order
-        
-        # Fallback: heuristic-based splitting
-        # First, split on typical sentence delimiters
+
+        # Fallback: heuristic-based splitting remains unchanged
         parts = re.split(r'[?;]', query)
         for part in parts:
             part = part.strip()
@@ -359,22 +367,23 @@ class QOAdvanced:
                     if not sub.endswith('?'):
                         sub = sub + '?'
                     subqs.append(sub)
-        
+
         # Simple pronoun resolution: infer main subject from the query
         main_subject = None
         subject_match = re.search(r'\b([A-Z][a-zA-Z]+)\b', query)
         if subject_match:
             main_subject = subject_match.group(1)
-        
+
         processed_subqs = []
         for idx, q in enumerate(subqs):
             # For subsequent subquestions, if they start with a pronoun, replace it with the main subject
             if idx > 0 and main_subject:
                 q = re.sub(r'^(It|They|He|She|His|Her|Their)\b', main_subject, q, flags=re.IGNORECASE)
             processed_subqs.append(q)
-        
+
         # Remove duplicate subquestions while keeping the original order
         return list(dict.fromkeys(processed_subqs))
+
 ## Advanced QO END
 
 
@@ -666,6 +675,59 @@ def make_chunked_json_file(book_file, output_file, chunker, context_window=5, si
             for passage in this_chunk:
                 json.dump({"title_num" : title_num, "title": title, "chapter_num" : chapter.chapter_num, "chapter_name": chapter.chapter_name, "passage": passage}, f)
                 f.write("\n")
+
+def create_logger(name: str, log_dir: str = "logs", console_output: bool = False) -> logging.Logger:
+    """
+    Create and configure a logger with file and optionally rich console handlers.
+    
+    Args:
+        name (str): Name of the logger
+        log_dir (str): Directory to store log files
+        console_output (bool): Whether to output logs to console (default: False)
+        
+    Returns:
+        logging.Logger: Configured logger instance
+    """
+    # Create logger
+    logger = logging.getLogger(name)
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
+    
+    # Create log directory if it doesn't exist
+    os.makedirs(log_dir, exist_ok=True)
+    
+    # Create formatters
+    file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    
+    # File handler
+    file_handler = logging.FileHandler(
+        os.path.join(log_dir, f'{name}.log')
+    )
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(file_formatter)
+    
+    # Add file handler to logger
+    logger.addHandler(file_handler)
+    
+    # Only add rich console handler if console_output is True
+    if console_output:
+        console = Console(theme=Theme({
+            "logging.level.info": "cyan",
+            "logging.level.warning": "yellow",
+            "logging.level.error": "red",
+        }))
+        
+        rich_handler = RichHandler(
+            console=console,
+            rich_tracebacks=True,
+            tracebacks_show_locals=True,
+            show_time=True,
+            show_path=True
+        )
+        rich_handler.setLevel(logging.INFO)
+        logger.addHandler(rich_handler)
+    
+    return logger
 
 if __name__ == "__main__":
     chunker = TextChunker()

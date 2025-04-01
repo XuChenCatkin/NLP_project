@@ -1,0 +1,184 @@
+[
+    {
+        "question": "Who betrays Dumbledore's Army to Umbridge?",
+        "answer": "Marietta Edgecombe",
+        "list of reference": "Book 5, Chapter 27, Paragraph 8",
+        "id": 1,
+        "question_variants": "Which individual betrays Dumbledore's Army to Umbridge?",
+        "sub_questions": [
+            "Who is the character that betrays Dumbledore's Army to Umbridge?",
+            "What specific act of betrayal did this character perform?",
+            "How does this betrayal impact the story and the characters involved?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What is the name of the goblin who helps Harry break into Gringotts?",
+        "answer": "Griphook",
+        "list of reference": "Book 7, Chapter 26, Paragraph 3",
+        "id": 2,
+        "question_variants": "Who is the goblin character that assists Harry in his attempt to infiltrate Gringotts?",
+        "sub_questions": [
+            "Who is the goblin that assists Harry in breaking into Gringotts?",
+            "What is the name of the goblin that helps Harry in the Gringotts heist?",
+            "Can you identify the goblin character who aids Harry Potter in his mission to Gringotts?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What spell does Harry use to defeat the Hungarian Horntail?",
+        "answer": "Accio",
+        "list of reference": "Book 4, Chapter 20, Paragraph 5",
+        "id": 3,
+        "question_variants": "Which incantation does Harry employ to vanquish the Hungarian Horntail dragon?",
+        "sub_questions": [
+            "What is the name of the spell Harry uses to defeat the Hungarian Horntail?",
+            "How does the spell work to overcome the Hungarian Horntail?",
+            "Are there any other spells or methods Harry could have used to defeat the dragon?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What is the name of the Death Eater who tortures Neville's parents?",
+        "answer": "Bellatrix Lestrange",
+        "list of reference": "Book 4, Chapter 30, Paragraph 3",
+        "id": 4,
+        "question_variants": "Who is the Death Eater responsible for the torture of Neville's parents?",
+        "sub_questions": [
+            "Who is the Death Eater responsible for torturing Neville's parents?",
+            "What is the name of the character who performs this act of torture?",
+            "Can you provide the full name of the Death Eater in question?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What spell does Harry use to stun Umbridge's squad?",
+        "answer": "Stupefy",
+        "list of reference": "Book 5, Chapter 32, Paragraph 7",
+        "id": 5,
+        "question_variants": "Which spell did Harry employ to render Umbridge's troops unconscious?",
+        "sub_questions": [
+            "What is the name of the spell Harry uses to stun Umbridge's squad?",
+            "How does the spell work to render the squad unconscious?",
+            "Is this spell a part of a larger series of spells Harry has learned throughout the series?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What is the name of the spell that conjures water?",
+        "answer": "Aguamenti",
+        "list of reference": "Book 6, Chapter 21, Paragraph 3",
+        "id": 6,
+        "question_variants": "Could you please tell me the name of the spell that creates water?",
+        "sub_questions": [
+            "What is the name of the spell that conjures water?",
+            "How does the water-conjuring spell work in the Harry Potter universe?",
+            "Are there any other spells that can create water in the series?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "Who is the head of Ravenclaw house?",
+        "answer": "Filius Flitwick",
+        "list of reference": "Book 1, Chapter 8, Paragraph 7",
+        "id": 7,
+        "question_variants": "Which student serves as the head of the Ravenclaw house?",
+        "sub_questions": [
+            "What is the name of the head of the Ravenclaw house?",
+            "How is the head of Ravenclaw house typically depicted in the Harry Potter series?",
+            "Are there any notable achievements or characteristics associated with the head of Ravenclaw?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What spell does Hermione use to confund the Slytherin Keeper?",
+        "answer": "Confundo",
+        "list of reference": "Book 6, Chapter 14, Paragraph 5",
+        "id": 8,
+        "question_variants": "Hermione casts a spell to make the Slytherin Keeper unconscious.",
+        "sub_questions": [
+            "What is the name of the spell Hermione uses to confund the Slytherin Keeper?",
+            "How does the spell Hermione uses to confund the Slytherin Keeper work?",
+            "In which book or movie does Hermione use the spell to confund the Slytherin Keeper?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What is the name of the magical hospital in London?",
+        "answer": "St. Mungo's",
+        "list of reference": "Book 5, Chapter 22, Paragraph 3",
+        "id": 9,
+        "question_variants": "Could you tell me the name of the magical hospital located in London?",
+        "sub_questions": [
+            "What is the name of the magical hospital in the Harry Potter series?",
+            "Is this hospital located in London?",
+            "How does this magical hospital function within the context of the series?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "Who is the first Death Eater Harry encounters in the graveyard?",
+        "answer": "Peter Pettigrew",
+        "list of reference": "Book 4, Chapter 32, Paragraph 4",
+        "id": 10,
+        "question_variants": "Which Death Eater does Harry first meet in the graveyard?",
+        "sub_questions": [
+            "Who is the first Death Eater Harry encounters in the graveyard?",
+            "What is the name of the Death Eater who appears first in the scene?",
+            "Can you identify the character who initiates the confrontation with Harry in the graveyard?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What object does Harry use to destroy the locket Horcrux?",
+        "answer": "Sword of Gryffindor",
+        "list of reference": "Book 7, Chapter 19, Paragraph 7",
+        "id": 11,
+        "question_variants": "Which item does Harry employ to obliterate the locket Horcrux?",
+        "sub_questions": [
+            "What is the locket Horcrux?",
+            "How does Harry destroy the locket Horcrux?",
+            "Who or what was involved in the destruction of the locket Horcrux?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What is the name of the magical newspaper?",
+        "answer": "Daily Prophet",
+        "list of reference": "Book 2, Chapter 4, Paragraph 2",
+        "id": 12,
+        "question_variants": "Could you tell me the name of the magical newspaper?",
+        "sub_questions": [
+            "What is the name of the magical newspaper?",
+            "How is this newspaper used in the Harry Potter series?",
+            "Are there any notable characters associated with this newspaper?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What is the name of the spell that summons objects?",
+        "answer": "Accio",
+        "list of reference": "Book 4, Chapter 20, Paragraph 3",
+        "id": 13,
+        "question_variants": "Which incantation is used to conjure objects into existence?",
+        "sub_questions": [
+            "What is the name of the spell that summons objects?",
+            "How does the spell that summons objects work in the Harry Potter universe?",
+            "Are there any side effects or limitations to using the spell that summons objects?"
+        ],
+        "category": "medium_single_unlabeled"
+    },
+    {
+        "question": "What spell does Dumbledore use to put out the lights in Privet Drive?",
+        "answer": "Deluminator",
+        "list of reference": "Book 7, Chapter 1, Paragraph 2",
+        "id": 14,
+        "question_variants": "What incantation does Dumbledore employ to extinguish the lights in Privet Drive?",
+        "sub_questions": [
+            "What spell is used by Albus Dumbledore to manipulate the lighting in Privet Drive?",
+            "Can you identify the specific incantation that causes the lights to flicker and go out?",
+            "How does Dumbledore's spell affect the electrical system in the location?"
+        ],
+        "category": "medium_single_unlabeled"
+    }
+]

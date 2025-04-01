@@ -1,9 +1,10 @@
 # Import the QO class from utils.py
-from utils import QO
+# from utils import QO
 from utils import QOAdvanced
 import cohere
 from dotenv import load_dotenv
 import os
+
 
 load_dotenv("key.env")  # Loads variables from .env into the environment
 # print(os.environ) 
@@ -45,7 +46,7 @@ qo_a = QOAdvanced(embedding_model_name="sentence-transformers/all-mpnet-base-v1"
 # query = 'Which of the following is NOT one of Albus Dumbledore\'s titles?'
 # query = 'Who teaches History of Magic at Hogwarts?'
 # query = 'Did Harry Potter defeat lord Voldemort?'      #######################################################
-query = "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?"
+query = "What spell does Hermione use to repair Harry's glasses on Hogwarts Express?"
 
 # --- Query Transformation ---
 # 1. Use HyDE to generate an embedding from a hypothetical document

@@ -2,1124 +2,1177 @@
     {
         "original_query": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
         "query_variants": [
-            "'In the first book, what inconspicuous clue during a discussion about a magical being foreshadows an impending act of treachery?'"
+            "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?"
         ],
         "sub_questions": [
-            "1. What magical creature is discussed in a conversation in the first Harry Potter book?",
-            "2. Which character(s) are involved in the conversation about the magical creature in the first book?",
-            "3. How does the conversation about the magical creature foreshadow a future betrayal in the first book?"
-        ]
+            "1. Who is the character that mentions the magical creature?",
+            "2. What is the name of the magical creature being discussed?",
+            "3. What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
+        ],
+        "id": 511
     },
     {
         "original_query": "Which object in Dumbledore's office during Harry's first visit hints at a secret kept until the final book?",
         "query_variants": [
-            "What item in Dumbledore's office, seen during Harry's initial visit, foreshadows a mystery revealed only in the last installment of the series?"
+            "What item in Dumbledore's office during Harry's initial visit suggests a secret that remains undisclosed until the final book?"
         ],
         "sub_questions": [
-            "1. What object in Dumbledore's office is mentioned during Harry's first visit?",
-            "2. What secret is hinted at by the object in Dumbledore's office?",
-            "3. In which book is the secret hinted by the object in Dumbledore's office fully revealed?"
-        ]
+            "1. What specific object in Dumbledore's office was the first to reveal a hidden secret?",
+            "2. How does this object's presence relate to the final book's events?",
+            "3. Can you identify any other items in the office that might also hold a secret?"
+        ],
+        "id": 512
     },
     {
         "original_query": "What seemingly trivial gift given at Christmas in the first year later aids in a life-saving escape?",
         "query_variants": [
-            "'Which insignificant Christmas present from the initial year ultimately plays a crucial role in facilitating a life-saving getaway?'"
+            "What seemingly insignificant present, exchanged during the first Christmas celebration, later becomes a crucial factor in a life-saving escape?"
         ],
         "sub_questions": [
-            "1. What gift was given at Christmas in the first year of Harry Potter's time at Hogwarts?",
-            "2. How did the Christmas gift from the first year contribute to a life?",
-            "saving escape?",
-            "3. In which situation or event did the seemingly trivial Christmas gift play a crucial role in Harry Potter's story?"
-        ]
+            "1. What is the seemingly trivial gift given at Christmas in the first year?",
+            "2. How does this gift later aid in a life-saving escape?",
+            "3. Can you identify the character who received this gift and how it impacted their life?"
+        ],
+        "id": 513
     },
     {
         "original_query": "Which chess piece's movement in the underground chamber mirrors a character's sacrifice in the final book?",
         "query_variants": [
-            "'In the final book, which chess piece's underground chamber movement symbolizes a character's sacrifice?'"
+            "What chess piece's unique movement pattern in the underground chamber symbolizes a character's self-sacrifice in the final book?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What chess piece is mentioned in the context of the underground chamber in the Harry Potter series?",
-            "2. Which character makes a significant sacrifice in the final book of the Harry Potter series?",
-            "3. How does the movement of a specific chess piece symbolize a character's sacrifice in the story?"
-        ]
+            "1. What chess piece's movement is described in the underground chamber?",
+            "2. How does this movement relate to a character's sacrifice in the final book?",
+            "3. Which character made the sacrifice, and what was the nature of their sacrifice?"
+        ],
+        "id": 514
     },
     {
         "original_query": "What cryptic phrase used by Dumbledore in Book 5 foreshadows the nature of Horcruxes revealed in Book 6?",
         "query_variants": [
-            "'Which enigmatic statement made by Dumbledore in the fifth installment of the series hints at the concept of Horcruxes, later explained in detail in the sixth book?'"
+            "Which enigmatic statement, uttered by Dumbledore in the fifth book, hints at the true nature of Horcruxes as unveiled in the sixth installment?"
         ],
         "sub_questions": [
-            "1. What specific phrase did Dumbledore use in Book 5 that relates to Horcruxes?",
-            "2. In which context or scene did Dumbledore utter this cryptic phrase in Book 5?",
-            "3. How does the phrase from Book 5 foreshadow the concept of Horcruxes revealed in Book 6?"
-        ]
+            "1. What is the specific phrase that Dumbledore used in Book 5?",
+            "2. How does this phrase relate to the concept of Horcruxes?",
+            "3. Can you identify the foreshadowing elements in the phrase that were later confirmed in Book 6?"
+        ],
+        "id": 515
     },
     {
         "original_query": "Which creature's behavior in the forest contradicts its usual nature, hinting at a hidden protector?",
         "query_variants": [
-            "'What forest-dwelling creature is acting out of character, suggesting the presence of a secret guardian?'"
+            "What animal's actions in the woods stand out as unusual, suggesting a secret guardian?"
         ],
         "sub_questions": [
-            "1. What creature in the forest exhibits behavior that contradicts its usual nature?",
-            "2. What is the usual nature or typical behavior of this creature?",
-            "3. Who or what is the hidden protector hinted at by the creature's unusual behavior?"
-        ]
+            "1. What creature's behavior in the forest is unusual and suggests a hidden protector?",
+            "2. How does this creature's behavior contradict its typical behavior in a forest setting?",
+            "3. Can you identify the creature and its usual nature, and explain how its behavior in the forest might indicate a protector?"
+        ],
+        "id": 516
     },
     {
         "original_query": "What minor detail about the Mirror of Erised makes its meaning a puzzle to solve??",
         "query_variants": [
-            "What subtle aspect of the Mirror of Erised complicates the understanding of its significance?"
+            "What subtle element of the Mirror of Erised's description makes deciphering its true meaning a challenging task?"
         ],
         "sub_questions": [
             "1. What is the Mirror of Erised?",
-            "2. What does the Mirror of Erised show to those who look into it?",
-            "3. Why is the name \"Erised\" significant in understanding the mirror's meaning?"
-        ]
+            "2. How does the Mirror of Erised reveal hidden truths?",
+            "3. What specific detail about the Mirror of Erised makes its meaning ambiguous?"
+        ],
+        "id": 517
     },
     {
         "original_query": "What overlooked comment about a pet in the second book foreshadows a character's true identity?",
         "query_variants": [
-            "'Which subtle remark about a pet in the sequel hints at a character's hidden identity?'"
+            "How does a seemingly insignificant remark about a pet in the second book hint at a character's hidden identity?"
         ],
         "sub_questions": [
-            "1. What pet is mentioned in the second Harry Potter book?",
-            "2. Which character's true identity is foreshadowed by a comment about a pet in the second book?",
-            "3. What specific comment about a pet in the second book is often overlooked as foreshadowing?"
-        ]
+            "1. Who made the comment about a pet in the second book?",
+            "2. What was the specific comment about a pet?",
+            "3. How does this comment foreshadow a character's true identity?"
+        ],
+        "id": 518
     },
     {
-        "original_query": "What substance, introduced through an ancient creature\u2019s attack, is later revealed to bypass magical self-repair and destroy a Horcrux?",
+        "original_query": "What substance, introduced through an ancient creature's attack, is later revealed to bypass magical self-repair and destroy a Horcrux?",
         "query_variants": [
-            "Which material, delivered by the assault of a mythical beast, is subsequently found to circumvent magical healing and annihilate a Horcrux?"
+            "Which element, introduced during an ancient creature's assault, is capable of overcoming magical self-repair and annihilating a Horcrux?"
         ],
         "sub_questions": [
-            "1. What ancient creature is associated with the substance that can destroy a Horcrux?",
-            "2. How does the substance introduced by this creature bypass magical self?",
-            "repair?",
-            "3. What specific role does the substance play in the destruction of a Horcrux?"
-        ]
+            "1. What is the substance that was introduced through an ancient creature's attack?",
+            "2. How does this substance affect magical self-repair?",
+            "3. Can you identify the Horcrux that was destroyed by this substance?"
+        ],
+        "id": 519
     },
     {
         "original_query": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
         "query_variants": [
-            "'Which particular expression within a prophetic caution subtly reveals the identity of a betrayer?'"
+            "Which particular phrase within a prophetic warning suggests the identity of a traitor?"
         ],
         "sub_questions": [
-            "1. What is the exact wording of the prophecy?",
-            "like warning mentioned in the Harry Potter series?",
-            "2. How does the phrase in the warning relate to the identity of the traitor?",
-            "3. In which book or context does the prophecy?",
-            "like warning about the traitor appear?"
-        ]
+            "1. What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "2. How does this phrase reveal the identity of the traitor?",
+            "3. Are there any other clues or hints in the prophecy that support the idea of a traitor?"
+        ],
+        "id": 520
     },
     {
         "original_query": "Which Slytherin student's remark during a Quidditch match hints at a family secret?",
         "query_variants": [
-            "'What comment made by a Slytherin student during a Quidditch game suggests a hidden family mystery?'"
+            "Who is the Slytherin student whose comment during a Quidditch match suggests a hidden family history?"
         ],
         "sub_questions": [
-            "1. Which Slytherin student made a remark during a Quidditch match?",
-            "2. What was the nature of the remark made by the Slytherin student during the Quidditch match?",
-            "3. What family secret is hinted at by the Slytherin student's remark during the Quidditch match?"
-        ]
+            "1. Who is the Slytherin student who made the remark?",
+            "2. What was the specific remark made during the Quidditch match?",
+            "3. How does this remark hint at a family secret?"
+        ],
+        "id": 521
     },
     {
         "original_query": "What seemingly decorative item in the Chamber carries a hidden historical significance?",
         "query_variants": [
-            "'Which item in the Chamber, appearing merely decorative, holds a concealed historical meaning?'"
+            "What seemingly decorative object in the Chamber holds a concealed historical importance?"
         ],
         "sub_questions": [
-            "1. What decorative item is found in the Chamber of Secrets?",
-            "2. What historical significance does this item hold?",
-            "3. How is this item connected to the history of Hogwarts?"
-        ]
+            "1. What is the nature of the seemingly decorative item in the Chamber?",
+            "2. How does this item carry a hidden historical significance?",
+            "3. Can you identify the specific historical context or event it is linked to?"
+        ],
+        "id": 522
     },
     {
         "original_query": "Which misspelled word in a written message points to a character's lack of education?",
         "query_variants": [
-            "What misspelled word in a written text indicates a character's limited education?"
+            "Which incorrectly spelled word in a written message indicates a character's low level of education?"
         ],
         "sub_questions": [
-            "1. What specific misspelled word appears in the written message?",
-            "2. Which character in Harry Potter is associated with this misspelled word?",
-            "3. How does the misspelling of the word reflect the character's lack of education?"
-        ]
+            "1. What is the misspelled word in the written message?",
+            "2. How does the misspelling relate to the character's education?",
+            "3. Can you identify the character whose lack of education is implied by this misspelling?"
+        ],
+        "id": 523
     },
     {
         "original_query": "What odd behavior of a plant in the second book parallels a trap in the fifth?",
         "query_variants": [
-            "In the second book, what peculiar plant behavior mirrors a trap found in the fifth installment?"
+            "How does the unusual behavior of a plant in the second book mirror a trap mechanism found in the fifth?"
         ],
         "sub_questions": [
-            "1. What plant in the second Harry Potter book exhibits odd behavior?",
-            "2. What trap is featured in the fifth Harry Potter book?",
-            "3. How does the behavior of the plant in the second book parallel the trap in the fifth book?"
-        ]
+            "1. What is the odd behavior of a plant in the second Harry Potter book?",
+            "2. How does this behavior function as a trap in the fifth book?",
+            "3. Are there any other plants or natural phenomena in the series that exhibit similar characteristics to this plant's behavior?"
+        ],
+        "id": 524
     },
     {
         "original_query": "What overlooked detail about a map in the third book reveals a flaw in its magic?",
         "query_variants": [
-            "'In the third book, what subtle map detail exposes a weakness in its magical system?'"
+            "What hidden element within the map depicted in the third installment exposes a weakness in its enchantment?"
         ],
         "sub_questions": [
-            "1. What map is being referred to in the third Harry Potter book?",
-            "2. What specific detail about this map is often overlooked?",
-            "3. What flaw in the map's magic is revealed by this overlooked detail?"
-        ]
+            "1. What is the name of the map in question?",
+            "2. How is the magic of the map flawed?",
+            "3. What is the significance of this flaw in the context of the third book?"
+        ],
+        "id": 525
     },
     {
         "original_query": "Which animal's cry during a night escape subtly warns of a coming betrayal?",
         "query_variants": [
-            "'What creature's nocturnal call during a flight hints at an impending treachery?'"
+            "Which animal's cry during a night escape subtly signals an impending betrayal?"
         ],
         "sub_questions": [
-            "1. What animal's cry is mentioned in the context of a night escape in Harry Potter?",
-            "2. What event does the animal's cry subtly warn about in the story?",
-            "3. In which specific Harry Potter book or scene does this animal's cry occur?"
-        ]
+            "1. What animal is known for its cry during a night escape?",
+            "2. How does the cry of this animal serve as a warning?",
+            "3. What does the cry indicate about a potential betrayal?"
+        ],
+        "id": 526
     },
     {
         "original_query": "What specific time mentioned in a Time-Turner scene creates a paradox with an earlier event?",
         "query_variants": [
-            "'In a Time-Turner scene, which particular moment leads to a contradiction with a previous occurrence?'"
+            "In a Time-Turner scene, what particular time reference leads to a paradox involving a previous occurrence?"
         ],
         "sub_questions": [
-            "1. What is the specific time mentioned in the Time?",
-            "Turner scene?",
-            "2. What earlier event does the Time?",
-            "Turner scene create a paradox with?",
-            "3. How does the time mentioned in the Time?",
-            "Turner scene interact with the earlier event to form a paradox?"
-        ]
+            "1. What is the specific time mentioned in the Time-Turner scene?",
+            "2. How does this time create a paradox with an earlier event?",
+            "3. Can you identify the earlier event that is affected by this time paradox?"
+        ],
+        "id": 527
     },
     {
         "original_query": "Which professor's casual remark about a spell foreshadows its use in a duel?",
         "query_variants": [
-            "'Which professor inadvertently hints at a spell's future use in a duel through a casual comment?'"
+            "A casual comment made by a professor about a spell hints at its potential application in an upcoming duel."
         ],
         "sub_questions": [
-            "1. Which professor made a casual remark about a spell in the Harry Potter series?",
-            "2. What specific spell was foreshadowed by the professor's remark?",
-            "3. In which duel was the foreshadowed spell ultimately used?"
-        ]
+            "1. Who is the professor who made the casual remark about the spell?",
+            "2. What was the specific spell mentioned in the casual remark?",
+            "3. How does this remark foreshadow its use in a duel?"
+        ],
+        "id": 528
     },
     {
         "original_query": "What unusual feature of a broomstick in the third book hints at its maker's identity?",
         "query_variants": [
-            "'In the third book, what distinctive characteristic of a broomstick suggests who crafted it?'"
+            "In the third installment, what distinctive characteristic of a broomstick suggests the identity of its creator?"
         ],
         "sub_questions": [
-            "1. What is the name of the broomstick mentioned in the third Harry Potter book?",
-            "2. What unusual feature does this broomstick possess?",
-            "3. Who is the maker of this broomstick?"
-        ]
+            "1. What is the unusual feature of the broomstick in the third Harry Potter book?",
+            "2. How does this feature hint at the identity of its maker?",
+            "3. Can you name the maker of the broomstick based on this hint?"
+        ],
+        "id": 529
     },
     {
         "original_query": "Which prisoner's muttered phrase in a vision connects to a hidden family tie?",
         "query_variants": [
-            "'What whispered words from a prisoner in a vision reveal a secret familial connection?'"
+            "Which inmate's whispered words in a dream reveal a secret familial bond?"
         ],
         "sub_questions": [
-            "1. Which prisoner muttered a phrase in a vision in the Harry Potter series?",
-            "2. What specific phrase did the prisoner mutter in the vision?",
-            "3. What hidden family tie is connected to the prisoner's muttered phrase?"
-        ]
+            "1. Who is the prisoner in the vision?",
+            "2. What is the muttered phrase?",
+            "3. How does this phrase connect to a hidden family tie?"
+        ],
+        "id": 530
     },
     {
         "original_query": "What minor detail about a shack's interior contradicts a character's story?",
         "query_variants": [
-            "'Which small aspect of the shack's inside conflicts with the character's narrative?'"
+            "Which seemingly insignificant detail within the shack's interior arrangement challenges the credibility of a character's narrative?"
         ],
         "sub_questions": [
-            "1. What specific detail about the shack's interior is being referred to?",
-            "2. Which character's story is contradicted by this detail?",
-            "3. How does the minor detail in the shack's interior contradict the character's story?"
-        ]
+            "1. What is the specific minor detail about the shack's interior?",
+            "2. How does this detail contradict the character's story?",
+            "3. Can you identify the character whose story is being contradicted by this detail?"
+        ],
+        "id": 531
     },
     {
         "original_query": "What obscure rule in the Triwizard Tournament's first task ties to a creature's weakness?",
         "query_variants": [
-            "'Which little-known regulation in the initial challenge of the Triwizard Tournament is connected to a specific creature's vulnerability?'"
+            "Which little-known regulation in the first challenge of the Triwizard Tournament is linked to a creature's vulnerability?"
         ],
         "sub_questions": [
-            "1. What was the first task in the Triwizard Tournament?",
-            "2. Which creature was featured in the first task of the Triwizard Tournament?",
-            "3. What specific weakness of the creature in the first task was exploited due to an obscure rule?"
-        ]
+            "1. What is the first task of the Triwizard Tournament?",
+            "2. What obscure rule is associated with this task?",
+            "3. How does this rule tie to a creature's weakness?"
+        ],
+        "id": 532
     },
     {
         "original_query": "Which champion's comment about water foreshadows their strategy in the second task?",
         "query_variants": [
-            "'Which champion's remark regarding water hints at their approach for the second challenge?'"
+            "Which champion's comment about water hints at their approach for the second challenge?"
         ],
         "sub_questions": [
-            "1. What was the comment made by the champion about water?",
-            "2. What was the strategy used by the champion in the second task?",
-            "3. How did the champion's comment about water foreshadow their strategy in the second task?"
-        ]
+            "1. Who is the champion who made the comment about water?",
+            "2. What was the specific comment about water?",
+            "3. How does this comment foreshadow their strategy in the second task?"
+        ],
+        "id": 533
     },
     {
         "original_query": "What specific color of a tent at the World Cup subtly links to a Death Eater's robes?",
         "query_variants": [
-            "'Which particular tent color at the World Cup event has a subtle connection to the robes worn by Death Eaters?'"
+            "What particular shade of tent color at the World Cup has a subtle connection to the robes of a Death Eater?"
         ],
         "sub_questions": [
-            "1. What color is the tent at the World Cup in the Harry Potter series?",
-            "2. What color are the robes of the Death Eaters in the Harry Potter series?",
-            "3. How does the color of the tent at the World Cup relate to the color of a Death Eater's robes?"
-        ]
+            "1. What color are the Death Eater's robes?",
+            "2. What is the color of the tent at the World Cup?",
+            "3. How do these two colors relate to each other?"
+        ],
+        "id": 534
     },
     {
         "original_query": "Which spell's mispronunciation in a classroom scene later causes a critical error?",
         "query_variants": [
-            "'In a classroom setting, which spell, when mispronounced, leads to a significant mistake later on?'"
+            "In a classroom setting, which spell's incorrect pronunciation results in a significant mistake?"
         ],
         "sub_questions": [
-            "1. In which Harry Potter book or movie does the classroom scene with the mispronounced spell occur?",
-            "2. What is the name of the spell that was mispronounced in the classroom scene?",
-            "3. How does the mispronunciation of the spell in the classroom scene lead to a critical error later in the story?"
-        ]
+            "1. What is the name of the spell that was mispronounced?",
+            "2. In which classroom scene did the mispronunciation occur?",
+            "3. What was the critical error that resulted from the mispronunciation?"
+        ],
+        "id": 535
     },
     {
         "original_query": "What overlooked detail about a gravestone in the fourth book ties to a prophecy?",
         "query_variants": [
-            "'Which subtle aspect of a gravestone in the fourth installment connects to a foretold event?'"
+            "What hidden element on a gravestone in the fourth book is connected to a foretold destiny?"
         ],
         "sub_questions": [
-            "1. What specific detail about a gravestone is mentioned in the fourth Harry Potter book?",
-            "2. Which prophecy in the Harry Potter series is tied to the gravestone detail?",
-            "3. How does the gravestone detail in the fourth book relate to the broader plot or themes of the series?"
-        ]
+            "1. What is the significance of the gravestone in the fourth Harry Potter book?",
+            "2. How does this gravestone relate to a prophecy?",
+            "3. Can you identify the specific detail on the gravestone that was overlooked and connects to the prophecy?"
+        ],
+        "id": 536
     },
     {
         "original_query": "Which magical object in Moody's possession hints at his true identity?",
         "query_variants": [
-            "What enchanted item belonging to Moody suggests his real self?"
+            "What mystical artifact in Moody's possession reveals his hidden identity?"
         ],
         "sub_questions": [
-            "1. What magical object was in Moody's possession?",
-            "2. How does the magical object hint at Moody's true identity?",
-            "3. What is the significance of the magical object in revealing Moody's identity?"
-        ]
+            "1. What is the name of the magical object in Moody's possession?",
+            "2. How does this object reveal Moody's true identity?",
+            "3. Are there any other magical objects that could also hint at Moody's true identity?"
+        ],
+        "id": 537
     },
     {
         "original_query": "What minor gesture by a house-elf in the fourth book foreshadows their liberation?",
         "query_variants": [
-            "'Which subtle action by a house-elf in the fourth installment hints at their eventual freedom?'"
+            "In the fourth installment, what subtle action taken by a house-elf hints at their eventual freedom?"
         ],
         "sub_questions": [
-            "1. Which house?",
-            "elf performs a minor gesture in the fourth Harry Potter book?",
-            "2. What specific minor gesture does the house?",
-            "elf make in the fourth book?",
-            "3. How does the house?",
-            "elf's gesture in the fourth book foreshadow their liberation?"
-        ]
+            "1. What is the name of the house-elf who performs the minor gesture?",
+            "2. How does this gesture relate to the theme of liberation in the fourth book?",
+            "3. Can you provide an example of this gesture and its significance?"
+        ],
+        "id": 538
     },
     {
         "original_query": "What specific phrase in a prophecy misleads about the chosen one's birth month?",
         "query_variants": [
-            "'Which particular line in the prophecy incorrectly suggests the month of the chosen one's birth?'"
+            "Which particular phrase in the prophecy is misleading regarding the birth month of the chosen one?"
         ],
         "sub_questions": [
-            "1. What prophecy in the Harry Potter series mentions the chosen one's birth month?",
-            "2. Which specific phrase in the prophecy is misleading about the chosen one's birth month?",
-            "3. How does the misleading phrase in the prophecy relate to the actual birth month of the chosen one?"
-        ]
+            "1. What is the exact prophecy mentioned in the Harry Potter series?",
+            "2. Which character is referred to as the \"chosen one\" in the prophecy?",
+            "3. What is the specific phrase that suggests a different birth month for the chosen one?"
+        ],
+        "id": 539
     },
     {
         "original_query": "Which painting's odd behavior in the fifth book hints at a hidden escape route?",
         "query_variants": [
-            "'In the fifth book, which painting exhibits unusual behavior that suggests a secret escape path?'"
+            "What artwork's peculiar action in the fifth volume suggests a concealed path to freedom?"
         ],
         "sub_questions": [
             "1. What is the name of the painting that exhibits odd behavior in the fifth Harry Potter book?",
-            "2. What specific odd behavior does the painting display in the fifth book?",
-            "3. What hidden escape route is hinted at by the painting's behavior in the fifth book?"
-        ]
+            "2. How does the painting's behavior hint at a hidden escape route?",
+            "3. What significance does this painting have in the context of the story?"
+        ],
+        "id": 540
     },
     {
         "original_query": "What minor detail about a Ministry worker's badge contradicts their allegiance?",
         "query_variants": [
-            "'Which subtle aspect of a Ministry employee's identification badge suggests a conflicting loyalty?'"
+            "What seemingly insignificant detail about a Ministry employee's badge betrays their true loyalties?"
         ],
         "sub_questions": [
-            "1. What specific detail is found on a Ministry worker's badge?",
-            "2. What allegiances are typically associated with Ministry workers in the Harry Potter universe?",
-            "3. How does the detail on the badge contradict the expected allegiance of the worker?"
-        ]
+            "1. What specific feature on the Ministry worker's badge is mentioned as a minor detail?",
+            "2. How does this minor detail contradict the worker's allegiance?",
+            "3. Can you identify the worker's allegiance based on this contradiction?"
+        ],
+        "id": 541
     },
     {
         "original_query": "Which spell cast in a DA meeting mirrors a fatal attack later in the book?",
         "query_variants": [
-            "'What spell, performed during a DA meeting, foreshadows a deadly assault that occurs later in the story?'"
+            "What incantation performed during a DA gathering foreshadows a deadly assault in the subsequent chapters?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What spell was cast during a DA meeting in the book?",
-            "2. What fatal attack occurred later in the book?",
-            "3. How does the spell cast in the DA meeting relate to the fatal attack?"
-        ]
+            "1. What spell was cast in a DA (Dumbledore's Army) meeting?",
+            "2. How does this spell relate to a fatal attack in the book?",
+            "3. Can you identify the specific fatal attack and the book it occurs in?"
+        ],
+        "id": 542
     },
     {
         "original_query": "What overlooked smell in a dream sequence foreshadows a trap's location?",
         "query_variants": [
-            "'Which subtle scent in a dream scene hints at the hidden position of a snare?'"
+            "Which subtle scent in a dream's narrative hints at the hidden position of a trap?"
         ],
         "sub_questions": [
-            "1. What specific smell appears in the dream sequence?",
-            "2. How does the smell foreshadow the trap's location?",
-            "3. In which Harry Potter book or scene does this dream sequence occur?"
-        ]
+            "1. What is the specific smell that foreshadows the trap's location?",
+            "2. How does this smell get overlooked in the dream sequence?",
+            "3. What is the significance of this smell in the context of the trap?"
+        ],
+        "id": 543
     },
     {
         "original_query": "Which Slytherin student's absence during a key event hints at their family's role?",
         "query_variants": [
-            "'Which Slytherin student's disappearance during a pivotal moment suggests their family's involvement?'"
+            "Which Slytherin student's absence during a pivotal moment suggests a connection to their family's involvement?"
         ],
         "sub_questions": [
-            "1. Which Slytherin student was absent during a key event in the Harry Potter series?",
-            "2. What key event in the Harry Potter series involved the absence of a Slytherin student?",
-            "3. How does the absence of a Slytherin student during a key event hint at their family's role?"
-        ]
+            "1. Who is the Slytherin student who was absent during a crucial event?",
+            "2. What specific event was this student absent for?",
+            "3. How does the student's family background relate to their absence during this event?"
+        ],
+        "id": 544
     },
     {
         "original_query": "What specific gesture by a centaur in the fifth book predicts a war's escalation?",
         "query_variants": [
-            "'In the fifth book, which centaur's gesture foreshadows the intensification of the war?'"
+            "In the fifth installment of the series, what particular action performed by a centaur foreshadows the impending war's intensification?"
         ],
         "sub_questions": [
-            "1. What is the name of the centaur who makes the gesture in the fifth Harry Potter book?",
-            "2. In which chapter or scene of the fifth book does the centaur's gesture occur?",
-            "3. What is the symbolic meaning of the centaur's gesture in the context of the war's escalation?"
-        ]
+            "1. Who is the centaur that performs the gesture?",
+            "2. What is the gesture that predicts the war's escalation?",
+            "3. How does this gesture lead to the war's escalation?"
+        ],
+        "id": 545
     },
     {
         "original_query": "What minor detail about a potion's color in the sixth book contradicts its stated effect?",
         "query_variants": [
-            "In the sixth book, what inconsistency exists between the described color of a potion and its claimed effect?"
+            "What subtle characteristic of the potion's color in the sixth installment contradicts its claimed ability?"
         ],
         "sub_questions": [
-            "1. What potion in the sixth Harry Potter book has a color that contradicts its stated effect?",
-            "2. What is the stated effect of the potion with the contradictory color in the sixth book?",
-            "3. What color is the potion that contradicts its stated effect in the sixth Harry Potter book?"
-        ]
+            "1. What potion was described in the sixth book?",
+            "2. What color was the potion?",
+            "3. How did the stated effect of the potion contradict the minor detail about its color?"
+        ],
+        "id": 546
     },
     {
         "original_query": "Which memory's weather detail subtly hints at a Horcrux's location?",
         "query_variants": [
-            "'What weather-related memory might subtly suggest the location of a Horcrux?'"
+            "What subtle weather-related memory clue might indicate the whereabouts of a Horcrux?"
         ],
         "sub_questions": [
-            "1. What weather detail is mentioned in the memory that hints at a Horcrux's location?",
-            "2. Which Horcrux's location is hinted at by a specific weather detail in a memory?",
-            "3. In which memory does a weather detail subtly hint at the location of a Horcrux?"
-        ]
+            "1. What specific weather detail is mentioned in the memory?",
+            "2. How does this weather detail hint at the Horcrux's location?",
+            "3. Which memory from the series contains this subtle clue?"
+        ],
+        "id": 547
     },
     {
         "original_query": "What specific phrase in a textbook note misleads about its author's intent?",
         "query_variants": [
-            "Which particular expression in a textbook annotation might inaccurately convey the author's true purpose?"
+            "Which particular phrase in a textbook's notes could be misinterpreted as indicating the author's true intentions?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What textbook in the Harry Potter series contains a misleading note?",
-            "2. Who is the author of the textbook with the misleading note?",
-            "3. What is the specific phrase in the textbook note that causes the misunderstanding?"
-        ]
+            "1. What is the specific phrase in the textbook note that is misleading?",
+            "2. Who is the author of the textbook note?",
+            "3. What is the author's actual intent behind the note?"
+        ],
+        "id": 548
     },
     {
         "original_query": "Which object in Slughorn's house hints at his past connection to Voldemort?",
         "query_variants": [
-            "What item in Slughorn's residence suggests his previous association with Voldemort?"
+            "What item in Slughorn's residence suggests a former association with Voldemort?"
         ],
         "sub_questions": [
-            "1. What object in Slughorn's house is associated with Voldemort?",
-            "2. How does the object in Slughorn's house reveal his past connection to Voldemort?",
-            "3. In which part of Slughorn's house is the object hinting at his Voldemort connection located?"
-        ]
+            "1. What specific object in Slughorn's house is mentioned in the story?",
+            "2. How does this object hint at Slughorn's past connection to Voldemort?",
+            "3. Are there any other objects in the house that might provide similar clues about Slughorn's history?"
+        ],
+        "id": 549
     },
     {
         "original_query": "What odd behavior of a bird in the sixth book foreshadows a character's death?",
         "query_variants": [
-            "'In the sixth book, what peculiar action by a bird serves as a harbinger of a character's demise?'"
+            "How does the unusual behavior of a bird in the sixth book serve as a harbinger of a character's demise?"
         ],
         "sub_questions": [
-            "1. What bird exhibits odd behavior in the sixth Harry Potter book?",
-            "2. Which character's death is foreshadowed by the bird's behavior in the sixth book?",
-            "3. What specific odd behavior does the bird display in the sixth book?"
-        ]
+            "1. What is the specific odd behavior of a bird mentioned in the sixth book of the Harry Potter series?",
+            "2. How does this behavior relate to or foreshadow a character's death?",
+            "3. Can you identify the character whose death is being foreshadowed by this bird behavior?"
+        ],
+        "id": 550
     },
     {
         "original_query": "Which spell's description in a memory contradicts its actual use in battle?",
         "query_variants": [
-            "'What spell has a description in a memory that conflicts with how it is actually used in combat?'"
+            "What is the name of the spell whose description in a memory differs from its actual effectiveness in combat?"
         ],
         "sub_questions": [
-            "1. What spell is described in a memory in the Harry Potter series?",
-            "2. How is the spell actually used in battle in the Harry Potter series?",
-            "3. What specific contradiction exists between the memory's description and the spell's actual use in battle?"
-        ]
+            "1. What spell's description in a memory is different from its actual use in battle?",
+            "2. Which spell's description in a memory is misleading regarding its effectiveness in combat?",
+            "3. Can you identify a spell whose memory description does not align with its practical application in a fight?"
+        ],
+        "id": 551
     },
     {
         "original_query": "What minor detail about a ring's gem ties it to a hidden artifact?",
         "query_variants": [
-            "'Which subtle characteristic of a ring's gemstone connects it to a concealed relic?'"
+            "What subtle feature of the ring's gemstone connects it to a concealed historical object?"
         ],
         "sub_questions": [
-            "1. What is the name of the ring's gem in the Harry Potter series?",
-            "2. Which hidden artifact is the ring's gem connected to?",
-            "3. What specific detail about the gem ties it to the hidden artifact?"
-        ]
+            "1. What is the specific nature of the ring's gem?",
+            "2. How does this gem tie the ring to a hidden artifact?",
+            "3. Can you identify the hidden artifact linked to this ring?"
+        ],
+        "id": 552
     },
     {
         "original_query": "What specific sound in the seventh book's forest scene misleads about an approaching threat?",
         "query_variants": [
-            "In the forest scene of the seventh book, which sound falsely indicates an impending danger?"
+            "Which particular sound in the forest scene of the seventh book could be misinterpreted as a sign of an impending danger?"
         ],
         "sub_questions": [
-            "1. What is the specific sound mentioned in the seventh book's forest scene?",
-            "2. What threat is approaching during the forest scene in the seventh book?",
-            "3. How does the sound in the forest scene mislead characters about the approaching threat?"
-        ]
+            "1. What is the specific sound that Harry and his friends hear in the forest scene in the seventh book?",
+            "2. How does this sound mislead them about an approaching threat?",
+            "3. Can you identify any other sounds or cues in the scene that might also mislead the characters?"
+        ],
+        "id": 553
     },
     {
         "original_query": "Which object left behind in a tent hints at a character's survival?",
         "query_variants": [
-            "'What item, forgotten in a tent, suggests a character has survived?'"
+            "What item left in a tent suggests the character's ability to endure?"
         ],
         "sub_questions": [
             "1. What object was left behind in the tent?",
-            "2. Which character's survival is hinted at by the object?",
-            "3. In which Harry Potter book or scene does this event take place?"
-        ]
+            "2. How does this object hint at a character's survival?",
+            "3. Which character is implied to be surviving based on this object?"
+        ],
+        "id": 554
     },
     {
         "original_query": "What minor detail about a wand's wood type contradicts its owner's personality?",
         "query_variants": [
-            "'Which subtle aspect of a wand's wood type seems to clash with the characteristics of its wielder?'"
+            "How could a seemingly insignificant detail about the wood of a wand potentially reflect something about its owner's character that might be at odds with their personality?"
         ],
         "sub_questions": [
-            "1. What are the different types of wood used in wand?",
-            "making in the Harry Potter universe?",
-            "2. How is a wand's wood type supposed to align with its owner's personality?",
-            "3. Can you provide an example of a wand whose wood type contradicts its owner's personality?"
-        ]
+            "1. What specific wood type is associated with a wand that contradicts its owner's personality?",
+            "2. How does the wand's wood type reflect or contrast with the owner's character?",
+            "3. Can you identify a minor detail about the wand's wood that significantly differs from the owner's personality traits?"
+        ],
+        "id": 555
     },
     {
         "original_query": "Which phrase in a radio broadcast subtly warns of a hidden ally?",
         "query_variants": [
-            "'What expression in a radio transmission covertly signals the presence of a concealed supporter?'"
+            "What expression in a radio broadcast could discreetly indicate the presence of an unexpected supporter?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the radio broadcast mentioned in the Harry Potter series?",
-            "2. How does the phrase in the broadcast indicate the presence of a hidden ally?",
-            "3. In which Harry Potter book or movie does this radio broadcast scene occur?"
-        ]
+            "1. What is the specific phrase used in the radio broadcast?",
+            "2. How does this phrase indicate the presence of a hidden ally?",
+            "3. Can you identify the character or entity that is the hidden ally?"
+        ],
+        "id": 556
     },
     {
         "original_query": "What specific color of a cloak in the seventh book ties to a family heirloom?",
         "query_variants": [
-            "'In the seventh book, which particular cloak color is associated with a family heirloom?'"
+            "In the seventh book, what particular color of a cloak is associated with a family heirloom?"
         ],
         "sub_questions": [
-            "1. What color is the cloak mentioned in the seventh Harry Potter book?",
-            "2. Which family heirloom is associated with the cloak in the seventh book?",
-            "3. What is the significance of the cloak's color in relation to the family heirloom?"
-        ]
+            "1. What color is the cloak that ties to a family heirloom in the seventh book?",
+            "2. How does the cloak's color relate to the family heirloom?",
+            "3. Can you name the character who owns the cloak and the family heirloom?"
+        ],
+        "id": 557
     },
     {
         "original_query": "Which creature's cry in the final battle mirrors an earlier rescue?",
         "query_variants": [
-            "In the final battle, which creature's cry echoes a sound from a previous rescue mission?"
+            "In the climactic showdown, whose call echoes the moment when they were rescued earlier?"
         ],
         "sub_questions": [
-            "1. What creature cries out during the final battle in Harry Potter?",
-            "2. What earlier rescue event is mirrored by the creature's cry?",
-            "3. How does the creature's cry in the final battle relate to the earlier rescue?"
-        ]
+            "1. What creature's cry is mentioned in the final battle?",
+            "2. How does this creature's cry relate to an earlier rescue?",
+            "3. Can you identify the creature and the specific rescue event?"
+        ],
+        "id": 558
     },
     {
         "original_query": "What overlooked gesture by a goblin hints at a future betrayal?",
         "query_variants": [
-            "'Which subtle action by a goblin, often missed, foreshadows an impending act of treachery?'"
+            "What subtle action taken by a goblin foreshadows an impending act of treachery?"
         ],
         "sub_questions": [
-            "1. Which goblin in the Harry Potter series is associated with a gesture hinting at betrayal?",
-            "2. What specific gesture by a goblin is often overlooked in the story?",
-            "3. In what context does the goblin's gesture foreshadow a future betrayal?"
-        ]
+            "1. Who is the goblin in question?",
+            "2. What specific gesture was overlooked?",
+            "3. How does this gesture hint at a future betrayal?"
+        ],
+        "id": 559
     },
     {
         "original_query": "What minor detail about a feast dish in the first book hints at a professor's hidden agenda?",
         "query_variants": [
-            "'In the inaugural book, what subtle element of a celebratory meal suggests a professor's concealed motives?'"
+            "What subtle clue within the description of a feast dish in the first book suggests the professor's undisclosed motive?"
         ],
         "sub_questions": [
-            "1. What specific feast dish is mentioned in the first Harry Potter book?",
-            "2. Which professor in the first book is hinted to have a hidden agenda?",
-            "3. How does a minor detail about the feast dish relate to the professor's hidden agenda?"
-        ]
+            "1. What is the name of the feast dish mentioned in the first Harry Potter book?",
+            "2. How does this dish relate to a professor's actions or intentions?",
+            "3. What specific minor detail in the dish's description suggests a hidden agenda?"
+        ],
+        "id": 560
     },
     {
         "original_query": "Which object on a teacher's desk in the first year subtly connects to a dark artifact?",
         "query_variants": [
-            "'What item on a first-year teacher's desk hints at a connection to a sinister relic?'"
+            "What item on a teacher's desk in the first year of a classroom setting could be associated with a dark, mysterious artifact in a subtle way?"
         ],
         "sub_questions": [
-            "1. What object was on a teacher's desk in Harry Potter's first year?",
-            "2. What dark artifact is connected to an object from a teacher's desk in the first year?",
-            "3. How does the object on the teacher's desk subtly connect to the dark artifact in the story?"
-        ]
+            "1. What specific object is on the teacher's desk in Harry Potter's first year?",
+            "2. How does this object subtly connect to a dark artifact?",
+            "3. Can you name the teacher who owns this desk?"
+        ],
+        "id": 561
     },
     {
         "original_query": "What specific phrase in a song misleads about the location of a hidden item?",
         "query_variants": [
-            "'Which song lyric falsely indicates the whereabouts of a concealed object?'"
+            "Which particular lyric in a song could be interpreted as a false clue regarding the whereabouts of a concealed object?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What song contains a phrase that misleads about the location of a hidden item?",
-            "2. What is the specific phrase in the song that provides misleading information?",
-            "3. What hidden item is referenced in the misleading phrase from the song?"
-        ]
+            "1. What is the specific phrase in the song that suggests the hidden item's location?",
+            "2. How does this phrase mislead the listener about the item's actual position?",
+            "3. Are there any other clues in the song that support or contradict this misleading phrase?"
+        ],
+        "id": 562
     },
     {
         "original_query": "Which creature's shadow in a corridor hints at a protector's presence?",
         "query_variants": [
-            "'What being's silhouette in a hallway suggests the nearby presence of a guardian?'"
+            "What animal's silhouette on a wall suggests a guardian's nearby?"
         ],
         "sub_questions": [
-            "1. What creature's shadow is mentioned in the corridor?",
-            "2. What does the shadow in the corridor signify?",
-            "3. Who or what is the protector hinted at by the shadow?"
-        ]
+            "1. What creature's shadow is mentioned in the context of a protector's presence?",
+            "2. How does the shadow of this creature hint at protection?",
+            "3. Are there any other creatures or symbols in the corridor that could also indicate protection?"
+        ],
+        "id": 563
     },
     {
         "original_query": "What overlooked gesture by a ghost in the first book foreshadows a house's loyalty?",
         "query_variants": [
-            "'In the initial installment, what subtle action by a ghost hints at a house's future allegiance?'"
+            "How does a subtle action by a spectral entity in the initial installment of the series hint at the future allegiance of a residence?"
         ],
         "sub_questions": [
-            "1. Which ghost in the first Harry Potter book makes an overlooked gesture?",
-            "2. What specific gesture by the ghost in the first book is considered overlooked?",
-            "3. Which Hogwarts house's loyalty is foreshadowed by the ghost's gesture in the first book?"
-        ]
+            "1. Who is the ghost that makes the gesture?",
+            "2. What specific gesture is being referred to?",
+            "3. How does this gesture foreshadow the house's loyalty in the first book?"
+        ],
+        "id": 564
     },
     {
         "original_query": "Which rule in a magical game in the first year parallels a trap's design?",
         "query_variants": [
-            "'What rule in the magical game from the first year mirrors the structure of a trap?'"
+            "What rule in the first year of a magical game mirrors the design of a trap?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What magical game is played in the first year at Hogwarts?",
-            "2. What are the main rules of that magical game?",
-            "3. What is the design or function of a trap in the context of the game?"
-        ]
+            "1. What is the specific rule in the magical game that is being referred to?",
+            "2. How does this rule relate to the design of a trap?",
+            "3. Can you provide an example of this rule in action within the first year of the game?"
+        ],
+        "id": 565
     },
     {
         "original_query": "What specific scent in a potion class ties to a later betrayal?",
         "query_variants": [
-            "'Which particular aroma encountered during a potion-making lesson foreshadows an act of treachery?'"
+            "Which particular fragrance in a potion class is linked to a subsequent act of treachery?"
         ],
         "sub_questions": [
-            "1. What potion in the Harry Potter series is associated with a specific scent?",
-            "2. Which character in the series is involved in a betrayal tied to a potion?",
-            "3. In which book or movie does the connection between the potion's scent and the betrayal occur?"
-        ]
+            "1. What ingredient in potion class is associated with the betrayal?",
+            "2. How does the scent of this ingredient relate to the betrayal?",
+            "3. Can you name the potion class where this scent is introduced?"
+        ],
+        "id": 566
     },
     {
         "original_query": "What minor detail about a car in the second book contradicts its magical origin?",
         "query_variants": [
-            "'In the second book, what small inconsistency in a car's description conflicts with its supposed magical nature?'"
+            "What small, seemingly insignificant detail about a car in the second book undermines its portrayal as a magical artifact?"
         ],
         "sub_questions": [
-            "1. What car is mentioned in the second Harry Potter book?",
-            "2. What minor detail about the car in the second book stands out?",
-            "3. How does the mentioned detail contradict the car's magical origin?"
-        ]
+            "1. What car appears in the second book of the Harry Potter series?",
+            "2. How does the car's magical origin manifest in the story?",
+            "3. What minor detail about the car's appearance or behavior contradicts its magical origin?"
+        ],
+        "id": 567
     },
     {
         "original_query": "Which sound in a bathroom scene misleads about the source of danger?",
         "query_variants": [
-            "'In a bathroom setting, which auditory cue falsely indicates the origin of a threat?'"
+            "In a bathroom scene, what sound could mislead about the source of danger?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. In which Harry Potter book or movie does the bathroom scene with the misleading sound occur?",
-            "2. What specific sound in the bathroom scene is mentioned as misleading about the source of danger?",
-            "3. Who is present in the bathroom scene where the misleading sound occurs?"
-        ]
+            "1. What sound is used in the bathroom scene to mislead the audience about the source of danger?",
+            "2. How does the sound in the bathroom scene create a sense of deception?",
+            "3. Can you identify the specific audio element that contributes to the misdirection in the scene?"
+        ],
+        "id": 568
     },
     {
         "original_query": "What specific word in a riddle points to a founder's legacy?",
         "query_variants": [
-            "'Which particular term within a riddle signifies the lasting impact of a founder?'"
+            "Which particular term in a riddle indicates a reference to a founder's enduring impact?"
         ],
         "sub_questions": [
-            "1. What is the riddle referring to in the context of Harry Potter?",
-            "2. Who is the founder whose legacy is mentioned in the riddle?",
-            "3. What specific word in the riddle directly relates to the founder's legacy?"
-        ]
+            "1. What is the riddle in question?",
+            "2. How does the word in the riddle relate to a founder's legacy?",
+            "3. Can you provide examples of other riddles that might also point to a founder's legacy?"
+        ],
+        "id": 569
     },
     {
         "original_query": "Which plant's reaction in a greenhouse hints at a hidden entrance?",
         "query_variants": [
-            "'What greenhouse plant's response suggests the presence of a concealed entry point?'"
+            "Which plant's response in a greenhouse could indicate the presence of a concealed passage?"
         ],
         "sub_questions": [
-            "1. What is the name of the plant that reacts in the greenhouse?",
-            "2. What specific reaction does the plant exhibit in the greenhouse?",
-            "3. Where does the hidden entrance lead to in the Harry Potter series?"
-        ]
+            "1. What plant's reaction in a greenhouse is described in the Harry Potter series?",
+            "2. How does this plant's reaction hint at a hidden entrance?",
+            "3. Can you provide an example of this plant's reaction in a specific scene?"
+        ],
+        "id": 570
     },
     {
         "original_query": "What odd detail about a feather in the second book foreshadows a creature's arrival?",
         "query_variants": [
-            "'In the second book, what peculiar feather detail hints at the impending appearance of a creature?'"
+            "What peculiar feature of a feather in the second book hints at the impending appearance of a creature?"
         ],
         "sub_questions": [
-            "1. What is the significance of the feather mentioned in the second Harry Potter book?",
-            "2. Which creature's arrival is foreshadowed by the feather in the second book?",
-            "3. In which specific scene or chapter of the second book does the feather appear?"
-        ]
+            "1. What is the specific feather mentioned in the second book?",
+            "2. How does this feather relate to a creature's arrival?",
+            "3. Can you identify the creature that arrives as a result of this foreshadowing?"
+        ],
+        "id": 571
     },
     {
         "original_query": "Which student's comment during a duel suggests a future rivalry?",
         "query_variants": [
-            "'Whose remark made during a duel hints at a potential future rivalry among the students?'"
+            "Who made a statement during a duel that hints at a potential future rivalry?"
         ],
         "sub_questions": [
-            "1. Which student made a comment during a duel that hinted at a future rivalry?",
-            "2. In which duel did a student's comment foreshadow a future rivalry?",
-            "3. What specific comment was made by a student during a duel that suggested a future rivalry?"
-        ]
+            "1. Who made the comment that hinted at a future rivalry during the duel?",
+            "2. What specific words or actions by this student indicated a potential rivalry?",
+            "3. How did this comment impact the relationship between the students involved?"
+        ],
+        "id": 572
     },
     {
         "original_query": "What overlooked marking in a corridor ties to a secret passage?",
         "query_variants": [
-            "'Which unnoticed corridor marking indicates the location of a hidden passage?'"
+            "What seemingly insignificant feature in a corridor could be a hidden gateway to a secret passage?"
         ],
         "sub_questions": [
-            "1. What marking in a corridor is often overlooked in the Harry Potter series?",
-            "2. Which secret passage in Hogwarts is associated with this marking?",
-            "3. In which book or movie does this marking and secret passage first appear?"
-        ]
+            "1. What is the nature of the \"overlooked marking\" in the corridor?",
+            "2. How does this marking tie into a secret passage?",
+            "3. Are there any specific clues or hints about this marking's significance?"
+        ],
+        "id": 573
     },
     {
         "original_query": "What specific gesture by a rat in the third book hints at its human nature?",
         "query_variants": [
-            "In the third book, what particular action by the rat suggests its human-like qualities?"
+            "In the third book, what particular action performed by a rat suggests its connection to human behavior?"
         ],
         "sub_questions": [
-            "1. What is the name of the rat in the third Harry Potter book?",
-            "2. In which scene does the rat exhibit a specific gesture in the third book?",
-            "3. What human?",
-            "like behavior does the rat display in the third Harry Potter book?"
-        ]
+            "1. What is the specific gesture made by the rat in the third Harry Potter book?",
+            "2. How does this gesture reflect the rat's human-like qualities?",
+            "3. Can this gesture be interpreted as a form of communication or empathy?"
+        ],
+        "id": 574
     },
     {
         "original_query": "Which object in a shop window subtly connects to a fugitive's past?",
         "query_variants": [
-            "'What item displayed in a store window hints at a connection to a runaway's history?'"
+            "What item in the display window has a hidden link to the history of a person on the run?"
         ],
         "sub_questions": [
-            "1. What object in the shop window is being referred to?",
-            "2. Who is the fugitive connected to the object?",
-            "3. How does the object relate to the fugitive's past?"
-        ]
+            "1. What is the specific object in the shop window?",
+            "2. How does this object connect to the fugitive's past?",
+            "3. Can you provide any additional context or details about the fugitive's connection to this object?"
+        ],
+        "id": 575
     },
     {
         "original_query": "What minor detail about a clock in the third book misleads about time travel?",
         "query_variants": [
-            "'In the third book, what subtle aspect of a clock creates a false impression regarding time travel?'"
+            "What subtle feature of the clock in the third book could lead to a misunderstanding about time travel?"
         ],
         "sub_questions": [
-            "1. What is the minor detail about a clock mentioned in the third Harry Potter book?",
-            "2. How does this clock detail relate to the concept of time travel in the story?",
-            "3. In what way does this clock detail mislead readers or characters about time travel?"
-        ]
+            "1. What is the specific clock mentioned in the third Harry Potter book?",
+            "2. How does this clock's design or function relate to the theme of time travel?",
+            "3. What minor detail about the clock's mechanism or setting misleads the characters or readers about the possibility of time travel?"
+        ],
+        "id": 576
     },
     {
         "original_query": "Which professor's glance during a lesson foreshadows their protective role?",
         "query_variants": [
-            "'Which professor's look during class hints at their future protective nature?'"
+            "Which instructor's gaze during a lecture hints at their tendency to safeguard their students?"
         ],
         "sub_questions": [
-            "1. Which professor's glance is specifically mentioned during a lesson in the Harry Potter series?",
-            "2. What event or context in the story foreshadows a professor's protective role?",
-            "3. Which professor in the Harry Potter series is known for having a protective role toward students?"
-        ]
+            "1. Who is the professor whose glance during a lesson is mentioned?",
+            "2. What specific action or behavior of the professor is described as foreshadowing their protective role?",
+            "3. How does this glance or action contribute to or predict their future protective actions?"
+        ],
+        "id": 577
     },
     {
         "original_query": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
         "query_variants": [
-            "'Which particular expression within a prophetic caution subtly reveals the identity of a betrayer?'"
+            "Which particular phrase within a prophetic warning suggests the identity of a traitor?"
         ],
         "sub_questions": [
-            "1. What is the exact wording of the prophecy?",
-            "like warning mentioned in the Harry Potter series?",
-            "2. How does the phrase in the warning relate to the identity of the traitor?",
-            "3. In which book or context does the prophecy?",
-            "like warning about the traitor appear?"
-        ]
+            "1. What is the exact phrase in the prophecy that suggests a traitor?",
+            "2. How does this phrase reveal the identity of the betrayer?",
+            "3. Are there any other clues in the prophecy that support this interpretation?"
+        ],
+        "id": 578
     },
     {
         "original_query": "Which tree's movement in the third book parallels a later defense?",
         "query_variants": [
-            "In the third book, which tree's motion foreshadows a subsequent protective action?"
+            "Which tree's movement in the third book mirrors a later defensive action?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the tree that moves in the third Harry Potter book?",
-            "2. In which book does the defense mentioned in the query appear?",
-            "3. How does the movement of the tree in the third book relate to the later defense?"
-        ]
+            "1. What tree's movement is described in the third book of the Harry Potter series?",
+            "2. How does this tree's movement parallel a later defense?",
+            "3. Can you identify the specific tree and its movement in the third book?"
+        ],
+        "id": 579
     },
     {
         "original_query": "What odd detail about a cloak in the third book ties to a gift's origin?",
         "query_variants": [
-            "'In the third book, what peculiar aspect of a cloak connects to the source of a gift?'"
+            "What peculiar feature of the cloak in the third book is connected to the origin of the gift?"
         ],
         "sub_questions": [
-            "1. What is the odd detail about the cloak mentioned in the third Harry Potter book?",
-            "2. What gift is associated with the cloak in the third Harry Potter book?",
-            "3. What is the origin of the gift tied to the cloak in the third Harry Potter book?"
-        ]
+            "1. What is the specific detail about the cloak in the third Harry Potter book?",
+            "2. How does this detail relate to a gift mentioned in the same book?",
+            "3. Can you identify the origin of the gift in question?"
+        ],
+        "id": 580
     },
     {
         "original_query": "What specific smell during a tournament task hints at a creature's diet?",
         "query_variants": [
-            "'Which particular scent encountered during a competition challenge suggests the type of food a creature consumes?'"
+            "Which particular scent during a tournament task suggests an animal's dietary preferences?"
         ],
         "sub_questions": [
-            "1. What tournament task in Harry Potter involves a creature with a distinctive smell?",
-            "2. What creature in the Harry Potter universe is associated with a specific smell related to its diet?",
-            "3. How does the smell of a creature in the tournament task provide a clue about its dietary habits?"
-        ]
+            "1. What is the specific scent that reveals a creature's diet during a tournament task?",
+            "2. How does the smell of a creature's diet provide a clue during a task?",
+            "3. Can you identify the creature's diet based on the smell during the tournament task?"
+        ],
+        "id": 581
     },
     {
         "original_query": "Which object in a tent at the World Cup subtly links to a dark ritual?",
         "query_variants": [
-            "'What item found inside a World Cup tent hints at a sinister ceremonial practice?'"
+            "What item in a tent at the World Cup is subtly connected to a dark ritual?"
         ],
         "sub_questions": [
-            "1. What object in the tent at the World Cup is associated with a dark ritual?",
-            "2. Where was the object linked to the dark ritual located during the World Cup?",
-            "3. What specific dark ritual is the object in the tent connected to?"
-        ]
+            "1. What object is found in the tent at the World Cup?",
+            "2. How does this object relate to a dark ritual?",
+            "3. Can you identify the specific ritual it is linked to?"
+        ],
+        "id": 582
     },
     {
         "original_query": "What minor gesture by a judge in the fourth book predicts their bias?",
         "query_variants": [
-            "'In the fourth book, what subtle action by a judge foreshadows their partiality?'"
+            "What subtle action taken by a judge in the fourth book foreshadows their prejudice?"
         ],
         "sub_questions": [
-            "1. Who is the judge in the fourth Harry Potter book?",
-            "2. What specific minor gesture does the judge make in the fourth book?",
-            "3. How does the judge's gesture predict their bias in the fourth book?"
-        ]
+            "1. In the fourth Harry Potter book, what specific action does the judge take that hints at their prejudice?",
+            "2. How does this minor gesture by the judge reveal their potential bias towards a particular character or group?",
+            "3. Can you identify the character or situation that this gesture is most likely to favor, based on the context of the book?"
+        ],
+        "id": 583
     },
     {
         "original_query": "Which sound in a lake scene misleads about the hostages' danger?",
         "query_variants": [
-            "'What auditory element in a lake setting falsely suggests the hostages are not in peril?'"
+            "What environmental sound in a lake scene could be misinterpreted as indicating the hostages are safe?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What sound is mentioned in the lake scene?",
-            "2. Who or what are the hostages in the scene?",
-            "3. How does the sound in the lake scene mislead about the danger?"
-        ]
+            "1. What specific sound in the lake scene is misleading about the hostages' danger?",
+            "2. How does this sound contribute to the deception of the hostages' situation?",
+            "3. Can you identify the character or characters who are misled by this sound?"
+        ],
+        "id": 584
     },
     {
         "original_query": "What specific phrase in a vision ties to a family's downfall?",
         "query_variants": [
-            "'Which particular expression within a vision is linked to the decline of a family?'"
+            "Which particular phrase in a prophecy foretells the decline of a family?"
         ],
         "sub_questions": [
-            "1. What is the specific phrase mentioned in the vision?",
-            "2. Which family's downfall is tied to the phrase in the vision?",
-            "3. In which Harry Potter book or context does this vision and phrase appear?"
-        ]
+            "1. What is the specific phrase in the vision that ties to a family's downfall?",
+            "2. How does this phrase relate to the family's history or future?",
+            "3. Can you identify the character or event associated with this phrase?"
+        ],
+        "id": 585
     },
     {
         "original_query": "Which plant in a maze hints at a champion's strategy?",
         "query_variants": [
-            "'What maze-dwelling plant symbolizes a winning approach?'"
+            "Which plant in a maze reveals a champion's strategy?"
         ],
         "sub_questions": [
-            "1. What is the name of the plant found in the maze?",
-            "2. Which champion's strategy is hinted at by the plant in the maze?",
-            "3. In which Harry Potter book or event does the maze with the plant appear?"
-        ]
+            "1. What plant is present in the maze?",
+            "2. How does this plant hint at a champion's strategy?",
+            "3. Can you name the champion who used this strategy?"
+        ],
+        "id": 586
     },
     {
         "original_query": "What overlooked detail about a wand's glow connects to its core?",
         "query_variants": [
-            "'What subtle aspect of a wand's glow is linked to the material at its center, yet often goes unnoticed?'"
+            "What often-overlooked feature of a wand's luminescence is linked to its central component?"
         ],
         "sub_questions": [
-            "1. What color does a wand typically glow when it is in use?",
-            "2. What type of magical core is most commonly used in wand?",
-            "making?",
-            "3. How does the core of a wand influence its magical properties or behavior?"
-        ]
+            "1. What is the significance of a wand's glow?",
+            "2. How does the glow of a wand relate to its core?",
+            "3. Can you identify any specific detail about the glow that is often overlooked?"
+        ],
+        "id": 587
     },
     {
         "original_query": "What specific shadow in a dream misleads about the pursuer's identity?",
         "query_variants": [
-            "'Which particular shadow in a dream falsely suggests the identity of the one pursuing?'"
+            "Which particular shadow in a dream could potentially mislead the pursuer about the identity of the pursuer?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the significance of shadows in dreams within the Harry Potter series?",
-            "2. How do dreams in Harry Potter relate to the identity of a pursuer?",
-            "3. Are there specific instances in the series where a shadow in a dream misleads a character?"
-        ]
+            "1. Who is the pursuer in the dream?",
+            "2. What is the nature of the shadow that misleads about the pursuer's identity?",
+            "3. How does this shadow's deception affect the dreamer's actions or perception?"
+        ],
+        "id": 588
     },
     {
         "original_query": "Which object in a courtroom hints at a hidden allegiance?",
         "query_variants": [
-            "'What item within a courtroom setting might suggest a concealed loyalty?'"
+            "What item in a courtroom could suggest a concealed association?"
         ],
         "sub_questions": [
-            "1. What object in a courtroom could symbolize hidden allegiance?",
-            "2. How might an object in a courtroom reveal a secret loyalty?",
-            "3. Which specific item in a courtroom setting is often associated with hidden allegiances?"
-        ]
+            "1. What object is present in the courtroom?",
+            "2. How does this object hint at a hidden allegiance?",
+            "3. What is the significance of this object in the context of the courtroom scene?"
+        ],
+        "id": 589
     },
     {
         "original_query": "What minor detail about a textbook contradicts a teacher's claim?",
         "query_variants": [
-            "'Which small inconsistency in a textbook disputes a teacher's statement?'"
+            "Which seemingly insignificant detail in a textbook challenges the teacher's assertion?"
         ],
         "sub_questions": [
-            "1. Which textbook in the Harry Potter series contains a minor detail that contradicts a teacher's claim?",
-            "2. What specific claim made by a teacher in the Harry Potter series is contradicted by a textbook?",
-            "3. In which Harry Potter book or context does a textbook detail contradict a teacher's statement?"
-        ]
+            "1. What is the name of the textbook mentioned in the query?",
+            "2. What specific minor detail in the textbook is mentioned that contradicts the teacher's claim?",
+            "3. How does this minor detail impact the overall understanding of the subject being taught?"
+        ],
+        "id": 590
     },
     {
         "original_query": "Which sound in a training session foreshadows a battle's chaos?",
         "query_variants": [
-            "What auditory cue during training predicts the disorder of an impending battle?"
+            "What auditory cue during a training exercise signals the impending chaos of a battle?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What type of sound is mentioned in the training session?",
-            "2. How does the sound in the training session relate to the battle?",
-            "3. What specific aspect of the battle does the sound foreshadow?"
-        ]
+            "1. What specific sound in a training session is mentioned?",
+            "2. How does this sound relate to the theme of chaos?",
+            "3. Can this sound be associated with a battle?"
+        ],
+        "id": 591
     },
     {
         "original_query": "What specific phrase in a detention hints at a teacher's cruelty?",
         "query_variants": [
-            "'Which particular expression in a detention notice suggests a teacher's harsh or unkind behavior?'"
+            "Which particular line in a detention note suggests the teacher's harsh treatment?"
         ],
         "sub_questions": [
-            "1. What is the specific phrase mentioned in the detention?",
-            "2. Which teacher in Harry Potter is associated with this cruel detention phrase?",
-            "3. In which book or movie does this detention phrase appear?"
-        ]
+            "1. What is the specific phrase in the detention that hints at the teacher's cruelty?",
+            "2. How does this phrase reveal the teacher's harsh treatment?",
+            "3. Can you identify the exact words that suggest the teacher's callousness?"
+        ],
+        "id": 592
     },
     {
         "original_query": "Which creature's glance in the forest predicts a leader's fall?",
         "query_variants": [
-            "'In the forest, which animal's gaze is said to foretell the downfall of a ruler?'"
+            "Which forest creature's gaze foretells the downfall of a leader?"
         ],
         "sub_questions": [
-            "1. What creature in the Harry Potter universe is associated with predicting a leader's fall?",
-            "2. Where does the creature that predicts a leader's fall typically reside?",
-            "3. How does the creature's glance serve as a prediction of a leader's fall?"
-        ]
+            "1. What creature is known for its ability to predict a leader's downfall?",
+            "2. How does this creature's glance in the forest influence the outcome?",
+            "3. Are there any specific characteristics or behaviors of this creature that make it effective in this prediction?"
+        ],
+        "id": 593
     },
     {
         "original_query": "What overlooked detail about a portrait's frame ties to a family secret?",
         "query_variants": [
-            "'What subtle aspect of a portrait's frame reveals a hidden family secret?'"
+            "What hidden feature of a portrait's frame could be connected to a long-kept family secret?"
         ],
         "sub_questions": [
-            "1. What specific detail about the portrait's frame is often overlooked?",
-            "2. How does the overlooked detail in the frame relate to a family secret?",
-            "3. Which family in the Harry Potter series has a secret tied to a portrait's frame?"
-        ]
+            "1. What is the significance of the portrait's frame?",
+            "2. How does this detail relate to a family secret?",
+            "3. Can you identify the specific family secret connected to the frame?"
+        ],
+        "id": 594
     },
     {
         "original_query": "What specific scent in a memory misleads about its setting?",
         "query_variants": [
-            "'Which particular aroma in a recollection falsely suggests an incorrect context or environment?'"
+            "Which particular fragrance in a recollection leads us to misinterpret its original location?"
         ],
         "sub_questions": [
-            "1. What is the specific scent mentioned in the memory?",
-            "2. What setting does the scent in the memory misleadingly suggest?",
-            "3. In which Harry Potter book or scene does this memory and scent appear?"
-        ]
+            "1. What is the specific scent that is associated with a memory in the Harry Potter series?",
+            "2. How does this scent mislead the characters about the actual setting of the memory?",
+            "3. Are there any other scents in the series that have a similar effect on the characters' perception of their surroundings?"
+        ],
+        "id": 595
     },
     {
         "original_query": "Which object in a shop window hints at a Horcrux's fate?",
         "query_variants": [
-            "'What item displayed in a store window suggests the destiny of a Horcrux?'"
+            "What item in the display window suggests the destiny of a Horcrux?"
         ],
         "sub_questions": [
-            "1. What is the name of the shop where the object hinting at a Horcrux's fate is displayed?",
-            "2. Which Horcrux is associated with the object in the shop window?",
-            "3. What specific object in the shop window hints at the fate of the Horcrux?"
-        ]
+            "1. What is the specific object in the shop window that suggests a Horcrux's fate?",
+            "2. How does this object provide a clue about the fate of a Horcrux?",
+            "3. Can you identify any other items in the shop window that might be related to Horcruxes or their destruction?"
+        ],
+        "id": 596
     },
     {
         "original_query": "What minor gesture by a student foreshadows their betrayal?",
         "query_variants": [
-            "'Which subtle action from a student hints at their impending disloyalty?'"
+            "What subtle action taken by a student hints at their potential betrayal?"
         ],
         "sub_questions": [
-            "1. Which student in the Harry Potter series performs a minor gesture that foreshadows their betrayal?",
-            "2. What specific minor gesture is used to foreshadow a student's betrayal in the story?",
-            "3. In which part of the Harry Potter series does a minor gesture by a student foreshadow their betrayal?"
-        ]
+            "1. Who is the student who performs the minor gesture that foreshadows their betrayal?",
+            "2. What specific gesture does this student make?",
+            "3. How does this gesture relate to the act of betrayal?"
+        ],
+        "id": 597
     },
     {
         "original_query": "Which sound in a tower scene misleads about the attacker's intent?",
         "query_variants": [
-            "'In a tower scene, what auditory cue falsely suggests the attacker's intentions?'"
+            "In a tower scene, which sound misleads the audience about the attacker's true intentions?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. In which Harry Potter scene does a sound in a tower play a significant role?",
-            "2. What sound in the tower scene is misleading about the attacker's intent?",
-            "3. Which character is involved in the tower scene where a misleading sound occurs?"
-        ]
+            "1. What specific sound is used in the tower scene that suggests a false intent?",
+            "2. How does this sound contribute to the deception of the audience?",
+            "3. Can you identify the character or creature that makes this misleading sound?"
+        ],
+        "id": 598
     },
     {
         "original_query": "What specific phrase in a lesson hints at a spell's origin?",
         "query_variants": [
-            "'Which particular expression within a lesson suggests the source of a spell?'"
+            "Which particular expression in a lesson reveals the source of a spell?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What type of lesson in the Harry Potter series might contain hints about spell origins?",
-            "2. Are there any recurring phrases or terms in spellcasting that suggest their historical or cultural background?",
-            "3. How do characters in Harry Potter discuss or discover the origins of spells during their magical education?"
-        ]
+            "1. What lesson is being referred to in the context of the spell's origin?",
+            "2. Which spell is the phrase associated with?",
+            "3. How does the phrase hint at the spell's origin?"
+        ],
+        "id": 599
     },
     {
         "original_query": "Which plant in a cave scene contradicts its usual habitat?",
         "query_variants": [
-            "In a cave setting, which plant is out of place compared to its typical environment?"
+            "In a cave setting, which plant is out of place, considering its typical natural environment?"
         ],
         "sub_questions": [
-            "1. What plant is featured in the cave scene in Harry Potter?",
-            "2. What is the usual habitat of that plant?",
-            "3. How does the cave setting contradict the plant's typical environment?"
-        ]
+            "1. What plant is featured in the cave scene in the Harry Potter series?",
+            "2. Is this plant typically found in a cave environment?",
+            "3. How does the plant's presence in the cave scene differ from its usual habitat?"
+        ],
+        "id": 600
     },
     {
         "original_query": "What overlooked detail about a necklace ties to its curse?",
         "query_variants": [
-            "'What subtle aspect of a necklace is connected to its supposed curse, yet often goes unnoticed?'"
+            "What often-overlooked feature of a necklace is linked to its supposed curse?"
         ],
         "sub_questions": [
-            "1. What specific necklace in the Harry Potter series is associated with a curse?",
-            "2. What overlooked detail about the necklace is significant to its cursed nature?",
-            "3. How does the overlooked detail relate to the curse's effects or origins?"
-        ]
+            "1. What is the specific detail about the necklace that was overlooked?",
+            "2. How does this overlooked detail tie into the curse associated with the necklace?",
+            "3. Can you provide an example of how this detail was overlooked in the context of the Harry Potter series?"
+        ],
+        "id": 601
     },
     {
         "original_query": "What specific shadow in a forest misleads about a friend's return?",
         "query_variants": [
-            "'Which particular forest shadow falsely suggests a friend is coming back?'"
+            "Which particular shadow in a forest could be mistaken for a friend's return?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. In which forest does the misleading shadow appear?",
-            "2. What is the nature of the shadow that causes the deception?",
-            "3. Whose return is mistakenly indicated by the shadow?"
-        ]
+            "1. What is the nature of the shadow that misleads about a friend's return?",
+            "2. How does this shadow specifically mislead about the friend's return?",
+            "3. Are there any other shadows in the forest that might also mislead about the friend's return?"
+        ],
+        "id": 602
     },
     {
         "original_query": "Which object in a vault hints at a trap's multiplication?",
         "query_variants": [
-            "'What item stored in a vault suggests that a trap has been replicated or increased in number?'"
+            "What item in a vault suggests the presence of multiple traps?"
         ],
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "1. What is the name of the vault where the object hinting at a trap's multiplication is located?",
-            "2. Which specific object in the vault is associated with the hint of a trap's multiplication?",
-            "3. What type of trap is hinted at by the object in the vault?"
-        ]
+            "1. What specific object in the vault is mentioned as a potential indicator of a trap's multiplication?",
+            "2. How does this object serve as a warning sign for the trap's activation?",
+            "3. Are there any other objects in the vault that could also trigger the trap mechanism?"
+        ],
+        "id": 603
     },
     {
         "original_query": "What minor detail about a wand's grip contradicts its owner's skill?",
         "query_variants": [
-            "'Which subtle aspect of a wand's handle seems inconsistent with its wielder's proficiency?'"
+            "What seemingly insignificant feature of a wand's handle might actually reveal a contradiction to its owner's magical prowess?"
         ],
         "sub_questions": [
-            "1. What specific detail about a wand's grip can reveal information about its owner's skill?",
-            "2. How does a wand's grip contradict the perceived skill level of its owner?",
-            "3. What minor aspect of a wand's design might indicate a mismatch with its owner's abilities?"
-        ]
+            "1. What is the specific material used for the wand's grip?",
+            "2. How does the wand's grip influence the wizard's casting ability?",
+            "3. Are there any known cases where a wand's grip type directly impacted a wizard's performance?"
+        ],
+        "id": 604
     },
     {
         "original_query": "Which sound in a manor scene foreshadows an escape's success?",
         "query_variants": [
-            "'What auditory cue within a manor setting hints at the successful execution of an escape?'"
+            "What auditory element in a manor setting hints at the impending escape's outcome?"
         ],
         "sub_questions": [
             "1. What specific sound is mentioned in the manor scene?",
-            "2. How does the sound foreshadow the escape's success?",
-            "3. In which part of the Harry Potter series does this manor scene occur?"
-        ]
+            "2. How does this sound relate to the characters' actions or intentions?",
+            "3. What does this sound symbolize or suggest about the outcome of their escape?"
+        ],
+        "id": 605
     },
     {
         "original_query": "What specific phrase in a tale misleads about a stone's power?",
         "query_variants": [
-            "'Which particular expression in a story falsely suggests the capabilities of a stone?'"
+            "Which particular expression in a story downplays the stone's actual capabilities?"
         ],
         "sub_questions": [
-            "1. What tale in the Harry Potter series mentions a stone with misleading powers?",
-            "2. What specific phrase in that tale refers to the stone's power?",
-            "3. What is the actual power of the stone, as opposed to the misleading phrase?"
-        ]
+            "1. What is the specific phrase that misleads about a stone's power?",
+            "2. Which tale contains this misleading phrase?",
+            "3. How does this phrase mislead readers about the stone's true nature or abilities?"
+        ],
+        "id": 606
     },
     {
         "original_query": "Which creature's movement in a battle predicts a leader's strike?",
         "query_variants": [
-            "'What animal's behavior in combat foreshadows a commander's attack?'"
+            "What creature's movement in a battle signals the impending leader's attack?"
         ],
         "sub_questions": [
-            "1. What creature is associated with predicting a leader's strike in a battle?",
-            "2. How does the movement of this creature signal an impending strike?",
-            "3. In which context or battle scenario does this creature's movement play a predictive role?"
-        ]
+            "1. What creature's movement in a battle is associated with predicting a leader's strike?",
+            "2. How does the creature's behavior indicate the upcoming action of the leader?",
+            "3. Are there any specific characteristics or patterns in the creature's movement that signal the leader's intention to attack?"
+        ],
+        "id": 607
     },
     {
         "original_query": "What overlooked detail about a cloak's thread ties to its legacy?",
         "query_variants": [
-            "'What subtle aspect of a cloak's thread connects to its enduring significance?'"
+            "What hidden connection between a cloak's thread and its historical significance remains unnoticed?"
         ],
         "sub_questions": [
-            "1. What is the significance of the thread used in the cloak?",
-            "2. How does the thread contribute to the cloak's legacy?",
-            "3. What specific detail about the cloak's thread is often overlooked?"
-        ]
+            "1. What is the specific thread used in the cloak's construction?",
+            "2. How does this thread tie into the legacy of the cloak?",
+            "3. Are there any magical properties or hidden effects associated with this thread?"
+        ],
+        "id": 608
     }
 ]

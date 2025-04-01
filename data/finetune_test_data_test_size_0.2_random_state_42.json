@@ -1,0 +1,1906 @@
+[
+    {
+        "question": "What is the name of the spell that makes flowers appear?",
+        "answer": "Orchideous",
+        "list of reference": [
+            {
+                "ref_id": 3156,
+                "passage": "\"Yes,\" said Mr. Ollivander, \"yes, I've never used veela hair myself, of course. I find it makes for rather temperamental wands ... however, to each his own, and if this suits you ...\"\nMr. Ollivander ran his fingers along the wand, apparently checking for scratches or bumps; then he muttered, \"Orchideous!\" and a bunch of flowers burst from the wand tip. \"Very well, very well, it's in fine working order,\" said Mr. Ollivander, scooping up the flowers and handing them to Fleur with her wand. \"Mr. Diggory, you next.\" Fleur glided back to her seat, smiling at Cedric as he passed her. \"Ah, now, this is one of mine, isn't it?\" said Mr. Ollivander, with much more enthusiasm, as Cedric handed over his wand. \"Yes, I remember it well. Containing a single hair from the tail of a particularly fine male unicorn ... must have been seventeen hands; nearly gored me with his horn after I plucked his tail. Twelve and a quarter inches ... ash ... pleasantly springy. It's in fine condition.",
+                "book": 4,
+                "chapter": 18
+            }
+        ],
+        "id": 209,
+        "question_variants": "What is the name of the spell that makes flowers appear?",
+        "sub_questions": [
+            "What is the name of the spell that makes flowers appear?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Which language does Harry discover he can speak, shocking his classmates?",
+        "answer": "Harry can speak Parseltongue, the language of snakes.",
+        "list of reference": [
+            {
+                "ref_id": 1151,
+                "passage": "Harry, this is bad.\" \"What's bad?\" said Harry, starting to feel quite angry. \"What's wrong with everyone? Listen, if I hadn't told that snake not to attack Justin -\"\n\"Oh, that's what you said to it?\" \"What d'you mean? You were there - you heard me -\"\n\"I heard you speaking Parseltongue,\" said Ron.",
+                "book": 2,
+                "chapter": 11
+            }
+        ],
+        "id": 7,
+        "question_variants": "Which language does Harry discover he can speak, shocking his classmates?",
+        "sub_questions": [
+            "Which language does Harry discover he can speak, shocking his classmates?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Defense Against the Dark Arts teacher in Harry's second year?",
+        "answer": "Gilderoy Lockhart",
+        "list of reference": [
+            {
+                "ref_id": 856,
+                "passage": "He looked up. He saw Ron - and then he saw Harry. He stared. Then he leapt to his feet and positively shouted, \"It can't be Harry Potter?\" The crowd parted, whispering excitedly; Lockhart dived forward, seized Harry's arm, and pulled him to the front. The crowd burst into applause. Harry's face burned as Lockhart shook his hand for the photographer, who was clicking away madly, wafting thick smoke over the Weasleys. \"Nice big smile, Harry,\" said Lockhart, through his own gleaming teeth. \"Together, you and I are worth the front page.\" When he finally let go of Harry's hand, Harry could hardly feel his fingers. He tried to sidle back over to the Weasleys, but Lockhart threw an arm around his shoulders and clamped him tightly to his side. \"Ladies and gentlemen,\" he said loudly, waving for quiet. \"What an extraordinary moment this is! The perfect moment for me to make a little announcement I've been sitting on for some time! \"When young Harry here stepped into Flourish and Blotts today, he only wanted to buy my autobiography - which I shall be happy to present him now, free of charge -\" The crowd applauded again. \"He had no idea,\" Lockhart continued, giving Harry a little shake that made his glasses slip to the end of his nose, \"that he would shortly be getting much, much more than my book, Magical Me. He and his schoolmates will, in fact, be getting the real magical me.",
+                "book": 2,
+                "chapter": 4
+            },
+            {
+                "ref_id": 857,
+                "passage": "Yes, ladies and gentlemen, I have great pleasure and pride in announcing that this September, I will be taking up the post of Defense Against the Dark Arts teacher at Hogwarts School of Witchcraft and Wizardry!\" The crowd cheered and clapped and Harry found himself being presented with the entire works of Gilderoy Lockhart. Staggering slightly under their weight, he managed to make his way out of the limelight to the edge of the room, where Ginny was standing next to her new cauldron. \"You have these,\" Harry mumbled to her, tipping the books into the cauldron. \"I'll buy my own -\"\n\"Bet you loved that, didn't you, Potter?\"",
+                "book": 2,
+                "chapter": 4
+            }
+        ],
+        "id": 80,
+        "question_variants": "Who is the Defense Against the Dark Arts teacher in Harry's second year?",
+        "sub_questions": [
+            "Who is the Defense Against the Dark Arts teacher in Harry's second year?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes a loud bang?",
+        "answer": "Not exist in books",
+        "list of reference": [],
+        "id": 205,
+        "question_variants": "What is the name of the spell that makes a loud bang?",
+        "sub_questions": [
+            "What is the name of the spell that makes a loud bang?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who gives Harry a Firebolt broomstick?",
+        "answer": "Sirius Black",
+        "list of reference": [
+            {
+                "ref_id": 2487,
+                "passage": "Ron, noticing this, snatched the owl safely out of harm's way. Harry picked up the letter. It was addressed to him. He ripped open the letter, and shouted, \"It's from Sirius!\" \"What?\" said Ron and Hermione excitedly. \"Read it aloud!\" Dear Harry,\nI hope this finds you before you reach your aunt and uncle. I don't know whether they're used to owl post. Buckbeak and I are in hiding. I won't tell you where, in case this owl falls into the wrong hands. I have some doubt about his reliability, but he is the best I could find, and he did seem eager for the job. I believe the dementors are still searching for me, but they haven't a hope of finding me here. I am planning to allow some Muggles to glimpse me soon, a long way from Hogwarts, so that the security on the castle will be lifted.",
+                "book": 3,
+                "chapter": 22
+            },
+            {
+                "ref_id": 2488,
+                "passage": "There is something I never got around to telling you during our brief meeting. It was I who sent you the Firebolt -\n\"Ha!\" said Hermione triumphantly. \"See! I told you it was from him!\" \"Yes, but he hadn't jinxed it, had he?\" said Ron. \"Ouch!\" The tiny owl, now hooting happily in his hand, had nibbled one of his fingers in what it seemed to think was an affectionate way. Crookshanks took the order to the Owl Office for me.",
+                "book": 3,
+                "chapter": 22
+            }
+        ],
+        "id": 118,
+        "question_variants": "Who gives Harry a Firebolt broomstick?",
+        "sub_questions": [
+            "Who gives Harry a Firebolt broomstick?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that protects against Dementors?",
+        "answer": "Expecto Patronum",
+        "list of reference": [
+            {
+                "ref_id": 2008,
+                "passage": "\"Expecto patronum!\" \"Expecto patronum,\" Harry repeated under his breath, \"expecto patronum.\" \"Concentrating hard on your happy memory?\" \"Oh - yeah -\" said Harry, quickly forcing his thoughts back to that first broom ride. \"Expecto patrono - no, patronum - sorry - expecto patronum, expecto patronum -\"\nSomething whooshed suddenly out of the end of his wand; it looked like a wisp of silvery gas. \"Did you see that?\" said Harry excitedly. \"Something happened!\" \"Very good,\" said Lupin, smiling.",
+                "book": 3,
+                "chapter": 12
+            },
+            {
+                "ref_id": 2009,
+                "passage": "\"Right, then - ready to try it on a dementor?\" \"Yes,\" Harry said, gripping his wand very tightly, and moving into the middle of the deserted classroom. He tried to keep his mind on flying, but something else kept intruding. ... Any second now, he might hear his mother again ... but he shouldn't think that, or he would hear her again, and he didn't want to ... or did he? Lupin grasped the lid of the packing case and pulled. A dementor rose slowly from the box, its hooded face turned toward Harry, one glistening, scabbed hand gripping its cloak.",
+                "book": 3,
+                "chapter": 12
+            }
+        ],
+        "id": 185,
+        "question_variants": "What is the name of the spell that protects against Dementors?",
+        "sub_questions": [
+            "What is the name of the spell that protects against Dementors?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes objects stick together?",
+        "answer": "Sticking Charm",
+        "list of reference": [
+            {
+                "ref_id": 4413,
+                "passage": "\"Master always liked his little joke,\" said Kreacher, bowing again, and continuing in an undertone, \"Master was a nasty ungrateful swine who broke his mother's heart -\"\n\"My mother didn't have a heart, Kreacher,\" Sirius snapped. \"She kept herself alive out of pure spite.\" Kreacher bowed again and said, \"Whatever Master says,\" then muttered furiously, \"Master is not fit to wipe slime from his mother's boots, oh my poor Mistress, what would she say if she saw Kreacher serving him, how she hated him, what a disappointment he was -\"\n\"I asked you what you were up to,\" said Sirius coldly. \"Every time you show up pretending to be cleaning, you sneak something off to your room so we can't throw it out.\" \"Kreacher would never move anything from its proper place in Master's house,\" said the elf, then muttered very fast, \"Mistress would never forgive Kreacher if the tapestry was thrown out, seven centuries it's been in the family, Kreacher must save it, Kreacher will not let Master and the blood traitors and the brats destroy it -\"\n\"I thought it might be that,\" said Sirius, casting a disdainful look at the opposite wall. \"She'll have put another Permanent Sticking Charm on the back of it, I don't doubt, but if I can get rid of it I certainly will. Now go away, Kreacher.\" It seemed that Kreacher did not dare disobey a direct order; nevertheless, the look he gave Sirius as he shuffled out past him was redolent of deepest loathing and he muttered all the way out of the room. \"- comes back from Azkaban ordering Kreacher around, oh my poor Mistress, what would she say if she saw the house now, scum living in it, her treasures thrown out, she swore he was no son of hers and he's back, they say he's a murderer too -\"\n\"Keep muttering and I will be a murderer!\" said Sirius irritably, and he slammed the door shut on the elf. \"Sirius, he's not right in the head,\" said Hermione pleadingly, \"I don't think he realizes we can hear him.\" \"He's been alone too long,\" said Sirius, \"taking mad orders from my mother's portrait and talking to himself, but he was always a foul little -\"\n\"If you just set him free,\" said Hermione hopefully, \"maybe -\"\n\"We can't set him free, he knows too much about the Order,\" said Sirius curtly. \"And anyway, the shock would kill him. You suggest to him that he leaves this house, see how he takes it.\"",
+                "book": 5,
+                "chapter": 6
+            }
+        ],
+        "id": 201,
+        "question_variants": "What is the name of the spell that makes objects stick together?",
+        "sub_questions": [
+            "What is the name of the spell that makes objects stick together?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical plant used to cure petrification?",
+        "answer": "Mandrake",
+        "list of reference": [
+            {
+                "ref_id": 917,
+                "passage": "Harry stood stunned for a few seconds, then, remembering he was supposed to be in the greenhouse, he opened the door and slid inside. Professor Sprout was standing behind a trestle bench in the center of the greenhouse. About twenty pairs of different-colored ear-muffs were lying on the bench. When Harry had taken his place between Ron and Hermione, she said, \"We'll be repotting Mandrakes today. Now, who can tell me the properties of the Mandrake?\" To nobody's surprise, Hermione's hand was first into the air.",
+                "book": 2,
+                "chapter": 6
+            }
+        ],
+        "id": 199,
+        "question_variants": "What is the name of the magical plant used to cure petrification?",
+        "sub_questions": [
+            "What is the name of the magical plant used to cure petrification?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Which new Defense Against the Dark Arts teacher is actually a werewolf?",
+        "answer": "Remus Lupin is the werewolf teacher.",
+        "list of reference": [
+            {
+                "ref_id": 2262,
+                "passage": "Lupin shouted. \"I can explain -\"\nHarry could feel himself shaking, not with fear, but with a fresh wave of fury. \"I trusted you,\" he shouted at Lupin, his voice wavering out of control, \"and all the time you've been his friend!\" \"You're wrong,\" said Lupin. \"I haven't been Sirius's friend, but I am now - Let me explain. ...\"\n\"NO!\" Hermione screamed. \"Harry, don't trust him, he's been helping Black get into the castle, he wants you dead too - he's a werewolf!\" There was a ringing silence. Everyone's eyes were now on Lupin, who looked remarkably calm, though rather pale. \"Not at all up to your usual standard, Hermione,\" he said. \"Only one out of three, I'm afraid.",
+                "book": 3,
+                "chapter": 17
+            }
+        ],
+        "id": 10,
+        "question_variants": "Which new Defense Against the Dark Arts teacher is actually a werewolf?",
+        "sub_questions": [
+            "Which new Defense Against the Dark Arts teacher is actually a werewolf?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of Harry Potter's owl?",
+        "answer": "Hedwig",
+        "list of reference": [
+            {
+                "ref_id": 193,
+                "passage": "Harry's last month with the Dursleys wasn't fun. True, Dudley was now so scared of Harry he wouldn't stay in the same room, while Aunt Petunia and Uncle Vernon didn't shut Harry in his cupboard, force him to do anything, or shout at him - in fact, they didn't speak to him at all. Half terrified, half furious, they acted as though any chair with Harry in it were empty. Although this was an improvement in many ways, it did become a bit depressing after a while. Harry kept to his room, with his new owl for company. He had decided to call her Hedwig, a name he had found in A History of Magic. His school books were very interesting. He lay on his bed reading late into the night, Hedwig swooping in and out of the open window as she pleased.",
+                "book": 1,
+                "chapter": 6
+            }
+        ],
+        "id": 31,
+        "question_variants": "What is the name of Harry Potter's owl?",
+        "sub_questions": [
+            "What is the name of Harry Potter's owl?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical creature that loves to hide?",
+        "answer": "Demiguise",
+        "list of reference": [
+            {
+                "ref_id": 8449,
+                "passage": "\"We all know that there are such things as Invisibility Cloaks. They are rare, but they exist. But -\"\n\"Ah, but the Third Hallow is a true Cloak of Invisibility, Miss Granger! I mean to say, it is not a traveling cloak imbued with a Disillusionment Charm, or carrying a Bedazzling Hex, or else woven from Demiguise hair, which will hide one initially but fade with the years until it turns opaque. We are talking about a cloak that really and truly renders the wearer completely invisible, and endures eternally, giving constant and impenetrable concealment, no matter what spells are cast at it. How many cloaks have you ever seen like that, Miss Granger?\" Hermione opened her mouth to answer, then closed it again, looking more confused than ever.",
+                "book": 7,
+                "chapter": 21
+            }
+        ],
+        "id": 252,
+        "question_variants": "What is the name of the magical creature that loves to hide?",
+        "sub_questions": [
+            "What is the name of the magical creature that loves to hide?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical creature that sings underwater?",
+        "answer": "Merpeople",
+        "list of reference": [
+            {
+                "ref_id": 7566,
+                "passage": "He wondered whether Scrimgeour or any of these important people were really sorry that Dumbledore was dead. But then he heard music, strange, otherworldly music, and he forgot his dislike of the Ministry in looking around for the source of it. He was not the only one: Many heads were turning, searching, a little alarmed. \"In there,\" whispered Ginny in Harry's ear. And he saw them in the clear green sunlit water, inches below the surface, reminding him horribly of the Inferi: a chorus of merpeople singing in a strange language he did not understand, their pallid faces rippling, their purplish hair flowing all around them. The music made the hair on Harry's neck stand up, and yet it was not unpleasant.",
+                "book": 6,
+                "chapter": 30
+            }
+        ],
+        "id": 220,
+        "question_variants": "What is the name of the magical creature that sings underwater?",
+        "sub_questions": [
+            "What is the name of the magical creature that sings underwater?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical candy that makes you float?",
+        "answer": "Fizzing Whizbees",
+        "list of reference": [
+            {
+                "ref_id": 1911,
+                "passage": "Harry reached the door at the top of the stairs, slipped through it, and found himself behind the counter of Honeydukes - he ducked, crept sideways, and then straightened up. Honeydukes was so crowded with Hogwarts students that no one looked twice at Harry. He edged among them, looking around, and suppressed a laugh as he imagined the look that would spread over Dudley's piggy face if he could see where Harry was now. There were shelves upon shelves of the most succulent-looking sweets imaginable. Creamy chunks of nougat, shimmering pink squares of coconut ice, fat, honey-colored toffees; hundreds of different kinds of chocolate in neat rows; there was a large barrel of Every Flavor Beans, and another of Fizzing Whizbees, the levitating sherbert balls that Ron had mentioned; along yet another wall were \"Special Effects\" sweets: Drooble's Best Blowing Gum (which filled a room with bluebell-colored bubbles that refused to pop for days), the strange, splintery Toothflossing Stringmints, tiny black Pepper Imps (\"breathe fire for your friends! \"), Ice Mice (\"hear your teeth chatter and squeak! \"), peppermint creams shaped like toads (\"hop realistically in the stomach! \"), fragile sugar-spun quills, and exploding bonbons. Harry squeezed himself through a crowd of sixth years and saw a sign hanging in the farthest corner of the shop (UNUSUAL TASTES).",
+                "book": 3,
+                "chapter": 10
+            }
+        ],
+        "id": 228,
+        "question_variants": "What is the name of the magical candy that makes you float?",
+        "sub_questions": [
+            "What is the name of the magical candy that makes you float?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical plant that strangles people?",
+        "answer": "Devil's Snare",
+        "list of reference": [
+            {
+                "ref_id": 643,
+                "passage": "Hermione had managed to free herself before the plant got a firm grip on her. Now she watched in horror as the two boys fought to pull the plant off them, but the more they strained against it, the tighter and faster the plant wound around them. \"Stop moving!\" Hermione ordered them. \"I know what this is - it's Devil's Snare!\" \"Oh, I'm so glad we know what it's called, that's a great help,\" snarled Ron, leaning back, trying to stop the plant from curling around his neck.",
+                "book": 1,
+                "chapter": 16
+            },
+            {
+                "ref_id": 644,
+                "passage": "\"Shut up, I'm trying to remember how to kill it!\" said Hermione. \"Well, hurry up, I can't breathe!\" Harry gasped, wrestling with it as it curled around his chest. \"Devil's Snare, Devil's Snare ... what did Professor Sprout say? - it likes the dark and the damp -\"\n\"So light a fire!\" Harry choked. \"Yes - of course - but there's no wood!\" Hermione cried, wringing her hands. \"HAVE YOU GONE MAD?\"",
+                "book": 1,
+                "chapter": 16
+            }
+        ],
+        "id": 223,
+        "question_variants": "What is the name of the magical plant that strangles people?",
+        "sub_questions": [
+            "What is the name of the magical plant that strangles people?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What creature does Harry face in the first task of the Triwizard Tournament?",
+        "answer": "A Hungarian Horntail",
+        "list of reference": [
+            {
+                "ref_id": 3195,
+                "passage": "Harry could see a strip of gleaming yellow beneath its wrinkled black eyelid. \"This is a Hungarian Horntail,\" said Charlie. \"There's a Common Welsh Green over there, the smaller one - a Swedish Short-Snout, that blue-gray - and a Chinese Fireball, that's the red.\" Charlie looked around; Madame Maxime was strolling away around the edge of the enclosure, gazing at the stunned dragons. \"I didn't know you were bringing her, Hagrid,\" Charlie said, frowning. \"The champions aren't supposed to know what's coming - she's bound to tell her student, isn't she?\" \"Jus' thought she'd like ter see 'em,\" shrugged Hagrid, still gazing, enraptured, at the dragons. \"Really romantic date, Hagrid,\" said Charlie, shaking his head. \"Four ...\" said Hagrid, \"so it's one fer each o' the champions, is it? What've they gotta do - fight 'em?\" \"Just get past them, I think,\" said Charlie. \"We'll be on hand if it gets nasty, Extinguishing Spells at the ready. They wanted nesting mothers, I don't know why ... but I tell you this, I don't envy the one who gets the Horntail.",
+                "book": 4,
+                "chapter": 19
+            },
+            {
+                "ref_id": 3204,
+                "passage": "Instead, his face breaking into the first smile he had worn for days, he scrambled out of his chair, crouched down by the hearth, and said, \"Sirius - how're you doing?\" Sirius looked different from Harry's memory of him. When they had said good-bye, Sirius's face had been gaunt and sunken, surrounded by a quantity of long, black, matted hair - but the hair was short and clean now, Sirius's face was fuller, and he looked younger, much more like the only photograph Harry had of him, which had been taken at the Potters' wedding. \"Never mind me, how are you?\" said Sirius seriously. \"I'm -\" For a second, Harry tried to say \"fine\" - but he couldn't do it. Before he could stop himself, he was talking more than he'd talked in days - about how no one believed he hadn't entered the tournament of his own free will, how Rita Skeeter had lied about him in the Daily Prophet, how he couldn't walk down a corridor without being sneered at - and about Ron, Ron not believing him, Ron's jealousy ...\n\"... and now Hagrid's just shown me what's coming in the first task, and it's dragons, Sirius, and I'm a goner,\" he finished desperately.",
+                "book": 4,
+                "chapter": 19
+            }
+        ],
+        "id": 137,
+        "question_variants": "What creature does Harry face in the first task of the Triwizard Tournament?",
+        "sub_questions": [
+            "What creature does Harry face in the first task of the Triwizard Tournament?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be revealed?",
+        "answer": "Homenum Revelio",
+        "list of reference": [
+            {
+                "ref_id": 7947,
+                "passage": "...\"\nDust swirled around Harry like mist, catching the blue gaslight, as Mrs. Black continued to scream. \"Mudbloods, filth, stains of dishonor, taint of shame on the house of my fathers -\"\n\"SHUT UP!\" Harry bellowed, directing his wand at her, and with a bang and a burst of red sparks, the curtains swung shut again, silencing her. \"That ... that was ...\" Hermione whimpered, as Ron helped her to her feet. \"Yeah,\" said Harry, \"but it wasn't really him, was it? Just something to scare Snape.\" Had it worked, Harry wondered, or had Snape already blasted the horror-figure aside as casually as he had killed the real Dumbledore? Nerves still tingling, he led the other two up the hall, half-expecting some new terror to reveal itself, but nothing moved except for a mouse skittering along the skirting board. \"Before we go any farther, I think we'd better check,\" whispered Hermione, and she raised her wand and said, \"Homenum revelio.\" Nothing happened. \"Well, you've just had a big shock,\" said Ron kindly. \"What was that supposed to do?\" \"It did what I meant it to do!\"",
+                "book": 7,
+                "chapter": 9
+            }
+        ],
+        "id": 69,
+        "question_variants": "What is the name of the spell that causes a person to be revealed?",
+        "sub_questions": [
+            "What is the name of the spell that causes a person to be revealed?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the first person to greet Harry at Platform Nine and Three-Quarters?",
+        "answer": "Molly Weasley",
+        "list of reference": [
+            {
+                "ref_id": 204,
+                "passage": "\"The thing is - the thing is, I don't know how to -\"\n\"How to get onto the platform?\" she said kindly, and Harry nodded. \"Not to worry,\" she said. \"All you have to do is walk straight at the barrier between platforms nine and ten. Don't stop and don't be scared you'll crash into it, that's very important. Best do it at a bit of a run if you're nervous.",
+                "book": 1,
+                "chapter": 6
+            },
+            {
+                "ref_id": 205,
+                "passage": "Go on, go now before Ron.\" \"Er - okay,\" said Harry. He pushed his trolley around and stared at the barrier. It looked very solid. He started to walk toward it. People jostled him on their way to platforms nine and ten. Harry walked more quickly. He was going to smash right into that barrier and then he'd be in trouble - leaning forward on his cart, he broke into a heavy run - the barrier was coming nearer and nearer - he wouldn't be able to stop - the cart was out of control - he was a foot away - he closed his eyes ready for the crash -\nIt didn't come ... he kept on running ... he opened his eyes.",
+                "book": 1,
+                "chapter": 6
+            }
+        ],
+        "id": 198,
+        "question_variants": "Who is the first person to greet Harry at Platform Nine and Three-Quarters?",
+        "sub_questions": [
+            "Who is the first person to greet Harry at Platform Nine and Three-Quarters?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Which big sporting event do Harry and the Weasleys attend before returning to Hogwarts?",
+        "answer": "They attend the Quidditch World Cup.",
+        "list of reference": [
+            {
+                "ref_id": 2563,
+                "passage": "The letter finished, he tied it to Hedwig's leg; she kept unusually still, as though determined to show him how a real post owl should behave. \"I'll be at Ron's when you get back, all right?\" Harry told her. She nipped his finger affectionately, then, with a soft swooshing noise, spread her enormous wings and soared out of the open window. Harry watched her out of sight, then crawled under his bed, wrenched up the loose floorboard, and pulled out a large chunk of birthday cake. He sat there on the floor eating it, savoring the happiness that was flooding through him. He had cake, and Dudley had nothing but grapefruit; it was a bright summer's day, he would be leaving Privet Drive tomorrow, his scar felt perfectly normal again, and he was going to watch the Quidditch World Cup. It was hard, just now, to feel worried about anything - even Lord Voldemort.",
+                "book": 4,
+                "chapter": 3
+            }
+        ],
+        "id": 16,
+        "question_variants": "Which big sporting event do Harry and the Weasleys attend before returning to Hogwarts?",
+        "sub_questions": [
+            "Which big sporting event do Harry and the Weasleys attend before returning to Hogwarts?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that controls fire?",
+        "answer": "Flame Freezing Charm",
+        "list of reference": [
+            {
+                "ref_id": 1478,
+                "passage": "Harry Potter was a highly unusual boy in many ways. For one thing, he hated the summer holidays more than any other time of year. For another, he really wanted to do his homework but was forced to do it in secret, in the dead of night. And he also happened to be a wizard. It was nearly midnight, and he was lying on his stomach in bed, the blankets drawn right over his head like a tent, a flashlight in one hand and a large leather-bound book (A History of Magic by Bathilda Bagshot) propped open against the pillow. Harry moved the tip of his eagle-feather quill down the page, frowning as he looked for something that would help him write his essay, \"Witch Burning in the Fourteenth Century Was Completely Pointless - discuss.\" The quill paused at the top of a likely-looking paragraph. Harry pushed his round glasses up the bridge of his nose, moved his flashlight closer to the book, and read:\nNon-magic people (more commonly known as Muggles) were particularly afraid of magic in medieval times, but not very good at recognizing it. On the rare occasion that they did catch a real witch or wizard, burning had no effect whatsoever. The witch or wizard would perform a basic Flame Freezing Charm and then pretend to shriek with pain while enjoying a gentle, tickling sensation.",
+                "book": 3,
+                "chapter": 1
+            }
+        ],
+        "id": 97,
+        "question_variants": "What is the name of the spell that controls fire?",
+        "sub_questions": [
+            "What is the name of the spell that controls fire?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Which book does Dumbledore leave to Hermione in his will?",
+        "answer": "He leaves her The Tales of Beedle the Bard.",
+        "list of reference": [
+            {
+                "ref_id": 7845,
+                "passage": "\"What else could I do with it?\" Evidently Scrimgeour had no suggestions. After squinting at Ron for a moment or two, he turned back to Dumbledore's will.\n\" 'To Miss Hermione Jean Granger, I leave my copy of The Tales of Beedle the Bard, in the hope that she will find it entertaining and instructive.' \"\nScrimgeour now pulled out of the bag a small book that looked as ancient as the copy of Secrets of the Darkest Art upstairs. Its binding was stained and peeling in places.",
+                "book": 7,
+                "chapter": 7
+            }
+        ],
+        "id": 25,
+        "question_variants": "Which book does Dumbledore leave to Hermione in his will?",
+        "sub_questions": [
+            "Which book does Dumbledore leave to Hermione in his will?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes objects cold?",
+        "answer": "No such spell in book",
+        "list of reference": [],
+        "id": 233,
+        "question_variants": "What is the name of the spell that makes objects cold?",
+        "sub_questions": [
+            "What is the name of the spell that makes objects cold?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Which centaur becomes the Divination teacher after Professor Trelawney is briefly dismissed?",
+        "answer": "Firenze the centaur takes over Divination.",
+        "list of reference": [
+            {
+                "ref_id": 5555,
+                "passage": "He turned to face the open front doors, through which night mist was now drifting. Harry heard hooves. There was a shocked murmur around the hall and those nearest the doors hastily moved even farther backward, some of them tripping over in their haste to clear a path for the newcomer. Through the mist came a face Harry had seen once before on a dark, dangerous night in the Forbidden Forest: white-blond hair and astonishingly blue eyes, the head and torso of a man joined to the palomino body of a horse. \"This is Firenze,\" said Dumbledore happily to a thunderstruck Umbridge. \"I think you'll find him suitable.\"",
+                "book": 5,
+                "chapter": 26
+            }
+        ],
+        "id": 20,
+        "question_variants": "Which centaur becomes the Divination teacher after Professor Trelawney is briefly dismissed?",
+        "sub_questions": [
+            "Which centaur becomes the Divination teacher after Professor Trelawney is briefly dismissed?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the librarian at Hogwarts?",
+        "answer": "Madam Pince",
+        "list of reference": [
+            {
+                "ref_id": 438,
+                "passage": "\"What are you looking for, boy?\" \"Nothing,\" said Harry. Madam Pince the librarian brandished a feather duster at him. \"You'd better get out, then. Go on - out!\" Wishing he'd been a bit quicker at thinking up some story, Harry left the library. He, Ron, and Hermione had already agreed they'd better not ask Madam Pince where they could find Flamel. They were sure she'd be able to tell them, but they couldn't risk Snape hearing what they were up to.",
+                "book": 1,
+                "chapter": 12
+            }
+        ],
+        "id": 121,
+        "question_variants": "Who is the librarian at Hogwarts?",
+        "sub_questions": [
+            "Who is the librarian at Hogwarts?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What object does Ron inherit from Dumbledore?",
+        "answer": "A Deluminator",
+        "list of reference": [
+            {
+                "ref_id": 7844,
+                "passage": "Yes, here we are. ... 'To Ronald Bilius Weasley, I leave my Deluminator, in the hope that he will remember me when he uses it.' \"\nScrimgeour took from the bag an object that Harry had seen before: It looked something like a silver cigarette lighter, but it had, he knew, the power to suck all light from a place, and restore it, with a simple click. Scrimgeour leaned forward and passed the Deluminator to Ron, who took it and turned it over in his fingers, looking stunned. \"That is a valuable object,\" said Scrimgeour, watching Ron. \"It may even be unique. Certainly it is of Dumbledore's own design. Why would he have left you an item so rare?\" Ron shook his head, looking bewildered. \"Dumbledore must have taught thousands of students,\" Scrimgeour persevered. \"Yet the only ones he remembered in his will are you three. Why is that? To what use did he think you would put his Deluminator, Mr. Weasley?\" \"Put out lights, I s'pose,\" mumbled Ron.",
+                "book": 7,
+                "chapter": 7
+            }
+        ],
+        "id": 153,
+        "question_variants": "What object does Ron inherit from Dumbledore?",
+        "sub_questions": [
+            "What object does Ron inherit from Dumbledore?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the core of Harry Potter's wand?",
+        "answer": "Phoenix feather",
+        "list of reference": [
+            {
+                "ref_id": 187,
+                "passage": "Every single wand. It so happens that the phoenix whose tail feather is in your wand, gave another feather - just one other. It is very curious indeed that you should be destined for this wand when its brother - why, its brother gave you that scar.\" Harry swallowed. \"Yes, thirteen-and-a-half inches. Yew. Curious indeed how these things happen.",
+                "book": 1,
+                "chapter": 5
+            },
+            {
+                "ref_id": 179,
+                "passage": "It wasn't a question. \"You have your mother's eyes. It seems only yesterday she was in here herself, buying her first wand. Ten and a quarter inches long, swishy, made of willow. Nice wand for charm work.\"",
+                "book": 1,
+                "chapter": 5
+            }
+        ],
+        "id": 34,
+        "question_variants": "What is the core of Harry Potter's wand?",
+        "sub_questions": [
+            "What is the core of Harry Potter's wand?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What magical object helps Harry breathe underwater in the Triwizard Tournament?",
+        "answer": "Gillyweed",
+        "list of reference": [
+            {
+                "ref_id": 3560,
+                "passage": "\"Right before you go into the lake, sir - gillyweed!\" \"What's it do?\" said Harry, staring at the gillyweed. \"It will make Harry Potter breathe underwater, sir!\" \"Dobby,\" said Harry frantically, \"listen - are you sure about this?\" He couldn't quite forget that the last time Dobby had tried to \"help\" him, he had ended up with no bones in his right arm. \"Dobby is quite sure, sir!\" said the elf earnestly. \"Dobby hears things, sir, he is a house-elf, he goes all over the castle as he lights the fires and mops the floors. Dobby heard Professor McGonagall and Professor Moody in the staffroom, talking about the next task. ... Dobby cannot let Harry Potter lose his Wheezy!\" Harry's doubts vanished. Jumping to his feet he pulled off the Invisibility Cloak, stuffed it into his bag, grabbed the gillyweed, and put it into his pocket, then tore out of the library with Dobby at his heels. \"Dobby is supposed to be in the kitchens, sir!\" Dobby squealed as they burst into the corridor.",
+                "book": 4,
+                "chapter": 26
+            }
+        ],
+        "id": 125,
+        "question_variants": "What magical object helps Harry breathe underwater in the Triwizard Tournament?",
+        "sub_questions": [
+            "What magical object helps Harry breathe underwater in the Triwizard Tournament?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes objects stretch?",
+        "answer": "Engorgio",
+        "list of reference": [
+            {
+                "ref_id": 2955,
+                "passage": "Moody was looking very intently at Neville, this time with both eyes. \"Your name's Longbottom?\" he said, his magical eye swooping down to check the register again. Neville nodded nervously, but Moody made no further inquiries. Turning back to the class at large, he reached into the jar for the next spider and placed it upon the desktop, where it remained motionless, apparently too scared to move. \"The Cruciatus Curse,\" said Moody. \"Needs to be a bit bigger for you to get the idea,\" he said, pointing his wand at the spider. \"Engorgio!\" The spider swelled. It was now larger than a tarantula. Abandoning all pretense, Ron pushed his chair backward, as far away from Moody's desk as possible. Moody raised his wand again, pointed it at the spider, and muttered, \"Crucio!\" At once, the spider's legs bent in upon its body; it rolled over and began to twitch horribly, rocking from side to side.",
+                "book": 4,
+                "chapter": 14
+            },
+            {
+                "ref_id": 8407,
+                "passage": "\"Engorgio.\" The spider gave a little shiver, bouncing slightly in the web. Harry tried again. This time the spider grew slightly larger. \"Stop that,\" said Ron sharply. \"I'm sorry I said Dumbledore was young, okay?\" Harry had forgotten Ron's hatred of spiders. \"Sorry - Reducio.\"",
+                "book": 7,
+                "chapter": 20
+            }
+        ],
+        "id": 251,
+        "question_variants": "What is the name of the spell that makes objects stretch?",
+        "sub_questions": [
+            "What is the name of the spell that makes objects stretch?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical drink served at the Three Broomsticks?",
+        "answer": "Butterbeer",
+        "list of reference": [
+            {
+                "ref_id": 1917,
+                "passage": "\"Reckon Fred'd take a bit of Cockroach Cluster if I told him they were peanuts?\" When Ron and Hermione had paid for all their sweets, the three of them left Honeydukes for the blizzard outside. Hogsmeade looked like a Christmas card; the little thatched cottages and shops were all covered in a layer of crisp snow; there were holly wreaths on the doors and strings of enchanted candles hanging in the trees. Harry shivered; unlike the other two, he didn't have his cloak. They headed up the street, heads bowed against the wind, Ron and Hermione shouting through their scarves. \"That's the post office -\"\n\"Zonko's is up there -\"\n\"We could go up to the Shrieking Shack -\"\n\"Tell you what,\" said Ron, his teeth chattering, \"shall we go for a butterbeer in the Three Broomsticks?\" Harry was more than willing; the wind was fierce and his hands were freezing, so they crossed the road, and in a few minutes were entering the tiny inn. It was extremely crowded, noisy, warm, and smoky. A curvy sort of woman with a pretty face was serving a bunch of rowdy warlocks up at the bar. \"That's Madam Rosmerta,\" said Ron. \"I'll get the drinks, shall I?\" he added, going slightly red.",
+                "book": 3,
+                "chapter": 10
+            }
+        ],
+        "id": 207,
+        "question_variants": "What is the name of the magical drink served at the Three Broomsticks?",
+        "sub_questions": [
+            "What is the name of the magical drink served at the Three Broomsticks?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the magical bus that rescues Harry from Privet Drive?",
+        "answer": "It's called the Knight Bus.",
+        "list of reference": [
+            {
+                "ref_id": 1543,
+                "passage": "They belonged, as Harry saw when he raised his head, to a triple-decker, violently purple bus, which had appeared out of thin air. Gold lettering over the windshield spelled The Knight Bus. For a split second, Harry wondered if he had been knocked silly by his fall. Then a conductor in a purple uniform leapt out of the bus and began to speak loudly to the night. \"Welcome to the Knight Bus, emergency transport for the stranded witch or wizard. Just stick out your wand hand, step on board, and we can take you anywhere you want to go. My name is Stan Shunpike, and I will be your conductor this eve -\"\nThe conductor stopped abruptly. He had just caught sight of Harry, who was still sitting on the ground. Harry snatched up his wand again and scrambled to his feet. Close up, he saw that Stan Shunpike was only a few years older than he was, eighteen or nineteen at most, with large, protruding ears and quite a few pimples. \"What were you doin' down there?\" said Stan, dropping his professional manner.",
+                "book": 3,
+                "chapter": 3
+            }
+        ],
+        "id": 11,
+        "question_variants": "What is the name of the magical bus that rescues Harry from Privet Drive?",
+        "sub_questions": [
+            "What is the name of the magical bus that rescues Harry from Privet Drive?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes a loud noise?",
+        "answer": "Sonorus",
+        "list of reference": [
+            {
+                "ref_id": 2697,
+                "passage": "Ludo whipped out his wand, directed it at his own throat, and said \"Sonorus!\" and then spoke over the roar of sound that was now filling the packed stadium; his voice echoed over them, booming into every corner of the stands. \"Ladies and gentlemen ... welcome! Welcome to the final of the four hundred and twenty-second Quidditch World Cup!\" The spectators screamed and clapped. Thousands of flags waved, adding their discordant national anthems to the racket.",
+                "book": 4,
+                "chapter": 8
+            },
+            {
+                "ref_id": 3562,
+                "passage": "\"All right, Harry?\" Bagman whispered as he moved Harry a few feet farther away from Krum. \"Know what you're going to do?\" \"Yeah,\" Harry panted, massaging his ribs. Bagman gave Harry's shoulder a quick squeeze and returned to the judges' table; he pointed his wand at his throat as he had done at the World Cup, said, \"Sonorus!\" and his voice boomed out across the dark water toward the stands. \"Well, all our champions are ready for the second task, which will start on my whistle. They have precisely an hour to recover what has been taken from them. On the count of three, then. One ... two ... three!\"",
+                "book": 4,
+                "chapter": 26
+            },
+            {
+                "ref_id": 3861,
+                "passage": "\"If you get into difficulty, and wish to be rescued, send red sparks into the air, and one of us will come and get you, do you understand?\" The champions nodded. \"Off you go, then!\" said Bagman brightly to the four patrollers. \"Good luck, Harry,\" Hagrid whispered, and the four of them walked away in different directions, to station themselves around the maze. Bagman now pointed his wand at his throat, muttered, \"Sonorus,\" and his magically magnified voice echoed into the stands. \"Ladies and gentlemen, the third and final task of the Triwizard Tournament is about to begin! Let me remind you how the points currently stand! Tied in first place, with eighty-five points each - Mr. Cedric Diggory and Mr. Harry Potter, both of Hogwarts School!\" The cheers and applause sent birds from the Forbidden Forest fluttering into the darkening sky. \"In second place, with eighty points - Mr. Viktor Krum, of Durmstrang Institute!\" More applause. \"And in third place - Miss Fleur Delacour, of Beauxbatons Academy!\" Harry could just make out Mrs. Weasley, Bill, Ron, and Hermione applauding Fleur politely, halfway up the stands. He waved up at them, and they waved back, beaming at him. \"So ... on my whistle, Harry and Cedric!\" said Bagman. \"Three - two - one -\"\nHe gave a short blast on his whistle, and Harry and Cedric hurried forward into the maze. The towering hedges cast black shadows across the path, and, whether because they were so tall and thick or because they had been enchanted, the sound of the surrounding crowd was silenced the moment they entered the maze.",
+                "book": 4,
+                "chapter": 31
+            }
+        ],
+        "id": 181,
+        "question_variants": "What is the name of the spell that makes a loud noise?",
+        "sub_questions": [
+            "What is the name of the spell that makes a loud noise?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is Harry's first Defense Against the Dark Arts teacher?",
+        "answer": "Quirinus Quirrell",
+        "list of reference": [
+            {
+                "ref_id": 150,
+                "passage": "\"Professor Quirrell!\" said Hagrid. \"Harry, Professor Quirrell will be one of your teachers at Hogwarts.\" \"P-P-Potter,\" stammered Professor Quirrell, grasping Harry's hand, \"c-can't t-tell you how p-pleased I am to meet you.\" \"What sort of magic do you teach, Professor Quirrell?\" \"D-Defense Against the D-D-Dark Arts,\" muttered Professor Quirrell, as though he'd rather not think about it. \"N-not that you n-need it, eh, P-P-Potter?\" He laughed nervously. \"You'll be g-getting all your equipment, I suppose? I've g-got to p-pick up a new b-book on vampires, m-myself.\" He looked terrified at the very thought. But the others wouldn't let Professor Quirrell keep Harry to himself. It took almost ten minutes to get away from them all. At last, Hagrid managed to make himself heard over the babble.",
+                "book": 1,
+                "chapter": 5
+            }
+        ],
+        "id": 174,
+        "question_variants": "Who is Harry's first Defense Against the Dark Arts teacher?",
+        "sub_questions": [
+            "Who is Harry's first Defense Against the Dark Arts teacher?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes light?",
+        "answer": "Lumos",
+        "list of reference": [
+            {
+                "ref_id": 1302,
+                "passage": "Instead he contented himself with scrawling a note to Ron: Let's do it tonight. Ron read the message, swallowed hard, and looked sideways at the empty seat usually filled by Hermione. The sight seemed to stiffen his resolve, and he nodded. The Gryffindor common room was always very crowded these days, because from six o'clock onward the Gryffindors had nowhere else to go. They also had plenty to talk about, with the result that the common room often didn't empty until past midnight. Harry went to get the Invisibility Cloak out of his trunk right after dinner, and spent the evening sitting on it, waiting for the room to clear. Fred and George challenged Harry and Ron to a few games of Exploding Snap, and Ginny sat watching them, very subdued in Hermione's usual chair. Harry and Ron kept losing on purpose, trying to finish the games quickly, but even so, it was well past midnight when Fred, George, and Ginny finally went to bed. Harry and Ron waited for the distant sounds of two dormitory doors closing before seizing the cloak, throwing it over themselves, and climbing through the portrait hole. It was another difficult journey through the castle, dodging all the teachers. At last they reached the entrance hall, slid back the lock on the oak front doors, squeezed between them, trying to stop any creaking, and stepped out into the moonlit grounds.\n\" 'Course,\" said Ron abruptly as they strode across the black grass, \"we might get to the forest and find there's nothing to follow. Those spiders might not've been going there at all. I know it looked like they were moving in that sort of general direction, but ...\"\nHis voice trailed away hopefully. They reached Hagrid's house, sad and sorry-looking with its blank windows. When Harry pushed the door open, Fang went mad with joy at the sight of them. Worried he might wake everyone at the castle with his deep, booming barks, they hastily fed him treacle toffee from a tin on the mantelpiece, which glued his teeth together. Harry left the Invisibility Cloak on Hagrid's table. There would be no need for it in the pitch-dark forest. \"C'mon, Fang, we're going for a walk,\" said Harry, patting his leg, and Fang bounded happily out of the house behind them, dashed to the edge of the forest, and lifted his leg against a large sycamore tree. Harry took out his wand, murmured, \"Lumos!\"",
+                "book": 2,
+                "chapter": 15
+            },
+            {
+                "ref_id": 1303,
+                "passage": "and a tiny light appeared at the end of it, just enough to let them watch the path for signs of spiders. \"Good thinking,\" said Ron. \"I'd light mine, too, but you know - it'd probably blow up or something. ...\"\nHarry tapped Ron on the shoulder, pointing at the grass. Two solitary spiders were hurrying away from the wandlight into the shade of the trees. \"Okay,\" Ron sighed as though resigned to the worst, \"I'm ready. Let's go.\"",
+                "book": 2,
+                "chapter": 15
+            }
+        ],
+        "id": 98,
+        "question_variants": "What is the name of the spell that makes light?",
+        "sub_questions": [
+            "What is the name of the spell that makes light?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes objects fly away?",
+        "answer": "Banishing Charm",
+        "list of reference": [
+            {
+                "ref_id": 3537,
+                "passage": "\"You said you'd already worked out that egg clue!\" said Hermione indignantly. \"Keep your voice down!\" said Harry crossly. \"I just need to - sort of fine-tune it, all right?\" He, Ron, and Hermione were sitting at the very back of the Charms class with a table to themselves. They were supposed to be practicing the opposite of the Summoning Charm today - the Banishing Charm.",
+                "book": 4,
+                "chapter": 26
+            },
+            {
+                "ref_id": 3538,
+                "passage": "Owing to the potential for nasty accidents when objects kept flying across the room, Professor Flitwick had given each student a stack of cushions on which to practice, the theory being that these wouldn't hurt anyone if they went off target. It was a good theory, but it wasn't working very well. Neville's aim was so poor that he kept accidentally sending much heavier things flying across the room - Professor Flitwick, for instance. \"Just forget the egg for a minute, all right?\" Harry hissed as Professor Flitwick went whizzing resignedly past them, landing on top of a large cabinet.",
+                "book": 4,
+                "chapter": 26
+            }
+        ],
+        "id": 149,
+        "question_variants": "What is the name of the spell that makes objects fly away?",
+        "sub_questions": [
+            "What is the name of the spell that makes objects fly away?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that makes objects shrink?",
+        "answer": "Reducio",
+        "list of reference": [
+            {
+                "ref_id": 2956,
+                "passage": "No sound came from it, but Harry was sure that if it could have given voice, it would have been screaming. Moody did not remove his wand, and the spider started to shudder and jerk more violently -\n\"Stop it!\" Hermione said shrilly. Harry looked around at her. She was looking, not at the spider, but at Neville, and Harry, following her gaze, saw that Neville's hands were clenched upon the desk in front of him, his knuckles white, his eyes wide and horrified. Moody raised his wand. The spider's legs relaxed, but it continued to twitch. \"Reducio,\" Moody muttered, and the spider shrank back to its proper size. He put it back into the jar.",
+                "book": 4,
+                "chapter": 14
+            },
+            {
+                "ref_id": 8407,
+                "passage": "\"Engorgio.\" The spider gave a little shiver, bouncing slightly in the web. Harry tried again. This time the spider grew slightly larger. \"Stop that,\" said Ron sharply. \"I'm sorry I said Dumbledore was young, okay?\" Harry had forgotten Ron's hatred of spiders. \"Sorry - Reducio.\"",
+                "book": 7,
+                "chapter": 20
+            },
+            {
+                "ref_id": 8408,
+                "passage": "The spider did not shrink. Harry looked down at the blackthorn wand. Every minor spell he had cast with it so far that day had seemed less powerful than those he had produced with his phoenix wand. The new one felt intrusively unfamiliar, like having somebody else's hand sewn to the end of his arm. \"You just need to practice,\" said Hermione, who had approached them noiselessly from behind and had stood watching anxiously as Harry tried to enlarge and reduce the spider. \"It's all a matter of confidence, Harry.\" He knew why she wanted it to be all right: She still felt guilty about breaking his wand. He bit back the retort that sprang to his lips, that she could take the blackthorn wand if she thought it made no difference, and he would have hers instead. Keen for them all to be friends again, however, he agreed; but when Ron gave Hermione a tentative smile, she stalked off and vanished behind her book once more. All three of them returned to the tent when darkness fell, and Harry took first watch. Sitting in the entrance, he tried to make the blackthorn wand levitate small stones at his feet; but his magic still seemed clumsier and less powerful than it had done before. Hermione was lying on her bunk reading, while Ron, after many nervous glances up at her, had taken a small wooden wireless out of his rucksack and started to try and tune it. \"There's this one program,\" he told Harry in a low voice, \"that tells the news like it really is. All the others are on You-Know-Who's side and are following the Ministry line, but this one ... you wait till you hear it, it's great. Only they can't do it every night, they have to keep changing locations in case they're raided, and you need a password to tune in.",
+                "book": 7,
+                "chapter": 20
+            }
+        ],
+        "id": 247,
+        "question_variants": "What is the name of the spell that makes objects shrink?",
+        "sub_questions": [
+            "What is the name of the spell that makes objects shrink?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves sweets?",
+        "answer": "Ron Weasley",
+        "list of reference": [
+            {
+                "ref_id": 225,
+                "passage": "\"She hasn't got much time,\" he added quickly, \"you know, with five of us.\" \"Go on, have a pasty,\" said Harry, who had never had anything to share before or, indeed, anyone to share it with. It was a nice feeling, sitting there with Ron, eating their way through all Harry's pasties, cakes, and candies (the sandwiches lay forgotten). \"What are these?\" Harry asked Ron, holding up a pack of Chocolate Frogs. \"They're not really frogs, are they?\" He was starting to feel that nothing would surprise him. \"No,\" said Ron. \"But see what the card is. I'm missing Agrippa.\" \"What?\" \"Oh, of course, you wouldn't know - Chocolate Frogs have cards inside them, you know, to collect - famous witches and wizards. I've got about five hundred, but I haven't got Agrippa or Ptolemy.\" Harry unwrapped his Chocolate Frog and picked up the card.",
+                "book": 1,
+                "chapter": 6
+            }
+        ],
+        "id": 221,
+        "question_variants": "Who is the Gryffindor boy who loves sweets?",
+        "sub_questions": [
+            "Who is the Gryffindor boy who loves sweets?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Where do Bill and Fleur live, providing the Trio with shelter after they escape from Malfoy Manor?",
+        "answer": "They live at Shell Cottage.",
+        "list of reference": [
+            {
+                "ref_id": 8417,
+                "passage": "said Ron with an incredulous laugh. \"Do you think I was going to go back there and tell them all I'd walked out on you? Yeah, Fred and George would've been great about it. And Ginny, she'd have been really understanding.\" \"But where have you been, then?\" asked Hermione, surprised. \"Bill and Fleur's new place. Shell Cottage. Bill's always been decent to me. He - he wasn't impressed when he heard what I'd done, but he didn't go on about it. He knew I was really sorry.",
+                "book": 7,
+                "chapter": 20
+            }
+        ],
+        "id": 26,
+        "question_variants": "Where do Bill and Fleur live, providing the Trio with shelter after they escape from Malfoy Manor?",
+        "sub_questions": [
+            "Where do Bill and Fleur live, providing the Trio with shelter after they escape from Malfoy Manor?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that creates a magical barrier?",
+        "answer": "Protego",
+        "list of reference": [
+            {
+                "ref_id": 5540,
+                "passage": "\"One - two - three - Legilimens!\" A hundred dementors were swooping toward Harry across the lake in the grounds. ... He screwed up his face in concentration. ... They were coming closer. ... He could see the dark holes beneath their hoods ... yet he could also see Snape standing in front of him, his eyes fixed upon Harry's face, muttering under his breath. ... And somehow, Snape was growing clearer, and the dementors were growing fainter ...\nHarry raised his own wand. \"Protego!\"",
+                "book": 5,
+                "chapter": 26
+            }
+        ],
+        "id": 87,
+        "question_variants": "What is the name of the spell that creates a magical barrier?",
+        "sub_questions": [
+            "What is the name of the spell that creates a magical barrier?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the hidden location used as the headquarters for the Order of the Phoenix?",
+        "answer": "Number Twelve, Grimmauld Place, serves as headquarters.",
+        "list of reference": [
+            {
+                "ref_id": 4289,
+                "passage": "A pungent smell of rotting rubbish came from the pile of bulging bin-bags just inside the broken gate. \"Here,\" Moody muttered, thrusting a piece of parchment toward Harry's Disillusioned hand and holding his lit wand close to it, so as to illuminate the writing. \"Read quickly and memorize.\" Harry looked down at the piece of paper. The narrow handwriting was vaguely familiar. It said:\nThe headquarters of the Order of the Phoenix may be found at number twelve, Grimmauld Place, London.",
+                "book": 5,
+                "chapter": 3
+            }
+        ],
+        "id": 19,
+        "question_variants": "What is the hidden location used as the headquarters for the Order of the Phoenix?",
+        "sub_questions": [
+            "What is the hidden location used as the headquarters for the Order of the Phoenix?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be tortured?",
+        "answer": "Crucio",
+        "list of reference": [
+            {
+                "ref_id": 2955,
+                "passage": "Moody was looking very intently at Neville, this time with both eyes. \"Your name's Longbottom?\" he said, his magical eye swooping down to check the register again. Neville nodded nervously, but Moody made no further inquiries. Turning back to the class at large, he reached into the jar for the next spider and placed it upon the desktop, where it remained motionless, apparently too scared to move. \"The Cruciatus Curse,\" said Moody. \"Needs to be a bit bigger for you to get the idea,\" he said, pointing his wand at the spider. \"Engorgio!\" The spider swelled. It was now larger than a tarantula. Abandoning all pretense, Ron pushed his chair backward, as far away from Moody's desk as possible. Moody raised his wand again, pointed it at the spider, and muttered, \"Crucio!\" At once, the spider's legs bent in upon its body; it rolled over and began to twitch horribly, rocking from side to side.",
+                "book": 4,
+                "chapter": 14
+            }
+        ],
+        "id": 76,
+        "question_variants": "What is the name of the spell that causes a person to be tortured?",
+        "sub_questions": [
+            "What is the name of the spell that causes a person to be tortured?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the head of Ravenclaw house?",
+        "answer": "Filius Flitwick",
+        "list of reference": [
+            {
+                "ref_id": 296,
+                "passage": "Three times a week they went out to the greenhouses behind the castle to study Herbology, with a dumpy little witch called Professor Sprout, where they learned how to take care of all the strange plants and fungi, and found out what they were used for. Easily the most boring class was History of Magic, which was the only one taught by a ghost. Professor Binns had been very old indeed when he had fallen asleep in front of the staff room fire and got up next morning to teach, leaving his body behind him. Binns droned on and on while they scribbled down names and dates, and got Emeric the Evil and Uric the Oddball mixed up. Professor Flitwick, the Charms teacher, was a tiny little wizard who had to stand on a pile of books to see over his desk. At the start of their first class he took the roll call, and when he reached Harry's name he gave an excited squeak and toppled out of sight. Professor McGonagall was again different.",
+                "book": 1,
+                "chapter": 8
+            }
+        ],
+        "id": 138,
+        "question_variants": "Who is the head of Ravenclaw house?",
+        "sub_questions": [
+            "Who is the head of Ravenclaw house?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that creates a shield against dark magic?",
+        "answer": "Protego Horribilis",
+        "list of reference": [
+            {
+                "ref_id": 8902,
+                "passage": "\"Professor,\" Harry said, approaching the little Charms master, \"Professor, I'm sorry to interrupt, but this is important. Have you got any idea where the diadem of Ravenclaw is?\" \"- Protego Horribilis - the diadem of Ravenclaw?\" squeaked Flitwick. \"A little extra wisdom never goes amiss, Potter, but I hardly think it would be much use in this situation!\" \"I only meant - do you know where it is? Have you ever seen it?\" \"Seen it? Nobody has seen it in living memory! Long since lost, boy!\" Harry felt a mixture of desperate disappointment and panic. What, then, was the Horcrux? \"We shall meet you and your Ravenclaws in the Great Hall, Filius!\"",
+                "book": 7,
+                "chapter": 30
+            }
+        ],
+        "id": 195,
+        "question_variants": "What is the name of the spell that creates a shield against dark magic?",
+        "sub_questions": [
+            "What is the name of the spell that creates a shield against dark magic?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Gryffindor prefect in Harry's fifth year?",
+        "answer": "Ron Weasley and Hermione Granger",
+        "list of reference": [
+            {
+                "ref_id": 4535,
+                "passage": "\"To Ron and Hermione, the new Gryffindor prefects!\" Ron and Hermione beamed as everyone drank to them and then applauded. \"I was never a prefect myself,\" said Tonks brightly from behind Harry as everybody moved toward the table to help themselves to food. Her hair was tomato-red and waist length today; she looked like Ginny's older sister. \"My Head of House said I lacked certain necessary qualities.\" \"Like what?\" said Ginny, who was choosing a baked potato. \"Like the ability to behave myself,\" said Tonks. Ginny laughed; Hermione looked as though she did not know whether to smile or not and compromised by taking an extra large gulp of butterbeer and choking on it.",
+                "book": 5,
+                "chapter": 9
+            }
+        ],
+        "id": 176,
+        "question_variants": "Who is the Gryffindor prefect in Harry's fifth year?",
+        "sub_questions": [
+            "Who is the Gryffindor prefect in Harry's fifth year?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Gryffindor girl who loves fashion?",
+        "answer": "Parvati Patil",
+        "list of reference": [
+            {
+                "ref_id": 3396,
+                "passage": "She was wearing robes made of a floaty, periwinkle-blue material, and she was holding herself differently, somehow - or maybe it was merely the absence of the twenty or so books she usually had slung over her back. She was also smiling - rather nervously, it was true - but the reduction in the size of her front teeth was more noticeable than ever; Harry couldn't understand how he hadn't spotted it before. \"Hi, Harry!\" she said. \"Hi, Parvati!\" Parvati was gazing at Hermione in unflattering disbelief. She wasn't the only one either; when the doors to the Great Hall opened, Krum's fan club from the library stalked past, throwing Hermione looks of deepest loathing. Pansy Parkinson gaped at her as she walked by with Malfoy, and even he didn't seem to be able to find an insult to throw at her. Ron, however, walked right past Hermione without looking at her. Once everyone else was settled in the Hall, Professor McGonagall told the champions and their partners to get in line in pairs and to follow her. They did so, and everyone in the Great Hall applauded as they entered and started walking up toward a large round table at the top of the Hall, where the judges were sitting. The walls of the Hall had all been covered in sparkling silver frost, with hundreds of garlands of mistletoe and ivy crossing the starry black ceiling. The House tables had vanished; instead, there were about a hundred smaller, lantern-lit ones, each seating about a dozen people. Harry concentrated on not tripping over his feet. Parvati seemed to be enjoying herself; she was beaming around at everybody, steering Harry so forcefully that he felt as though he were a show dog she was putting through its paces. He caught sight of Ron and Padma as he neared the top table. Ron was watching Hermione pass with narrowed eyes.",
+                "book": 4,
+                "chapter": 23
+            }
+        ],
+        "id": 237,
+        "question_variants": "Who is the Gryffindor girl who loves fashion?",
+        "sub_questions": [
+            "Who is the Gryffindor girl who loves fashion?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the ghost of Ravenclaw house?",
+        "answer": "The Grey Lady",
+        "list of reference": [
+            {
+                "ref_id": 8929,
+                "passage": "\"Harry! My dear boy!\" Nick made to grasp Harry's hands with both of his own: Harry's felt as though they had been thrust into icy water. \"Nick, you've got to help me. Who's the ghost of Ravenclaw Tower?\" Nearly Headless Nick looked surprised and a little offended. \"The Gray Lady, of course; but if it is ghostly services you require - ?\"",
+                "book": 7,
+                "chapter": 31
+            }
+        ],
+        "id": 163,
+        "question_variants": "Who is the ghost of Ravenclaw house?",
+        "sub_questions": [
+            "Who is the ghost of Ravenclaw house?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Minister of Magic at the start of the series?",
+        "answer": "Cornelius Fudge",
+        "list of reference": [
+            {
+                "ref_id": 142,
+                "passage": "\"They wanted Dumbledore fer Minister, o' course, but he'd never leave Hogwarts, so old Cornelius Fudge got the job. Bungler if ever there was one. So he pelts Dumbledore with owls every morning, askin' fer advice.\" \"But what does a Ministry of Magic do?\" \"Well, their main job is to keep it from the Muggles that there's still witches an' wizards up an' down the country.\" \"Why?\" \"Why? Blimey, Harry, everyone'd be wantin' magic solutions to their problems. Nah, we're best left alone.\"",
+                "book": 1,
+                "chapter": 5
+            }
+        ],
+        "id": 46,
+        "question_variants": "Who is the Minister of Magic at the start of the series?",
+        "sub_questions": [
+            "Who is the Minister of Magic at the start of the series?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be protected?",
+        "answer": "Protego",
+        "list of reference": [
+            {
+                "ref_id": 5540,
+                "passage": "\"One - two - three - Legilimens!\" A hundred dementors were swooping toward Harry across the lake in the grounds. ... He screwed up his face in concentration. ... They were coming closer. ... He could see the dark holes beneath their hoods ... yet he could also see Snape standing in front of him, his eyes fixed upon Harry's face, muttering under his breath. ... And somehow, Snape was growing clearer, and the dementors were growing fainter ...\nHarry raised his own wand. \"Protego!\"",
+                "book": 5,
+                "chapter": 26
+            }
+        ],
+        "id": 67,
+        "question_variants": "What is the name of the spell that causes a person to be protected?",
+        "sub_questions": [
+            "What is the name of the spell that causes a person to be protected?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Which teacher at Hogwarts imposes numerous strict rules and punishments on the students?",
+        "answer": "Professor Dolores Umbridge enforces these rules.",
+        "list of reference": [
+            {
+                "ref_id": 4845,
+                "passage": "They had expected to have to comb Hermione's Daily Prophet carefully next morning to find the article Percy had mentioned in his letter. However, the departing delivery owl had barely cleared the top of the milk jug when Hermione let out a huge gasp and flattened the newspaper to reveal a large photograph of Dolores Umbridge, smiling widely and blinking slowly at them from beneath the headline:\nMINISTRY SEEKS EDUCATIONAL REFORM\nDOLORES UMBRIDGE APPOINTED FIRST-EVER \"HIGH INQUISITOR\"\n\" 'High Inquisitor'?\" said Harry darkly, his half-eaten bit of toast slipping from his fingers. \"What does that mean?\" Hermione read aloud:\n\"In a surprise move last night the Ministry of Magic passed new legislation giving itself an unprecedented level of control at Hogwarts School of Witchcraft and Wizardry.\n\" 'The Minister has been growing uneasy about goings-on at Hogwarts for some time,' said Junior Assistant to the Minister, Percy Weasley. 'He is now responding to concerns voiced by anxious parents, who feel the school may be moving in a direction they do not approve.'",
+                "book": 5,
+                "chapter": 15
+            }
+        ],
+        "id": 17,
+        "question_variants": "Which teacher at Hogwarts imposes numerous strict rules and punishments on the students?",
+        "sub_questions": [
+            "Which teacher at Hogwarts imposes numerous strict rules and punishments on the students?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be hidden?",
+        "answer": "Disillusionment Charm",
+        "list of reference": [
+            {
+                "ref_id": 4277,
+                "passage": "\"Do I have to?\" Lupin smiled but made no answer. \"Come here, boy,\" said Moody gruffly, beckoning Harry toward him with his wand. \"I need to Disillusion you.\" \"You need to what?\" said Harry nervously. \"Disillusionment Charm,\" said Moody, raising his wand. \"Lupin says you've got an Invisibility Cloak, but it won't stay on while we're flying; this'll disguise you better.",
+                "book": 5,
+                "chapter": 3
+            }
+        ],
+        "id": 68,
+        "question_variants": "What is the name of the spell that causes a person to be hidden?",
+        "sub_questions": [
+            "What is the name of the spell that causes a person to be hidden?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Ravenclaw girl who wears radish earrings?",
+        "answer": "Luna Lovegood",
+        "list of reference": [
+            {
+                "ref_id": 6872,
+                "passage": "When he arrived in the entrance hall at eight o'clock that night, he found an unusually large number of girls lurking there, all of whom seemed to be staring at him resentfully as he approached Luna. She was wearing a set of spangled silver robes that were attracting a certain amount of giggles from the onlookers, but otherwise she looked quite nice. Harry was glad, in any case, that she had left off her radish earrings, her butterbeer cork necklace, and her Spectrespecs. \"Hi,\" he said. \"Shall we get going then?\" \"Oh yes,\" she said happily. \"Where is the party?\"",
+                "book": 6,
+                "chapter": 15
+            }
+        ],
+        "id": 206,
+        "question_variants": "Who is the Ravenclaw girl who wears radish earrings?",
+        "sub_questions": [
+            "Who is the Ravenclaw girl who wears radish earrings?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves photography?",
+        "answer": "Colin Creevey",
+        "list of reference": [
+            {
+                "ref_id": 928,
+                "passage": "I'm - I'm Colin Creevey,\" he said breathlessly, taking a tentative step forward. \"I'm in Gryffindor, too. D'you think - would it be all right if - can I have a picture?\" he said, raising the camera hopefully. \"A picture?\"",
+                "book": 2,
+                "chapter": 6
+            }
+        ],
+        "id": 200,
+        "question_variants": "Who is the Gryffindor boy who loves photography?",
+        "sub_questions": [
+            "Who is the Gryffindor boy who loves photography?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "What is the name of the spell that lifts objects into the air upside and down?",
+        "answer": "Dangling Jinx (Levicorpus)",
+        "list of reference": [
+            {
+                "ref_id": 6715,
+                "passage": "class. On the other hand, the Prince had proved a much more effective teacher than Snape so far. Pointing his wand at nothing in particular, he gave it an upward flick and said Levicorpus! inside his head. \"Aaaaaaaargh!\" There was a flash of light and the room was full of voices: Everyone had woken up as Ron had let out a yell. Harry sent Advanced Potion-Making flying in panic; Ron was dangling upside down in midair as though an invisible hook had hoisted him up by the ankle.",
+                "book": 6,
+                "chapter": 12
+            },
+            {
+                "ref_id": 7037,
+                "passage": "Staggering, he looked around. Ron's fist was drawn right back; his face was contorted with rage; he was about to strike again. Harry reacted instinctively; his wand was out of his pocket and the incantation sprang to mind without conscious thought: Levicorpus! Ron yelled as his heel was wrenched upward once more; he dangled helplessly, upside down, his robes hanging off him. \"What was that for?\" Harry bellowed. \"You insulted her, Harry! You said it was a joke!\" shouted Ron, who was slowly turning purple in the face as all the blood rushed to his head. \"This is insane!\" said Harry. \"What's got into - ?\" And then he saw the box lying open on Ron's bed, and the truth hit him with the force of a stampeding troll. \"Where did you get those Chocolate Cauldrons?\" \"They were a birthday present!\"",
+                "book": 6,
+                "chapter": 18
+            },
+            {
+                "ref_id": 8765,
+                "passage": "snarled the goblin. \"Then what do we do?\" said Harry, glaring at the goblin. \"If you want the sword, Griphook, then you'll have to help us more than - wait! Can I touch stuff with the sword? Hermione, give it here!\" Hermione fumbled inside her robes, drew out the beaded bag, rummaged for a few seconds, then removed the shining sword. Harry seized it by its rubied hilt and touched the tip of the blade to a silver flagon nearby, which did not multiply. \"If I can just poke the sword through a handle - but how am I going to get up there?\" The shelf on which the cup reposed was out of reach for any of them, even Ron, who was tallest. The heat from the enchanted treasure rose in waves, and sweat ran down Harry's face and back as he struggled to think of a way up to the cup; and then he heard the dragon roar on the other side of the vault door, and the sound of clanking growing louder and louder. They were truly trapped now: There was no way out except through the door, and a horde of goblins seemed to be approaching on the other side. Harry looked at Ron and Hermione and saw terror in their faces. \"Hermione,\" said Harry as the clanking grew louder, \"I've got to get up there, we've got to get rid of it -\"\nShe raised her wand, pointed it at Harry, and whispered, \"Levicorpus.\" Hoisted into the air by his ankle, Harry hit a suit of armor and replicas burst out of it like white-hot bodies, filling the cramped space. With screams of pain Ron, Hermione, and the two goblins were knocked aside into other objects, which also began to replicate.",
+                "book": 7,
+                "chapter": 26
+            }
+        ],
+        "id": 177,
+        "question_variants": "What is the name of the spell that lifts objects into the air upside and down?",
+        "sub_questions": [
+            "What is the name of the spell that lifts objects into the air upside and down?"
+        ],
+        "category": "easy_single_labeled"
+    },
+    {
+        "question": "Who teaches Potions in Harry's sixth year?",
+        "answer": "Horace Slughorn",
+        "list of reference": [
+            {
+                "ref_id": 6567,
+                "passage": "\"But there are some injuries you can't cure ... old curses ... and there are poisons without antidotes. ...\"\n\"... and Mr. Filch, our caretaker, has asked me to say that there is a blanket ban on any joke items bought at the shop called Weasleys' Wizard Wheezes. \"Those wishing to play for their House Quidditch teams should give their names to their Heads of House as usual. We are also looking for new Quidditch commentators, who should do likewise. \"We are pleased to welcome a new member of staff this year. Professor Slughorn\" - Slughorn stood up, his bald head gleaming in the candlelight, his big waistcoated belly casting the table below into shadow - \"is a former colleague of mine who has agreed to resume his old post of Potions master.\" \"Potions?\" \"Potions?\" The word echoed all over the Hall as people wondered whether they had heard right. \"Potions?\"",
+                "book": 6,
+                "chapter": 8
+            }
+        ],
+        "id": 41,
+        "question_variants": "Which professor was responsible for teaching Potions in Harry's final year at Hogwarts?",
+        "sub_questions": [
+            "Who is the Potions teacher in Harry Potter and the Half-Blood Prince?",
+            "Can you identify the character who teaches Potions during the events of the sixth book?",
+            "Which teacher is responsible for the Potions class in Harry's final year at Hogwarts?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What position does Percy Weasley take at the Ministry of Magic?",
+        "answer": "Junior Assistant to the Minister",
+        "list of reference": [
+            {
+                "ref_id": 4319,
+                "passage": "\"Yeah, we were all surprised,\" said George, \"because Percy got into a load of trouble about Crouch, there was an inquiry and everything. They said Percy ought to have realized Crouch was off his rocker and informed a superior. But you know Percy, Crouch left him in charge, he wasn't going to complain. ...\"\n\"So how come they promoted him?\" \"That's exactly what we wondered,\" said Ron, who seemed very keen to keep normal conversation going now that Harry had stopped yelling. \"He came home really pleased with himself - even more pleased than usual if you can imagine that - and told Dad he'd been offered a position in Fudge's own office. A really good one for someone only a year out of Hogwarts - Junior Assistant to the Minister. He expected Dad to be all impressed, I think.\" \"Only Dad wasn't,\" said Fred grimly. \"Why not?\" said Harry.",
+                "book": 5,
+                "chapter": 4
+            }
+        ],
+        "id": 23,
+        "question_variants": "What role does Percy Weasley hold within the Ministry of Magic?",
+        "sub_questions": [
+            "What is the name of the position Percy Weasley holds at the Ministry of Magic?",
+            "How does Percy Weasley's role at the Ministry of Magic impact the plot of the Harry Potter series?",
+            "Are there any notable changes or developments in Percy Weasley's position throughout the books?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What creature does Hermione turn into after using Polyjuice Potion?",
+        "answer": "Cat",
+        "list of reference": [
+            {
+                "ref_id": 1217,
+                "passage": "Her face was covered in black fur. Her eyes had turned yellow and there were long, pointed ears poking through her hair. \"It was a c-cat hair!\" she howled. \"M-Millicent Bulstrode m-must have a cat! And the p-potion isn't supposed to be used for animal transformations!\" \"Uh-oh,\" said Ron. \"You'll be teased something dreadful,\" said Myrtle happily. \"It's okay, Hermione,\" said Harry quickly. \"We'll take you up to the hospital wing. Madam Pomfrey never asks too many questions. ...\"\nIt took a long time to persuade Hermione to leave the bathroom. Moaning Myrtle sped them on their way with a hearty guffaw. \"Wait till everyone finds out you've got a tail!\"",
+                "book": 2,
+                "chapter": 12
+            }
+        ],
+        "id": 56,
+        "question_variants": "Which animal does Hermione transform into when she drinks the Polyjuice Potion?",
+        "sub_questions": [
+            "What is the Polyjuice Potion?",
+            "How does Hermione use the Polyjuice Potion?",
+            "What creature does Hermione turn into after using the Polyjuice Potion?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "Who becomes the Gryffindor Quidditch captain after Oliver Wood?",
+        "answer": "Angelina Johnson",
+        "list of reference": [
+            {
+                "ref_id": 4656,
+                "passage": "\"What?\" said both Harry and Ron together. \"Well ... maybe he didn't want to draw attention to Hagrid not being here.\" \"What d'you mean, draw attention to it?\" said Ron, half laughing. \"How could we not notice?\" Before Hermione could answer, a tall black girl with long, braided hair had marched up to Harry. \"Hi, Angelina.\" \"Hi,\" she said briskly, \"good summer?\"",
+                "book": 5,
+                "chapter": 12
+            },
+            {
+                "ref_id": 4657,
+                "passage": "And without waiting for an answer, \"Listen, I've been made Gryffindor Quidditch Captain.\" \"Nice one,\" said Harry, grinning at her; he suspected Angelina's pep talks might not be as long-winded as Oliver Wood's had been, which could only be an improvement. \"Yeah, well, we need a new Keeper now Oliver's left. Tryouts are on Friday at five o'clock and I want the whole team there, all right? Then we can see how the new person'll fit in.\" \"Okay,\" said Harry, and she smiled at him and departed. \"I'd forgotten Wood had left,\" said Hermione vaguely, sitting down beside Ron and pulling a plate of toast toward her. \"I suppose that will make quite a difference to the team?\" \"I s'pose,\" said Harry, taking the bench opposite.",
+                "book": 5,
+                "chapter": 12
+            }
+        ],
+        "id": 89,
+        "question_variants": "Who takes over as the Gryffindor Quidditch captain after Oliver Wood?",
+        "sub_questions": [
+            "Who was the new Gryffindor Quidditch captain after Oliver Wood?",
+            "In which year did the new captain take over the role?",
+            "What were the names of the players who played as the new captain's teammates in the Quidditch team?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What spell does Harry use to disarm Draco Malfoy in the Room of Requirement?",
+        "answer": "Expelliarmus",
+        "list of reference": [
+            {
+                "ref_id": 8976,
+                "passage": "\"Don't kill him! DON'T KILL HIM!\" Malfoy yelled at Crabbe and Goyle, who were both aiming at Harry: Their split second's hesitation was all Harry needed. \"Expelliarmus!\" Goyle's wand flew out of his hand and disappeared into the bulwark of objects beside him; Goyle leapt foolishly on the spot, trying to retrieve it; Malfoy jumped out of range of Hermione's second Stunning Spell, and Ron, appearing suddenly at the end of the aisle, shot a full Body-Bind Curse at Crabbe, which narrowly missed. Crabbe wheeled around and screamed, \"Avada Kedavra!\" again. Ron leapt out of sight to avoid the jet of green light. The wandless Malfoy cowered behind a three-legged wardrobe as Hermione charged toward them, hitting Goyle with a Stunning Spell as she came.",
+                "book": 7,
+                "chapter": 31
+            }
+        ],
+        "id": 1,
+        "question_variants": "Which enchantment did Harry employ to neutralize Draco Malfoy's spell in the Room of Requirement?",
+        "sub_questions": [
+            "What is the name of the spell Harry uses to disarm Draco Malfoy?",
+            "How does Harry's spell work in the context of the Room of Requirement?",
+            "Is this spell a defensive or offensive incantation?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What object does Harry use to summon his broom during the first task?",
+        "answer": "Firebolt",
+        "list of reference": [
+            {
+                "ref_id": 3257,
+                "passage": "\"Accio Firebolt!\" he shouted. Harry waited, every fiber of him hoping, praying. ... If it hadn't worked ... if it wasn't coming ... He seemed to be looking at everything around him through some sort of shimmering, transparent barrier, like a heat haze, which made the enclosure and the hundreds of faces around him swim strangely. ...\nAnd then he heard it, speeding through the air behind him; he turned and saw his Firebolt hurtling toward him around the edge of the woods, soaring into the enclosure, and stopping dead in midair beside him, waiting for him to mount.",
+                "book": 4,
+                "chapter": 20
+            }
+        ],
+        "id": 27,
+        "question_variants": "During the first task, what item does Harry employ to call forth his broom?",
+        "sub_questions": [
+            "What is the specific object Harry uses to summon his broom?",
+            "How does this object function in the context of summoning the broom?",
+            "Is this object unique to the first task, or is it a recurring item in the series?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What potion does Harry use to disguise himself as Goyle?",
+        "answer": "Polyjuice Potion",
+        "list of reference": [
+            {
+                "ref_id": 1195,
+                "passage": "\"Good thinking,\" said Ron, unlocking the door. \"We'll take separate stalls.\" Careful not to spill a drop of his Polyjuice Potion, Harry slipped into the middle stall. \"Ready?\" he called. \"Ready,\" came Ron's and Hermione's voices. \"One - two - three -\"\nPinching his nose, Harry drank the potion down in two large gulps.",
+                "book": 2,
+                "chapter": 12
+            },
+            {
+                "ref_id": 1196,
+                "passage": "It tasted like overcooked cabbage. Immediately, his insides started writhing as though he'd just swallowed live snakes - doubled up, he wondered whether he was going to be sick - then a burning sensation spread rapidly from his stomach to the very ends of his fingers and toes - next, bringing him gasping to all fours, came a horrible melting feeling, as the skin all over his body bubbled like hot wax - and before his eyes, his hands began to grow, the fingers thickened, the nails broadened, the knuckles were bulging like bolts - his shoulders stretched painfully and a prickling on his forehead told him that hair was creeping down toward his eyebrows - his robes ripped as his chest expanded like a barrel bursting its hoops - his feet were agony in shoes four sizes too small -\nAs suddenly as it had started, everything stopped. Harry lay facedown on the stone-cold floor, listening to Myrtle gurgling morosely in the end toilet. With difficulty, he kicked off his shoes and stood up. So this was what it felt like, being Goyle. His large hand trembling, he pulled off his old robes, which were hanging a foot above his ankles, pulled on the spare ones, and laced up Goyle's boatlike shoes.",
+                "book": 2,
+                "chapter": 12
+            }
+        ],
+        "id": 40,
+        "question_variants": "Which potion does Harry employ to transform himself into a likeness of Goyle?",
+        "sub_questions": [
+            "What potion does Harry use to disguise himself as Goyle?",
+            "How does Harry's disguise as Goyle affect his interactions with other characters?",
+            "Are there any side effects or limitations to Harry's potion disguise?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "Who owns the wand shop in Diagon Alley?",
+        "answer": "Ollivander",
+        "list of reference": [
+            {
+                "ref_id": 177,
+                "passage": "He couldn't stop stammering his thanks, sounding just like Professor Quirrell. \"Don' mention it,\" said Hagrid gruffly. \"Don' expect you've had a lotta presents from them Dursleys. Just Ollivanders left now - only place fer wands, Ollivanders, and yeh gotta have the best wand.\" A magic wand ... this was what Harry had been really looking forward to. The last shop was narrow and shabby. Peeling gold letters over the door read Ollivanders: Makers of Fine Wands since 382b.c. A single wand lay on a faded purple cushion in the dusty window. A tinkling bell rang somewhere in the depths of the shop as they stepped inside.",
+                "book": 1,
+                "chapter": 5
+            }
+        ],
+        "id": 67,
+        "question_variants": "Which individual or entity possesses the wand shop located in Diagon Alley?",
+        "sub_questions": [
+            "Who is the owner of the wand shop in Diagon Alley?",
+            "What is the name of the wand shop in Diagon Alley?",
+            "How is the wand shop in Diagon Alley typically depicted in the Harry Potter series?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What is the name of Voldemort's snake?",
+        "answer": "Nagini",
+        "list of reference": [
+            {
+                "ref_id": 2518,
+                "passage": "\"Nagini has interesting news, Wormtail,\" it said. \"In-indeed, My Lord?\" said Wormtail. \"Indeed, yes,\" said the voice. \"According to Nagini, there is an old Muggle standing right outside this room, listening to every word we say.\" Frank didn't have a chance to hide himself. There were footsteps, and then the door of the room was flung wide open. A short, balding man with graying hair, a pointed nose, and small, watery eyes stood before Frank, a mixture of fear and alarm in his face. \"Invite him inside, Wormtail. Where are your manners?\" The cold voice was coming from the ancient armchair before the fire, but Frank couldn't see the speaker. The snake, on the other hand, was curled up on the rotting hearth rug, like some horrible travesty of a pet dog. Wormtail beckoned Frank into the room.",
+                "book": 4,
+                "chapter": 1
+            }
+        ],
+        "id": 11,
+        "question_variants": "Can you tell me the name of the snake that belonged to Voldemort?",
+        "sub_questions": [
+            "Who is the owner of the snake?",
+            "What is the snake's name?",
+            "How does the snake's name relate to Voldemort?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What is the name of the charm that repels water?",
+        "answer": "Impervius",
+        "list of reference": [
+            {
+                "ref_id": 1869,
+                "passage": "\"I've got no chance with these on,\" Harry said exasperatedly, waving his glasses. At that very moment, Hermione appeared at his shoulder; she was holding her cloak over her head and was, inexplicably, beaming. \"I've had an idea, Harry! Give me your glasses, quick!\" He handed them to her, and as the team watched in amazement, Hermione tapped them with her wand and said, \"Impervius!\" \"There!\"",
+                "book": 3,
+                "chapter": 9
+            },
+            {
+                "ref_id": 1870,
+                "passage": "she said, handing them back to Harry. \"They'll repel water!\" Wood looked as though he could have kissed her. \"Brilliant!\" he called hoarsely after her as she disappeared into the crowd. \"Okay, team, let's go for it!\" Hermione's spell had done the trick.",
+                "book": 3,
+                "chapter": 9
+            }
+        ],
+        "id": 45,
+        "question_variants": "Can you tell me the name of the charm that has the property of repelling water?",
+        "sub_questions": [
+            "What is the name of the charm that repels water?",
+            "How does the water-repelling charm work in the Harry Potter universe?",
+            "Are there any other charms or spells that can manipulate water in the series?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What is the name of the charm that amplifies the voice?",
+        "answer": "Sonorus",
+        "list of reference": [
+            {
+                "ref_id": 2697,
+                "passage": "Ludo whipped out his wand, directed it at his own throat, and said \"Sonorus!\" and then spoke over the roar of sound that was now filling the packed stadium; his voice echoed over them, booming into every corner of the stands. \"Ladies and gentlemen ... welcome! Welcome to the final of the four hundred and twenty-second Quidditch World Cup!\" The spectators screamed and clapped. Thousands of flags waved, adding their discordant national anthems to the racket.",
+                "book": 4,
+                "chapter": 8
+            }
+        ],
+        "id": 86,
+        "question_variants": "Could you tell me the name of the charm that enhances one's voice?",
+        "sub_questions": [
+            "What is the name of the charm that amplifies the voice?",
+            "How does this charm work in the context of the Harry Potter universe?",
+            "Are there any other charms or spells that have a similar effect in the series?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What spell does Harry use to save himself and Dudley from Dementors?",
+        "answer": "Expecto Patronum",
+        "list of reference": [
+            {
+                "ref_id": 4176,
+                "passage": "\"Expecto Patronum!\" A silvery wisp of vapor shot from the tip of the wand and the dementor slowed, but the spell hadn't worked properly; tripping over his feet, Harry retreated farther as the dementor bore down upon him, panic fogging his brain - concentrate -\nA pair of gray, slimy, scabbed hands slid from inside the dementor's robes, reaching for him. A rushing noise filled Harry's ears. \"Expecto Patronum!\" His voice sounded dim and distant. ... Another wisp of silver smoke, feebler than the last, drifted from the wand - he couldn't do it anymore, he couldn't work the spell -\nThere was laughter inside his own head, shrill, high-pitched laughter. ... He could smell the dementor's putrid, death-cold breath, filling his own lungs, drowning him - Think ... something happy. ... But there was no happiness in him. ... The dementor's icy fingers were closing on his throat - the high-pitched laughter was growing louder and louder, and a voice spoke inside his head - \"Bow to death, Harry.",
+                "book": 5,
+                "chapter": 1
+            },
+            {
+                "ref_id": 4177,
+                "passage": "... It might even be painless. ... I would not know. ... I have never died.",
+                "book": 5,
+                "chapter": 1
+            },
+            {
+                "ref_id": 4178,
+                "passage": "...\"\nHe was never going to see Ron and Hermione again -\nAnd their faces burst clearly into his mind as he fought for breath -\n\"EXPECTO PATRONUM!\" An enormous silver stag erupted from the tip of Harry's wand; its antlers caught the dementor in the place where the heart should have been; it was thrown backward, weightless as darkness, and as the stag charged, the dementor swooped away, batlike and defeated. \"THIS WAY!\" Harry shouted at the stag. Wheeling around, he sprinted down the alleyway, holding the lit wand aloft. \"DUDLEY? DUDLEY!\" He had run barely a dozen steps when he reached them: Dudley was curled on the ground, his arms clamped over his face; a second dementor was crouching low over him, gripping his wrists in its slimy hands, prizing them slowly, almost lovingly apart, lowering its hooded head toward Dudley's face as though about to kiss him. ...\n\"GET IT!\"",
+                "book": 5,
+                "chapter": 1
+            }
+        ],
+        "id": 36,
+        "question_variants": "Which incantation does Harry employ to protect himself and Dudley from the Dementors' influence?",
+        "sub_questions": [
+            "What is the name of the spell that Harry uses to protect himself and Dudley from the Dementors?",
+            "How does this spell work to counteract the effects of the Dementors' influence?",
+            "Are there any other characters in the Harry Potter series who have used this spell?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What creature does Hagrid breed?",
+        "answer": "Blast-Ended Skrewts",
+        "list of reference": [
+            {
+                "ref_id": 2914,
+                "passage": "As they drew nearer, an odd rattling noise reached their ears, punctuated by what sounded like minor explosions. \"Mornin'!\" Hagrid said, grinning at Harry, Ron, and Hermione. \"Be'er wait fer the Slytherins, they won' want ter miss this - Blast-Ended Skrewts!\" \"Come again?\" said Ron. Hagrid pointed down into the crates. \"Eurgh!\" squealed Lavender Brown, jumping backward.",
+                "book": 4,
+                "chapter": 13
+            },
+            {
+                "ref_id": 2915,
+                "passage": "\"Eurgh\" just about summed up the Blast-Ended Skrewts in Harry's opinion. They looked like deformed, shell-less lobsters, horribly pale and slimy-looking, with legs sticking out in very odd places and no visible heads. There were about a hundred of them in each crate, each about six inches long, crawling over one another, bumping blindly into the sides of the boxes. They were giving off a very powerful smell of rotting fish. Every now and then, sparks would fly out of the end of a skrewt, and with a small phut, it would be propelled forward several inches.",
+                "book": 4,
+                "chapter": 13
+            }
+        ],
+        "id": 71,
+        "question_variants": "Which animal does Hagrid raise?",
+        "sub_questions": [
+            "What is the name of the creature that Hagrid breeds?",
+            "How does Hagrid obtain these creatures?",
+            "Are these creatures magical or non-magical?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What object does Hermione use to destroy Hufflepuff's Cup?",
+        "answer": "Basilisk Fang",
+        "list of reference": [
+            {
+                "ref_id": 8953,
+                "passage": "\"It's what you did to open the locket,\" he told Harry apologetically. \"I had to have a few goes to get it right, but,\" he shrugged modestly, \"we got there in the end.\" \"He was amazing.\" said Hermione. \"Amazing!\" \"So ...\" Harry was struggling to keep up. \"So ...\"\n\"So we're another Horcrux down,\" said Ron, and from under his jacket he pulled the mangled remains of Hufflepuff's cup. \"Hermione stabbed it.",
+                "book": 7,
+                "chapter": 31
+            }
+        ],
+        "id": 63,
+        "question_variants": "Hermione employs what object to destroy Hufflepuff's Cup?",
+        "sub_questions": [
+            "What object does Hermione use to destroy Hufflepuff's Cup?",
+            "Is the object a magical item?",
+            "Can you name the author of the Harry Potter series?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What is the name of the pub in Hogsmeade where students often visit?",
+        "answer": "The Three Broomsticks",
+        "list of reference": [
+            {
+                "ref_id": 1917,
+                "passage": "\"Reckon Fred'd take a bit of Cockroach Cluster if I told him they were peanuts?\" When Ron and Hermione had paid for all their sweets, the three of them left Honeydukes for the blizzard outside. Hogsmeade looked like a Christmas card; the little thatched cottages and shops were all covered in a layer of crisp snow; there were holly wreaths on the doors and strings of enchanted candles hanging in the trees. Harry shivered; unlike the other two, he didn't have his cloak. They headed up the street, heads bowed against the wind, Ron and Hermione shouting through their scarves. \"That's the post office -\"\n\"Zonko's is up there -\"\n\"We could go up to the Shrieking Shack -\"\n\"Tell you what,\" said Ron, his teeth chattering, \"shall we go for a butterbeer in the Three Broomsticks?\" Harry was more than willing; the wind was fierce and his hands were freezing, so they crossed the road, and in a few minutes were entering the tiny inn. It was extremely crowded, noisy, warm, and smoky. A curvy sort of woman with a pretty face was serving a bunch of rowdy warlocks up at the bar. \"That's Madam Rosmerta,\" said Ron. \"I'll get the drinks, shall I?\" he added, going slightly red.",
+                "book": 3,
+                "chapter": 10
+            }
+        ],
+        "id": 13,
+        "question_variants": "Which pub in Hogsmeade is a popular spot for students?",
+        "sub_questions": [
+            "What is the name of the pub in Hogsmeade?",
+            "How do students typically access this pub?",
+            "Are there any notable events or activities that take place at this pub?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "Which Quidditch position does Ron Weasley play for Gryffindor?",
+        "answer": "Keeper",
+        "list of reference": [
+            {
+                "ref_id": 5074,
+                "passage": "screamed Angelina, soaring past him to keep up with Katie. \"GET GOING!\" Harry realized that he had been stationary in midair for more than a minute, watching the progress of the match without sparing a thought for the whereabouts of the Snitch; horrified, he went into a dive and started circling the pitch again, staring around, trying to ignore the chorus now thundering through the stadium:\nWEASLEY IS OUR KING,\nWEASLEY IS OUR KING ... There was no sign of the Snitch anywhere he looked; Malfoy was still circling the stadium just like Harry. They passed midway around the pitch going in opposite directions and Harry heard Malfoy singing loudly,\nWEASLEY WAS BORN IN A BIN ...\n\"- and it's Warrington again,\" bellowed Lee, \"who passes to Pucey, Pucey's off past Spinnet, come on now Angelina, you can take him - turns out you can't - but nice Bludger from Fred Weasley, I mean, George Weasley, oh who cares, one of them anyway, and Warrington drops the Quaffle and Katie Bell - er - drops it too - so that's Montague with the Quaffle, Slytherin Captain Montague takes the Quaffle, and he's off up the pitch, come on now Gryffindor, block him!\" Harry zoomed around the end of the stadium behind the Slytherin goal hoops, willing himself not to look at what was going on at Ron's end; as he sped past the Slytherin Keeper, he heard Bletchley singing along with the crowd below,\nWEASLEY CANNOT SAVE A THING ...\n\"- and Pucey's dodged Alicia again, and he's heading straight for goal, stop it, Ron!\" Harry did not have to look to see what had happened: There was a terrible groan from the Gryffindor end, coupled with fresh screams and applause from the Slytherins.",
+                "book": 5,
+                "chapter": 19
+            }
+        ],
+        "id": 5,
+        "question_variants": "What Quidditch position does Ron Weasley play for the Gryffindor team?",
+        "sub_questions": [
+            "What is the name of the Quidditch position that Ron Weasley plays for Gryffindor?",
+            "How does Ron Weasley's position in Quidditch contribute to the team's strategy?",
+            "Are there any notable achievements or records associated with Ron Weasley's role in Quidditch?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What is the name of the prison where Sirius Black was held?",
+        "answer": "Azkaban",
+        "list of reference": [
+            {
+                "ref_id": 1553,
+                "passage": "Stanley turned to the front page and chuckled. \"Sirius Black,\" he said, nodding. \" 'Course 'e was on the Muggle news, Neville, where you been?\" He gave a superior sort of chuckle at the blank look on Harry's face, removed the front page, and handed it to Harry. \"You oughta read the papers more, Neville.\" Harry held the paper up to the candlelight and read:\nBLACK STILL AT LARGE\nSirius Black, possibly the most infamous prisoner ever to be held in Azkaban fortress, is still eluding capture, the Ministry of Magic confirmed today. \"We are doing all we can to recapture Black,\" said the Minister of Magic, Cornelius Fudge, this morning, \"and we beg the magical community to remain calm.\" Fudge has been criticized by some members of the International Federation of Warlocks for informing the Muggle Prime Minister of the crisis. \"Well, really, I had to, don't you know,\" said an irritable Fudge. \"Black is mad. He's a danger to anyone who crosses him, magic or Muggle. I have the Prime Minister's assurance that he will not breathe a word of Black's true identity to anyone. And let's face it - who'd believe him if he did?\"",
+                "book": 3,
+                "chapter": 3
+            }
+        ],
+        "id": 19,
+        "question_variants": "Can you tell me the name of the prison where Sirius Black was incarcerated?",
+        "sub_questions": [
+            "What is the name of the prison where Sirius Black was held?",
+            "How did Sirius Black end up in prison?",
+            "Was Sirius Black ever released from prison?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "Who is the ghost of Ravenclaw Tower?",
+        "answer": "The Grey Lady",
+        "list of reference": [
+            {
+                "ref_id": 8929,
+                "passage": "\"Harry! My dear boy!\" Nick made to grasp Harry's hands with both of his own: Harry's felt as though they had been thrust into icy water. \"Nick, you've got to help me. Who's the ghost of Ravenclaw Tower?\" Nearly Headless Nick looked surprised and a little offended. \"The Gray Lady, of course; but if it is ghostly services you require - ?\"",
+                "book": 7,
+                "chapter": 31
+            }
+        ],
+        "id": 29,
+        "question_variants": "Can you identify the ghostly figure associated with Ravenclaw Tower?",
+        "sub_questions": [
+            "What is the name of the ghost that haunts the Ravenclaw Tower?",
+            "How did this ghost come to be in the Ravenclaw Tower?",
+            "Are there any other ghosts or spirits in the Harry Potter universe that are associated with specific locations or houses?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "Who is the caretaker of Hogwarts?",
+        "answer": "Argus Filch",
+        "list of reference": [
+            {
+                "ref_id": 286,
+                "passage": "\"Oh, you know Quirrell already, do you? No wonder he's looking so nervous, that's Professor Snape. He teaches Potions, but he doesn't want to - everyone knows he's after Quirrell's job. Knows an awful lot about the Dark Arts, Snape.\" Harry watched Snape for a while, but Snape didn't look at him again. At last, the desserts too disappeared, and Professor Dumbledore got to his feet again. The hall fell silent. \"Ahem - just a few more words now that we are all fed and watered. I have a few start-of-term notices to give you. \"First years should note that the forest on the grounds is forbidden to all pupils. And a few of our older students would do well to remember that as well.\" Dumbledore's twinkling eyes flashed in the direction of the Weasley twins. \"I have also been asked by Mr. Filch, the caretaker, to remind you all that no magic should be used between classes in the corridors. \"Quidditch trials will be held in the second week of the term. Anyone interested in playing for their House teams should contact Madam Hooch. \"And finally, I must tell you that this year, the third-floor corridor on the right-hand side is out of bounds to everyone who does not wish to die a very painful death.\" Harry laughed, but he was one of the few who did. \"He's not serious?\"",
+                "book": 1,
+                "chapter": 7
+            }
+        ],
+        "id": 50,
+        "question_variants": "What is the role of the caretaker at Hogwarts?",
+        "sub_questions": [
+            "Who is the primary caretaker of Hogwarts?",
+            "Are there any other caretakers or support staff at Hogwarts?",
+            "What are the responsibilities of the caretaker role at Hogwarts?"
+        ],
+        "category": "medium_single_labeled"
+    },
+    {
+        "question": "What does Harry learn about the invisibility cloak in the first book, and how does this knowledge shape his actions in the seventh book?",
+        "answer": "Harry discovers the cloak's unique properties from a mysterious gift, which he later uses strategically to evade danger and fulfill a destiny.",
+        "list of reference": [
+            {
+                "ref_id": 451,
+                "passage": "Who had sent the cloak? Had it really once belonged to his father? Before he could say or think anything else, the dormitory door was flung open and Fred and George Weasley bounded in. Harry stuffed the cloak quickly out of sight. He didn't feel like sharing it with anyone else yet.",
+                "book": 1,
+                "chapter": 12
+            },
+            {
+                "ref_id": 9163,
+                "passage": "Dumbledore closed his eyes for a moment and nodded. \"It was the thing, above all, that drew us together,\" he said quietly. \"Two clever, arrogant boys with a shared obsession. He wanted to come to Godric's Hollow, as I am sure you have guessed, because of the grave of Ignotus Peverell. He wanted to explore the place the third brother had died.\" \"So it's true?\" asked Harry. \"All of it? The Peverell brothers -\"\n\"- were the three brothers of the tale,\" said Dumbledore, nodding. \"Oh yes, I think so. Whether they met Death on a lonely road ... I think it more likely that the Peverell brothers were simply gifted, dangerous wizards who succeeded in creating those powerful objects. The story of them being Death's own Hallows seems to me the sort of legend that might have sprung up around such creations. \"The Cloak, as you know now, traveled down through the ages, father to son, mother to daughter, right down to Ignotus's last living descendant, who was born, as Ignotus was, in the village of Godric's Hollow.\" Dumbledore smiled at Harry. \"Me?\" \"You.",
+                "book": 7,
+                "chapter": 35
+            }
+        ],
+        "id": 27,
+        "question_variants": "In the first book, what specific information does Harry discover about the invisibility cloak? How does this newfound knowledge influence his behavior and decisions in the seventh book?",
+        "sub_questions": [
+            "What is the nature of the invisibility cloak that Harry discovers in the first book?",
+            "How does Harry's initial understanding of the cloak's abilities influence his behavior and decisions in the final book?",
+            "Can Harry's knowledge of the cloak's power in the first book be linked to his actions and choices in the seventh installment?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "What secret does Harry uncover about Tom Riddle in the second book, and how does it impact his actions in the sixth book?",
+        "answer": "Harry uncovers that Tom Riddle is Lord Voldemort - his teenage identity - through the enchanted diary. He and Dunbledore use the memories from Professor Slughorn to learn more about Riddle's past and Horcruxes in the sixth book.",
+        "list of reference": [
+            {
+                "ref_id": 1407,
+                "passage": "\"Well,\" said Riddle, smiling pleasantly, \"how is it that you - a skinny boy with no extraordinary magical talent - managed to defeat the greatest wizard of all time? How did you escape with nothing but a scar, while Lord Voldemort's powers were destroyed?\" There was an odd red gleam in his hungry eyes now. \"Why do you care how I escaped?\" said Harry slowly. \"Voldemort was after your time. ...\"\n\"Voldemort,\" said Riddle softly, \"is my past, present, and future, Harry Potter. ...\"\nHe pulled Harry's wand from his pocket and began to trace it through the air, writing three shimmering words:\ntom marvolo riddle\nThen he waved the wand once, and the letters of his name rearranged themselves:\ni am lord voldemort\n\"You see?\"",
+                "book": 2,
+                "chapter": 17
+            },
+            {
+                "ref_id": 7268,
+                "passage": "The wizard intent upon creating a Horcrux would use the damage to his advantage: He would encase the torn portion -\"\n\"Encase? But how - ?\" \"There is a spell, do not ask me, I don't know!\" said Slughorn, shaking his head like an old elephant bothered by mosquitoes. \"Do I look as though I have tried it - do I look like a killer?\" \"No, sir, of course not,\" said Riddle quickly. \"I'm sorry ... I didn't mean to offend ...\"\n\"Not at all, not at all, not offended,\" said Slughorn gruffly. \"It's natural to feel some curiosity about these things. ... Wizards of a certain caliber have always been drawn to that aspect of magic. ...\"\n\"Yes, sir,\" said Riddle. \"What I don't understand, though - just out of curiosity - I mean, would one Horcrux be much use?",
+                "book": 6,
+                "chapter": 23
+            },
+            {
+                "ref_id": 7269,
+                "passage": "Can you only split your soul once? Wouldn't it be better, make you stronger, to have your soul in more pieces, I mean, for instance, isn't seven the most powerfully magical number, wouldn't seven - ?\" \"Merlin's beard, Tom!\" yelped Slughorn. \"Seven! Isn't it bad enough to think of killing one person? And in any case ... bad enough to divide the soul ... but to rip it into seven pieces ...\"\nSlughorn looked deeply troubled now: He was gazing at Riddle as though he had never seen him plainly before, and Harry could tell that he was regretting entering into the conversation at all.",
+                "book": 6,
+                "chapter": 23
+            }
+        ],
+        "id": 14,
+        "question_variants": "In the second installment, what hidden truth does Harry learn about Tom Riddle? How does this revelation influence his decisions and actions in the final book?",
+        "sub_questions": [
+            "What secret does Harry uncover about Tom Riddle in the second book?",
+            "How does this secret impact Harry's actions in the sixth book?",
+            "Can you provide a detailed account of the events in the sixth book that are influenced by this revelation?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "In the third book, what does Harry learn about the map, and how does it aid him in the sixth book?",
+        "answer": "Harry discovers a tool that reveals secrets, which later helps him track a suspicious figure.",
+        "list of reference": [
+            {
+                "ref_id": 1901,
+                "passage": "They joined each other, they crisscrossed, they fanned into every corner of the parchment; then words began to blossom across the top, great, curly green words, that proclaimed:\nMessrs. Moony, Wormtail, Padfoot, and Prongs\nPurveyors of Aids to Magical Mischief-Makers\nare proud to present\nThe Marauder's Map\nIt was a map showing every detail of the Hogwarts castle and grounds. But the truly remarkable thing were the tiny ink dots moving around it, each labeled with a name in minuscule writing. Astounded, Harry bent over it. A labeled dot in the top left corner showed that Professor Dumbledore was pacing his study; the caretaker's cat, Mrs. Norris, was prowling the second floor; and Peeves the Poltergeist was currently bouncing around the trophy room. And as Harry's eyes traveled up and down the familiar corridors, he noticed something else. This map showed a set of passages he had never entered. And many of them seemed to lead -\n\"Right into Hogsmeade,\" said Fred, tracing one of them with his finger. \"There are seven in all. Now, Filch knows about these four\" - he pointed them out - \"but we're sure we're the only ones who know about these. Don't bother with the one behind the mirror on the fourth floor. We used it until last winter, but it's caved in - completely blocked.",
+                "book": 3,
+                "chapter": 10
+            },
+            {
+                "ref_id": 7190,
+                "passage": "Once out of sight of the entrance hall, Harry pulled the Marauder's Map and his Invisibility Cloak from his bag. Having concealed himself, he tapped the map, murmured, \"I solemnly swear that I am up to no good,\" and scanned it carefully. As it was Sunday morning, nearly all the students were inside their various common rooms, the Gryffindors in one tower, the Ravenclaws in another, the Slytherins in the dungeons, and the Hufflepuffs in the basement near the kitchens. Here and there a stray person meandered around the library or up a corridor. ... There were a few people out in the grounds ... and there, alone in the seventh-floor corridor, was Gregory Goyle. There was no sign of the Room of Requirement, but Harry was not worried about that; if Goyle was standing guard outside it, the room was open, whether the map was aware of it or not.",
+                "book": 6,
+                "chapter": 21
+            }
+        ],
+        "id": 25,
+        "question_variants": "In the third installment, what does Harry discover about the map, and how does it assist him in the final book?",
+        "sub_questions": [
+            "What is the nature of the map that Harry discovers in the third book?",
+            "How does the map's ability to show hidden passages and secret rooms benefit Harry in the sixth book?",
+            "Are there any other magical items or artifacts that Harry uses alongside the map in the sixth book?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "answer": "Harry use Marauder's Map and invisible cloak to uncover plans, reminiscent of an early gift that aided his adventures.",
+        "list of reference": [
+            {
+                "ref_id": 7190,
+                "passage": "Once out of sight of the entrance hall, Harry pulled the Marauder's Map and his Invisibility Cloak from his bag. Having concealed himself, he tapped the map, murmured, \"I solemnly swear that I am up to no good,\" and scanned it carefully. As it was Sunday morning, nearly all the students were inside their various common rooms, the Gryffindors in one tower, the Ravenclaws in another, the Slytherins in the dungeons, and the Hufflepuffs in the basement near the kitchens. Here and there a stray person meandered around the library or up a corridor. ... There were a few people out in the grounds ... and there, alone in the seventh-floor corridor, was Gregory Goyle. There was no sign of the Room of Requirement, but Harry was not worried about that; if Goyle was standing guard outside it, the room was open, whether the map was aware of it or not.",
+                "book": 6,
+                "chapter": 21
+            },
+            {
+                "ref_id": 1901,
+                "passage": "They joined each other, they crisscrossed, they fanned into every corner of the parchment; then words began to blossom across the top, great, curly green words, that proclaimed:\nMessrs. Moony, Wormtail, Padfoot, and Prongs\nPurveyors of Aids to Magical Mischief-Makers\nare proud to present\nThe Marauder's Map\nIt was a map showing every detail of the Hogwarts castle and grounds. But the truly remarkable thing were the tiny ink dots moving around it, each labeled with a name in minuscule writing. Astounded, Harry bent over it. A labeled dot in the top left corner showed that Professor Dumbledore was pacing his study; the caretaker's cat, Mrs. Norris, was prowling the second floor; and Peeves the Poltergeist was currently bouncing around the trophy room. And as Harry's eyes traveled up and down the familiar corridors, he noticed something else. This map showed a set of passages he had never entered. And many of them seemed to lead -\n\"Right into Hogsmeade,\" said Fred, tracing one of them with his finger. \"There are seven in all. Now, Filch knows about these four\" - he pointed them out - \"but we're sure we're the only ones who know about these. Don't bother with the one behind the mirror on the fourth floor. We used it until last winter, but it's caved in - completely blocked.",
+                "book": 3,
+                "chapter": 10
+            }
+        ],
+        "id": 22,
+        "question_variants": "In the sixth installment of the series, what device does Harry employ to observe Draco, and how does it connect to the events of the first book?",
+        "sub_questions": [
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "How does this object relate to the events of the first book?",
+            "Can you provide a specific example of this connection?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "answer": "Harry escapes Gringotts by riding a gigantic dragon and Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament.",
+        "list of reference": [
+            {
+                "ref_id": 8787,
+                "passage": "\"We'll go to Hogsmeade,\" said Harry, \"and try to work something out once we see what the protection around the school's like. Get under the Cloak, Hermione, I want to stick together this time.\" \"But we don't really fit -\"\n\"It'll be dark, no one's going to notice our feet.\" The flapping of enormous wings echoed across the black water: The dragon had drunk its fill and risen into the air. They paused in their preparations to watch it climb higher and higher, now black against the rapidly darkening sky, until it vanished over a nearby mountain. Then Hermione walked forward and took her place between the other two. Harry pulled the Cloak down as far as it would go, and together they turned on the spot into the crushing darkness.",
+                "book": 7,
+                "chapter": 27
+            },
+            {
+                "ref_id": 3247,
+                "passage": "\"Ladies first,\" he said, offering it to Fleur Delacour. She put a shaking hand inside the bag and drew out a tiny, perfect model of a dragon - a Welsh Green. It had the number two around its neck. And Harry knew, by the fact that Fleur showed no sign of surprise, but rather a determined resignation, that he had been right: Madame Maxime had told her what was coming. The same held true for Krum. He pulled out the scarlet Chinese Fireball.",
+                "book": 4,
+                "chapter": 20
+            },
+            {
+                "ref_id": 3248,
+                "passage": "It had a number three around its neck. He didn't even blink, just sat back down and stared at the ground. Cedric put his hand into the bag, and out came the blueish-gray Swedish Short-Snout, the number one tied around its neck. Knowing what was left, Harry put his hand into the silk bag and pulled out the Hungarian Horntail, and the number four. It stretched its wings as he looked down at it, and bared its minuscule fangs. \"Well, there you are!\" said Bagman. \"You have each pulled out the dragon you will face, and the numbers refer to the order in which you are to take on the dragons, do you see? Now, I'm going to have to leave you in a moment, because I'm commentating.",
+                "book": 4,
+                "chapter": 20
+            }
+        ],
+        "id": 16,
+        "question_variants": "In the seventh book, what magical creature does Harry ride to escape? Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+        "sub_questions": [
+            "What magical creature does Harry ride to escape in the seventh book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "answer": "Harry witnesses a conversation through flames, foreshadowing a loss that strikes him deeply in the following year.",
+        "list of reference": [
+            {
+                "ref_id": 5986,
+                "passage": "Instead of a chained chair, however, there was a raised stone dais in the center of the lowered floor, and upon this dais stood a stone archway that looked so ancient, cracked, and crumbling that Harry was amazed the thing was still standing. Unsupported by any surrounding wall, the archway was hung with a tattered black curtain or veil which, despite the complete stillness of the cold surrounding air, was fluttering very slightly as though it had just been touched. \"Who's there?\" said Harry, jumping down onto the bench below. There was no answering voice, but the veil continued to flutter and sway. \"Careful!\" whispered Hermione. Harry scrambled down the benches one by one until he reached the stone bottom of the sunken pit. His footsteps echoed loudly as he walked slowly toward the dais.",
+                "book": 5,
+                "chapter": 34
+            },
+            {
+                "ref_id": 7266,
+                "passage": "\"Well, you split your soul, you see,\" said Slughorn, \"and hide part of it in an object outside the body. Then, even if one's body is attacked or destroyed, one cannot die, for part of the soul remains earthbound and undamaged. But of course, existence in such a form ...\"\nSlughorn's face crumpled and Harry found himself remembering words he had heard nearly two years before: \"I was ripped from my body, I was less than spirit, less than the meanest ghost ... but still, I was alive.\" \"... few would want it, Tom, very few. Death would be preferable.\" But Riddle's hunger was now apparent; his expression was greedy, he could no longer hide his longing. \"How do you split your soul?\" \"Well,\" said Slughorn uncomfortably, \"you must understand that the soul is supposed to remain intact and whole.",
+                "book": 6,
+                "chapter": 23
+            }
+        ],
+        "id": 30,
+        "question_variants": "In the fifth installment, what vision does Harry witness in the flames at Grimmauld Place, and how does it relate to a pivotal scene in the sixth book?",
+        "sub_questions": [
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "How does the vision in the fire relate to a specific moment in the sixth book?",
+            "Can you identify the character or object Harry sees in the fire and its significance?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "What does Harry witness in the Pensieve in the fourth book, and how does it foreshadow an event in the sixth book?",
+        "answer": "Harry uses Dumbledore's Pensieve and witnesses a series of memories from Death Eater trials. In the sixth book, Harry views memories of Tom Riddle's past and learns about Horcruxes from the Pensieve.",
+        "list of reference": [
+            {
+                "ref_id": 3790,
+                "passage": "\"There was Travers - he helped murder the McKinnons! Mulciber - he specialized in the Imperius Curse, forced countless people to do horrific things! Rookwood, who was a spy, and passed He-Who-Must-Not-Be-Named useful information from inside the Ministry itself!\" Harry could tell that, this time, Karkaroff had struck gold. The watching crowd was all murmuring together. \"Rookwood?\" said Mr. Crouch, nodding to a witch sitting in front of him, who began scribbling upon her piece of parchment.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3791,
+                "passage": "\"Augustus Rookwood of the Department of Mysteries?\" \"The very same,\" said Karkaroff eagerly. \"I believe he used a network of well-placed wizards, both inside the Ministry and out, to collect information -\"\n\"But Travers and Mulciber we have,\" said Mr. Crouch. \"Very well, Karkaroff, if that is all, you will be returned to Azkaban while we decide -\"\n\"Not yet!\" cried Karkaroff, looking quite desperate. \"Wait, I have more!\" Harry could see him sweating in the torchlight, his white skin contrasting strongly with the black of his hair and beard. \"Snape!\" he shouted.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3792,
+                "passage": "\"Severus Snape!\" \"Snape has been cleared by this council,\" said Crouch disdainfully. \"He has been vouched for by Albus Dumbledore.\" \"No!\" shouted Karkaroff, straining at the chains that bound him to the chair. \"I assure you! Severus Snape is a Death Eater!\" Dumbledore had gotten to his feet. \"I have given evidence already on this matter,\" he said calmly.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3793,
+                "passage": "\"Severus Snape was indeed a Death Eater. However, he rejoined our side before Lord Voldemort's downfall and turned spy for us, at great personal risk. He is now no more a Death Eater than I am.\" Harry turned to look at Mad-Eye Moody. He was wearing a look of deep skepticism behind Dumbledore's back. \"Very well, Karkaroff,\" Crouch said coldly, \"you have been of assistance. I shall review your case. You will return to Azkaban in the meantime. ...\"\nMr. Crouch's voice faded. Harry looked around; the dungeon was dissolving as though it were made of smoke; everything was fading; he could see only his own body - all else was swirling darkness. ...\nAnd then, the dungeon returned. Harry was sitting in a different seat, still on the highest bench, but now to the left side of Mr. Crouch.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3794,
+                "passage": "The atmosphere seemed quite different: relaxed, even cheerful. The witches and wizards all around the walls were talking to one another, almost as though they were at some sort of sporting event. Harry noticed a witch halfway up the rows of benches opposite. She had short blonde hair, was wearing magenta robes, and was sucking the end of an acid-green quill. It was, unmistakably, a younger Rita Skeeter. Harry looked around; Dumbledore was sitting beside him again, wearing different robes.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3795,
+                "passage": "Mr. Crouch looked more tired and somehow fiercer, gaunter. ... Harry understood. It was a different memory, a different day ... a different trial. The door in the corner opened, and Ludo Bagman walked into the room. This was not, however, a Ludo Bagman gone to seed, but a Ludo Bagman who was clearly at the height of his Quidditch-playing fitness. His nose wasn't broken now; he was tall and lean and muscular.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3796,
+                "passage": "Bagman looked nervous as he sat down in the chained chair, but it did not bind him there as it had bound Karkaroff, and Bagman, perhaps taking heart from this, glanced around at the watching crowd, waved at a couple of them, and managed a small smile. \"Ludo Bagman, you have been brought here in front of the Council of Magical Law to answer charges relating to the activities of the Death Eaters,\" said Mr. Crouch. \"We have heard the evidence against you, and are about to reach our verdict. Do you have anything to add to your testimony before we pronounce judgment?\" Harry couldn't believe his ears. Ludo Bagman, a Death Eater? \"Only,\" said Bagman, smiling awkwardly, \"well - I know I've been a bit of an idiot -\"\nOne or two wizards and witches in the surrounding seats smiled indulgently. Mr. Crouch did not appear to share their feelings.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3797,
+                "passage": "He was staring down at Ludo Bagman with an expression of the utmost severity and dislike. \"You never spoke a truer word, boy,\" someone muttered dryly to Dumbledore behind Harry. He looked around and saw Moody sitting there again. \"If I didn't know he'd always been dim, I'd have said some of those Bludgers had permanently affected his brain. ...\"\n\"Ludovic Bagman, you were caught passing information to Lord Voldemort's supporters,\" said Mr. Crouch. \"For this, I suggest a term of imprisonment in Azkaban lasting no less than -\"\nBut there was an angry outcry from the surrounding benches. Several of the witches and wizards around the walls stood up, shaking their heads, and even their fists, at Mr. Crouch.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3798,
+                "passage": "\"But I've told you, I had no idea!\" Bagman called earnestly over the crowd's babble, his round blue eyes widening. \"None at all! Old Rookwood was a friend of my dad's ... never crossed my mind he was in with You-Know-Who! I thought I was collecting information for our side! And Rookwood kept talking about getting me a job in the Ministry later on ... once my Quidditch days are over, you know ... I mean, I can't keep getting hit by Bludgers for the rest of my life, can I?\" There were titters from the crowd.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3799,
+                "passage": "\"It will be put to the vote,\" said Mr. Crouch coldly. He turned to the right-hand side of the dungeon. \"The jury will please raise their hands ... those in favor of imprisonment ...\"\nHarry looked toward the right-hand side of the dungeon. Not one person raised their hand. Many of the witches and wizards around the walls began to clap. One of the witches on the jury stood up. \"Yes?\" barked Crouch. \"We'd just like to congratulate Mr. Bagman on his splendid performance for England in the Quidditch match against Turkey last Saturday,\" the witch said breathlessly. Mr. Crouch looked furious.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3800,
+                "passage": "The dungeon was ringing with applause now. Bagman got to his feet and bowed, beaming. \"Despicable,\" Mr. Crouch spat at Dumbledore, sitting down as Bagman walked out of the dungeon. \"Rookwood get him a job indeed. ... The day Ludo Bagman joins us will be a sad day indeed for the Ministry. ...\"\nAnd the dungeon dissolved again. When it had returned, Harry looked around. He and Dumbledore were still sitting beside Mr. Crouch, but the atmosphere could not have been more different. There was total silence, broken only by the dry sobs of a frail, wispy-looking witch in the seat next to Mr. Crouch. She was clutching a handkerchief to her mouth with trembling hands.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3801,
+                "passage": "Harry looked up at Crouch and saw that he looked gaunter and grayer than ever before. A nerve was twitching in his temple. \"Bring them in,\" he said, and his voice echoed through the silent dungeon. The door in the corner opened yet again. Six dementors entered this time, flanking a group of four people.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3802,
+                "passage": "Harry saw the people in the crowd turn to look up at Mr. Crouch. A few of them whispered to one another. The dementors placed each of the four people in the four chairs with chained arms that now stood on the dungeon floor. There was a thickset man who stared blankly up at Crouch; a thinner and more nervous-looking man, whose eyes were darting around the crowd; a woman with thick, shining dark hair and heavily hooded eyes, who was sitting in the chained chair as though it were a throne; and a boy in his late teens, who looked nothing short of petrified. He was shivering, his straw-colored hair all over his face, his freckled skin milk-white. The wispy little witch beside Crouch began to rock backward and forward in her seat, whimpering into her handkerchief. Crouch stood up. He looked down upon the four in front of him, and there was pure hatred in his face.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3803,
+                "passage": "\"You have been brought here before the Council of Magical Law,\" he said clearly, \"so that we may pass judgment on you, for a crime so heinous -\"\n\"Father,\" said the boy with the straw-colored hair. \"Father ... please ...\"\n\"- that we have rarely heard the like of it within this court,\" said Crouch, speaking more loudly, drowning out his son's voice. \"We have heard the evidence against you. The four of you stand accused of capturing an Auror - Frank Longbottom - and subjecting him to the Cruciatus Curse, believing him to have knowledge of the present whereabouts of your exiled master, He-Who-Must-Not-Be-Named -\"\n\"Father, I didn't!\" shrieked the boy in chains below. \"I didn't, I swear it, Father, don't send me back to the dementors -\"\n\"You are further accused,\" bellowed Mr. Crouch, \"of using the Cruciatus Curse on Frank Longbottom's wife, when he would not give you information. You planned to restore He-Who-Must-Not-Be-Named to power, and to resume the lives of violence you presumably led while he was strong. I now ask the jury -\"\n\"Mother!\" screamed the boy below, and the wispy little witch beside Crouch began to sob, rocking backward and forward. \"Mother, stop him, Mother, I didn't do it, it wasn't me!\" \"I now ask the jury,\" shouted Mr. Crouch, \"to raise their hands if they believe, as I do, that these crimes deserve a life sentence in Azkaban!\" In unison, the witches and wizards along the right-hand side of the dungeon raised their hands. The crowd around the walls began to clap as it had for Bagman, their faces full of savage triumph.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3804,
+                "passage": "The boy began to scream. \"No! Mother, no! I didn't do it, I didn't do it, I didn't know! Don't send me there, don't let him!\"",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3805,
+                "passage": "The dementors were gliding back into the room. The boys' three companions rose quietly from their seats; the woman with the heavy-lidded eyes looked up at Crouch and called, \"The Dark Lord will rise again, Crouch! Throw us into Azkaban; we will wait! He will rise again and will come for us, he will reward us beyond any of his other supporters! We alone were faithful! We alone tried to find him!\" But the boy was trying to fight off the dementors, even though Harry could see their cold, draining power starting to affect him. The crowd was jeering, some of them on their feet, as the woman swept out of the dungeon, and the boy continued to struggle.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3806,
+                "passage": "\"I'm your son!\" he screamed up at Crouch. \"I'm your son!\" \"You are no son of mine!\" bellowed Mr. Crouch, his eyes bulging suddenly. \"I have no son!\"",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3807,
+                "passage": "The wispy witch beside him gave a great gasp and slumped in her seat. She had fainted. Crouch appeared not to have noticed. \"Take them away!\" Crouch roared at the dementors, spit flying from his mouth. \"Take them away, and may they rot there!\" \"Father! Father, I wasn't involved! No! No!",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 3808,
+                "passage": "Father, please!\" \"I think, Harry, it is time to return to my office,\" said a quiet voice in Harry's ear. Harry started. He looked around. Then he looked on his other side. There was an Albus Dumbledore sitting on his right, watching Crouch's son being dragged away by the dementors - and there was an Albus Dumbledore on his left, looking right at him. \"Come,\" said the Dumbledore on his left, and he put his hand under Harry's elbow.",
+                "book": 4,
+                "chapter": 30
+            },
+            {
+                "ref_id": 6761,
+                "passage": "I think you will find it both rich in detail and satisfyingly accurate. After you, Harry ...\"\nHarry bent over the Pensieve; his face broke the cool surface of the memory and then he was falling through darkness again. ... Seconds later, his feet hit firm ground; he opened his eyes and found that he and Dumbledore were standing in a bustling, old-fashioned London street. \"There I am,\" said Dumbledore brightly, pointing ahead of them to a tall figure crossing the road in front of a horse-drawn milk cart. This younger Albus Dumbledore's long hair and beard were auburn.",
+                "book": 6,
+                "chapter": 13
+            },
+            {
+                "ref_id": 6989,
+                "passage": "But it is getting late, and I want you to see this other memory before we part. ...\"\nDumbledore took from an inside pocket another crystal phial and Harry fell silent at once, remembering that Dumbledore had said it was the most important one he had collected. Harry noticed that the contents proved difficult to empty into the Pensieve, as though they had congealed slightly; did memories go bad? \"This will not take long,\" said Dumbledore, when he had finally emptied the phial. \"We shall be back before you know it. Once more into the Pensieve, then ...\"\nAnd Harry fell again through the silver surface, landing this time right in front of a man he recognized at once. It was a much younger Horace Slughorn.",
+                "book": 6,
+                "chapter": 17
+            },
+            {
+                "ref_id": 6990,
+                "passage": "Harry was so used to him bald that he found the sight of Slughorn with thick, shiny, straw-colored hair quite disconcerting; it looked as though he had had his head thatched, though there was already a shiny Galleon-sized bald patch on his crown. His mustache, less massive than it was these days, was gingery-blond. He was not quite as rotund as the Slughorn Harry knew, though the golden buttons on his richly embroidered waistcoat were taking a fair amount of strain. His little feet resting upon a velvet pouffe, he was sitting well back in a comfortable winged armchair, one hand grasping a small glass of wine, the other searching through a box of crystalized pineapple. Harry looked around as Dumbledore appeared beside him and saw that they were standing in Slughorn's office. Half a dozen boys were sitting around Slughorn, all on harder or lower seats than his, and all in their mid-teens. Harry recognized Voldemort at once. His was the most handsome face and he looked the most relaxed of all the boys. His right hand lay negligently upon the arm of his chair; with a jolt, Harry saw that he was wearing Marvolo's gold-and-black ring; he had already killed his father. \"Sir, is it true that Professor Merrythought is retiring?\"",
+                "book": 6,
+                "chapter": 17
+            },
+            {
+                "ref_id": 6991,
+                "passage": "he asked. \"Tom, Tom, if I knew I couldn't tell you,\" said Slughorn, wagging a reproving, sugar-covered finger at Riddle, though ruining the effect slightly by winking. \"I must say, I'd like to know where you get your information, boy, more knowledgeable than half the staff, you are.\" Riddle smiled; the other boys laughed and cast him admiring looks. \"What with your uncanny ability to know things you shouldn't, and your careful flattery of the people who matter - thank you for the pineapple, by the way, you're quite right, it is my favorite -\"\nAs several of the boys tittered, something very odd happened. The whole room was suddenly filled with a thick white fog, so that Harry could see nothing but the face of Dumbledore, who was standing beside him. Then Slughorn's voice rang out through the mist, unnaturally loudly, \"You'll go wrong, boy, mark my words.\" The fog cleared as suddenly as it had appeared and yet nobody made any allusion to it, nor did anybody look as though anything unusual had just happened. Bewildered, Harry looked around as a small golden clock standing upon Slughorn's desk chimed eleven o'clock. \"Good gracious, is it that time already?\" said Slughorn. \"You'd better get going, boys, or we'll all be in trouble. Lestrange, I want your essay by tomorrow or it's detention. Same goes for you, Avery.\" Slughorn pulled himself out of his armchair and carried his empty glass over to his desk as the boys filed out.",
+                "book": 6,
+                "chapter": 17
+            },
+            {
+                "ref_id": 7119,
+                "passage": "\"So Voldemort went off to Borgin and Burkes, and all the staff who had admired him said what a waste it was, a brilliant young wizard like that, working in a shop. However, Voldemort was no mere assistant. Polite and handsome and clever, he was soon given particular jobs of the type that only exist in a place like Borgin and Burkes, which specializes, as you know, Harry, in objects with unusual and powerful properties. Voldemort was sent to persuade people to part with their treasures for sale by the partners, and he was, by all accounts, unusually gifted at doing this.\" \"I'll bet he was,\" said Harry, unable to contain himself. \"Well, quite,\" said Dumbledore, with a faint smile. \"And now it is time to hear from Hokey the house-elf, who worked for a very old, very rich witch by the name of Hepzibah Smith.\" Dumbledore tapped a bottle with his wand, the cork flew out, and he tipped the swirling memory into the Pensieve, saying as he did so, \"After you, Harry.\" Harry got to his feet and bent once more over the rippling silver contents of the stone basin until his face touched them. He tumbled through dark nothingness and landed in a sitting room in front of an immensely fat old lady wearing an elaborate ginger wig and a brilliant pink set of robes that flowed all around her, giving her the look of a melting iced cake. She was looking into a small jeweled mirror and dabbing rouge onto her already scarlet cheeks with a large powder puff, while the tiniest and oldest house-elf Harry had ever seen laced her fleshy feet into tight satin slippers. \"Hurry up, Hokey!\"",
+                "book": 6,
+                "chapter": 20
+            },
+            {
+                "ref_id": 7136,
+                "passage": "...\"\nHarry got to his feet once more as Dumbledore emptied the last memory into the Pensieve. \"Whose memory is it?\" he asked. \"Mine,\" said Dumbledore. And Harry dived after Dumbledore through the shifting silver mass, landing in the very office he had just left. There was Fawkes slumbering happily on his perch, and there behind the desk was Dumbledore, who looked very similar to the Dumbledore standing beside Harry, though both hands were whole and undamaged and his face was, perhaps, a little less lined. The one difference between the present-day office and this one was that it was snowing in the past; bluish flecks were drifting past the window in the dark and building up on the outside ledge. The younger Dumbledore seemed to be waiting for something, and sure enough, moments after their arrival, there was a knock on the door and he said, \"Enter.\" Harry let out a hastily stifled gasp. Voldemort had entered the room. His features were not those Harry had seen emerge from the great stone cauldron almost two years ago: They were not as snakelike, the eyes were not yet scarlet, the face not yet masklike, and yet he was no longer handsome Tom Riddle. It was as though his features had been burned and blurred; they were waxy and oddly distorted, and the whites of the eyes now had a permanently bloody look, though the pupils were not yet the slits that Harry knew they would become. He was wearing a long black cloak, and his face was as pale as the snow glistening on his shoulders.",
+                "book": 6,
+                "chapter": 20
+            },
+            {
+                "ref_id": 7261,
+                "passage": "I knew you could do it!\" All thought of the lateness of the hour apparently forgotten, he hurried around his desk, took the bottle with Slughorn's memory in his uninjured hand, and strode over to the cabinet where he kept the Pensieve. \"And now,\" said Dumbledore, placing the stone basin upon his desk and emptying the contents of the bottle into it. \"Now, at last, we shall see. Harry, quickly ...\"\nHarry bowed obediently over the Pensieve and felt his feet leave the office floor. ... Once again he fell through darkness and landed in Horace Slughorn's office many years before. There was the much younger Slughorn, with his thick, shiny, straw-colored hair and his gingery-blond mustache, sitting again in the comfortable winged armchair in his office, his feet resting upon a velvet pouffe, a small glass of wine in one hand, the other rummaging in a box of crystalized pineapple. And there were the half-dozen teenage boys sitting around Slughorn with Tom Riddle in the midst of them, Marvolo's gold-and-black ring gleaming on his finger. Dumbledore landed beside Harry just as Riddle asked, \"Sir, is it true that Professor Merrythought is retiring?\" \"Tom, Tom, if I knew I couldn't tell you,\" said Slughorn, wagging his finger reprovingly at Riddle, though winking at the same time. \"I must say, I'd like to know where you get your information, boy, more knowledgeable than half the staff, you are.\" Riddle smiled; the other boys laughed and cast him admiring looks. \"What with your uncanny ability to know things you shouldn't, and your careful flattery of the people who matter - thank you for the pineapple, by the way, you're quite right, it is my favorite -\"\nSeveral of the boys tittered again. \"- I confidently expect you to rise to Minister of Magic within twenty years. Fifteen, if you keep sending me pineapple, I have excellent contacts at the Ministry.\" Tom Riddle merely smiled as the others laughed again. Harry noticed that he was by no means the eldest of the group of boys, but that they all seemed to look to him as their leader. \"I don't know that politics would suit me, sir,\" he said when the laughter had died away. \"I don't have the right kind of background, for one thing.\" A couple of the boys around him smirked at each other. Harry was sure they were enjoying a private joke, undoubtedly about what they knew, or suspected, regarding their gang leader's famous ancestor.",
+                "book": 6,
+                "chapter": 23
+            }
+        ],
+        "id": 20,
+        "question_variants": "In the fourth book, what exactly does Harry see in the Pensieve, and how does this vision foreshadow a significant event that occurs in the sixth book?",
+        "sub_questions": [
+            "What is the content of the memory Harry witnesses in the Pensieve in the fourth book?",
+            "How does this memory relate to the event in the sixth book?",
+            "Can you identify the specific foreshadowing elements in the memory and their connection to the sixth book's event?"
+        ],
+        "category": "medium_multi_labeled"
+    },
+    {
+        "question": "Which creature's behavior in the forest contradicts its usual nature, hinting at a hidden protector?",
+        "answer": "The centaurs, influenced by Firenze's actions.",
+        "list of reference": [
+            {
+                "ref_id": 590,
+                "passage": "When he looked up, the figure had gone. A centaur was standing over him, not Ronan or Bane; this one looked younger; he had white-blond hair and a palomino body. \"Are you all right?\" said the centaur, pulling Harry to his feet. \"Yes - thank you - what was that?\" The centaur didn't answer. He had astonishingly blue eyes, like pale sapphires. He looked carefully at Harry, his eyes lingering on the scar that stood out, livid, on Harry's forehead. \"You are the Potter boy,\" he said. \"You had better get back to Hagrid. The forest is not safe at this time - especially for you. Can you ride? It will be quicker this way. \"My name is Firenze,\" he added, as he lowered himself on to his front legs so that Harry could clamber onto his back.",
+                "book": 1,
+                "chapter": 15
+            },
+            {
+                "ref_id": 593,
+                "passage": "What is that to do with us? Centaurs are concerned with what has been foretold! It is not our business to run around like donkeys after stray humans in our forest!\" Firenze suddenly reared on to his hind legs in anger, so that Harry had to grab his shoulders to stay on. \"Do you not see that unicorn?\" Firenze bellowed at Bane. \"Do you not understand why it was killed? Or have the planets not let you in on that secret? I set myself against what is lurking in this forest, Bane, yes, with humans alongside me if I must.\" And Firenze whisked around; with Harry clutching on as best he could, they plunged off into the trees, leaving Ronan and Bane behind them. Harry didn't have a clue what was going on.",
+                "book": 1,
+                "chapter": 15
+            }
+        ],
+        "id": 6,
+        "question_variants": "What animal's actions in the woods stand out as unusual, suggesting a secret guardian?",
+        "sub_questions": [
+            "What creature's behavior in the forest is unusual and suggests a hidden protector?",
+            "How does this creature's behavior contradict its typical behavior in a forest setting?",
+            "Can you identify the creature and its usual nature, and explain how its behavior in the forest might indicate a protector?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
+        "answer": "Hagrid's mention of Fluffy's weakness to music foreshadows Quirrell's knowledge.",
+        "list of reference": [
+            {
+                "ref_id": 425,
+                "passage": "He was being made a cup of strong tea back in Hagrid's hut, with Ron and Hermione. \"It was Snape,\" Ron was explaining, \"Hermione and I saw him. He was cursing your broomstick, muttering, he wouldn't take his eyes off you.\" \"Rubbish,\" said Hagrid, who hadn't heard a word of what had gone on next to him in the stands. \"Why would Snape do somethin' like that?\" Harry, Ron, and Hermione looked at one another, wondering what to tell him. Harry decided on the truth. \"I found out something about him,\" he told Hagrid. \"He tried to get past that three-headed dog on Halloween. It bit him. We think he was trying to steal whatever it's guarding.\" Hagrid dropped the teapot. \"How do you know about Fluffy?\" he said. \"Fluffy?\"",
+                "book": 1,
+                "chapter": 11
+            },
+            {
+                "ref_id": 426,
+                "passage": "\"Yeah - he's mine - bought him off a Greek chappie I met in the pub las' year - I lent him to Dumbledore to guard the -\"\n\"Yes?\" said Harry eagerly. \"Now, don't ask me anymore,\" said Hagrid gruffly. \"That's top secret, that is.\" \"But Snape's trying to steal it.\"",
+                "book": 1,
+                "chapter": 11
+            }
+        ],
+        "id": 1,
+        "question_variants": "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?",
+        "sub_questions": [
+            "Who is the character that mentions the magical creature?",
+            "What is the name of the magical creature being discussed?",
+            "What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "answer": "The servant returns' points to Pettigrew.",
+        "list of reference": [
+            {
+                "ref_id": 2473,
+                "passage": "said Dumbledore. \"Er - stranger than usual, you mean?\" \"Yes ... her voice went all deep and her eyes rolled and she said ... she said Voldemort's servant was going to set out to return to him before midnight. ... She said the servant would help him come back to power.\" Harry stared up at Dumbledore. \"And then she sort of became normal again, and she couldn't remember anything she'd said. Was it - was she making a real prediction? Dumbledore looked mildly impressed. \"Do you know, Harry, I think she might have been,\" he said thoughtfully. \"Who'd have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...\"\n\"But -\" Harry looked at him, aghast. How could Dumbledore take this so calmly? \"But - I stopped Sirius and Professor Lupin from killing Pettigrew! That makes it my fault if Voldemort comes back!\"",
+                "book": 3,
+                "chapter": 22
+            }
+        ],
+        "id": 10,
+        "question_variants": "Which particular phrase within a prophetic warning suggests the identity of a traitor?",
+        "sub_questions": [
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "How does this phrase reveal the identity of the traitor?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?"
+        ],
+        "category": "hard_single_labeled"
+    },
+    {
+        "question": "How does the portrayal of the Dursley family contrast with the magical world, and what impact does this have on Harry's character?",
+        "answer": "The Dursleys' mundane, strict, and dismissive way of life stands in stark contrast to the vibrant, unpredictable nature of the magical world. This contrast not only emphasizes Harry's isolation and mistreatment but also deepens his yearning for a place where he truly belongs, setting the stage for his eventual transformation.",
+        "list of reference": [
+            {
+                "ref_id": 88,
+                "passage": "The woman stared. \"I'll take them,\" said Uncle Vernon, standing up quickly and following her from the dining room. * * *\n\"Wouldn't it be better just to go home, dear?\" Aunt Petunia suggested timidly, hours later, but Uncle Vernon didn't seem to hear her. Exactly what he was looking for, none of them knew. He drove them into the middle of a forest, got out, looked around, shook his head, got back in the car, and off they went again. The same thing happened in the middle of a plowed field, halfway across a suspension bridge, and at the top of a multilevel parking garage. \"Daddy's gone mad, hasn't he?\" Dudley asked Aunt Petunia dully late that afternoon. Uncle Vernon had parked at the coast, locked them all inside the car, and disappeared. It started to rain.",
+                "book": 1,
+                "chapter": 3
+            },
+            {
+                "ref_id": 411,
+                "passage": "\"This is it.\" \"The big one,\" said Fred Weasley. \"The one we've all been waiting for,\" said George. \"We know Oliver's speech by heart,\" Fred told Harry, \"we were on the team last year.\" \"Shut up, you two,\" said Wood. \"This is the best team Gryffindor's had in years. We're going to win. I know it.\" He glared at them all as if to say, \"Or else.\" \"Right. Its time.",
+                "book": 1,
+                "chapter": 11
+            }
+        ],
+        "id": 11,
+        "question_variants": "What is the contrast between the Dursley family and the magical world, and how does this difference shape Harry's personality?",
+        "sub_questions": [
+            "What specific elements of the Dursley family's behavior and environment stand out as contrasting with the magical world?",
+            "How does the Dursley family's treatment of Harry contribute to his character development and personality?",
+            "Are there any specific magical creatures or beings that the Dursleys interact with, and how do these encounters influence Harry's perception of the magical realm?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "What role does Hagrid play in transforming Harry's fate, and how is his character introduced in the narrative?",
+        "answer": "Hagrid acts as a catalyst in Harry's journey into the wizarding world. Introduced in a dramatic rescue, he not only retrieves Harry from the Dursleys but also provides the first glimpse of warmth, care, and belonging\u2014qualities that help guide Harry toward embracing his magical destiny.",
+        "list of reference": [
+            {
+                "ref_id": 520,
+                "passage": "\"So - yeh wanted to ask me somethin'?\" \"Yes,\" said Harry. There was no point beating around the bush. \"We were wondering if you could tell us what's guarding the Sorcerer's Stone apart from Fluffy.\" Hagrid frowned at him.",
+                "book": 1,
+                "chapter": 14
+            },
+            {
+                "ref_id": 678,
+                "passage": "\"But Snape always seemed to hate me so much.\" \"Oh, he does,\" said Quirrell casually, \"heavens, yes. He was at Hogwarts with your father, didn't you know? They loathed each other. But he never wanted you dead.\" \"But I heard you a few days ago, sobbing - I thought Snape was threatening you. For the first time, a spasm of fear flitted across Quirrell's face.",
+                "book": 1,
+                "chapter": 17
+            }
+        ],
+        "id": 10,
+        "question_variants": "How does Hagrid's character serve as a pivotal figure in altering Harry's destiny, and what is the narrative's initial portrayal of him?",
+        "sub_questions": [
+            "What is Hagrid's role in Harry's life and how does it impact his journey?",
+            "How is Hagrid's character first introduced to the readers or viewers?",
+            "Can you describe the significance of Hagrid's appearance in the story and its impact on Harry's destiny?"
+        ],
+        "category": "hard_multi_labeled"
+    },
+    {
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "answer": "The Invisibility Cloak, given to Harry at Christmas in the first book, later helps him secretly gather information crucial to discovering the Chamber of Secrets.",
+        "list of reference": [
+            {
+                "ref_id": 447,
+                "passage": "Harry picked the shining, silvery cloth off the floor. It was strange to the touch, like water woven into material. \"It's an Invisibility Cloak,\" said Ron, a look of awe on his face. \"I'm sure it is - try it on.\" Harry threw the cloak around his shoulders and Ron gave a yell. \"It is! Look down!\" Harry looked down at his feet, but they were gone. He dashed to the mirror. Sure enough, his reflection looked back at him, just his head suspended in midair, his body completely invisible.",
+                "book": 1,
+                "chapter": 12
+            },
+            {
+                "ref_id": 1298,
+                "passage": "\"But we can't follow them now -\"\nErnie and Hannah were listening curiously. Harry's eyes narrowed as he focused on the spiders. If they pursued their fixed course, there could be no doubt about where they would end up. \"Looks like they're heading for the Forbidden Forest. ...\"\nAnd Ron looked even unhappier about that. At the end of the lesson Professor Sprout escorted the class to their Defense Against the Dark Arts lesson. Harry and Ron lagged behind the others so they could talk out of earshot. \"We'll have to use the Invisibility Cloak again,\" Harry told Ron. \"We can take Fang with us. He's used to going into the forest with Hagrid, he might be some help.\"",
+                "book": 2,
+                "chapter": 15
+            }
+        ],
+        "id": 1,
+        "question_variants": "In the first book, what item presented as a Christmas gift becomes crucial in deciphering a hidden message within the Chamber of the second book?",
+        "sub_questions": [
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?"
+        ],
+        "category": "hard_multi_labeled"
+    }
+]
