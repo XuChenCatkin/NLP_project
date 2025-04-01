@@ -85,7 +85,7 @@ model_list = [
 ]
 
 args = {
-    "model_name": "BAAI/bge-large-en",
+    "model_name": "BAAI/bge-base-en-v1.5",
     "corpus_file": CORPUS_FILE,
     "easy_file": EASY,
     "medium_single_file": MEDIUM_S,
