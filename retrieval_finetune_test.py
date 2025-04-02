@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import torch
-from sentence_transformers import models, SentenceTransformer, InputExample, losses, DPR
+from sentence_transformers import models, SentenceTransformer, InputExample, losses
 from sentence_transformers.datasets import NoDuplicatesDataLoader
 from types import SimpleNamespace
 from sklearn.model_selection import train_test_split
