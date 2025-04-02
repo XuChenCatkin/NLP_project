@@ -25,6 +25,7 @@ notebook_login()
 DATA_PATH = "./data"
 QA_PATH = f"{DATA_PATH}/QA_set"
 QA_EMBEDDED_PATH = f"{DATA_PATH}/QA_set_embedded"
+EMBEDDING_PATH = f"./embedding"
 
 EASY = f"{QA_PATH}/easy_single_labeled.json"
 MEDIUM_S = f"{QA_PATH}/medium_single_labeled.json"
@@ -42,14 +43,14 @@ subqueries_hard_s = retrieve_all_subqueries(HARD_S)
 subqueries_hard_m = retrieve_all_subqueries(HARD_M)
 
 # ALL Index Files
-index_easy = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_easy_single_labeled.index")
-index_medium_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_single_labeled.index")
-index_medium_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_multi_labeled.index")
-index_hard_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_single_labeled.index")
-index_hard_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_multi_labeled.index")
+index_easy = faiss.read_index(f"{EMBEDDING_PATH}/easy_single_labeled_embeddings.index")
+index_medium_s = faiss.read_index(f"{EMBEDDING_PATH}/medium_single_labeled_embeddings.index")
+index_medium_m = faiss.read_index(f"{EMBEDDING_PATH}/medium_multi_labeled_embeddings.index")
+index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/hard_single_labeled_embeddings.index")
+index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
-corpus_index = faiss.read_index('hp_all_bge.index')
+corpus_index = faiss.read_index('./embedding/hp_all_bge.index')
 with open(CORPUS_FILE, 'r') as f:
     corpus = json.load(f)
 
@@ -84,14 +85,14 @@ model_list = [
 ]
 
 args = {
-    "model_name": "BAAI/bge-large-en",
+    "model_name": "BAAI/bge-base-en-v1.5",
     "corpus_file": CORPUS_FILE,
     "easy_file": EASY,
     "medium_single_file": MEDIUM_S,
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 4,
+    "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
@@ -259,7 +260,7 @@ def process_data_MNRL(data):
                 pos_chapter_id = refs[i]['chapter']
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
-                    f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    #f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
                     f"Passage: {passage_text}"
                 )
             negative_enhanced = []
@@ -268,10 +269,10 @@ def process_data_MNRL(data):
                 neg_chapter_id = negative_list[j]['chapter_num']
                 neg_passage_text = negative_list[j]['passage']
                 negative_enhanced.append(
-                    f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"Passage: {neg_passage_text}"
                 )
-            examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
+            examples.append(InputExample(texts=[question, positive_enhanced] + negative_enhanced))
     return examples, query_map, relevant_map
 
 
@@ -310,7 +311,7 @@ def train(args, logger: logging.Logger):
     logger.info(f"Loaded {len(train_data)} training examples and {len(test_data)} test examples")
 
     train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
-    train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+    train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
     # train_examples, train_query_map, train_relevant_map = process_data(train_data)
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]

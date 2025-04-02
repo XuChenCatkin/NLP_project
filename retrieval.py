@@ -10,7 +10,7 @@ import faiss
 # -----------------------------
 # Config paths
 # -----------------------------
-DATA_PATH = "data"
+DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # -----------------------------
@@ -153,13 +153,14 @@ if __name__ == "__main__":
         ],
         "category": "easy_single_labeled"
     }
-    EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+    EASY_INDEX = faiss.read_index(f"embedding/dpr/easy_single_labeled_embeddings.index")
     EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
-    CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+    CORPUS_EMBEDDING = faiss.read_index('embedding/dpr/hp_all_dpr.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)
     result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+
     print(result)
 
     

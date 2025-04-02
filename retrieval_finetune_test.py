@@ -25,6 +25,7 @@ notebook_login()
 DATA_PATH = "./data"
 QA_PATH = f"{DATA_PATH}/QA_set"
 QA_EMBEDDED_PATH = f"{DATA_PATH}/QA_set_embedded"
+EMBEDDING_PATH = f"./embedding"
 
 EASY = f"{QA_PATH}/easy_single_labeled.json"
 MEDIUM_S = f"{QA_PATH}/medium_single_labeled.json"
@@ -34,6 +35,8 @@ HARD_M = f"{QA_PATH}/hard_multi_labeled.json"
 
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
+MODEL = "dpr"
+
 # ALL subquery List
 subqueries_easy = retrieve_all_subqueries(EASY)
 subqueries_medium_s = retrieve_all_subqueries(MEDIUM_S)
@@ -42,17 +45,16 @@ subqueries_hard_s = retrieve_all_subqueries(HARD_S)
 subqueries_hard_m = retrieve_all_subqueries(HARD_M)
 
 # ALL Index Files
-index_easy = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_easy_single_labeled.index")
-index_medium_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_single_labeled.index")
-index_medium_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_multi_labeled.index")
-index_hard_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_single_labeled.index")
-index_hard_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_multi_labeled.index")
+index_easy = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/easy_single_labeled_embeddings.index")
+index_medium_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/medium_single_labeled_embeddings.index")
+index_medium_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/medium_multi_labeled_embeddings.index")
+index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_single_labeled_embeddings.index")
+index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
-corpus_index = faiss.read_index('hp_all_bge.index')
+corpus_index = faiss.read_index(f'./embedding/{MODEL}/hp_all_{MODEL}.index')
 with open(CORPUS_FILE, 'r') as f:
     corpus = json.load(f)
-
 
 def load_index_and_all_subqueries(category):
     if category == "easy_single_labeled":
@@ -91,9 +93,9 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 10,
+    "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "xiangzhang350-ucl",
+    "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
@@ -200,7 +202,7 @@ def process_data(data):
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
                     # f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
-                    f"Passage: {passage_text}"
+                    f"{passage_text}"
                 )
             for j in range(len(negative_list)):
                 neg_book_id = negative_list[j]['title_num']
@@ -259,7 +261,7 @@ def process_data_MNRL(data):
                 pos_chapter_id = refs[i]['chapter']
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
-                    # f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    #f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
                     f"{passage_text}"
                 )
             negative_enhanced = []
@@ -268,7 +270,7 @@ def process_data_MNRL(data):
                 neg_chapter_id = negative_list[j]['chapter_num']
                 neg_passage_text = negative_list[j]['passage']
                 negative_enhanced.append(
-                    # f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"{neg_passage_text}"
                 )
             examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
@@ -313,11 +315,12 @@ def train(args, logger: logging.Logger):
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
     train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
-    train_examples_dict = {"anchor": [], "positive": []}
+    train_examples_dict = {"anchor": [], "positive": [], "negative": []}
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
-        # train_examples_dict['negative'].append(example.texts[2])
+        train_examples_dict['negative'].append(example.texts[2:])
+    # print(train_examples_dict[0]['negative'])
 
 
 
@@ -330,7 +333,7 @@ def train(args, logger: logging.Logger):
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
-        # test_examples_dict['negative'].append(example.texts[2])
+        test_examples_dict['negative'].append(example.texts[2:])
 
     
    
@@ -343,7 +346,7 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
     train_loss = losses.MultipleNegativesRankingLoss(model)
 
