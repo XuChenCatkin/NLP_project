@@ -52,7 +52,7 @@ index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_single_labeled_e
 index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
-corpus_index = faiss.read_index(f'./embedding/hp_all_{MODEL}.index')
+corpus_index = faiss.read_index(f'./embedding/{MODEL}/hp_all_{MODEL}.index')
 with open(CORPUS_FILE, 'r') as f:
     corpus = json.load(f)
 
