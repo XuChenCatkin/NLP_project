@@ -16,6 +16,7 @@ import time
 from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
 import faiss
 from typing import List
+from sentence_transformers.util import cos_sim
 
 
 
@@ -157,8 +158,10 @@ def hard_negative_mining(item):
     
 
 class TimedCallback:
-    def __init__(self):
+    def __init__(self, dataloader, model):
         self.last_time = None
+        self.dataloader = dataloader
+        self.model = model
 
     def __call__(self, loss, epoch, step):
         now = time.time()
@@ -167,12 +170,26 @@ class TimedCallback:
         else:
             step_time = now - self.last_time
         self.last_time = now
+        pos_similarities = []
+        neg_similarities = []
+        for batch in self.dataloader:
+            anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
+            positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
+            pos_sim = cos_sim(anchors, positives).diag().mean().item()
+            neg_sim = cos_sim(anchors, positives).mean().item()  # 简化：用batch内平均值近似负样本
+            pos_similarities.append(pos_sim)
+            neg_similarities.append(neg_sim)
+            break  # 只取一个batch，减少计算开销
+        avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
+        avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
         
         wandb.log({
             "train_loss": loss,
             "epoch": epoch,
             "train_step": step,
-            "step_time_seconds": step_time
+            "step_time_seconds": step_time,
+            "avg_positive_similarity": avg_pos_sim,
+            "avg_negative_similarity": avg_neg_sim,
         })
         
 def process_data(data):
@@ -372,7 +389,7 @@ def train(args, logger: logging.Logger):
         save_best_model=True,
         show_progress_bar=True,
         use_amp=True,
-        callback=TimedCallback()
+        callback=TimedCallback(train_dataloader, model)
     )
     
     logger.info(f"Evaluating model")
