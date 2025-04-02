@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import torch
-from sentence_transformers import models, SentenceTransformer, InputExample, losses
+from sentence_transformers import SentenceTransformer, InputExample, losses
 from sentence_transformers.datasets import NoDuplicatesDataLoader
 from types import SimpleNamespace
 from sklearn.model_selection import train_test_split
@@ -16,8 +16,6 @@ import time
 from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
 import faiss
 from typing import List
-from torch import nn
-from transformers import AutoModel
 
 
 
@@ -37,7 +35,7 @@ HARD_M = f"{QA_PATH}/hard_multi_labeled.json"
 
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
-MODEL = "dpr"
+MODEL = "BAAI/bge-base-en-v1.5"
 
 # ALL subquery List
 subqueries_easy = retrieve_all_subqueries(EASY)
@@ -85,11 +83,10 @@ model_list = [
     "sentence-transformers/all-MiniLM-L6-v3",
     "sentence-transformers/all-MiniLM-L12-v3",
     "Alibaba-NLP/gte-base-en-v1.5",
-    "facebook/dpr-question_encoder-single-nq-base"
     ]
 
 args = {
-    "model_name": "facebook/dpr-question_encoder-single-nq-base",
+    "model_name": "BAAI/bge-base-en-v1.5",
     "corpus_file": CORPUS_FILE,
     "easy_file": EASY,
     "medium_single_file": MEDIUM_S,
@@ -158,6 +155,7 @@ def hard_negative_mining(item):
     except Exception as e:
         raise (f"Unexpected error: {e}")
     
+
 class TimedCallback:
     def __init__(self):
         self.last_time = None
@@ -236,6 +234,7 @@ def process_data(data):
         #     examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
     return examples, query_map, relevant_map
 
+
 def process_data_MNRL(data):
     examples = []
     query_map = {}
@@ -274,40 +273,8 @@ def process_data_MNRL(data):
                     #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"{neg_passage_text}"
                 )
-            examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
+            examples.append(InputExample(texts=[f"Represent this sentence for searching relevant passages: {question}", positive_enhanced]+ negative_enhanced))
     return examples, query_map, relevant_map
-
-
-class DPRModel(nn.Module):
-    def __init__(self, model_name_or_path: str):
-        super(DPRModel, self).__init__()
-        self.auto_model = AutoModel.from_pretrained(model_name_or_path)
-
-    def forward(self, features):
-        """
-        features is a dict with keys: 'input_ids', 'attention_mask', etc.
-        We run it through the DPR model, then store the final vector under 'sentence_embedding'.
-        """
-        input_ids = features['input_ids']
-        attention_mask = features['attention_mask']
-
-        # DPR model's forward pass
-        output = self.auto_model(input_ids=input_ids, attention_mask=attention_mask)
-        
-        # Depending on the DPR checkpoint, you may see:
-        #   output.last_hidden_state (shape [batch_size, seq_len, hidden_dim])
-        #   output.pooler_output    (shape [batch_size, hidden_dim])
-        #
-        # The official "facebook/dpr-question_encoder-single-nq-base" usually 
-        # sets output.pooler_output as the final single-vector embedding.
-
-        pooled_embedding = output.pooler_output  # shape: [batch_size, hidden_dim]
-        
-        # Put that under 'sentence_embedding' so SentenceTransformers can find it
-        features['sentence_embedding'] = pooled_embedding
-        
-        return features
-
 
 
 
@@ -318,11 +285,7 @@ def train(args, logger: logging.Logger):
         
     # Load models on GPU
     logger.info(f"Loading model {args.model_name} on {device}")
-    if args.model_name == "facebook/dpr-question_encoder-single-nq-base":
-        dpr_module = DPRModel("facebook/dpr-question_encoder-single-nq-base")
-        model = SentenceTransformer(modules=[dpr_module])
-    else:
-        model = SentenceTransformer(args.model_name, device=device)
+    model = SentenceTransformer(args.model_name, device=device)
     
     logger.info(f"Loading data")
     corpus = load_json_data(args.corpus_file)
@@ -374,8 +337,9 @@ def train(args, logger: logging.Logger):
 
     
    
-    train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
-    # train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
+    # train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
+    train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
+
     evaluator = InformationRetrievalEvaluator(
         test_query_map,
         corpus_map,
@@ -384,8 +348,9 @@ def train(args, logger: logging.Logger):
     )
 
     #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    guide_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    train_loss = losses.MultipleNegativesRankingLoss(model)
+    train_loss = losses.GISTEmbedLoss(model, guide_model, temperature=0.1)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
