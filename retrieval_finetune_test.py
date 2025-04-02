@@ -350,7 +350,7 @@ def train(args, logger: logging.Logger):
     #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
     guide_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    train_loss = losses.GISTEmbedLoss(model, guide_model, temperature=0.1)
+    train_loss = losses.MultipleNegativesRankingLoss(model, scale=10)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
