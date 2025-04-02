@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import torch
-from sentence_transformers import SentenceTransformer, InputExample, losses
+from sentence_transformers import models, SentenceTransformer, InputExample, losses
 from sentence_transformers.datasets import NoDuplicatesDataLoader
 from types import SimpleNamespace
 from sklearn.model_selection import train_test_split
@@ -156,7 +156,6 @@ def hard_negative_mining(item):
     except Exception as e:
         raise (f"Unexpected error: {e}")
     
-
 class TimedCallback:
     def __init__(self):
         self.last_time = None
@@ -235,7 +234,6 @@ def process_data(data):
         #     examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
     return examples, query_map, relevant_map
 
-
 def process_data_MNRL(data):
     examples = []
     query_map = {}
@@ -277,8 +275,6 @@ def process_data_MNRL(data):
             examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
     return examples, query_map, relevant_map
 
-
-
     
 def train(args, logger: logging.Logger):
     # Use CUDA
@@ -286,7 +282,15 @@ def train(args, logger: logging.Logger):
         
     # Load models on GPU
     logger.info(f"Loading model {args.model_name} on {device}")
-    model = SentenceTransformer(args.model_name, device=device)
+    if args.model_name == "facebook/dpr-question_encoder-single-nq-base":
+        dpr_model = models.Transformer(
+            model_name="facebook/dpr-question_encoder-single-nq-base",
+            # Possibly specify other parameters, like max_seq_length if you want
+            max_seq_length=512
+        )
+        model = SentenceTransformer(modules=[dpr_model])
+    else:
+        model = SentenceTransformer(args.model_name, device=device)
     
     logger.info(f"Loading data")
     corpus = load_json_data(args.corpus_file)
