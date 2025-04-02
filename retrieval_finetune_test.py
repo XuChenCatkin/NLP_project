@@ -273,7 +273,7 @@ def process_data_MNRL(data):
                     #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"{neg_passage_text}"
                 )
-            examples.append(InputExample(texts=[f"Represent this sentence for searching relevant passages: {question}", positive_enhanced]+ negative_enhanced))
+            examples.append(InputExample(texts=[f"Represent this sentence for searching relevant passages: {question}", positive_enhanced]))
     return examples, query_map, relevant_map
 
 
@@ -319,7 +319,7 @@ def train(args, logger: logging.Logger):
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
-        train_examples_dict['negative'].append(example.texts[2:])
+        #train_examples_dict['negative'].append(example.texts[2:])
     # print(train_examples_dict[0]['negative'])
 
 
@@ -333,7 +333,7 @@ def train(args, logger: logging.Logger):
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
-        test_examples_dict['negative'].append(example.texts[2:])
+        #test_examples_dict['negative'].append(example.texts[2:])
 
     
    
