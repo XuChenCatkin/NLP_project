@@ -93,7 +93,7 @@ args = {
     "hard_multi_file": HARD_M,
     "batch_size": 4,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "xiangzhang350-ucl",
+    "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
