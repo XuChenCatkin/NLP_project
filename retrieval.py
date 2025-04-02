@@ -153,9 +153,9 @@ if __name__ == "__main__":
         ],
         "category": "easy_single_labeled"
     }
-    EASY_INDEX = faiss.read_index(f"embedding/easy_single_labeled_embeddings.index")
+    EASY_INDEX = faiss.read_index(f"embedding/dpr/easy_single_labeled_embeddings.index")
     EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
-    CORPUS_EMBEDDING = faiss.read_index('embedding/hp_all_bge.index')
+    CORPUS_EMBEDDING = faiss.read_index('embedding/dpr/hp_all_dpr.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)

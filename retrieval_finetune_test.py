@@ -35,7 +35,7 @@ HARD_M = f"{QA_PATH}/hard_multi_labeled.json"
 
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
-MODEL = "BAAI/bge-base-en-v1.5"
+MODEL = "dpr"
 
 # ALL subquery List
 subqueries_easy = retrieve_all_subqueries(EASY)
@@ -52,7 +52,7 @@ index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_single_labeled_e
 index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
-corpus_index = faiss.read_index('./embedding/hp_all_bge.index')
+corpus_index = faiss.read_index(f'./embedding/hp_all_{MODEL}.index')
 with open(CORPUS_FILE, 'r') as f:
     corpus = json.load(f)
 
