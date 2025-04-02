@@ -25,6 +25,7 @@ notebook_login()
 DATA_PATH = "./data"
 QA_PATH = f"{DATA_PATH}/QA_set"
 QA_EMBEDDED_PATH = f"{DATA_PATH}/QA_set_embedded"
+EMBEDDING_PATH = f"./embedding"
 
 EASY = f"{QA_PATH}/easy_single_labeled.json"
 MEDIUM_S = f"{QA_PATH}/medium_single_labeled.json"
@@ -42,17 +43,16 @@ subqueries_hard_s = retrieve_all_subqueries(HARD_S)
 subqueries_hard_m = retrieve_all_subqueries(HARD_M)
 
 # ALL Index Files
-index_easy = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_easy_single_labeled.index")
-index_medium_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_single_labeled.index")
-index_medium_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_multi_labeled.index")
-index_hard_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_single_labeled.index")
-index_hard_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_multi_labeled.index")
+index_easy = faiss.read_index(f"{EMBEDDING_PATH}/easy_single_labeled_embeddings.index")
+index_medium_s = faiss.read_index(f"{EMBEDDING_PATH}/medium_single_labeled_embeddings.index")
+index_medium_m = faiss.read_index(f"{EMBEDDING_PATH}/medium_multi_labeled_embeddings.index")
+index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/hard_single_labeled_embeddings.index")
+index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
-corpus_index = faiss.read_index('hp_all_bge.index')
+corpus_index = faiss.read_index('./embedding/hp_all_bge.index')
 with open(CORPUS_FILE, 'r') as f:
     corpus = json.load(f)
-
 
 def load_index_and_all_subqueries(category):
     if category == "easy_single_labeled":
