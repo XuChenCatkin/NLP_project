@@ -366,7 +366,7 @@ def train(args, logger: logging.Logger):
 
     #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
-    train_loss = losses.MultipleNegativesRankingLoss(model,scale=10)
+    train_loss = losses.MultipleNegativesRankingLoss(model,scale=3)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
