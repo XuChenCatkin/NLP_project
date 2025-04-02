@@ -284,7 +284,7 @@ def train(args, logger: logging.Logger):
     logger.info(f"Loading model {args.model_name} on {device}")
     if args.model_name == "facebook/dpr-question_encoder-single-nq-base":
         dpr_model = models.Transformer(
-            model_name="facebook/dpr-question_encoder-single-nq-base",
+            model_name_or_path="facebook/dpr-question_encoder-single-nq-base",
             # Possibly specify other parameters, like max_seq_length if you want
             max_seq_length=512
         )
