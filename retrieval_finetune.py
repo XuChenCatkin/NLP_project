@@ -92,7 +92,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 4,
+    "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
@@ -260,7 +260,7 @@ def process_data_MNRL(data):
                 pos_chapter_id = refs[i]['chapter']
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
-                    f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    #f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
                     f"Passage: {passage_text}"
                 )
             negative_enhanced = []
@@ -269,7 +269,7 @@ def process_data_MNRL(data):
                 neg_chapter_id = negative_list[j]['chapter_num']
                 neg_passage_text = negative_list[j]['passage']
                 negative_enhanced.append(
-                    f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"Passage: {neg_passage_text}"
                 )
             examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
