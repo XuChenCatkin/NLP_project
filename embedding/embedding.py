@@ -88,8 +88,6 @@ def store_faiss_index(embeddings, filename):
     # index = faiss.IndexFlatL2(dim)
     index = faiss.IndexFlatIP(dim)  # Use inner product for cosine similarity
     index.add(normalised_embeddings)
-    parent_dir = os.path.dirname(filename)
-    os.makedirs(parent_dir, exist_ok=True)
     faiss.write_index(index, filename)
     print(f"FAISS index stored: {filename}")
 
@@ -97,7 +95,11 @@ def store_faiss_index(embeddings, filename):
 def store_faiss_index_dpr(embeddings, filename):
     dim = embeddings.shape[1]
     index = faiss.IndexFlatIP(dim)  # using inner product for cosine similarity
-    index.add(embeddings)
+    norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
+    normalised_embeddings = embeddings / norms
+    index.add(normalised_embeddings)
+    parent_dir = os.path.dirname(filename)
+    os.makedirs(parent_dir, exist_ok=True)
     faiss.write_index(index, filename)
     print(f"FAISS index stored: {filename}")
 # -----------------------------
