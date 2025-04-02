@@ -337,8 +337,8 @@ def train(args, logger: logging.Logger):
 
     
    
-    # train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
-    train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
+    train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
+    # train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
 
     evaluator = InformationRetrievalEvaluator(
         test_query_map,
