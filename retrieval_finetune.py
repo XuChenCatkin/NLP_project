@@ -272,7 +272,7 @@ def process_data_MNRL(data):
                     #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"Passage: {neg_passage_text}"
                 )
-            examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
+            examples.append(InputExample(texts=[question, positive_enhanced] + negative_enhanced))
     return examples, query_map, relevant_map
 
 
@@ -311,7 +311,7 @@ def train(args, logger: logging.Logger):
     logger.info(f"Loaded {len(train_data)} training examples and {len(test_data)} test examples")
 
     train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
-    train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+    train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
     # train_examples, train_query_map, train_relevant_map = process_data(train_data)
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
