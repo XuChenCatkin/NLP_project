@@ -69,7 +69,7 @@ def embed_texts_dpr(texts, model, tokenizer, batch_size=8):
     embeddings = []
     for i in tqdm(range(0, len(texts), batch_size), desc="Embedding DPR"):
         batch = texts[i:i+batch_size]
-        inputs = tokenizer(batch, padding=True, truncation=True, return_tensors="pt").to(device)
+        inputs = tokenizer(batch, padding=True, truncation=True, max_length=512, return_tensors="pt").to(device)
         with torch.no_grad():
             outputs = model(**inputs)
         # Use pooler_output as the passage embedding
