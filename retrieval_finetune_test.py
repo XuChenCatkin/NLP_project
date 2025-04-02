@@ -332,7 +332,7 @@ def train(args, logger: logging.Logger):
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
     train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
-    train_examples_dict = {"anchor": [], "positive": []}
+    train_examples_dict = {"anchor": [], "positive": [], "negative": []}
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
@@ -346,7 +346,7 @@ def train(args, logger: logging.Logger):
     logger.info(f"Processed {len(train_examples)} training examples")
     # test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
     test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
-    test_examples_dict = {"anchor": [], "positive": []}
+    test_examples_dict = {"anchor": [], "positive": [], "negative": []}
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
