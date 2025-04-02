@@ -200,7 +200,7 @@ def process_data(data):
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
                     # f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
-                    f"Passage: {passage_text}"
+                    f"{passage_text}"
                 )
             for j in range(len(negative_list)):
                 neg_book_id = negative_list[j]['title_num']
@@ -208,7 +208,7 @@ def process_data(data):
                 neg_passage_text = negative_list[j]['passage']
                 negative_enhanced = (
                     # f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
-                    f"Passage: {neg_passage_text}"
+                    f"{neg_passage_text}"
                 )
                 examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
         # for i in range(len(negative_samples)):
@@ -259,8 +259,8 @@ def process_data_MNRL(data):
                 pos_chapter_id = refs[i]['chapter']
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
-                    f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
-                    f"Passage: {passage_text}"
+                    #f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    f"{passage_text}"
                 )
             negative_enhanced = []
             for j in range(len(negative_list)):
@@ -268,8 +268,8 @@ def process_data_MNRL(data):
                 neg_chapter_id = negative_list[j]['chapter_num']
                 neg_passage_text = negative_list[j]['passage']
                 negative_enhanced.append(
-                    f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
-                    f"Passage: {neg_passage_text}"
+                    #f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    f"{neg_passage_text}"
                 )
             examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
     return examples, query_map, relevant_map
@@ -299,7 +299,7 @@ def train(args, logger: logging.Logger):
     train_data_medium_multi, test_data_medium_multi = train_test_split(medium_multi, test_size=args.test_size, random_state=args.random_state)
     train_data_hard_single, test_data_hard_single = train_test_split(hard_single, test_size=args.test_size, random_state=args.random_state)
     train_data_hard_multi, test_data_hard_multi = train_test_split(hard_multi, test_size=args.test_size, random_state=args.random_state)
-    train_data = (train_data_easy + train_data_medium_single + train_data_medium_multi + train_data_hard_single + train_data_hard_multi)[:20]
+    train_data = (train_data_easy + train_data_medium_single + train_data_medium_multi + train_data_hard_single + train_data_hard_multi)[:100]
     test_data = (test_data_easy + test_data_medium_single + test_data_medium_multi + test_data_hard_single + test_data_hard_multi)[:20]
     
     # save down train and test data
