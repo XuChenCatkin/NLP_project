@@ -91,7 +91,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 4,
+    "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
@@ -299,8 +299,8 @@ def train(args, logger: logging.Logger):
     train_data_medium_multi, test_data_medium_multi = train_test_split(medium_multi, test_size=args.test_size, random_state=args.random_state)
     train_data_hard_single, test_data_hard_single = train_test_split(hard_single, test_size=args.test_size, random_state=args.random_state)
     train_data_hard_multi, test_data_hard_multi = train_test_split(hard_multi, test_size=args.test_size, random_state=args.random_state)
-    train_data = (train_data_easy + train_data_medium_single + train_data_medium_multi + train_data_hard_single + train_data_hard_multi)[:100]
-    test_data = (test_data_easy + test_data_medium_single + test_data_medium_multi + test_data_hard_single + test_data_hard_multi)[:20]
+    train_data = (train_data_easy + train_data_medium_single + train_data_medium_multi + train_data_hard_single + train_data_hard_multi)
+    test_data = (test_data_easy + test_data_medium_single + test_data_medium_multi + test_data_hard_single + test_data_hard_multi)
     
     # save down train and test data
     with open(f"data/finetune_train_data_test_size_{args.test_size}_random_state_{args.random_state}.json", "w") as f:
@@ -312,12 +312,12 @@ def train(args, logger: logging.Logger):
     # train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
-    train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     train_examples_dict = {"anchor": [], "positive": [], "negative": []}
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
-        train_examples_dict['negative'].append(example.texts[2])
+        train_examples_dict['negative'].append(example.texts[2:])
     # print(train_examples_dict[0]['negative'])
 
 
@@ -326,12 +326,12 @@ def train(args, logger: logging.Logger):
         json.dump(train_examples_dict, f, indent=4)
     logger.info(f"Processed {len(train_examples)} training examples")
     # test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
-    test_examples, test_query_map, test_relevant_map = process_data(test_data)
+    test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
     test_examples_dict = {"anchor": [], "positive": [], "negative": []}
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
-        test_examples_dict['negative'].append(example.texts[2])
+        test_examples_dict['negative'].append(example.texts[2:])
 
     
    
@@ -344,9 +344,9 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
-    # train_loss = losses.MultipleNegativesRankingLoss(model)
+    train_loss = losses.MultipleNegativesRankingLoss(model)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
