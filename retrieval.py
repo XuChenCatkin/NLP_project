@@ -136,20 +136,20 @@ def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queri
 
 if __name__ == "__main__":
     data = {
-        "question": "On which street do the Dursleys live at the beginning of the story?",
-        "answer": "They live at Number Four, Privet Drive.",
+        "question": "What is the name of the wizarding bank Harry visits with Hagrid?",
+        "answer": "The bank is called Gringotts.",
         "list of reference": [
             {
-                "ref_id": 1,
-                "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+                "ref_id": 138,
+                "passage": "Gringotts. Run by goblins.\" Harry dropped the bit of sausage he was holding. \"Goblins?\" \"Yeah - so yeh'd be mad ter try an' rob it, I'll tell yeh that. Never mess with goblins, Harry. Gringotts is the safest place in the world fer anything yeh want ter keep safe - 'cept maybe Hogwarts. As a matter o' fact, I gotta visit Gringotts anyway Fer Dumbledore. Hogwarts business.\" Hagrid drew himself up proudly. \"He usually gets me ter do important stuff fer him. Fetchin' you - gettin' things from Gringotts - knows he can trust me, see. \"Got everythin'? Come on, then.\"",
                 "book": 1,
-                "chapter": 1
+                "chapter": 5
             }
         ],
-        "id": 1,
-        "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+        "id": 2,
+        "question_variants": "What is the name of the wizarding bank Harry visits with Hagrid?",
         "sub_questions": [
-            "On which street do the Dursleys live at the beginning of the story?"
+            "What is the name of the wizarding bank Harry visits with Hagrid?"
         ],
         "category": "easy_single_labeled"
     }

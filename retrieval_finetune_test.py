@@ -82,11 +82,12 @@ model_list = [
     "sentence-transformers/all-MiniLM-L12-v2",
     "sentence-transformers/all-MiniLM-L6-v3",
     "sentence-transformers/all-MiniLM-L12-v3",
-    "Alibaba-NLP/gte-base-en-v1.5"
-]
+    "Alibaba-NLP/gte-base-en-v1.5",
+    "facebook/dpr-question_encoder-single-nq-base"
+    ]
 
 args = {
-    "model_name": "BAAI/bge-base-en-v1.5",
+    "model_name": "facebook/dpr-question_encoder-single-nq-base",
     "corpus_file": CORPUS_FILE,
     "easy_file": EASY,
     "medium_single_file": MEDIUM_S,
