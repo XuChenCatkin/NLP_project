@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import torch
-from sentence_transformers import models, SentenceTransformer, InputExample, losses
+from sentence_transformers import models, SentenceTransformer, InputExample, losses, DPR
 from sentence_transformers.datasets import NoDuplicatesDataLoader
 from types import SimpleNamespace
 from sklearn.model_selection import train_test_split
@@ -16,6 +16,8 @@ import time
 from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
 import faiss
 from typing import List
+from torch import nn
+from transformers import AutoModel
 
 
 
@@ -275,6 +277,40 @@ def process_data_MNRL(data):
             examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
     return examples, query_map, relevant_map
 
+
+class DPRModel(nn.Module):
+    def __init__(self, model_name_or_path: str):
+        super(DPRModel, self).__init__()
+        self.auto_model = AutoModel.from_pretrained(model_name_or_path)
+
+    def forward(self, features):
+        """
+        features is a dict with keys: 'input_ids', 'attention_mask', etc.
+        We run it through the DPR model, then store the final vector under 'sentence_embedding'.
+        """
+        input_ids = features['input_ids']
+        attention_mask = features['attention_mask']
+
+        # DPR model's forward pass
+        output = self.auto_model(input_ids=input_ids, attention_mask=attention_mask)
+        
+        # Depending on the DPR checkpoint, you may see:
+        #   output.last_hidden_state (shape [batch_size, seq_len, hidden_dim])
+        #   output.pooler_output    (shape [batch_size, hidden_dim])
+        #
+        # The official "facebook/dpr-question_encoder-single-nq-base" usually 
+        # sets output.pooler_output as the final single-vector embedding.
+
+        pooled_embedding = output.pooler_output  # shape: [batch_size, hidden_dim]
+        
+        # Put that under 'sentence_embedding' so SentenceTransformers can find it
+        features['sentence_embedding'] = pooled_embedding
+        
+        return features
+
+
+
+
     
 def train(args, logger: logging.Logger):
     # Use CUDA
@@ -283,12 +319,8 @@ def train(args, logger: logging.Logger):
     # Load models on GPU
     logger.info(f"Loading model {args.model_name} on {device}")
     if args.model_name == "facebook/dpr-question_encoder-single-nq-base":
-        dpr_model = models.Transformer(
-            model_name_or_path="facebook/dpr-question_encoder-single-nq-base",
-            # Possibly specify other parameters, like max_seq_length if you want
-            max_seq_length=512
-        )
-        model = SentenceTransformer(modules=[dpr_model])
+        dpr_module = DPRModel("facebook/dpr-question_encoder-single-nq-base")
+        model = SentenceTransformer(modules=[dpr_module])
     else:
         model = SentenceTransformer(args.model_name, device=device)
     
