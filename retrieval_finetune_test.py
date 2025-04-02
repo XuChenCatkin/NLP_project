@@ -35,6 +35,8 @@ HARD_M = f"{QA_PATH}/hard_multi_labeled.json"
 
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
+MODEL = "BAAI/bge-base-en-v1.5"
+
 # ALL subquery List
 subqueries_easy = retrieve_all_subqueries(EASY)
 subqueries_medium_s = retrieve_all_subqueries(MEDIUM_S)
@@ -43,11 +45,11 @@ subqueries_hard_s = retrieve_all_subqueries(HARD_S)
 subqueries_hard_m = retrieve_all_subqueries(HARD_M)
 
 # ALL Index Files
-index_easy = faiss.read_index(f"{EMBEDDING_PATH}/easy_single_labeled_embeddings.index")
-index_medium_s = faiss.read_index(f"{EMBEDDING_PATH}/medium_single_labeled_embeddings.index")
-index_medium_m = faiss.read_index(f"{EMBEDDING_PATH}/medium_multi_labeled_embeddings.index")
-index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/hard_single_labeled_embeddings.index")
-index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/hard_multi_labeled_embeddings.index")
+index_easy = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/easy_single_labeled_embeddings.index")
+index_medium_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/medium_single_labeled_embeddings.index")
+index_medium_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/medium_multi_labeled_embeddings.index")
+index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_single_labeled_embeddings.index")
+index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
 corpus_index = faiss.read_index('./embedding/hp_all_bge.index')
