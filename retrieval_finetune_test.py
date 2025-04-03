@@ -145,8 +145,8 @@ def hard_negative_mining(item):
         sub_questions = item["sub_questions"]
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
-        top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=100)
-        top_k_retrieval = random_sample(top_20_retrieval[50:], args.top_k)
+        top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=150)
+        top_k_retrieval = random_sample(top_20_retrieval[-10:], args.top_k)
         rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
         negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
         negative_retrieval_list = list(negative_retrieval_set)
@@ -347,7 +347,7 @@ def train(args, logger: logging.Logger):
         json.dump(train_examples_dict, f, indent=4)
     logger.info(f"Processed {len(train_examples)} training examples")
     # test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
-    test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
+    test_examples, test_query_map, test_relevant_map = process_data(test_data)
     test_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
@@ -365,7 +365,7 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.EUCLIDEAN, triplet_margin=args.margin)
+    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
     # train_loss = losses.MultipleNegativesRankingLoss(model,scale=5)
 
