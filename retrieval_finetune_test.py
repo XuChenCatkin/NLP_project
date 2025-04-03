@@ -146,8 +146,8 @@ def hard_negative_mining(item):
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
         top_k_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=args.top_k)
-        # rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
-        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
+        rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
+        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in rand_neg_list if negative_retrieval['chunk_id'] not in reference_ids])
         negative_retrieval_list = list(negative_retrieval_set)
         negative_retrievals = [corpus[int(neg_id) - 1] for neg_id in negative_retrieval_list]
         assert len(negative_retrievals) >= 1, f"Not enough negative samples found for item: {item}"
@@ -332,12 +332,12 @@ def train(args, logger: logging.Logger):
     # train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
-    train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
-    train_examples_dict = {"anchor": [], "positive": []}
+    train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    train_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
-        # train_examples_dict['negative'].append(example.texts[2:])
+        train_examples_dict['negative'].append(example.texts[2])
     # print(train_examples_dict[0]['negative'])
 
 
@@ -347,11 +347,11 @@ def train(args, logger: logging.Logger):
     logger.info(f"Processed {len(train_examples)} training examples")
     # test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
     test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
-    test_examples_dict = {"anchor": [], "positive": []}
+    test_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
-        # test_examples_dict['negative'].append(example.texts[2:])
+        test_examples_dict['negative'].append(example.texts[2])
 
     
    
@@ -364,9 +364,9 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
-    train_loss = losses.MultipleNegativesRankingLoss(model,scale=5)
+    # train_loss = losses.MultipleNegativesRankingLoss(model,scale=5)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
