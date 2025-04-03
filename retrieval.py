@@ -82,7 +82,6 @@ def query_embed_search(query, all_queries_list, index):
         # Find the position (index) of the query in the list of all queries
         position = all_queries_list.index(query)
         # print(f'Found Position: {position}')
-        
         # Reconstruct and return the vector at the given position in the index
         return index.reconstruct(position)
     except ValueError:
