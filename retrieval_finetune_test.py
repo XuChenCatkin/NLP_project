@@ -36,7 +36,7 @@ HARD_M = f"{QA_PATH}/hard_multi_labeled.json"
 
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
-MODEL = "dpr"
+MODEL = "BAAI/bge-base-en-v1.5"
 
 # ALL subquery List
 subqueries_easy = retrieve_all_subqueries(EASY)
@@ -53,7 +53,7 @@ index_hard_s = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_single_labeled_e
 index_hard_m = faiss.read_index(f"{EMBEDDING_PATH}/{MODEL}/hard_multi_labeled_embeddings.index")
 
 # Load all bge embedding
-corpus_index = faiss.read_index(f'./embedding/{MODEL}/hp_all_{MODEL}.index')
+corpus_index = faiss.read_index(f'./embedding/{MODEL}/hp_all_bge.index')
 with open(CORPUS_FILE, 'r') as f:
     corpus = json.load(f)
 
@@ -83,8 +83,8 @@ model_list = [
     "sentence-transformers/all-MiniLM-L12-v2",
     "sentence-transformers/all-MiniLM-L6-v3",
     "sentence-transformers/all-MiniLM-L12-v3",
-    "Alibaba-NLP/gte-base-en-v1.5"
-]
+    "Alibaba-NLP/gte-base-en-v1.5",
+    ]
 
 args = {
     "model_name": "BAAI/bge-base-en-v1.5",
@@ -339,7 +339,7 @@ def train(args, logger: logging.Logger):
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
-        train_examples_dict['negative'].append(example.texts[2:])
+        #train_examples_dict['negative'].append(example.texts[2:])
     # print(train_examples_dict[0]['negative'])
 
 
@@ -353,12 +353,13 @@ def train(args, logger: logging.Logger):
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
-        test_examples_dict['negative'].append(example.texts[2:])
+        #test_examples_dict['negative'].append(example.texts[2:])
 
     
    
     train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
     # train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
+
     evaluator = InformationRetrievalEvaluator(
         test_query_map,
         corpus_map,
