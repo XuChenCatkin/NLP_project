@@ -16,6 +16,7 @@ import time
 from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
 import faiss
 from typing import List
+from sentence_transformers.util import cos_sim
 
 
 
@@ -93,9 +94,9 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 16,
+    "batch_size": 10,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "aaron-cui990810-ucl",
+    "wandbusername": "xiangzhang350-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
@@ -144,7 +145,9 @@ def hard_negative_mining(item):
         sub_questions = item["sub_questions"]
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
-        top_k_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=args.top_k)
+        top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=700)
+        top_k_retrieval = random_sample(top_20_retrieval[-100:], 10)
+        rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
         negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
         negative_retrieval_list = list(negative_retrieval_set)
         negative_retrievals = [corpus[int(neg_id) - 1] for neg_id in negative_retrieval_list]
@@ -157,8 +160,10 @@ def hard_negative_mining(item):
     
 
 class TimedCallback:
-    def __init__(self):
+    def __init__(self, dataloader, model):
         self.last_time = None
+        self.dataloader = dataloader
+        self.model = model
 
     def __call__(self, loss, epoch, step):
         now = time.time()
@@ -167,12 +172,26 @@ class TimedCallback:
         else:
             step_time = now - self.last_time
         self.last_time = now
+        pos_similarities = []
+        neg_similarities = []
+        for batch in self.dataloader:
+            anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
+            positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
+            pos_sim = cos_sim(anchors, positives).diag().mean().item()
+            neg_sim = cos_sim(anchors, positives).mean().item()  # 简化：用batch内平均值近似负样本
+            pos_similarities.append(pos_sim)
+            neg_similarities.append(neg_sim)
+            break  # 只取一个batch，减少计算开销
+        avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
+        avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
         
         wandb.log({
             "train_loss": loss,
             "epoch": epoch,
             "train_step": step,
-            "step_time_seconds": step_time
+            "step_time_seconds": step_time,
+            "avg_positive_similarity": avg_pos_sim,
+            "avg_negative_similarity": avg_neg_sim,
         })
         
 def process_data(data):
@@ -315,7 +334,7 @@ def train(args, logger: logging.Logger):
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
     train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
-    train_examples_dict = {"anchor": [], "positive": []}
+    train_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
@@ -329,7 +348,7 @@ def train(args, logger: logging.Logger):
     logger.info(f"Processed {len(train_examples)} training examples")
     # test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
     test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
-    test_examples_dict = {"anchor": [], "positive": []}
+    test_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
@@ -347,10 +366,9 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
-    guide_model = SentenceTransformer("all-MiniLM-L6-v2")
+    # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
-    train_loss = losses.GISTEmbedLoss(model, guide_model, temperature=0.1)
+    train_loss = losses.MultipleNegativesRankingLoss(model,scale=5)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
@@ -374,7 +392,7 @@ def train(args, logger: logging.Logger):
         save_best_model=True,
         show_progress_bar=True,
         use_amp=True,
-        callback=TimedCallback()
+        callback=TimedCallback(train_dataloader, model)
     )
     
     logger.info(f"Evaluating model")
