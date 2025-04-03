@@ -12,7 +12,7 @@ import faiss
 # -----------------------------
 DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
-
+print(f"Loading passages from {ALL_CHUNKS_FILE}")
 # -----------------------------
 # Utility function to load passages
 # -----------------------------
@@ -134,33 +134,32 @@ def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queri
         results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
     return results
 
-if __name__ == "__main__":
-    data = {
-        "question": "What is the name of the wizarding bank Harry visits with Hagrid?",
-        "answer": "The bank is called Gringotts.",
-        "list of reference": [
-            {
-                "ref_id": 138,
-                "passage": "Gringotts. Run by goblins.\" Harry dropped the bit of sausage he was holding. \"Goblins?\" \"Yeah - so yeh'd be mad ter try an' rob it, I'll tell yeh that. Never mess with goblins, Harry. Gringotts is the safest place in the world fer anything yeh want ter keep safe - 'cept maybe Hogwarts. As a matter o' fact, I gotta visit Gringotts anyway Fer Dumbledore. Hogwarts business.\" Hagrid drew himself up proudly. \"He usually gets me ter do important stuff fer him. Fetchin' you - gettin' things from Gringotts - knows he can trust me, see. \"Got everythin'? Come on, then.\"",
-                "book": 1,
-                "chapter": 5
-            }
-        ],
-        "id": 2,
-        "question_variants": "What is the name of the wizarding bank Harry visits with Hagrid?",
-        "sub_questions": [
-            "What is the name of the wizarding bank Harry visits with Hagrid?"
-        ],
-        "category": "easy_single_labeled"
-    }
-    EASY_INDEX = faiss.read_index(f"embedding/dpr/easy_single_labeled_embeddings.index")
-    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
-    CORPUS_EMBEDDING = faiss.read_index('embedding/dpr/hp_all_dpr.index')
-    CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
-    with open(CORPUS_FILE, 'r') as f:
-        CORPUS_DATA = json.load(f)
-    result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
-
-    print(result)
+# if __name__ == "__main__":
+    # data = {
+    #     "question": "On which street do the Dursleys live at the beginning of the story?",
+    #     "answer": "They live at Number Four, Privet Drive.",
+    #     "list of reference": [
+    #         {
+    #             "ref_id": 1,
+    #             "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+    #             "book": 1,
+    #             "chapter": 1
+    #         }
+    #     ],
+    #     "id": 1,
+    #     "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+    #     "sub_questions": [
+    #         "On which street do the Dursleys live at the beginning of the story?"
+    #     ],
+    #     "category": "easy_single_labeled"
+    # }
+    # EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+    # EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
+    # CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+    # CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
+    # with open(CORPUS_FILE, 'r') as f:
+    #     CORPUS_DATA = json.load(f)
+    # result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+    # print(result)
 
     
