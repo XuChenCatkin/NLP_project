@@ -188,32 +188,32 @@ def process_qa_subqueries_dpr(model, tokenizer, model_name, file):
 # -----------------------------
 
 if __name__ == "__main__":
-    MODEL_NAME = "BAAI/bge-base-en-v1.5"
+    #MODEL_NAME = "BAAI/bge-base-en-v1.5"
     # Load models on GPU
-    bge_model = SentenceTransformer("BAAI/bge-base-en-v1.5", device=device)
+    #bge_model = SentenceTransformer("BAAI/bge-base-en-v1.5", device=device)
 
     # Process unified passages for each model
     # process_all_hp_passages(bge_model, MODEL_NAME)
     #process_all_hp_passages(mpnet_model, "mpnet")
     
     # Process QA subqueries for each model
-    file = 'data/finetune_test_data_test_size_0.2_random_state_42.json'
-    process_qa_subqueries(bge_model, MODEL_NAME, file)
+    #file = 'data/finetune_test_data_test_size_0.2_random_state_42.json'
+    #process_qa_subqueries(bge_model, MODEL_NAME, file)
     #process_qa_subqueries(mpnet_model, "mpnet")
 
-    # MODEL_TAG = "dpr"
+    MODEL_TAG = "dpr"
     
     # # Load DPR Context Encoder and its Tokenizer for passage encoding
-    # ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
-    # dpr_context_model = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base").to(device)
+    ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
+    dpr_context_model = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base").to(device)
     
     # # Optionally, load DPR Question Encoder if needed for query encoding:
-    # qs_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
-    # dpr_question_model = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base").to(device)
+    qs_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
+    dpr_question_model = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base").to(device)
     
     # # Process unified passages (passage embeddings) using DPR Context Encoder
     # process_all_hp_passages_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG)
     
     # # Process QA subqueries using DPR Context Encoder
-    # for file in qa_files:
-    #     process_qa_subqueries_dpr(dpr_question_model, qs_tokenizer, MODEL_TAG, file)
+    file = 'data/finetune_test_data_test_size_0.2_random_state_42.json'
+    process_qa_subqueries_dpr(dpr_question_model, qs_tokenizer, MODEL_TAG, file)
