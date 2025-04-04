@@ -94,7 +94,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 10,
+    "batch_size": 5,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "xiangzhang350-ucl",
     "epochs": 5,
@@ -145,11 +145,10 @@ def hard_negative_mining(item):
         sub_questions = item["sub_questions"]
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
-        top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=700)
-        top_k_retrieval = random_sample(top_20_retrieval[-100:], 5)
+        top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=20)
         rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
-        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
-        negative_retrieval_list = list(negative_retrieval_set)
+        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_20_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
+        negative_retrieval_list = random_sample(list(negative_retrieval_set),4)
         negative_retrievals = [corpus[int(neg_id) - 1] for neg_id in negative_retrieval_list]
         assert len(negative_retrievals) >= 1, f"Not enough negative samples found for item: {item}"
         return negative_retrievals
@@ -369,7 +368,7 @@ def train(args, logger: logging.Logger):
 
     # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
-    train_loss = losses.MultipleNegativesRankingLoss(model,scale=30)
+    train_loss = losses.MultipleNegativesRankingLoss(model,scale=20)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 

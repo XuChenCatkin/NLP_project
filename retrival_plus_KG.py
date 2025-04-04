@@ -165,26 +165,34 @@ def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index
             sel = faiss.IDSelectorArray(chunk_id_list)
             params = faiss.SearchParameters()
             params.sel = sel
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk[chunk_id_list], all_chucks[chunk_id_list], top_k=5,params=params)
+            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
 
 if __name__ == "__main__":
-    data = {
-        "question": "On which street do the Dursleys live at the beginning of the story?",
-        "answer": "They live at Number Four, Privet Drive.",
+    data =  {
+        "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
+        "answer": "Hagrid's mention of Fluffy's weakness to music foreshadows Quirrell's knowledge.",
         "list of reference": [
             {
-                "ref_id": 1,
-                "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+                "ref_id": 425,
+                "passage": "He was being made a cup of strong tea back in Hagrid's hut, with Ron and Hermione. \"It was Snape,\" Ron was explaining, \"Hermione and I saw him. He was cursing your broomstick, muttering, he wouldn't take his eyes off you.\" \"Rubbish,\" said Hagrid, who hadn't heard a word of what had gone on next to him in the stands. \"Why would Snape do somethin' like that?\" Harry, Ron, and Hermione looked at one another, wondering what to tell him. Harry decided on the truth. \"I found out something about him,\" he told Hagrid. \"He tried to get past that three-headed dog on Halloween. It bit him. We think he was trying to steal whatever it's guarding.\" Hagrid dropped the teapot. \"How do you know about Fluffy?\" he said. \"Fluffy?\"",
                 "book": 1,
-                "chapter": 1
+                "chapter": 11
+            },
+            {
+                "ref_id": 426,
+                "passage": "\"Yeah - he's mine - bought him off a Greek chappie I met in the pub las' year - I lent him to Dumbledore to guard the -\"\n\"Yes?\" said Harry eagerly. \"Now, don't ask me anymore,\" said Hagrid gruffly. \"That's top secret, that is.\" \"But Snape's trying to steal it.\"",
+                "book": 1,
+                "chapter": 11
             }
         ],
         "id": 1,
-        "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+        "question_variants": "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?",
         "sub_questions": [
-            "On which street do the Dursleys live at the beginning of the story?"
+            "Who is the character that mentions the magical creature?",
+            "What is the name of the magical creature being discussed?",
+            "What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
         ],
-        "category": "easy_single_labeled"
+        "category": "hard_single_labeled"
     }
     EMBEDDING_PATH = "./embedding"
     DATA_PATH = "./data"
@@ -198,8 +206,8 @@ if __name__ == "__main__":
             relation = relation.replace("|", " ")
             relation_to_kgid_map.append(i+1)
 
-    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/easy_single_labeled_embeddings.index")
-    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
+    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/hard_single_labeled_embeddings.index")
+    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_labeled.json")
     CORPUS_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
     KG_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
@@ -207,4 +215,6 @@ if __name__ == "__main__":
         CORPUS_DATA = json.load(f)
     # result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
     result = KG_dense_retrieval(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, KG_EMBEDDING, CORPUS_EMBEDDING, CORPUS_DATA, relation_to_kgid_map, top_k=5)
+    result_1 = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
     print(result)
+    print(result_1)
