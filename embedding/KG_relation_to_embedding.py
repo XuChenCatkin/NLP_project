@@ -38,9 +38,8 @@ def load_kg():
         relations = data[f'{i+1}']['relations']
         for relation in relations:
             relation = relation.replace("|", " ")
-            relation_to_kgid_map.append(i)
+            relation_to_kgid_map.append(i+1)
             kg_relations.append(relation)
-        i+=1
 
     return kg_relations, relation_to_kgid_map
 
