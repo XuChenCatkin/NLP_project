@@ -104,7 +104,7 @@ def process_all_KG_relations(model, model_name):
 if __name__ == "__main__":
     MODEL_NAME = "BAAI/bge-base-en-v1.5_finetuned"
     # Load models on GPU
-    bge_model = SentenceTransformer("CatkinChen/BAAI_bge-base-en-v1.5_retrieval_finetune_v1", device=device)
+    bge_model = SentenceTransformer("CatkinChen/BAAI_bge-base-en-v1.5_retrieval_finetuned_v1", device=device)
 
     # Process unified passages for each model
     process_all_KG_relations(bge_model, MODEL_NAME)
