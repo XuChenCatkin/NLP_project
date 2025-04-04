@@ -95,7 +95,32 @@ entities = process_gpt(query)
 print(entities)
 
 shared_chunk = find_chunk_id(entities)
+all_chunks = []
+for i in shared_chunk:
+    all_chunks+=[j for j in range(5*i, 5*i+5)]
 
-print(shared_chunk)
+print(all_chunks)
 
+# if __name__ == "__main__":
+#     data = {
+#         "question": "On which street do the Dursleys live at the beginning of the story?",
+#         "answer": "They live at Number Four, Privet Drive.",
+#         "list of reference": [
+#             {
+#                 "ref_id": 1,
+#                 "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+#                 "book": 1,
+#                 "chapter": 1
+#             }
+#         ],
+#         "id": 1,
+#         "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+#         "sub_questions": [
+#             "On which street do the Dursleys live at the beginning of the story?"
+#         ],
+#         "category": "easy_single_labeled"
+#     }
 
+#     for i in data['sub_questions']:
+#         entities = process_gpt(i)
+#         print(entities)
