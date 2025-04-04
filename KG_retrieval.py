@@ -4,6 +4,7 @@ from string import Template
 from collections import defaultdict
 
 
+
 client = OpenAI(
     api_key="sk-2367b265559a4ae6b607bff8755ef431",
     base_url="https://api.deepseek.com",
@@ -89,17 +90,17 @@ def find_chunk_id(target_ids):
     return shared_scenes
     
 
-query = "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?"
+# query = "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?"
 
-entities = process_gpt(query)
-print(entities)
+# entities = process_gpt(query)
+# print(entities)
 
-shared_chunk = find_chunk_id(entities)
-all_chunks = []
-for i in shared_chunk:
-    all_chunks+=[j for j in range(5*i, 5*i+5)]
+# shared_chunk = find_chunk_id(entities)
+# all_chunks = []
+# for i in shared_chunk:
+#     all_chunks+=[j for j in range(5*i, 5*i+5)]
 
-print(all_chunks)
+# print(all_chunks)
 
 # if __name__ == "__main__":
 #     data = {
