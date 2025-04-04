@@ -267,14 +267,13 @@ class BLEU(GenerationMetric):
         references: list of list of ground-truth responses
         """
         try:
-            for i, pred, refs in enumerate(zip(predictions, references)):
+            for pred, refs in enumerate(zip(predictions, references)):
                 ref_tokens = [ref.split() for ref in refs]
                 gen_tokens = pred.split()
                 self._bleu_scores.append(sentence_bleu(ref_tokens, gen_tokens))
         except Exception as e:
-            print(f"Error calculating BLEU for index {i}: {e}")
+            print(f"Error in BLEU computation: {e}")
             print(f"Generated: {pred}, References: {refs}")
-            raise e
     def compute(self):
         if len(self._bleu_scores) == 0:
             return 0.0
