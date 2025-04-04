@@ -146,7 +146,7 @@ def hard_negative_mining(item):
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
         top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=700)
-        top_k_retrieval = random_sample(top_20_retrieval[-100:], 10)
+        top_k_retrieval = random_sample(top_20_retrieval[-100:], 5)
         rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
         negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
         negative_retrieval_list = list(negative_retrieval_set)
@@ -179,7 +179,7 @@ class TimedCallback:
             positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
             sim_matrix = cos_sim(anchors, positives)
             pos_sim = sim_matrix.diag().mean().item()
-            neg_sim = (sim_matrix.sum()-sim_matrix.diag().sum())/((sim_matrix.size[0])*(sim_matrix.size[1]-1))  # 简化：用batch内平均值近似负样本
+            neg_sim = (sim_matrix.sum()-sim_matrix.diag().sum())/((sim_matrix.shape[0])*(sim_matrix.shape[1]-1))  # 简化：用batch内平均值近似负样本
             pos_similarities.append(pos_sim)
             neg_similarities.append(neg_sim)
             break  # 只取一个batch，减少计算开销
@@ -339,7 +339,7 @@ def train(args, logger: logging.Logger):
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
         train_examples_dict['positive'].append(example.texts[1])
-        #train_examples_dict['negative'].append(example.texts[2:])
+        train_examples_dict['negative'].append(example.texts[2:])
     # print(train_examples_dict[0]['negative'])
 
 
@@ -353,7 +353,7 @@ def train(args, logger: logging.Logger):
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
         test_examples_dict['positive'].append(example.texts[1])
-        #test_examples_dict['negative'].append(example.texts[2:])
+        test_examples_dict['negative'].append(example.texts[2:])
 
     
    
@@ -369,7 +369,7 @@ def train(args, logger: logging.Logger):
 
     # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
-    train_loss = losses.MultipleNegativesRankingLoss(model,scale=5)
+    train_loss = losses.MultipleNegativesRankingLoss(model,scale=30)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
