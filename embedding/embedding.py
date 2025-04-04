@@ -190,15 +190,15 @@ def process_qa_subqueries_dpr(model, tokenizer, model_name, file):
 if __name__ == "__main__":
     MODEL_NAME = "BAAI/bge-base-en-v1.5_finetuned"
     # Load models on GPU
-    bge_model = SentenceTransformer("CatkinChen/BAAI_bge-base-en-v1.5_retrieval_finetuned_2025-04-03_23-18-57", device=device)
+    bge_model = SentenceTransformer("CatkinChen/BAAI_bge-base-en-v1.5_retrieval_finetuned_v1", device=device)
 
     # Process unified passages for each model
-    process_all_hp_passages(bge_model, MODEL_NAME)
+    # process_all_hp_passages(bge_model, MODEL_NAME)
     #process_all_hp_passages(mpnet_model, "mpnet")
     
     # Process QA subqueries for each model
-    for file in qa_files:
-        process_qa_subqueries(bge_model, MODEL_NAME, file)
+    file = 'data/finetune_test_data_test_size_0.2_random_state_42.json'
+    process_qa_subqueries(bge_model, MODEL_NAME, file)
     #process_qa_subqueries(mpnet_model, "mpnet")
 
     # MODEL_TAG = "dpr"
