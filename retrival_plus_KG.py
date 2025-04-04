@@ -122,7 +122,7 @@ def retrieve_all_subqueries(file_path):
     return subquestion_list
 
 
-def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index, all_chucks, top_k=5):
+def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index, all_chucks, top_k=5,params = faiss.SearchParameters()):
     if isinstance(queries, str):
         queries = [queries]
 
@@ -131,7 +131,7 @@ def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queri
         #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
-        distances, indices = faiss_index.search(query_emb, top_k)
+        distances, indices = faiss_index.search(query_emb, top_k,params=params)
         results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
     return results
 
@@ -162,7 +162,10 @@ def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index
             for kg_id in kg_ids:
                 chunk_id_list.extend([i for i in range(5*kg_id, 5*kg_id+5)])
                 chunk_id_list = list(set(chunk_id_list))
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk[chunk_id_list], all_chucks[chunk_id_list], top_k=5)
+            sel = faiss.IDSelectorArray(chunk_id_list)
+            params = faiss.SearchParameters()
+            params.sel = sel
+            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk[chunk_id_list], all_chucks[chunk_id_list], top_k=5,params=params)
 
 if __name__ == "__main__":
     data = {
