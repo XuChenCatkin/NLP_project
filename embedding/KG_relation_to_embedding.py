@@ -28,14 +28,14 @@ KG_PATH = f"{DATA_PATH}/KG_result_cleaned.json"
 def load_kg():
     relation_to_kgid_map = []
     kg_relations = []
-    i = 1
+    
     if not os.path.exists(KG_PATH):
         print(f"KG file not found: {KG_PATH}")
         return []
     with open(KG_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
-    for entry in data:
-        relations = entry['relations']
+    for i in range(len(data)):
+        relations = data[f'{i+1}']['relations']
         for relation in relations:
             relation = relation.replace("|", " ")
             relation_to_kgid_map.append(i)
