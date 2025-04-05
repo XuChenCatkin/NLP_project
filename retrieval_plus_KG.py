@@ -142,22 +142,25 @@ def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index
     results = []
     kg_ids = []
     for query in queries:
+        entities = process_gpt(query)
+        shared_kg = find_chunk_id(entities)
+        kg_ids.extend(shared_kg)
+    kg_ids = list(set(kg_ids))
+    for query in queries:
         #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+
+        sel_kg = faiss.IDSelectorArray(kg_ids)
+        params = faiss.SearchParameters()
+        params.sel = sel_kg
         
         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
-        distances, indices = faiss_index_kg.search(query_emb,2000)
-        entities = process_gpt(query)
-        print(query)
-        print("========================")
-        print(entities)
-        print("=======================")
-        shared_kg = find_chunk_id(entities)
+
+        distances, indices = faiss_index_kg.search(query_emb,1000,params=params)
         relation_rank_index = indices[0]
         for i in relation_rank_index:
             if relation_to_kgid_map[i] in shared_kg:
                 kg_ids.append(relation_to_kgid_map[i])
-    print(kg_ids)
     if len(kg_ids) == 0:
         print('KG method failed')
         print('return the dense retrieval')
@@ -167,7 +170,7 @@ def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index
         for kg_id in kg_ids:
             chunk_id_list.extend([i for i in range(5*kg_id-4, 5*kg_id+1)])
             chunk_id_list = list(set(chunk_id_list))
-        print(chunk_id_list)
+        # print(chunk_id_list)
         sel = faiss.IDSelectorArray(chunk_id_list)
         params = faiss.SearchParameters()
         params.sel = sel
@@ -220,8 +223,12 @@ if __name__ == "__main__":
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)
     # result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
-    print(type(data))
+    # print(type(data))
     result = KG_dense_retrieval(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, KG_EMBEDDING, CORPUS_EMBEDDING, CORPUS_DATA, relation_to_kgid_map, top_k=5)
     result_1 = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
     print(result)
+    print('----------------')
+    print('----------------')
+    print('----------------')
+    print('----------------')
     print(result_1)
