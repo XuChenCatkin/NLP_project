@@ -146,53 +146,59 @@ def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index
         
         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
-        distances, indices = faiss_index_kg.search(query_emb,1000)
+        distances, indices = faiss_index_kg.search(query_emb,2000)
         entities = process_gpt(query)
+        print(query)
+        print("========================")
+        print(entities)
+        print("=======================")
         shared_kg = find_chunk_id(entities)
         relation_rank_index = indices[0]
         for i in relation_rank_index:
             if relation_to_kgid_map[i] in shared_kg:
                 kg_ids.append(relation_to_kgid_map[i])
-        if len(kg_ids) == 0:
-            print('KG method failed')
-            print('return the dense retrieval')
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
-        else:
-            chunk_id_list = []
-            for kg_id in kg_ids:
-                chunk_id_list.extend([i for i in range(5*kg_id, 5*kg_id+5)])
-                chunk_id_list = list(set(chunk_id_list))
-            sel = faiss.IDSelectorArray(chunk_id_list)
-            params = faiss.SearchParameters()
-            params.sel = sel
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+    print(kg_ids)
+    if len(kg_ids) == 0:
+        print('KG method failed')
+        print('return the dense retrieval')
+        return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
+    else:
+        chunk_id_list = []
+        for kg_id in kg_ids:
+            chunk_id_list.extend([i for i in range(5*kg_id-4, 5*kg_id+1)])
+            chunk_id_list = list(set(chunk_id_list))
+        print(chunk_id_list)
+        sel = faiss.IDSelectorArray(chunk_id_list)
+        params = faiss.SearchParameters()
+        params.sel = sel
+        return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
 
 if __name__ == "__main__":
-    data =  {
-        "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
-        "answer": "Hagrid's mention of Fluffy's weakness to music foreshadows Quirrell's knowledge.",
+    data =   {
+        "question": "What magical plant traps Harry, Ron, and Hermione in their first year?",
+        "answer": "Devil's Snare",
         "list of reference": [
             {
-                "ref_id": 425,
-                "passage": "He was being made a cup of strong tea back in Hagrid's hut, with Ron and Hermione. \"It was Snape,\" Ron was explaining, \"Hermione and I saw him. He was cursing your broomstick, muttering, he wouldn't take his eyes off you.\" \"Rubbish,\" said Hagrid, who hadn't heard a word of what had gone on next to him in the stands. \"Why would Snape do somethin' like that?\" Harry, Ron, and Hermione looked at one another, wondering what to tell him. Harry decided on the truth. \"I found out something about him,\" he told Hagrid. \"He tried to get past that three-headed dog on Halloween. It bit him. We think he was trying to steal whatever it's guarding.\" Hagrid dropped the teapot. \"How do you know about Fluffy?\" he said. \"Fluffy?\"",
+                "ref_id": 643,
+                "passage": "Hermione had managed to free herself before the plant got a firm grip on her. Now she watched in horror as the two boys fought to pull the plant off them, but the more they strained against it, the tighter and faster the plant wound around them. \"Stop moving!\" Hermione ordered them. \"I know what this is - it's Devil's Snare!\" \"Oh, I'm so glad we know what it's called, that's a great help,\" snarled Ron, leaning back, trying to stop the plant from curling around his neck.",
                 "book": 1,
-                "chapter": 11
+                "chapter": 16
             },
             {
-                "ref_id": 426,
-                "passage": "\"Yeah - he's mine - bought him off a Greek chappie I met in the pub las' year - I lent him to Dumbledore to guard the -\"\n\"Yes?\" said Harry eagerly. \"Now, don't ask me anymore,\" said Hagrid gruffly. \"That's top secret, that is.\" \"But Snape's trying to steal it.\"",
+                "ref_id": 644,
+                "passage": "\"Shut up, I'm trying to remember how to kill it!\" said Hermione. \"Well, hurry up, I can't breathe!\" Harry gasped, wrestling with it as it curled around his chest. \"Devil's Snare, Devil's Snare ... what did Professor Sprout say? - it likes the dark and the damp -\"\n\"So light a fire!\" Harry choked. \"Yes - of course - but there's no wood!\" Hermione cried, wringing her hands. \"HAVE YOU GONE MAD?\"",
                 "book": 1,
-                "chapter": 11
+                "chapter": 16
             }
         ],
-        "id": 1,
-        "question_variants": "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?",
+        "id": 9,
+        "question_variants": "What enchanted flora ensnares Harry, Ron, and Hermione during their initial year at Hogwarts?",
         "sub_questions": [
-            "Who is the character that mentions the magical creature?",
-            "What is the name of the magical creature being discussed?",
-            "What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
+            "What is the name of the magical plant that traps the trio in their first year?",
+            "How does this plant specifically trap Harry, Ron, and Hermione?",
+            "Are there any other magical plants or creatures mentioned in the story that could have been used instead of the one that trapped them?"
         ],
-        "category": "hard_single_labeled"
+        "category": "medium_single_labeled"
     }
     EMBEDDING_PATH = "./embedding"
     DATA_PATH = "./data"
@@ -206,14 +212,15 @@ if __name__ == "__main__":
             relation = relation.replace("|", " ")
             relation_to_kgid_map.append(i+1)
 
-    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/hard_single_labeled_embeddings.index")
-    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_labeled.json")
+    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/medium_single_labeled_embeddings.index")
+    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_single_labeled.json")
     CORPUS_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
     KG_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)
     # result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+    print(type(data))
     result = KG_dense_retrieval(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, KG_EMBEDDING, CORPUS_EMBEDDING, CORPUS_DATA, relation_to_kgid_map, top_k=5)
     result_1 = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
     print(result)

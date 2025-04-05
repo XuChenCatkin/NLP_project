@@ -61,7 +61,7 @@ def process_gpt(query):
         ]
     )
     extracted_names = json.loads(completion.choices[0].message.content.strip())
-    print(extracted_names)
+    # print(extracted_names)
     
     matched_ids = [all_entities[name] for name in extracted_names if name in all_entities]
     return matched_ids

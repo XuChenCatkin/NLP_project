@@ -365,7 +365,7 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
     train_loss = losses.MultipleNegativesRankingLoss(model,scale=30)
 
