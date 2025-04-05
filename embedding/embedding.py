@@ -38,17 +38,6 @@ def load_all_passages():
     print(f"Total passages loaded: {len(passages)}")
     return passages
 
-# Load QA questions from the QA file (if needed)
-def load_qa_questions(file):
-    if not os.path.exists(file):
-        print(f"QA file not found: {file}")
-        return []
-    with open(file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    questions = [item["question"] for item in data if "question" in item]
-    print(f"Total QA questions loaded: {len(questions)} from {file}")
-    return questions
-
 # -----------------------------
 # Embedding and FAISS Utilities
 # -----------------------------
@@ -135,6 +124,50 @@ def process_all_hp_passages_dpr(model, tokenizer, model_name):
     print(f"Embeddings and FAISS index saved for {model_name}")
 
 # -----------------------------
+# QA queries Processing
+# -----------------------------
+
+# Load QA questions from the QA file (if needed)
+def load_qa_questions(file):
+    if not os.path.exists(file):
+        print(f"QA file not found: {file}")
+        return []
+    with open(file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    questions = [item["question"] for item in data if "question" in item]
+    print(f"Total QA questions loaded: {len(questions)} from {file}")
+    return questions
+
+def process_qa_queries(model, model_name, file):
+    print(f"\nProcessing QA embeddings for queries with model: {model_name}")
+    queries = load_qa_questions(file)
+    if not queries:
+        print("No subqueries found.")
+        return
+    
+    base_name = os.path.splitext(os.path.basename(file))[0]
+    
+    embeddings = embed_texts(queries, model)
+    index_path = f"{EMBEDDING_PATH}/{model_name}/{base_name}_original_queries_embeddings.index"
+    #emb_path = f"{EMBEDDING_PATH}/qa_subquery_embeddings_{model_name}.npy"
+    store_faiss_index(embeddings, index_path)
+    #np.save(emb_path, embeddings)
+    print(f"QA subquery embeddings and FAISS index saved for {model_name}")
+
+def process_qa_queries_dpr(model, tokenizer, model_name, file):
+    print(f"\nProcessing QA embeddings for subqueries with model: {model_name}")
+    queries = load_qa_questions(file)
+    if not queries:
+        print("No subqueries found.")
+        return
+    base_name = os.path.splitext(os.path.basename(file))[0]
+    embeddings = embed_texts_dpr(queries, model, tokenizer)
+    os.makedirs(os.path.join(EMBEDDING_PATH, model_name), exist_ok=True)
+    index_path = f"{EMBEDDING_PATH}/{model_name}/{base_name}_original_queries_embeddings.index"
+    store_faiss_index_dpr(embeddings, index_path)
+    print(f"QA subquery embeddings and FAISS index saved for {model_name}")
+
+# -----------------------------
 # QA Subqueries Processing
 # -----------------------------
 
@@ -188,9 +221,9 @@ def process_qa_subqueries_dpr(model, tokenizer, model_name, file):
 # -----------------------------
 
 if __name__ == "__main__":
-    #MODEL_NAME = "BAAI/bge-base-en-v1.5"
+    MODEL_NAME = "BAAI/bge-base-en-v1.5"
     # Load models on GPU
-    #bge_model = SentenceTransformer("BAAI/bge-base-en-v1.5", device=device)
+    bge_model = SentenceTransformer("BAAI/bge-base-en-v1.5", device=device)
 
     # Process unified passages for each model
     # process_all_hp_passages(bge_model, MODEL_NAME)
@@ -199,7 +232,11 @@ if __name__ == "__main__":
     # Process QA subqueries for each model
     #file = 'data/finetune_test_data_test_size_0.2_random_state_42.json'
     #process_qa_subqueries(bge_model, MODEL_NAME, file)
-    #process_qa_subqueries(mpnet_model, "mpnet")
+
+    # Process QA queries for each model
+    for file in qa_files:
+        process_qa_queries(bge_model, MODEL_NAME, file)
+
 
     MODEL_TAG = "dpr"
     
@@ -215,5 +252,5 @@ if __name__ == "__main__":
     # process_all_hp_passages_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG)
     
     # # Process QA subqueries using DPR Context Encoder
-    file = 'data/finetune_test_data_test_size_0.2_random_state_42.json'
-    process_qa_subqueries_dpr(dpr_question_model, qs_tokenizer, MODEL_TAG, file)
+    for file in qa_files:
+        process_qa_queries_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG, file)
