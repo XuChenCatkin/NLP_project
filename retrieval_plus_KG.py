@@ -135,58 +135,110 @@ def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queri
         results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
     return results
 
+# def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index_kg, faiss_index_chunk, all_chucks, relation_to_kgid_map, top_k=5):
+#     if isinstance(queries, str):
+#         queries = [queries]
+
+#     results = []
+#     kg_ids = []
+#     for query in queries:
+#         #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        
+#         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
+#         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
+#         distances, indices = faiss_index_kg.search(query_emb,1000)
+#         entities = process_gpt(query)
+#         shared_kg = find_chunk_id(entities)
+#         print(shared_kg)
+#         relation_rank_index = indices[0]
+#         print(relation_rank_index)
+#         for i in relation_rank_index:
+#             if relation_to_kgid_map[i] in shared_kg:
+#                 kg_ids.append(relation_to_kgid_map[i])
+#         if len(kg_ids) == 0:
+#             print('KG method failed')
+#             print('return the dense retrieval')
+#             return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
+#         else:
+#             chunk_id_list = []
+#             for kg_id in kg_ids:
+#                 chunk_id_list.extend([i for i in range(5*kg_id, 5*kg_id+5)])
+#                 chunk_id_list = list(set(chunk_id_list))
+#             sel = faiss.IDSelectorArray(chunk_id_list)
+#             params = faiss.SearchParameters()
+#             params.sel = sel
+#             return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+
 def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index_kg, faiss_index_chunk, all_chucks, relation_to_kgid_map, top_k=5):
     if isinstance(queries, str):
         queries = [queries]
 
     results = []
     kg_ids = []
+    
+    for query in queries:
+        entities = process_gpt(query)
+        shared_kg = find_chunk_id(entities)
+        kg_ids.extend(shared_kg)
+    kg_ids = list(set(kg_ids))
+
+
+    relation_list = []
+    for i in range(len(relation_to_kgid_map)):
+        if relation_to_kgid_map[i] in kg_ids:
+            # print(i+1)
+            relation_list.append(i+1)
+
+    kg_ids_1 = []
     for query in queries:
         #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+
+        sel_kg = faiss.IDSelectorArray(relation_list)
+        # print(sel_kg)
+        params = faiss.SearchParameters()
+        params.sel = sel_kg
         
         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
-        distances, indices = faiss_index_kg.search(query_emb,1000)
-        entities = process_gpt(query)
-        shared_kg = find_chunk_id(entities)
-        print(shared_kg)
+
+        distances, indices = faiss_index_kg.search(query_emb,2000,params=params)
         relation_rank_index = indices[0]
-        print(relation_rank_index)
         for i in relation_rank_index:
-            if relation_to_kgid_map[i] in shared_kg:
-                kg_ids.append(relation_to_kgid_map[i])
-        if len(kg_ids) == 0:
-            print('KG method failed')
-            print('return the dense retrieval')
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
-        else:
-            chunk_id_list = []
-            for kg_id in kg_ids:
-                chunk_id_list.extend([i for i in range(5*kg_id, 5*kg_id+5)])
-                chunk_id_list = list(set(chunk_id_list))
-            sel = faiss.IDSelectorArray(chunk_id_list)
-            params = faiss.SearchParameters()
-            params.sel = sel
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+            if relation_to_kgid_map[i] in kg_ids:
+                kg_ids_1.append(relation_to_kgid_map[i])
+    if len(kg_ids_1) == 0:
+        print('KG method failed')
+        print('return the dense retrieval')
+        return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
+    else:
+        chunk_id_list = []
+        for kg_id in kg_ids_1:
+            chunk_id_list.extend([i for i in range(5*kg_id-4, 5*kg_id+1)])
+            chunk_id_list = list(set(chunk_id_list))
+        sel = faiss.IDSelectorArray(chunk_id_list)
+        params = faiss.SearchParameters()
+        params.sel = sel
+        return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+
 
 if __name__ == "__main__":
     data =  {
-        "question": "What spell does Harry use to disarm Draco Malfoy in the Room of Requirement?",
-        "answer": "Expelliarmus",
+        "question": "What creature does Hermione turn into after using Polyjuice Potion?",
+        "answer": "Cat",
         "list of reference": [
             {
-                "ref_id": 8976,
-                "passage": "\"Don't kill him! DON'T KILL HIM!\" Malfoy yelled at Crabbe and Goyle, who were both aiming at Harry: Their split second's hesitation was all Harry needed. \"Expelliarmus!\" Goyle's wand flew out of his hand and disappeared into the bulwark of objects beside him; Goyle leapt foolishly on the spot, trying to retrieve it; Malfoy jumped out of range of Hermione's second Stunning Spell, and Ron, appearing suddenly at the end of the aisle, shot a full Body-Bind Curse at Crabbe, which narrowly missed. Crabbe wheeled around and screamed, \"Avada Kedavra!\" again. Ron leapt out of sight to avoid the jet of green light. The wandless Malfoy cowered behind a three-legged wardrobe as Hermione charged toward them, hitting Goyle with a Stunning Spell as she came.",
-                "book": 7,
-                "chapter": 31
+                "ref_id": 1217,
+                "passage": "Her face was covered in black fur. Her eyes had turned yellow and there were long, pointed ears poking through her hair. \"It was a c-cat hair!\" she howled. \"M-Millicent Bulstrode m-must have a cat! And the p-potion isn't supposed to be used for animal transformations!\" \"Uh-oh,\" said Ron. \"You'll be teased something dreadful,\" said Myrtle happily. \"It's okay, Hermione,\" said Harry quickly. \"We'll take you up to the hospital wing. Madam Pomfrey never asks too many questions. ...\"\nIt took a long time to persuade Hermione to leave the bathroom. Moaning Myrtle sped them on their way with a hearty guffaw. \"Wait till everyone finds out you've got a tail!\"",
+                "book": 2,
+                "chapter": 12
             }
         ],
-        "id": 1,
-        "question_variants": "Which enchantment did Harry employ to neutralize Draco Malfoy's spell in the Room of Requirement?",
+        "id": 56,
+        "question_variants": "Which animal does Hermione transform into when she drinks the Polyjuice Potion?",
         "sub_questions": [
-            "What is the name of the spell Harry uses to disarm Draco Malfoy?",
-            "How does Harry's spell work in the context of the Room of Requirement?",
-            "Is this spell a defensive or offensive incantation?"
+            "What is the Polyjuice Potion?",
+            "How does Hermione use the Polyjuice Potion?",
+            "What creature does Hermione turn into after using the Polyjuice Potion?"
         ],
         "category": "medium_single_labeled"
     }
