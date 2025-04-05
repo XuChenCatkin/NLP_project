@@ -253,4 +253,4 @@ if __name__ == "__main__":
     
     # # Process QA subqueries using DPR Context Encoder
     for file in qa_files:
-        process_qa_queries_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG, file)
+        process_qa_queries_dpr(dpr_question_model, qs_tokenizer, MODEL_TAG, file)
