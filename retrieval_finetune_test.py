@@ -97,7 +97,7 @@ args = {
     "hard_multi_file": HARD_M,
     "batch_size": 3,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "aaron-cui990810-ucl",
+    "wandbusername": "xiangzhang350-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
@@ -212,19 +212,20 @@ class TimedCallback:
         pos_similarities = []
         neg_similarities = []
         
-        batch = self.dataloader[step]  # Only process batch of this batch
-        # for batch in self.dataloader:
-        anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
-        positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
-        negatives = self.model.encode([example.texts[2] for example in batch], convert_to_tensor=True)  # Triplet: (anchor, pos, neg)
-        
-        # Compute similarities
-        pos_sim =cos_sim(anchors, positives).diag()  # Shape: [batch_size]
-        neg_sim =cos_sim(anchors, negatives).diag()  # Shape: [batch_size]
-        
-        pos_similarities.extend(pos_sim.tolist())
-        neg_similarities.extend(neg_sim.tolist())
-            # break  # Only process one batch to reduce overhead
+        for i, batch in enumerate(self.dataloader):
+            if i != step:
+                continue
+            anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
+            positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
+            negatives = self.model.encode([example.texts[2] for example in batch], convert_to_tensor=True)  # Triplet: (anchor, pos, neg)
+            
+            # Compute similarities
+            pos_sim =cos_sim(anchors, positives).diag()  # Shape: [batch_size]
+            neg_sim =cos_sim(anchors, negatives).diag()  # Shape: [batch_size]
+            
+            pos_similarities.extend(pos_sim.tolist())
+            neg_similarities.extend(neg_sim.tolist())
+            break  # Only process one batch to reduce overhead
 
         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
