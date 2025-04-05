@@ -88,6 +88,57 @@ def find_chunk_id(target_ids):
     shared_scenes = sorted([scene_id for scene_id, count in scene_counts.items() if count == num_entities])
 
     return shared_scenes
+
+
+def augment_subqueries(queries):
+    system_prompt = """
+    Extract informative triplets directly from the text following the
+    examples. Do not add any extra words, line breaks, or spaces.
+    """
+    prompt_template = Template("""
+        For the text given below, you should follow the instructions to finish the task:
+        1. Identify the useful entities, the entities domains are:
+            - Person(the characters that appear in the story)
+            - Place(the places that appear in the story)
+            - Organization(the organizations that appear in the story)
+            - Event(the events that happen in the story)
+            - Object(the objects that appear in the story)
+            - Spell(the spells that appear in the story)
+            - Potion(the potions that appear in the story)
+            - Creature(the creatures that appear in the story)
+        2. read the text carefully and extract the triplets that identify the interactions between the entities.
+        3. The triplet should be in the form of (subject, predicate, object).
+        4. for the triplets you extract, if any of the triplets shares the same subject or object, group them together.
+        5. after you group them, you should have several groups of triplets.
+        6. for each group, you should rephase a readable story based on the triplets in this group.
+        7. for each story you get from step 6, you should append it to the final output list, each story is a string, the length of the list is the number of groups you have.
+        8. output the final  in a list of strings, each string is a story.
+        text:
+        $text
+    """)
+    user_prompt = prompt_template.substitute(
+        text=queries
+    )
+    completion = client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+    )
+    complete_graph_texts = completion.choices[0].message.content.strip()
+    return complete_graph_texts
+
+
+def KG_on_the_fly(queries):
+    origin_text = ''
+    for query in queries:
+        origin_text += query["passage"]
+    text_completion = augment_subqueries(origin_text)
+    # print("text_completion", text_completion)
+    
+    
+    return text_completion
     
 
 # query = "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?"
