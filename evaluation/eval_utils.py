@@ -4,6 +4,7 @@ from nltk.translate.bleu_score import sentence_bleu
 from rouge_score import rouge_scorer
 from bert_score import score
 import math
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 
 class Metric(ABC):
     """Abstract base class for all metrics."""
@@ -265,11 +266,14 @@ class BLEU(GenerationMetric):
         predictions: list of generated responses
         references: list of list of ground-truth responses
         """
-        for pred, refs in zip(predictions, references):
-            ref_tokens = [ref.split() for ref in refs]
-            gen_tokens = pred.split()
-            self._bleu_scores.append(sentence_bleu(ref_tokens, gen_tokens))
-    
+        try:
+            for pred, refs in enumerate(zip(predictions, references)):
+                ref_tokens = [ref.split() for ref in refs]
+                gen_tokens = pred.split()
+                self._bleu_scores.append(sentence_bleu(ref_tokens, gen_tokens))
+        except Exception as e:
+            print(f"Error in BLEU computation: {e}")
+            print(f"Generated: {pred}, References: {refs}")
     def compute(self):
         if len(self._bleu_scores) == 0:
             return 0.0
@@ -313,7 +317,7 @@ class ROUGE(GenerationMetric):
                 scores = self._scorer.score(pred, ref)
                 score_per_example += scores[self._type].fmeasure
             self._rouge_scores.append(score_per_example / len(refs))
-    
+
     def compute(self):
         if len(self._rouge_scores) == 0:
             return 0.0
@@ -378,6 +382,7 @@ class BERTScore(GenerationMetric):
         Returns a dict with {'precision': P, 'recall': R, 'f1': F1}
         for the aggregated predictions/references.
         """
+
         if not self._predictions:
             return {"precision": 0.0, "recall": 0.0, "f1": 0.0}
 
