@@ -238,19 +238,19 @@ if __name__ == "__main__":
         process_qa_queries(bge_model, MODEL_NAME, file)
 
 
-    MODEL_TAG = "dpr"
+    # MODEL_TAG = "dpr"
     
-    # # Load DPR Context Encoder and its Tokenizer for passage encoding
-    ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
-    dpr_context_model = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base").to(device)
+    # # # Load DPR Context Encoder and its Tokenizer for passage encoding
+    # ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
+    # dpr_context_model = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base").to(device)
     
-    # # Optionally, load DPR Question Encoder if needed for query encoding:
-    qs_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
-    dpr_question_model = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base").to(device)
+    # # # Optionally, load DPR Question Encoder if needed for query encoding:
+    # qs_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
+    # dpr_question_model = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base").to(device)
     
-    # # Process unified passages (passage embeddings) using DPR Context Encoder
-    # process_all_hp_passages_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG)
+    # # # Process unified passages (passage embeddings) using DPR Context Encoder
+    # # process_all_hp_passages_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG)
     
-    # # Process QA subqueries using DPR Context Encoder
-    for file in qa_files:
-        process_qa_queries_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG, file)
+    # # # Process QA subqueries using DPR Context Encoder
+    # for file in qa_files:
+    #     process_qa_queries_dpr(dpr_context_model, ctx_tokenizer, MODEL_TAG, file)
