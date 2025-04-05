@@ -17,8 +17,8 @@ from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subq
 import faiss
 from typing import List
 from sentence_transformers.util import cos_sim
-
-
+import torch.nn.functional as F
+from torch import nn
 
 notebook_login()
 
@@ -94,7 +94,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 5,
+    "batch_size": 30,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "xiangzhang350-ucl",
     "epochs": 5,
@@ -146,9 +146,9 @@ def hard_negative_mining(item):
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
         top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=20)
-        rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 5)
+        # rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 30)
         negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_20_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
-        negative_retrieval_list = random_sample(list(negative_retrieval_set),4)
+        negative_retrieval_list = random_sample(list(negative_retrieval_set)[-100:],5)
         negative_retrievals = [corpus[int(neg_id) - 1] for neg_id in negative_retrieval_list]
         assert len(negative_retrievals) >= 1, f"Not enough negative samples found for item: {item}"
         return negative_retrievals
@@ -158,6 +158,42 @@ def hard_negative_mining(item):
         raise (f"Unexpected error: {e}")
     
 
+# class TimedCallback:
+#     def __init__(self, dataloader, model):
+#         self.last_time = None
+#         self.dataloader = dataloader
+#         self.model = model
+
+#     def __call__(self, loss, epoch, step):
+#         now = time.time()
+#         if self.last_time is None:
+#             step_time = 0.0
+#         else:
+#             step_time = now - self.last_time
+#         self.last_time = now
+#         pos_similarities = []
+#         neg_similarities = []
+#         for batch in self.dataloader:
+#             anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
+#             positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
+#             sim_matrix = cos_sim(anchors, positives)
+#             pos_sim = sim_matrix.diag().mean().item()
+#             neg_sim = (sim_matrix.sum()-sim_matrix.diag().sum())/((sim_matrix.shape[0])*(sim_matrix.shape[1]-1))  # 简化：用batch内平均值近似负样本
+#             pos_similarities.append(pos_sim)
+#             neg_similarities.append(neg_sim)
+#             break  # 只取一个batch，减少计算开销
+#         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
+#         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
+        
+#         wandb.log({
+#             "train_loss": loss,
+#             "epoch": epoch,
+#             "train_step": step,
+#             "step_time_seconds": step_time,
+#             "avg_positive_similarity": avg_pos_sim,
+#             "avg_negative_similarity": avg_neg_sim,
+#         })
+        
 class TimedCallback:
     def __init__(self, dataloader, model):
         self.last_time = None
@@ -171,17 +207,23 @@ class TimedCallback:
         else:
             step_time = now - self.last_time
         self.last_time = now
+
         pos_similarities = []
         neg_similarities = []
+        
         for batch in self.dataloader:
             anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
             positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
-            sim_matrix = cos_sim(anchors, positives)
-            pos_sim = sim_matrix.diag().mean().item()
-            neg_sim = (sim_matrix.sum()-sim_matrix.diag().sum())/((sim_matrix.shape[0])*(sim_matrix.shape[1]-1))  # 简化：用batch内平均值近似负样本
-            pos_similarities.append(pos_sim)
-            neg_similarities.append(neg_sim)
-            break  # 只取一个batch，减少计算开销
+            negatives = self.model.encode([example.texts[2] for example in batch], convert_to_tensor=True)  # Triplet: (anchor, pos, neg)
+            
+            # Compute similarities
+            pos_sim =cos_sim(anchors, positives).diag()  # Shape: [batch_size]
+            neg_sim =cos_sim(anchors, negatives).diag()  # Shape: [batch_size]
+            
+            pos_similarities.extend(pos_sim.tolist())
+            neg_similarities.extend(neg_sim.tolist())
+            break  # Only process one batch to reduce overhead
+
         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
         
@@ -192,8 +234,10 @@ class TimedCallback:
             "step_time_seconds": step_time,
             "avg_positive_similarity": avg_pos_sim,
             "avg_negative_similarity": avg_neg_sim,
+            "similarity_gap": avg_pos_sim - avg_neg_sim,  # Useful for monitoring margin
         })
-        
+
+
 def process_data(data):
     examples = []
     query_map = {}
@@ -333,7 +377,7 @@ def train(args, logger: logging.Logger):
     # train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2:]} for example in train_examples ]
 
-    train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
+    train_examples, train_query_map, train_relevant_map = process_data(train_data)
     train_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in train_examples:
         train_examples_dict['anchor'].append(example.texts[0])
@@ -347,7 +391,7 @@ def train(args, logger: logging.Logger):
         json.dump(train_examples_dict, f, indent=4)
     logger.info(f"Processed {len(train_examples)} training examples")
     # test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
-    test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
+    test_examples, test_query_map, test_relevant_map = process_data(test_data)
     test_examples_dict = {"anchor": [], "positive": [],'negative':[]}
     for example in test_examples:
         test_examples_dict['anchor'].append(example.texts[0])
@@ -366,7 +410,78 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    class TripletLoss_self(nn.Module):
+        def __init__(
+            self, model: SentenceTransformer, triplet_margin: float = 5
+        ) -> None:
+            """
+            This class implements triplet loss. Given a triplet of (anchor, positive, negative),
+            the loss minimizes the distance between anchor and positive while it maximizes the distance
+            between anchor and negative. It compute the following loss function:
+
+            ``loss = max(||anchor - positive|| - ||anchor - negative|| + margin, 0)``.
+
+            Margin is an important hyperparameter and needs to be tuned respectively.
+
+            Args:
+                model: SentenceTransformerModel
+                distance_metric: Function to compute distance between two
+                    embeddings. The class TripletDistanceMetric contains
+                    common distance metrices that can be used.
+                triplet_margin: The negative should be at least this much
+                    further away from the anchor than the positive.
+
+            References:
+                - For further details, see: https://en.wikipedia.org/wiki/Triplet_loss
+
+            Requirements:
+                1. (anchor, positive, negative) triplets
+
+            Inputs:
+                +---------------------------------------+--------+
+                | Texts                                 | Labels |
+                +=======================================+========+
+                | (anchor, positive, negative) triplets | none   |
+                +---------------------------------------+--------+
+
+            Example:
+                ::
+
+                    from sentence_transformers import SentenceTransformer, SentenceTransformerTrainer, losses
+                    from datasets import Dataset
+
+                    model = SentenceTransformer("microsoft/mpnet-base")
+                    train_dataset = Dataset.from_dict({
+                        "anchor": ["It's nice weather outside today.", "He drove to work."],
+                        "positive": ["It's so sunny.", "He took the car to the office."],
+                        "negative": ["It's quite rainy, sadly.", "She walked to the store."],
+                    })
+                    loss = losses.TripletLoss(model=model)
+
+                    trainer = SentenceTransformerTrainer(
+                        model=model,
+                        train_dataset=train_dataset,
+                        loss=loss,
+                    )
+                    trainer.train()
+            """
+            super().__init__()
+            self.model = model
+            self.triplet_margin = triplet_margin
+
+        def forward(self, sentence_features, labels):
+            reps = [self.model(sentence_feature)["sentence_embedding"] for sentence_feature in sentence_features]
+
+            rep_anchor, rep_pos, rep_neg = reps
+            sim_pos = cos_sim(rep_anchor, rep_pos)
+            sim_neg = torch.abs(cos_sim(rep_anchor, rep_neg))
+
+            losses = -(sim_pos - sim_neg)
+            return losses.mean()
+
+
+
+    train_loss = TripletLoss_self(model, triplet_margin=1)
 
     train_loss = losses.MultipleNegativesRankingLoss(model,scale=20)
 
@@ -389,6 +504,7 @@ def train(args, logger: logging.Logger):
         warmup_steps=2,
         evaluator=evaluator,
         evaluation_steps=5,
+        optimizer_params= { "lr": 2e-5 },
         save_best_model=True,
         show_progress_bar=True,
         use_amp=True,
