@@ -94,7 +94,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 3,
+    "batch_size": 20,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "xiangzhang350-ucl",
     "epochs": 5,
@@ -145,10 +145,10 @@ def hard_negative_mining(item):
         sub_questions = item["sub_questions"]
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
-        top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=300)
+        # top_20_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=20)
         rand_neg_list = random_sample([corpus[i] for i in range(len(corpus)) if i not in reference_ids], 30)
-        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_20_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
-        negative_retrieval_list = random_sample(list(negative_retrieval_set)[200:300],5)
+        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in rand_neg_list if negative_retrieval['chunk_id'] not in reference_ids])
+        negative_retrieval_list = random_sample(list(negative_retrieval_set)[-100:],5)
         negative_retrievals = [corpus[int(neg_id) - 1] for neg_id in negative_retrieval_list]
         assert len(negative_retrievals) >= 1, f"Not enough negative samples found for item: {item}"
         return negative_retrievals
@@ -410,80 +410,11 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    class TripletLoss_self(nn.Module):
-        def __init__(
-            self, model: SentenceTransformer, triplet_margin: float = 5
-        ) -> None:
-            """
-            This class implements triplet loss. Given a triplet of (anchor, positive, negative),
-            the loss minimizes the distance between anchor and positive while it maximizes the distance
-            between anchor and negative. It compute the following loss function:
-
-            ``loss = max(||anchor - positive|| - ||anchor - negative|| + margin, 0)``.
-
-            Margin is an important hyperparameter and needs to be tuned respectively.
-
-            Args:
-                model: SentenceTransformerModel
-                distance_metric: Function to compute distance between two
-                    embeddings. The class TripletDistanceMetric contains
-                    common distance metrices that can be used.
-                triplet_margin: The negative should be at least this much
-                    further away from the anchor than the positive.
-
-            References:
-                - For further details, see: https://en.wikipedia.org/wiki/Triplet_loss
-
-            Requirements:
-                1. (anchor, positive, negative) triplets
-
-            Inputs:
-                +---------------------------------------+--------+
-                | Texts                                 | Labels |
-                +=======================================+========+
-                | (anchor, positive, negative) triplets | none   |
-                +---------------------------------------+--------+
-
-            Example:
-                ::
-
-                    from sentence_transformers import SentenceTransformer, SentenceTransformerTrainer, losses
-                    from datasets import Dataset
-
-                    model = SentenceTransformer("microsoft/mpnet-base")
-                    train_dataset = Dataset.from_dict({
-                        "anchor": ["It's nice weather outside today.", "He drove to work."],
-                        "positive": ["It's so sunny.", "He took the car to the office."],
-                        "negative": ["It's quite rainy, sadly.", "She walked to the store."],
-                    })
-                    loss = losses.TripletLoss(model=model)
-
-                    trainer = SentenceTransformerTrainer(
-                        model=model,
-                        train_dataset=train_dataset,
-                        loss=loss,
-                    )
-                    trainer.train()
-            """
-            super().__init__()
-            self.model = model
-            self.triplet_margin = triplet_margin
-
-        def forward(self, sentence_features, labels):
-            reps = [self.model(sentence_feature)["sentence_embedding"] for sentence_feature in sentence_features]
-
-            rep_anchor, rep_pos, rep_neg = reps
-            sim_pos = cos_sim(rep_anchor, rep_pos)
-            sim_neg = torch.abs(cos_sim(rep_anchor, rep_neg))
-
-            losses = -sim_pos + sim_neg
-            return losses.mean()
-
-
+    
 
     train_loss = TripletLoss_self(model, triplet_margin=1)
 
-    # train_loss = losses.MultipleNegativesRankingLoss(model,scale=20)
+    train_loss = losses.MultipleNegativesRankingLoss(model,scale=20)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
@@ -501,10 +432,10 @@ def train(args, logger: logging.Logger):
     model.fit(
         train_objectives=[(train_dataloader, train_loss)],
         epochs=args.epochs,
-        warmup_steps=100,
+        warmup_steps=2,
         evaluator=evaluator,
-        evaluation_steps=100,
-        optimizer_params= { "lr": 2e-6 },
+        evaluation_steps=5,
+        optimizer_params= { "lr": 2e-5 },
         save_best_model=True,
         show_progress_bar=True,
         use_amp=True,
