@@ -3,6 +3,7 @@ import glob
 import re
 # this new version of the script will shuffle the questions and answers and create a new json file with the shuffled questions and answers
 # Hardcoded values
+
 input_folder = "data/QA_set"  # Adjust path as needed
 output_folder = "data/QA_set"  # Adjust path as needed
 qo_folder = "data/QO_set"  # Adjust path as needed

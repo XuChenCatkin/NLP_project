@@ -10,12 +10,15 @@ import faiss
 # -----------------------------
 # Config paths
 # -----------------------------
-DATA_PATH = "data"
+
+DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
+print(f"Loading passages from {ALL_CHUNKS_FILE}")
 
 # -----------------------------
 # Utility function to load passages
 # -----------------------------
+
 def load_passages_and_chunk_ids():
     if not os.path.exists(ALL_CHUNKS_FILE):
         raise FileNotFoundError(f"Missing file: {ALL_CHUNKS_FILE}")
@@ -26,13 +29,16 @@ def load_passages_and_chunk_ids():
     print(f"Loaded {len(passages)} passages with chunk IDs")
     return passages, chunk_ids
 
+
 # -----------------------------
 # TF-IDF Retrieval
 # -----------------------------
+
 def build_tfidf_index(passages):
     vectorizer = TfidfVectorizer(stop_words='english')
     doc_matrix = vectorizer.fit_transform(passages)
     return vectorizer, doc_matrix
+
 
 def tfidf_retrieval(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=5):
     query_vec = vectorizer.transform([query])
@@ -50,6 +56,7 @@ def tfidf_retrieval(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=5)
 # -----------------------------
 # BM25 Retrieval
 # -----------------------------
+
 def build_bm25_index(passages):
     tokenized_passages = [word_tokenize(p.lower()) for p in passages]
     return BM25Okapi(tokenized_passages)
@@ -82,7 +89,6 @@ def query_embed_search(query, all_queries_list, index):
         # Find the position (index) of the query in the list of all queries
         position = all_queries_list.index(query)
         # print(f'Found Position: {position}')
-        
         # Reconstruct and return the vector at the given position in the index
         return index.reconstruct(position)
     except ValueError:
@@ -153,13 +159,15 @@ if __name__ == "__main__":
         ],
         "category": "easy_single_labeled"
     }
-    EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/easy_single_labeled_embeddings.index")
     EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
-    CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+    CORPUS_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)
     result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+    chunk_id_list = [chunk['chunk_id'] for chunk in result]
+    print(chunk_id_list)
     print(result)
 
     

@@ -2,8 +2,11 @@ import json
 from openai import OpenAI
 from string import Template
 from collections import defaultdict
-
-
+import sys
+import os
+project_root = os.path.abspath(os.path.join(os.getcwd(), ".."))
+CHUNKs_KG_PATH = os.path.join(project_root, "data", "HP_KG_5_chunks")
+DIC_KCG_PATH = os.path.join(project_root, "data")
 client = OpenAI(
     api_key="sk-2367b265559a4ae6b607bff8755ef431",
     base_url="https://api.deepseek.com",
@@ -15,11 +18,14 @@ def process_gpt(query):
     system_prompt = """
     You are an expert in entity extraction.
     """
-    
-    with open('./data/HP_KG_5_chunks/Node.json', 'r') as file:
+    path_node = os.path.join(CHUNKs_KG_PATH, "Node.json")
+    path_special = os.path.join(CHUNKs_KG_PATH, "Special.json")
+    #with open('./data/HP_KG_5_chunks/Node.json', 'r') as file:
+    with open(path_node, 'r') as file:
         node_data = json.load(file)
     
-    with open('./data/HP_KG_5_chunks/Special.json', 'r') as file:
+    #with open('./data/HP_KG_5_chunks/Special.json', 'r') as file:
+    with open(path_special, 'r') as file:
         magic_data = json.load(file)
 
     all_entities = {item['name']: item['id'] for item in node_data+magic_data}
@@ -66,10 +72,14 @@ def process_gpt(query):
     return matched_ids
 
 def find_chunk_id(target_ids):
-    with open("./data/Node_Dictionary.json", "r") as f1:
+    path_node_dict = os.path.join(DIC_KCG_PATH, "Node_Dictionary.json")
+    path_special_dict = os.path.join(DIC_KCG_PATH, "Special_Dictionary.json")
+    #with open("./data/Node_Dictionary.json", "r") as f1:
+    with open(path_node_dict, "r") as f1:
         node_dict = json.load(f1)
 
-    with open("./data/Special_Dictionary.json", "r") as f2:
+    #with open("./data/Special_Dictionary.json", "r") as f2:
+    with open(path_special_dict, "r") as f2:
         spec_dict = json.load(f2)
     
     full_dict = node_dict.copy()
@@ -89,13 +99,38 @@ def find_chunk_id(target_ids):
     return shared_scenes
     
 
-query = "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?"
+# query = "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?"
 
-entities = process_gpt(query)
-print(entities)
+# entities = process_gpt(query)
+# print(entities)
 
-shared_chunk = find_chunk_id(entities)
+# shared_chunk = find_chunk_id(entities)
+# all_chunks = []
+# for i in shared_chunk:
+#     all_chunks+=[j for j in range(5*i, 5*i+5)]
 
-print(shared_chunk)
+# print(all_chunks)
 
+# if __name__ == "__main__":
+#     data = {
+#         "question": "On which street do the Dursleys live at the beginning of the story?",
+#         "answer": "They live at Number Four, Privet Drive.",
+#         "list of reference": [
+#             {
+#                 "ref_id": 1,
+#                 "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+#                 "book": 1,
+#                 "chapter": 1
+#             }
+#         ],
+#         "id": 1,
+#         "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+#         "sub_questions": [
+#             "On which street do the Dursleys live at the beginning of the story?"
+#         ],
+#         "category": "easy_single_labeled"
+#     }
 
+#     for i in data['sub_questions']:
+#         entities = process_gpt(i)
+#         print(entities)
