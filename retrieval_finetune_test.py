@@ -213,8 +213,6 @@ class TimedCallback:
         neg_similarities = []
         
         for i, batch in enumerate(self.dataloader):
-            if i != step:
-                continue
             anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
             positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
             negatives = self.model.encode([example.texts[2] for example in batch], convert_to_tensor=True)  # Triplet: (anchor, pos, neg)
@@ -225,7 +223,6 @@ class TimedCallback:
             
             pos_similarities.extend(pos_sim.tolist())
             neg_similarities.extend(neg_sim.tolist())
-            break  # Only process one batch to reduce overhead
 
         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
