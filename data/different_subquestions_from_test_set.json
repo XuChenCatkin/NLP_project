@@ -1,0 +1,159 @@
+[
+    {
+            "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+            "answer": "The Invisibility Cloak, given to Harry at Christmas in the first book, later helps him secretly gather information crucial to discovering the Chamber of Secrets.",
+            "list of reference": [
+                {
+                    "ref_id": 447,
+                    "passage": "Harry picked the shining, silvery cloth off the floor. It was strange to the touch, like water woven into material. \"It's an Invisibility Cloak,\" said Ron, a look of awe on his face. \"I'm sure it is - try it on.\" Harry threw the cloak around his shoulders and Ron gave a yell. \"It is! Look down!\" Harry looked down at his feet, but they were gone. He dashed to the mirror. Sure enough, his reflection looked back at him, just his head suspended in midair, his body completely invisible.",
+                    "book": 1,
+                    "chapter": 12
+                },
+                {
+                    "ref_id": 1298,
+                    "passage": "\"But we can't follow them now -\"\nErnie and Hannah were listening curiously. Harry's eyes narrowed as he focused on the spiders. If they pursued their fixed course, there could be no doubt about where they would end up. \"Looks like they're heading for the Forbidden Forest. ...\"\nAnd Ron looked even unhappier about that. At the end of the lesson Professor Sprout escorted the class to their Defense Against the Dark Arts lesson. Harry and Ron lagged behind the others so they could talk out of earshot. \"We'll have to use the Invisibility Cloak again,\" Harry told Ron. \"We can take Fang with us. He's used to going into the forest with Hagrid, he might be some help.\"",
+                    "book": 2,
+                    "chapter": 15
+                }
+            ],
+            "id": 1,
+            "question_variants": "In the first book, what item presented as a Christmas gift becomes crucial in deciphering a hidden message within the Chamber of the second book?",
+            "V sub_questions": [
+                "What object was given as a Christmas gift in the first Harry Potter book?",
+                "What clue helps to decode the Secrets in the second book's Chamber?",
+                "How does the specific clue in the Chamber that this object helps to decipher?"
+            ],
+            "Chain sub_questions": [
+                "What object was given as a Christmas gift in the first Harry Potter book?",
+                "How does this object aid in decoding a clue in the second book's Chamber?",
+                "Can you identify the specific clue in the Chamber that this object helps to decipher?"
+            ],
+            "category": "hard_multi_labeled"
+        },
+        {
+            "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+            "answer": "Harry witnesses a conversation through flames, foreshadowing a loss that strikes him deeply in the following year.",
+            "list of reference": [
+                {
+                    "ref_id": 5986,
+                    "passage": "Instead of a chained chair, however, there was a raised stone dais in the center of the lowered floor, and upon this dais stood a stone archway that looked so ancient, cracked, and crumbling that Harry was amazed the thing was still standing. Unsupported by any surrounding wall, the archway was hung with a tattered black curtain or veil which, despite the complete stillness of the cold surrounding air, was fluttering very slightly as though it had just been touched. \"Who's there?\" said Harry, jumping down onto the bench below. There was no answering voice, but the veil continued to flutter and sway. \"Careful!\" whispered Hermione. Harry scrambled down the benches one by one until he reached the stone bottom of the sunken pit. His footsteps echoed loudly as he walked slowly toward the dais.",
+                    "book": 5,
+                    "chapter": 34
+                },
+                {
+                    "ref_id": 7266,
+                    "passage": "\"Well, you split your soul, you see,\" said Slughorn, \"and hide part of it in an object outside the body. Then, even if one's body is attacked or destroyed, one cannot die, for part of the soul remains earthbound and undamaged. But of course, existence in such a form ...\"\nSlughorn's face crumpled and Harry found himself remembering words he had heard nearly two years before: \"I was ripped from my body, I was less than spirit, less than the meanest ghost ... but still, I was alive.\" \"... few would want it, Tom, very few. Death would be preferable.\" But Riddle's hunger was now apparent; his expression was greedy, he could no longer hide his longing. \"How do you split your soul?\" \"Well,\" said Slughorn uncomfortably, \"you must understand that the soul is supposed to remain intact and whole.",
+                    "book": 6,
+                    "chapter": 23
+                }
+            ],
+            "id": 30,
+            "question_variants": "In the fifth installment, what vision does Harry witness in the flames at Grimmauld Place, and how does it relate to a pivotal scene in the sixth book?",
+            "V sub_questions": [
+                "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+                "Any special moments in the sixth book is described?",
+                "How does the vision in the fire and the specific moment in the sixth book related?"
+            ],
+            "Chain sub_questions": [
+                "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+                "Can you identify the character or object Harry sees in the fire and its significance?",
+                "How does the vision in the fire relate to a specific moment in the sixth book?"
+           ],
+            "category": "medium_multi_labeled"
+        },
+        {
+            "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+            "answer": "Harry use Marauder's Map and invisible cloak to uncover plans, reminiscent of an early gift that aided his adventures.",
+            "list of reference": [
+                {
+                    "ref_id": 7190,
+                    "passage": "Once out of sight of the entrance hall, Harry pulled the Marauder's Map and his Invisibility Cloak from his bag. Having concealed himself, he tapped the map, murmured, \"I solemnly swear that I am up to no good,\" and scanned it carefully. As it was Sunday morning, nearly all the students were inside their various common rooms, the Gryffindors in one tower, the Ravenclaws in another, the Slytherins in the dungeons, and the Hufflepuffs in the basement near the kitchens. Here and there a stray person meandered around the library or up a corridor. ... There were a few people out in the grounds ... and there, alone in the seventh-floor corridor, was Gregory Goyle. There was no sign of the Room of Requirement, but Harry was not worried about that; if Goyle was standing guard outside it, the room was open, whether the map was aware of it or not.",
+                    "book": 6,
+                    "chapter": 21
+                },
+                {
+                    "ref_id": 1901,
+                    "passage": "They joined each other, they crisscrossed, they fanned into every corner of the parchment; then words began to blossom across the top, great, curly green words, that proclaimed:\nMessrs. Moony, Wormtail, Padfoot, and Prongs\nPurveyors of Aids to Magical Mischief-Makers\nare proud to present\nThe Marauder's Map\nIt was a map showing every detail of the Hogwarts castle and grounds. But the truly remarkable thing were the tiny ink dots moving around it, each labeled with a name in minuscule writing. Astounded, Harry bent over it. A labeled dot in the top left corner showed that Professor Dumbledore was pacing his study; the caretaker's cat, Mrs. Norris, was prowling the second floor; and Peeves the Poltergeist was currently bouncing around the trophy room. And as Harry's eyes traveled up and down the familiar corridors, he noticed something else. This map showed a set of passages he had never entered. And many of them seemed to lead -\n\"Right into Hogsmeade,\" said Fred, tracing one of them with his finger. \"There are seven in all. Now, Filch knows about these four\" - he pointed them out - \"but we're sure we're the only ones who know about these. Don't bother with the one behind the mirror on the fourth floor. We used it until last winter, but it's caved in - completely blocked.",
+                    "book": 3,
+                    "chapter": 10
+                }
+            ],
+            "id": 22,
+            "question_variants": "In the sixth installment of the series, what device does Harry employ to observe Draco, and how does it connect to the events of the first book?",
+            "V sub_questions": [
+                "What object does Harry use to spy on Draco in the sixth book?",
+                "In what events of the first book did Harry get a special object",
+                "Can you provide a specific example of the connection between the special object and the spying device?"
+            ],
+            "Chain sub_questions": [
+                "What object does Harry use to spy on Draco in the sixth book?",
+                "How does this object relate to the events of the first book?",
+                "Can you provide a specific example of this connection?"
+            ],
+            "category": "medium_multi_labeled"
+        },
+        {
+            "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+            "answer": "Harry escapes Gringotts by riding a gigantic dragon and Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament.",
+            "list of reference": [
+                {
+                    "ref_id": 8787,
+                    "passage": "\"We'll go to Hogsmeade,\" said Harry, \"and try to work something out once we see what the protection around the school's like. Get under the Cloak, Hermione, I want to stick together this time.\" \"But we don't really fit -\"\n\"It'll be dark, no one's going to notice our feet.\" The flapping of enormous wings echoed across the black water: The dragon had drunk its fill and risen into the air. They paused in their preparations to watch it climb higher and higher, now black against the rapidly darkening sky, until it vanished over a nearby mountain. Then Hermione walked forward and took her place between the other two. Harry pulled the Cloak down as far as it would go, and together they turned on the spot into the crushing darkness.",
+                    "book": 7,
+                    "chapter": 27
+                },
+                {
+                    "ref_id": 3247,
+                    "passage": "\"Ladies first,\" he said, offering it to Fleur Delacour. She put a shaking hand inside the bag and drew out a tiny, perfect model of a dragon - a Welsh Green. It had the number two around its neck. And Harry knew, by the fact that Fleur showed no sign of surprise, but rather a determined resignation, that he had been right: Madame Maxime had told her what was coming. The same held true for Krum. He pulled out the scarlet Chinese Fireball.",
+                    "book": 4,
+                    "chapter": 20
+                },
+                {
+                    "ref_id": 3248,
+                    "passage": "It had a number three around its neck. He didn't even blink, just sat back down and stared at the ground. Cedric put his hand into the bag, and out came the blueish-gray Swedish Short-Snout, the number one tied around its neck. Knowing what was left, Harry put his hand into the silk bag and pulled out the Hungarian Horntail, and the number four. It stretched its wings as he looked down at it, and bared its minuscule fangs. \"Well, there you are!\" said Bagman. \"You have each pulled out the dragon you will face, and the numbers refer to the order in which you are to take on the dragons, do you see? Now, I'm going to have to leave you in a moment, because I'm commentating.",
+                    "book": 4,
+                    "chapter": 20
+                }
+            ],
+            "id": 16,
+            "question_variants": "In the seventh book, what magical creature does Harry ride to escape? Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "V sub_questions": [
+                "What magical creature does Harry ride to escape in the seventh book?",
+                "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+                "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?"
+            ],
+            "Chain sub_questions": [
+                "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?",
+                "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+                "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?"
+            ],
+            "category": "medium_multi_labeled"
+        },
+        {
+            "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+            "answer": "The servant returns' points to Pettigrew.",
+            "list of reference": [
+                {
+                    "ref_id": 2473,
+                    "passage": "said Dumbledore. \"Er - stranger than usual, you mean?\" \"Yes ... her voice went all deep and her eyes rolled and she said ... she said Voldemort's servant was going to set out to return to him before midnight. ... She said the servant would help him come back to power.\" Harry stared up at Dumbledore. \"And then she sort of became normal again, and she couldn't remember anything she'd said. Was it - was she making a real prediction? Dumbledore looked mildly impressed. \"Do you know, Harry, I think she might have been,\" he said thoughtfully. \"Who'd have thought it? That brings her total of real predictions up to two. I should offer her a pay raise. ...\"\n\"But -\" Harry looked at him, aghast. How could Dumbledore take this so calmly? \"But - I stopped Sirius and Professor Lupin from killing Pettigrew! That makes it my fault if Voldemort comes back!\"",
+                    "book": 3,
+                    "chapter": 22
+                }
+            ],
+            "id": 10,
+            "question_variants": "Which particular phrase within a prophetic warning suggests the identity of a traitor?",
+            "V sub_questions": [
+                "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+                "Are there any other clues or hints in the prophecy that support the idea of a traitor?",
+                "Who is the traitor revealed by the prophetic warning?"
+            ],
+            "Chain sub_questions": [
+                "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+                "How does this phrase reveal the identity of the traitor?",
+                "Who is the traitor revealed by the prophetic warning?"
+            ],
+            "category": "hard_single_labeled"
+        }
+    
+    ]
+    
