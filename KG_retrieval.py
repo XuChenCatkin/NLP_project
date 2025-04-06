@@ -2,9 +2,11 @@ import json
 from openai import OpenAI
 from string import Template
 from collections import defaultdict
-
-
-
+import sys
+import os
+project_root = os.path.abspath(os.path.join(os.getcwd(), ".."))
+CHUNKs_KG_PATH = os.path.join(project_root, "data", "HP_KG_5_chunks")
+DIC_KCG_PATH = os.path.join(project_root, "data")
 client = OpenAI(
     api_key="sk-2367b265559a4ae6b607bff8755ef431",
     base_url="https://api.deepseek.com",
@@ -16,11 +18,14 @@ def process_gpt(query):
     system_prompt = """
     You are an expert in entity extraction.
     """
-    
-    with open('./data/HP_KG_5_chunks/Node.json', 'r') as file:
+    path_node = os.path.join(CHUNKs_KG_PATH, "Node.json")
+    path_special = os.path.join(CHUNKs_KG_PATH, "Special.json")
+    #with open('./data/HP_KG_5_chunks/Node.json', 'r') as file:
+    with open(path_node, 'r') as file:
         node_data = json.load(file)
     
-    with open('./data/HP_KG_5_chunks/Special.json', 'r') as file:
+    #with open('./data/HP_KG_5_chunks/Special.json', 'r') as file:
+    with open(path_special, 'r') as file:
         magic_data = json.load(file)
 
     all_entities = {item['name']: item['id'] for item in node_data+magic_data}
@@ -67,10 +72,14 @@ def process_gpt(query):
     return matched_ids
 
 def find_chunk_id(target_ids):
-    with open("./data/Node_Dictionary.json", "r") as f1:
+    path_node_dict = os.path.join(DIC_KCG_PATH, "Node_Dictionary.json")
+    path_special_dict = os.path.join(DIC_KCG_PATH, "Special_Dictionary.json")
+    #with open("./data/Node_Dictionary.json", "r") as f1:
+    with open(path_node_dict, "r") as f1:
         node_dict = json.load(f1)
 
-    with open("./data/Special_Dictionary.json", "r") as f2:
+    #with open("./data/Special_Dictionary.json", "r") as f2:
+    with open(path_special_dict, "r") as f2:
         spec_dict = json.load(f2)
     
     full_dict = node_dict.copy()
