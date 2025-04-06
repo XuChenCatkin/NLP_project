@@ -5,6 +5,7 @@ from rouge_score import rouge_scorer
 from bert_score import score
 import math
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+import torch
 
 class Metric(ABC):
     """Abstract base class for all metrics."""
@@ -261,19 +262,23 @@ class BLEU(GenerationMetric):
     def update(
             self,
             predictions: List[str],
-            references: List[List[str]]):
+            answer: List[str]):
         """
         predictions: list of generated responses
         references: list of list of ground-truth responses
         """
         try:
-            for pred, refs in enumerate(zip(predictions, references)):
-                ref_tokens = [ref.split() for ref in refs]
-                gen_tokens = pred.split()
+            for index, ref_pre_pair in enumerate(zip(predictions, answer)):
+                ref_tokens = ref_pre_pair[1].split()
+                print(ref_pre_pair[1])
+                gen_tokens = ref_pre_pair[0].split()
+                print(ref_pre_pair[0])
                 self._bleu_scores.append(sentence_bleu(ref_tokens, gen_tokens))
         except Exception as e:
+            print(f"Index: {index}")
+            print(f"Ref_Pre_Pair: {ref_pre_pair}")
             print(f"Error in BLEU computation: {e}")
-            print(f"Generated: {pred}, References: {refs}")
+            print(f"Generated: {ref_pre_pair[0]}, References: {ref_pre_pair[1]}")
     def compute(self):
         if len(self._bleu_scores) == 0:
             return 0.0
@@ -306,17 +311,17 @@ class ROUGE(GenerationMetric):
     def update(
             self,
             predictions: List[str],
-            references: List[List[str]]):
+            answer: List[str]):
         """
         predictions: list of generated responses
         references: list of list of ground-truth responses
         """
-        for pred, refs in zip(predictions, references):
+        for pred, ref in zip(predictions, answer):
             score_per_example = 0.0
-            for ref in refs:
-                scores = self._scorer.score(pred, ref)
+            for ref_item in ref:
+                scores = self._scorer.score(pred, ref_item)
                 score_per_example += scores[self._type].fmeasure
-            self._rouge_scores.append(score_per_example / len(refs))
+            self._rouge_scores.append(score_per_example / len(ref))
 
     def compute(self):
         if len(self._rouge_scores) == 0:
@@ -331,7 +336,7 @@ class BERTScore(GenerationMetric):
             self,
             model_name_or_path: str = "bert-base-uncased", 
             batch_size: int = 16,
-            device: str = "cuda"  # or "cpu"
+            device: str = "cpu"
         ):
         super().__init__(name="BERTScore")
         self._model_name_or_path = model_name_or_path
@@ -368,14 +373,14 @@ class BERTScore(GenerationMetric):
     def __repr__(self):
         return str(self)
     
-    def update(self, predictions, references):
+    def update(self, predictions, answers):
         """
         Args:
             predictions: list of strings (generated texts)
-            references: list of strings (reference texts)
+            answers: list of strings (answer texts)
         """
         self._predictions.extend(predictions)
-        self._references.extend(references)
+        self._references.extend(answers)
 
     def compute(self):
         """
