@@ -80,8 +80,8 @@ class CohereGenerator:
                 )
             
             prompt = (
-                "You are an assistant with expert knowledge of the Harry Potter series.\n"
-                "Use the context below to answer the question concisely.\n\n"
+                "You are a helpful assistant specializing in answering questions about the Harry Potter series.\n"
+                "You should only use the information provided in the conversation or documents — do not rely on any external knowledge or assumptions beyond the given context.y. Provide concise and accurate answers based solely on the input you receive.\n\n"
                 f"Question: {origin_question}\n\n"
                 f"Context:\n{context}\n\n"
                 f"Answer:"
