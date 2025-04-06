@@ -482,11 +482,11 @@ class SASScore(GenerationMetric):
         # Compute similarity scores
         similarity_scores = self.model.predict(sentence_pairs)
 
-        for i in range(len(similarity_scores)):
-            print(f"Question: {self._questions[i]}")
-            print(f"Reference Answer: {self._references[i]}")
-            print(f"Candidate Answer: {self._predictions[i]}")
-            print(f"Similarity Score: {similarity_scores[i]}")
+        # for i in range(len(similarity_scores)):
+        #     print(f"Question: {self._questions[i]}")
+        #     print(f"Reference Answer: {self._references[i]}")
+        #     print(f"Candidate Answer: {self._predictions[i]}")
+        #     print(f"Similarity Score: {similarity_scores[i]}")
             
 
         # Calculate the mean similarity score
@@ -544,10 +544,10 @@ class CohereGPTScore(GenerationMetric):
                 f"Question: {q} \n"
                 f"Reference Answer: {ref}\n"
                 f"Candidate Answer: {pred}\n"
-                "Is candidate correct? Only return correct or not correct."
+                "Rate how semantically similar they are on a scale from 0 to 1. Only return the numerical score."
             )
 
-            print(prompt)
+            # print(prompt)
 
             try:
                 response = self.client.chat(
@@ -556,15 +556,17 @@ class CohereGPTScore(GenerationMetric):
                     temperature=0.0
                 )
                 score_text = response.text.strip()
-                print(f"{score_text}\n\n")
-                # score = float(score_text)
+                score = float(score_text)
+                # print(f"{score}\n\n")
             except Exception as e:
                 print(f"[Warning] Failed to get score for pair: {e}")
                 score_text = "error"
 
-            scores.append(score_text)
+            scores.append(score)
+        
+        mean_score = sum(scores) / len(scores)
 
-        return {"evaluation results": scores}
+        return {"average GPTscore": mean_score }
 
     def reset(self):
         self._predictions = []
