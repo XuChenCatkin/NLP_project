@@ -17,10 +17,10 @@ def process_gpt(query):
     You are an expert in entity extraction.
     """
     
-    with open('./data/HP_KG_5_chunks/Node.json', 'r') as file:
+    with open('../data/HP_KG_5_chunks/Node.json', 'r') as file:
         node_data = json.load(file)
     
-    with open('./data/HP_KG_5_chunks/Special.json', 'r') as file:
+    with open('../data/HP_KG_5_chunks/Special.json', 'r') as file:
         magic_data = json.load(file)
 
     all_entities = {item['name']: item['id'] for item in node_data+magic_data}
@@ -67,10 +67,10 @@ def process_gpt(query):
     return matched_ids
 
 def find_chunk_id(target_ids):
-    with open("./data/Node_Dictionary.json", "r") as f1:
+    with open("../data/Node_Dictionary.json", "r") as f1:
         node_dict = json.load(f1)
 
-    with open("./data/Special_Dictionary.json", "r") as f2:
+    with open("../data/Special_Dictionary.json", "r") as f2:
         spec_dict = json.load(f2)
     
     full_dict = node_dict.copy()
