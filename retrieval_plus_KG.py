@@ -243,7 +243,7 @@ if __name__ == "__main__":
         "category": "medium_single_labeled"
     }
     CATEGORY = data["category"]
-    EMBEDDING_PATH = "./embedding"
+    EMBEDDING_PATH = "../embedding"
     DATA_PATH = "./data"
     KG_PATH = f"{DATA_PATH}/KG_result_cleaned.json"
     relation_to_kgid_map = []
@@ -258,7 +258,7 @@ if __name__ == "__main__":
     EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/{CATEGORY}_embeddings.index")
     EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/{CATEGORY}.json")
     CORPUS_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
-    KG_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
+    KG_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_kg_BAAI/bge-base-en-v1.5_finetuned.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)

@@ -181,7 +181,6 @@ class TimedCallback:
             neg_sim = (sim_matrix.sum()-sim_matrix.diag().sum())/((sim_matrix.shape[0])*(sim_matrix.shape[1]-1))
             pos_similarities.append(pos_sim)
             neg_similarities.append(neg_sim)
-            # break  # 只取一个batch，减少计算开销
         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
         
