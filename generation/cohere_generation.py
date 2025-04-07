@@ -9,7 +9,7 @@ dotenv_path = project_root / "key.env"
 print(f"dotenv_path: {dotenv_path}")
 
 class CohereGenerator:
-    def __init__(self, api_key=None, model="command-r"):
+    def __init__(self, api_key=None, model="command-r-plus"):
         # Load API key from key.env if not provided
         if api_key is None:
             load_dotenv(dotenv_path=dotenv_path)
@@ -81,7 +81,7 @@ class CohereGenerator:
             
             prompt = (
                 "You are a helpful assistant specializing in answering questions about the Harry Potter series.\n"
-                "You should only use the information provided in the conversation or documents — do not rely on any external knowledge or assumptions beyond the given context.y. Provide concise and accurate answers based solely on the input you receive.\n\n"
+                "Provide concise and accurate answers based on the input you receive.\n\n"
                 f"Question: {origin_question}\n\n"
                 f"Context:\n{context}\n\n"
                 f"Answer:"

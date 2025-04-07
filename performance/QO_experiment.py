@@ -13,6 +13,7 @@ import faiss
 import sentence_transformers
 from generation.cohere_generation import CohereGenerator
 from retrieval import load_passages_and_chunk_ids
+import transformers
 
 
 def process_question_block(block_type, sub_questions_key, item, model, generator, passages, chunk_ids, all_chunks_index):
@@ -40,7 +41,7 @@ def process_question_block(block_type, sub_questions_key, item, model, generator
                     "score": float(distances[0][j])
                 } for j, i in enumerate(indices[0])
             ])
-            print(retrieve_results)
+            # print(retrieve_results)
         _, final_answer = generator.generation_answer(item['question'], question_list, retrieve_results, top_k=5)
         results.append({
             "graphy type": block_type,
@@ -61,9 +62,9 @@ if __name__ == "__main__":
     load_dotenv("key.env")
     api_key = os.environ.get('COHERE_API_KEY')
     generator = CohereGenerator(api_key=api_key)
-    model = sentence_transformers.SentenceTransformer('Catkin/bge-base-en-v1.5_finetuned_v1')
+    model = sentence_transformers.SentenceTransformer('CatkinChen/BAAI_bge-base-en-v1.5_retrieval_finetuned_v1')
     passages, chunk_ids = load_passages_and_chunk_ids()
-    all_chunks_index = faiss.read_index('embedding/BAAI/bge-base-en-v1.5/hp_all_bge.index')
+    all_chunks_index = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
 
     final_answers_list = []
 
