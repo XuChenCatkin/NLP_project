@@ -1,0 +1,602 @@
+[
+    {
+        "graphy type": "v structure",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "What clue helps to decode the Secrets in the second book's Chamber?",
+            "How does the specific clue in the Chamber that this object helps to decipher?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is Tom Riddle's diary. The diary contained instructions on how to reopen the Chamber of Secrets."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "How does the specific clue in the Chamber that this object helps to decipher?",
+            "What clue helps to decode the Secrets in the second book's Chamber?"
+        ],
+        "final_answers": "The wooden flute, a Christmas gift, later aids in decoding the clue in Tom Riddle's diary."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "What clue helps to decode the Secrets in the second book's Chamber?",
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "How does the specific clue in the Chamber that this object helps to decipher?"
+        ],
+        "final_answers": "The object that was given as a Christmas gift in the first book and later aided in decoding a clue in the second book's Chamber is Tom Riddle's diary."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "What clue helps to decode the Secrets in the second book's Chamber?",
+            "How does the specific clue in the Chamber that this object helps to decipher?",
+            "What object was given as a Christmas gift in the first Harry Potter book?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber of Secrets is a wooden flute."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "How does the specific clue in the Chamber that this object helps to decipher?",
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "What clue helps to decode the Secrets in the second book's Chamber?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is a wooden flute."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "How does the specific clue in the Chamber that this object helps to decipher?",
+            "What clue helps to decode the Secrets in the second book's Chamber?",
+            "What object was given as a Christmas gift in the first Harry Potter book?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is the diary."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?"
+        ],
+        "final_answers": "The wooden flute."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?",
+            "How does this object aid in decoding a clue in the second book's Chamber?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is Tom Riddle's diary."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber of Secrets is a diary."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?",
+            "What object was given as a Christmas gift in the first Harry Potter book?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is the diary."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?",
+            "What object was given as a Christmas gift in the first Harry Potter book?",
+            "How does this object aid in decoding a clue in the second book's Chamber?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is a flute."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "sub_questions_ordered": [
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?",
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "What object was given as a Christmas gift in the first Harry Potter book?"
+        ],
+        "final_answers": "The object given as a Christmas gift in the first book that later aids in decoding a clue in the second book's Chamber is a wooden flute."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "Any special moments in the sixth book is described?",
+            "How does the vision in the fire and the specific moment in the sixth book related?"
+        ],
+        "final_answers": "Harry sees an empty room in the fire at Grimmauld Place in the fifth book, which symbolizes a connection without interaction with Voldemort. This connects to a moment in the sixth book when Harry and Voldemort face each other, separated by protective flames, unable to physically harm one another."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "How does the vision in the fire and the specific moment in the sixth book related?",
+            "Any special moments in the sixth book is described?"
+        ],
+        "final_answers": "Harry sees an empty room in the fire at Grimmauld Place in the fifth book, which symbolizes Sirius' death and absence. This connects to the sixth book when Harry sees his parents, Sirius, and Lupin vanish, again confronting him with loss and mortality."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "Any special moments in the sixth book is described?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "How does the vision in the fire and the specific moment in the sixth book related?"
+        ],
+        "final_answers": "In the fifth book, Harry sees an empty, deserted room in the fire at Grimmauld Place. This vision foreshadows a moment in the sixth book where Harry learns about the Deathly Hallows and the story of the three brothers, all connected by themes of death and the afterlife."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "Any special moments in the sixth book is described?",
+            "How does the vision in the fire and the specific moment in the sixth book related?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?"
+        ],
+        "final_answers": "Harry sees a vision in the fire of the three Peverell brothers receiving the Deathly Hallows from Death, which is connected to the sixth book when Harry and his friends learn about the Hallows and their significance in their quest to understand Voldemort's Horcruxes."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "How does the vision in the fire and the specific moment in the sixth book related?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "Any special moments in the sixth book is described?"
+        ],
+        "final_answers": "Harry sees an empty kitchen at Grimmauld Place in the fire, and this vision is connected to the moment in the sixth book when Harry confronts Voldemort and learns about the Horcruxes, as it foreshadows their encounter and the revelations that follow."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "How does the vision in the fire and the specific moment in the sixth book related?",
+            "Any special moments in the sixth book is described?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?"
+        ],
+        "final_answers": "Harry sees an empty kitchen at Grimmauld Place in the fire. This relates to the moment in the sixth book when Harry and Dumbledore discuss Voldemort's Horcruxes, as fire acts as a protective barrier between Harry and Voldemort in both instances."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "Can you identify the character or object Harry sees in the fire and its significance?",
+            "How does the vision in the fire relate to a specific moment in the sixth book?"
+        ],
+        "final_answers": "Harry sees an empty room in the fire, which foreshadows his encounter with Inferi in the lake during the sixth book, where he must focus on defeating Voldemort and cannot rely on safe havens."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "How does the vision in the fire relate to a specific moment in the sixth book?",
+            "Can you identify the character or object Harry sees in the fire and its significance?"
+        ],
+        "final_answers": "Harry sees his parents in the fire at Grimmauld Place, which foreshadows his use of the Resurrection Stone in the sixth book to see them again, along with Sirius and Lupin."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "Can you identify the character or object Harry sees in the fire and its significance?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "How does the vision in the fire relate to a specific moment in the sixth book?"
+        ],
+        "final_answers": "Harry sees Gubraithian fire, an everlasting branch of fire, in the fireplace, which foreshadows his encounter with Inferi in the sixth book, where the magical fire protects him."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "Can you identify the character or object Harry sees in the fire and its significance?",
+            "How does the vision in the fire relate to a specific moment in the sixth book?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?"
+        ],
+        "final_answers": "Harry sees an empty kitchen at Grimmauld Place in the fire, and in the sixth book, Dumbledore uses fire to protect Harry from the Inferi, foreshadowed by the vision of everlasting fire."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "How does the vision in the fire relate to a specific moment in the sixth book?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?",
+            "Can you identify the character or object Harry sees in the fire and its significance?"
+        ],
+        "final_answers": "Harry sees an empty kitchen at Grimmauld Place in the fire, which connects to the sixth book when he uses the Resurrection Stone to bring back his loved ones, including Sirius, who lived at Grimmauld Place."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "sub_questions_ordered": [
+            "How does the vision in the fire relate to a specific moment in the sixth book?",
+            "Can you identify the character or object Harry sees in the fire and its significance?",
+            "What does Harry see in the fire at Grimmauld Place in the fifth book?"
+        ],
+        "final_answers": "Harry sees a vision of Voldemort in the fire at Grimmauld Place, which foreshadows Harry and Dumbledore's escape from the Inferi in the sixth book."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "In what events of the first book did Harry get a special object",
+            "Can you provide a specific example of the connection between the special object and the spying device?"
+        ],
+        "final_answers": "Harry uses Mad-Eye Moody's magical eye to spy on Draco in the sixth book. This relates to the first book, as Harry received a special invisibility cloak, which also allowed him to move unseen and spy on others. Both items are magical objects that enhance Harry's abilities to observe and act without being detected."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "Can you provide a specific example of the connection between the special object and the spying device?",
+            "In what events of the first book did Harry get a special object"
+        ],
+        "final_answers": "Harry uses Mad-Eye Moody's magical eye to spy on Draco Malfoy in the sixth book. The eye is a powerful device that can see through invisibility cloaks, which relates to the first book where Harry receives his own invisibility cloak as a special object from Dumbledore."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "In what events of the first book did Harry get a special object",
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "Can you provide a specific example of the connection between the special object and the spying device?"
+        ],
+        "final_answers": "Harry uses a magical eyeball to spy on Draco in the sixth book. This eyeball is the same one that was attached to Umbridge's telescope, which Harry received as a birthday present from Sirius Black in the first book."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "In what events of the first book did Harry get a special object",
+            "Can you provide a specific example of the connection between the special object and the spying device?",
+            "What object does Harry use to spy on Draco in the sixth book?"
+        ],
+        "final_answers": "Harry uses Draco's wand to spy on him, and it relates to the first book as Harry received a magical eye from Sirius Black, which was attached to a telescopic device used for spying."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "Can you provide a specific example of the connection between the special object and the spying device?",
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "In what events of the first book did Harry get a special object"
+        ],
+        "final_answers": "Harry uses Draco's wand to spy on him in the sixth book. This relates to the first book because Harry received the Invisibility Cloak, which can be used for stealth, as a gift from Dumbledore. The wand and the cloak are both magical objects that can aid in spying or concealment."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "Can you provide a specific example of the connection between the special object and the spying device?",
+            "In what events of the first book did Harry get a special object",
+            "What object does Harry use to spy on Draco in the sixth book?"
+        ],
+        "final_answers": "In the sixth book, Harry uses Draco's wand, which once belonged to the dark wizard Voldemort, to spy on him. This relates to the first book because Harry received his Invisibility Cloak as a Christmas gift from Dumbledore, and an invisibility spell is cast on Harry when he first faces Voldemort."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "How does this object relate to the events of the first book?",
+            "Can you provide a specific example of this connection?"
+        ],
+        "final_answers": "Harry uses Mad-Eye Moody's magical eye to spy on Draco in the sixth book. This relates to the first book as it allows Harry to move unseen and gain a different perspective, similar to how he used the invisibility cloak."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "Can you provide a specific example of this connection?",
+            "How does this object relate to the events of the first book?"
+        ],
+        "final_answers": "Harry uses Mad-Eye's magical eye to spy on Draco Malfoy in the sixth book. This relates to the first book as it establishes Harry's connection to Lord Voldemort, similar to how Tom Riddle's diary in \"Harry Potter and the Sorcerer's Stone\" connects Harry to Voldemort and reveals his ability to speak Parseltongue."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "How does this object relate to the events of the first book?",
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "Can you provide a specific example of this connection?"
+        ],
+        "final_answers": "Harry uses Draco's wand to spy on him in the sixth book. This relates to the first book as Tom Riddle's diary, a Horcrux, was also involved, containing a piece of Voldemort's soul."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "How does this object relate to the events of the first book?",
+            "Can you provide a specific example of this connection?",
+            "What object does Harry use to spy on Draco in the sixth book?"
+        ],
+        "final_answers": "Harry uses a magical eyeball to spy on Draco, which is taken from Mad-Eye Moody's telescopic eye attachment. This relates to the first book as another object used for dark purposes: Tom Riddle's diary, a Horcrux, which possessed Ginny Weasley and led to the opening of the Chamber of Secrets."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "Can you provide a specific example of this connection?",
+            "What object does Harry use to spy on Draco in the sixth book?",
+            "How does this object relate to the events of the first book?"
+        ],
+        "final_answers": "Harry uses a Secrecy Sensor to spy on Draco in the sixth book. This relates to the first book as the object in question, Riddle's diary, is a Horcrux containing Voldemort's soul fragment, which he used to try and regain physical form."
+    },
+    {
+        "graphy type": "chain",
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "sub_questions_ordered": [
+            "Can you provide a specific example of this connection?",
+            "How does this object relate to the events of the first book?",
+            "What object does Harry use to spy on Draco in the sixth book?"
+        ],
+        "final_answers": "Harry uses Draco's wand to spy on him in the sixth book. This relates to the first book as it is a Horcrux, containing a fragment of Voldemort's soul, which enabled him to attempt to kill Harry as a baby and remain alive, as described in *Harry Potter and the Philosopher's Stone*."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "What magical creature does Harry ride to escape in the seventh book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Hippogriff; No."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "What magical creature does Harry ride to escape in the seventh book?",
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Hippogriff. No, the Ukrainian Ironbelly dragon does not appear in the first task."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book?",
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Buckbeak the hippogriff. No, it does not."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book?"
+        ],
+        "final_answers": "Harry rides Buckbeak the hippogriff to escape in the seventh book, and no, the Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Harry rides on Buckbeak the hippogriff to escape in the seventh book. The Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book?"
+        ],
+        "final_answers": "Buckbeak the hippogriff. No, the Ukrainian Ironbelly dragon does not appear in the first task."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Harry rides a Thestral to escape in the seventh book. The Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?",
+            "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Harry escapes on a Thestral in the seventh book, and the Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?",
+            "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Harry escapes on a dragon in the seventh book, but it is not a Ukrainian Ironbelly. The Ukrainian Ironbelly also does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?"
+        ],
+        "final_answers": "Harry rides a Ukrainian Ironbelly dragon to escape in the seventh book. The Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?"
+        ],
+        "final_answers": "Harry rides a Ukrainian Ironbelly dragon to escape in the seventh book. The Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "sub_questions_ordered": [
+            "What kinds of dragons appeared in the first task of the Triwizard Tournament in the fourth book?",
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "What magical creature does Harry ride to escape in the seventh book? Is it Ukrainian Ironbelly? deagon?"
+        ],
+        "final_answers": "Harry rides a broomstick to escape in the seventh book, and the Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament in the fourth book."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?",
+            "Who is the traitor revealed by the prophetic warning?"
+        ],
+        "final_answers": "The phrase \"those who have thrice defied him\" hints at a traitor, specifically Severus Snape, who overheard the prophecy and informed Voldemort."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "Who is the traitor revealed by the prophetic warning?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?"
+        ],
+        "final_answers": "The phrase \"either must die at the hand of the other for neither can live while the other survives\" hints at the presence of a traitor, Severus Snape, as it suggests a mutual threat and a connection between the two individuals."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "Who is the traitor revealed by the prophetic warning?"
+        ],
+        "final_answers": "There is no specific phrase in the prophecy that hints at the identity of a traitor."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?",
+            "Who is the traitor revealed by the prophetic warning?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?"
+        ],
+        "final_answers": "There is no specific phrase in the prophecy-like warning that hints at the identity of a traitor."
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "Who is the traitor revealed by the prophetic warning?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?"
+        ],
+        "final_answers": "The phrase is \"...and his power shall rise again with the one who has the power to vanquish him...\""
+    },
+    {
+        "graphy type": "v structure",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "Who is the traitor revealed by the prophetic warning?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?"
+        ],
+        "final_answers": "\"Mark him as his equal.\""
+    },
+    {
+        "graphy type": "chain",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "How does this phrase reveal the identity of the traitor?",
+            "Who is the traitor revealed by the prophetic warning?"
+        ],
+        "final_answers": "The phrase \"born to those who have thrice defied him\" hints at a traitor's connection to the Potter family."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "Who is the traitor revealed by the prophetic warning?",
+            "How does this phrase reveal the identity of the traitor?"
+        ],
+        "final_answers": "The phrase \"born to those who have thrice defied him\" hints at Severus Snape's identity as the traitor due to his close connection with the Potter family, who had defied Voldemort three times."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "How does this phrase reveal the identity of the traitor?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "Who is the traitor revealed by the prophetic warning?"
+        ],
+        "final_answers": "The phrase \"Voldemort himself would 'mark him as his equal'\" hints at Kreacher's identity as the traitor."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "How does this phrase reveal the identity of the traitor?",
+            "Who is the traitor revealed by the prophetic warning?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?"
+        ],
+        "final_answers": "\"The Dark Lord will mark him as his equal.\""
+    },
+    {
+        "graphy type": "chain",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "Who is the traitor revealed by the prophetic warning?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "How does this phrase reveal the identity of the traitor?"
+        ],
+        "final_answers": "The phrase is \"...as the Dark Lord discovered when he attempted to use others to steal it for him.\" It hints at Snape's betrayal."
+    },
+    {
+        "graphy type": "chain",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "sub_questions_ordered": [
+            "Who is the traitor revealed by the prophetic warning?",
+            "How does this phrase reveal the identity of the traitor?",
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?"
+        ],
+        "final_answers": "The phrase is \"The Dark Lord will mark him as his equal.\""
+    }
+]

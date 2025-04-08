@@ -4,12 +4,6 @@ from nltk.translate.bleu_score import sentence_bleu
 from rouge_score import rouge_scorer
 from bert_score import score
 import math
-from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
-import torch
-from sentence_transformers import CrossEncoder
-import cohere
-from openai import OpenAI
-import os
 
 class Metric(ABC):
     """Abstract base class for all metrics."""
@@ -50,6 +44,7 @@ class GenerationMetric(Metric):
     """Base class for generation metrics."""
     def __init__(self, name):
         super().__init__(name, metric_type="generation")
+
 
 class RecallAtK(RetrievalMetric):
     """Compute Recall@K for retrieval tasks."""
@@ -265,23 +260,16 @@ class BLEU(GenerationMetric):
     def update(
             self,
             predictions: List[str],
-            answer: List[str]):
+            references: List[List[str]]):
         """
         predictions: list of generated responses
         references: list of list of ground-truth responses
         """
-        try:
-            for index, ref_pre_pair in enumerate(zip(predictions, answer)):
-                ref_tokens = ref_pre_pair[1].split()
-                print(ref_pre_pair[1])
-                gen_tokens = ref_pre_pair[0].split()
-                print(ref_pre_pair[0])
-                self._bleu_scores.append(sentence_bleu(ref_tokens, gen_tokens))
-        except Exception as e:
-            print(f"Index: {index}")
-            print(f"Ref_Pre_Pair: {ref_pre_pair}")
-            print(f"Error in BLEU computation: {e}")
-            print(f"Generated: {ref_pre_pair[0]}, References: {ref_pre_pair[1]}")
+        for pred, refs in zip(predictions, references):
+            ref_tokens = [ref.split() for ref in refs]
+            gen_tokens = pred.split()
+            self._bleu_scores.append(sentence_bleu(ref_tokens, gen_tokens))
+    
     def compute(self):
         if len(self._bleu_scores) == 0:
             return 0.0
@@ -314,18 +302,18 @@ class ROUGE(GenerationMetric):
     def update(
             self,
             predictions: List[str],
-            answer: List[str]):
+            references: List[List[str]]):
         """
         predictions: list of generated responses
         references: list of list of ground-truth responses
         """
-        for pred, ref in zip(predictions, answer):
+        for pred, refs in zip(predictions, references):
             score_per_example = 0.0
-            for ref_item in ref:
-                scores = self._scorer.score(pred, ref_item)
+            for ref in refs:
+                scores = self._scorer.score(pred, ref)
                 score_per_example += scores[self._type].fmeasure
-            self._rouge_scores.append(score_per_example / len(ref))
-
+            self._rouge_scores.append(score_per_example / len(refs))
+    
     def compute(self):
         if len(self._rouge_scores) == 0:
             return 0.0
@@ -339,7 +327,7 @@ class BERTScore(GenerationMetric):
             self,
             model_name_or_path: str = "bert-base-uncased", 
             batch_size: int = 16,
-            device: str = "cpu"
+            device: str = "cuda"  # or "cpu"
         ):
         super().__init__(name="BERTScore")
         self._model_name_or_path = model_name_or_path
@@ -349,7 +337,6 @@ class BERTScore(GenerationMetric):
         # Internal buffers to store all predictions/references before compute()
         self._predictions = []
         self._references = []
-        self._questions =[]
 
     @property
     def model_name_or_path(self):
@@ -377,22 +364,20 @@ class BERTScore(GenerationMetric):
     def __repr__(self):
         return str(self)
     
-    def update(self, predictions, answers, questions):
+    def update(self, predictions, references):
         """
         Args:
             predictions: list of strings (generated texts)
-            answers: list of strings (answer texts)
+            references: list of strings (reference texts)
         """
         self._predictions.extend(predictions)
-        self._references.extend(answers)
-        self._questions.extend(questions)
+        self._references.extend(references)
 
     def compute(self):
         """
         Returns a dict with {'precision': P, 'recall': R, 'f1': F1}
         for the aggregated predictions/references.
         """
-
         if not self._predictions:
             return {"precision": 0.0, "recall": 0.0, "f1": 0.0}
 
@@ -414,253 +399,6 @@ class BERTScore(GenerationMetric):
         self._predictions = []
         self._references = []
 
-class SASScore(GenerationMetric):
-    def __init__(
-            self,
-            model_name_or_path: str = "cross-encoder/stsb-roberta-large",
-            device: str = "cpu"
-        ):
-        super().__init__(name="SASScore")
-        self._model_name_or_path = model_name_or_path
-        self._device = device
-
-        # Initialize the CrossEncoder model
-        self.model = CrossEncoder(self._model_name_or_path, device=self._device)
-
-        # Internal buffers to store all predictions and references before compute()
-        self._predictions = []
-        self._references = []
-        self._questions = []
-
-    @property
-    def model_name_or_path(self):
-        return self._model_name_or_path
-
-    @property
-    def batch_size(self):
-        return self._batch_size
-
-    @property
-    def device(self):
-        return self._device
-
-    @property
-    def predictions(self):
-        return self._predictions
-
-    @property
-    def references(self):
-        return self._references
-
-    def __str__(self):
-        return f"{self.name}: {self.compute()}"
-
-    def __repr__(self):
-        return str(self)
-
-    def update(self, predictions, references, questions):
-        """
-        Args:
-            predictions: list of strings (generated texts)
-            references: list of strings (reference texts)
-        """
-        self._predictions.extend(predictions)
-        self._references.extend(references)
-        self._questions.extend(questions)
-
-    def compute(self):
-        """
-        Returns a dictionary with {'mean_similarity': mean_similarity_score}
-        for the aggregated predictions and references.
-        """
-        if not self._predictions:
-            return {"mean_similarity": 0.0}
-
-        # Prepare sentence pairs for similarity evaluation
-        sentence_pairs = list(zip(self._predictions, self._references))
-
-        # Compute similarity scores
-        similarity_scores = self.model.predict(sentence_pairs)
-
-        # for i in range(len(similarity_scores)):
-        #     print(f"Question: {self._questions[i]}")
-        #     print(f"Reference Answer: {self._references[i]}")
-        #     print(f"Candidate Answer: {self._predictions[i]}")
-        #     print(f"Similarity Score: {similarity_scores[i]}")
-            
-
-        # Calculate the mean similarity score
-        mean_similarity = sum(similarity_scores) / len(similarity_scores)
-
-        return {"mean_similarity": mean_similarity}
-
-    def reset(self):
-        """Resets the internal buffers."""
-        self._predictions = []
-        self._references = []
-    
-class CohereGPTScore(GenerationMetric):
-    def __init__(
-            self,
-            model_name_or_path: str = "command-a-03-2025",
-            api_key: str = None
-        ):
-        super().__init__(name="CohereGPTScore")
-        self._model_name_or_path = model_name_or_path
-
-        self._api_key = api_key or os.environ.get('COHERE_API_KEY')
-        self.client = cohere.Client(self._api_key)
-
-        self._predictions = []
-        self._references = []
-        self._questions = []
-
-    @property
-    def model_name_or_path(self):
-        return self._model_name_or_path
-
-    @property
-    def batch_size(self):
-        return self._batch_size
-
-    @property
-    def device(self):
-        return self._device
-
-    def update(self, predictions, references, questions):
-        self._predictions.extend(predictions)
-        self._references.extend(references)
-        self._questions.extend(questions)
-
-    def compute(self):
-        if not self._predictions:
-            return {"mean_score": 0.0}
-
-        scores = []
-
-        for q,  pred, ref in zip(self._questions, self._predictions, self._references):
-            prompt = (
-                "You are an evaluator that compares a candidate answer to a correct answer.\n"
-                f"Question: {q} \n"
-                f"Reference Answer: {ref}\n"
-                f"Candidate Answer: {pred}\n"
-                "Rate how semantically similar they are on a scale from 0 to 1. Only return the numerical score."
-            )
-
-            # print(prompt)
-
-            try:
-                response = self.client.chat(
-                    model=self._model_name_or_path,
-                    message=prompt,
-                    temperature=0.0
-                )
-                score_text = response.text.strip()
-                score = float(score_text)
-                # print(f"{score}\n\n")
-            except Exception as e:
-                print(f"[Warning] Failed to get score for pair: {e}")
-                score_text = "error"
-
-            scores.append(score)
-        
-        mean_score = sum(scores) / len(scores)
-
-        return {"average GPTscore": mean_score }
-
-    def reset(self):
-        self._predictions = []
-        self._references = []
-
-class DeepSeekGPTScore(GenerationMetric):
-    def __init__(
-            self,
-            model_name_or_path: str = "deepseek-chat",
-        ):
-        super().__init__(name="GPTScore")
-        self._model_name_or_path = model_name_or_path
-        self.client =  OpenAI(api_key="sk-2367b265559a4ae6b607bff8755ef431", base_url="https://api.deepseek.com",)
-        self._predictions = []
-        self._references = []
-        self._questions = []
-
-    @property
-    def model_name_or_path(self):
-        return self._model_name_or_path
-    
-    @property
-    def batch_size(self):
-        return self._batch_size
-    
-    @property
-    def device(self):
-        return self._device
-    
-    @property
-    def predictions(self):
-        return self._predictions
-    
-    @property
-    def references(self):
-        return self._references
-
-    def __str__(self):
-        return f"{self.name}: {self.compute()}"
-
-    def __repr__(self):
-        return str(self)
-
-    def update(self, predictions, references, questions):
-        """
-        Args:
-            predictions: list of strings (generated texts)
-            references: list of strings (reference texts)
-        """
-        self._predictions.extend(predictions)
-        self._references.extend(references)
-        self._questions.extend(questions)
-
-    def compute(self):
-        """
-        Returns a dict with {'mean_score': mean_similarity_score} 
-        based on GPT's evaluation of the candidate vs. reference answers.
-        """
-        if not self._predictions:
-            return {"mean_score": 0.0}
-
-        scores = []
-        for q,  pred, ref in zip(self._questions, self._predictions, self._references):
-
-            prompt = (
-                "You are an evaluator that compares a candidate answer to a correct answer.\n"
-                f"Question: {q} \n"
-                f"Reference Answer: {ref}\n"
-                f"Candidate Answer: {pred}\n"
-                "Is candidate correct? Only return correct or not correct."
-            )
-
-            print(prompt)
-
-            # Call the OpenAI ChatCompletion API
-            response = self.client.chat.completions.create(
-                model=self._model_name_or_path,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.0
-            )
-
-            # Extract and parse the score from GPT's response
-            score_text = response.choices[0].message.content.strip()
-            
-            scores.append(score_text)
-            print(f"{score_text}\n\n")
-        
-        return scores
-
-    def reset(self):
-        """Resets the internal buffers."""
-        self._predictions = []
-        self._references = []
-        self._questions = []
 
 class MetricCollection:
     def __init__(self, metrics):
@@ -669,10 +407,10 @@ class MetricCollection:
         """
         self.metrics = metrics
 
-    def update(self, predictions, references, questions, metric_type='all'):
+    def update(self, predictions, references, metric_type='all'):
         for metric in self.metrics.values():
             if metric.metric_type == metric_type or metric_type == 'all':
-                metric.update(predictions, references, questions)
+                metric.update(predictions, references)
     
     def compute(self, metric_type='all')->Union[Dict[str, Union[Dict[str, float],float]], Dict[str, Dict[str, Union[Dict[str, float],float]]]]:
         if metric_type == 'all':

@@ -10,12 +10,15 @@ import faiss
 # -----------------------------
 # Config paths
 # -----------------------------
+
 DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 print(f"Loading passages from {ALL_CHUNKS_FILE}")
+
 # -----------------------------
 # Utility function to load passages
 # -----------------------------
+
 def load_passages_and_chunk_ids():
     if not os.path.exists(ALL_CHUNKS_FILE):
         raise FileNotFoundError(f"Missing file: {ALL_CHUNKS_FILE}")
@@ -26,13 +29,16 @@ def load_passages_and_chunk_ids():
     print(f"Loaded {len(passages)} passages with chunk IDs")
     return passages, chunk_ids
 
+
 # -----------------------------
 # TF-IDF Retrieval
 # -----------------------------
+
 def build_tfidf_index(passages):
     vectorizer = TfidfVectorizer(stop_words='english')
     doc_matrix = vectorizer.fit_transform(passages)
     return vectorizer, doc_matrix
+
 
 def tfidf_retrieval(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=5):
     query_vec = vectorizer.transform([query])
@@ -50,6 +56,7 @@ def tfidf_retrieval(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=5)
 # -----------------------------
 # BM25 Retrieval
 # -----------------------------
+
 def build_bm25_index(passages):
     tokenized_passages = [word_tokenize(p.lower()) for p in passages]
     return BM25Okapi(tokenized_passages)
