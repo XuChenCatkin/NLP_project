@@ -19,6 +19,7 @@ from typing import List
 from sentence_transformers.util import cos_sim
 import torch.nn.functional as F
 from torch import nn
+from sentence_transformers.losses import TripletLoss, TripletDistanceMetric, MultipleNegativesRankingLoss
 
 notebook_login()
 
@@ -211,7 +212,7 @@ class TimedCallback:
         pos_similarities = []
         neg_similarities = []
         
-        for batch in self.dataloader:
+        for i, batch in enumerate(self.dataloader):
             anchors = self.model.encode([example.texts[0] for example in batch], convert_to_tensor=True)
             positives = self.model.encode([example.texts[1] for example in batch], convert_to_tensor=True)
             negatives = self.model.encode([example.texts[2] for example in batch], convert_to_tensor=True)  # Triplet: (anchor, pos, neg)
@@ -222,7 +223,6 @@ class TimedCallback:
             
             pos_similarities.extend(pos_sim.tolist())
             neg_similarities.extend(neg_sim.tolist())
-            break  # Only process one batch to reduce overhead
 
         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
@@ -366,7 +366,7 @@ def train(args, logger: logging.Logger):
     train_data_hard_multi, test_data_hard_multi = train_test_split(hard_multi, test_size=args.test_size, random_state=args.random_state)
     train_data = (train_data_easy + train_data_medium_single + train_data_medium_multi + train_data_hard_single + train_data_hard_multi)
     test_data = (test_data_easy + test_data_medium_single + test_data_medium_multi + test_data_hard_single + test_data_hard_multi)
-    
+
     # save down train and test data
     with open(f"data/finetune_train_data_test_size_{args.test_size}_random_state_{args.random_state}.json", "w") as f:
         json.dump(train_data, f, indent=4)
@@ -477,11 +477,11 @@ def train(args, logger: logging.Logger):
             sim_neg = torch.abs(cos_sim(rep_anchor, rep_neg))
 
             losses = -sim_pos + sim_neg
-            return losses.mean()
+            return losses.diag().mean()
 
 
 
-    train_loss = TripletLoss_self(model, triplet_margin=1)
+    train_loss = TripletLoss(model, TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
     # train_loss = losses.MultipleNegativesRankingLoss(model,scale=20)
 

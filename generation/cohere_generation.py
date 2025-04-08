@@ -26,10 +26,10 @@ class CohereGenerator:
             for i, sub_query in enumerate(subquestions):
                 # Get top passages for this sub-question
                 top_chunks = [chunk for chunk in retrieval_results if chunk['sub_query'] == sub_query][:top_k]
+                
                 context = "\n".join(
                     [f"- Passage {j+1}: {chunk['passage']}" for j, chunk in enumerate(top_chunks)]
                 )
-
                 # Build prompt
                 if previous_qa:
                     prev_qa_str = "\n".join([f"Q: {q}\nA: {a}" for q, a in previous_qa])

@@ -135,66 +135,127 @@ def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queri
         results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
     return results
 
+# def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index_kg, faiss_index_chunk, all_chucks, relation_to_kgid_map, top_k=5):
+#     if isinstance(queries, str):
+#         queries = [queries]
+
+#     results = []
+#     kg_ids = []
+#     for query in queries:
+#         #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        
+#         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
+#         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
+#         distances, indices = faiss_index_kg.search(query_emb,1000)
+#         entities = process_gpt(query)
+#         shared_kg = find_chunk_id(entities)
+#         print(shared_kg)
+#         relation_rank_index = indices[0]
+#         print(relation_rank_index)
+#         for i in relation_rank_index:
+#             if relation_to_kgid_map[i] in shared_kg:
+#                 kg_ids.append(relation_to_kgid_map[i])
+#         if len(kg_ids) == 0:
+#             print('KG method failed')
+#             print('return the dense retrieval')
+#             return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
+#         else:
+#             chunk_id_list = []
+#             for kg_id in kg_ids:
+#                 chunk_id_list.extend([i for i in range(5*kg_id, 5*kg_id+5)])
+#                 chunk_id_list = list(set(chunk_id_list))
+#             sel = faiss.IDSelectorArray(chunk_id_list)
+#             params = faiss.SearchParameters()
+#             params.sel = sel
+#             return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+
 def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index_kg, faiss_index_chunk, all_chucks, relation_to_kgid_map, top_k=5):
     if isinstance(queries, str):
         queries = [queries]
 
     results = []
     kg_ids = []
+    
+    for query in queries:
+        entities = process_gpt(query)
+        shared_kg = find_chunk_id(entities)
+        kg_ids.extend(shared_kg)
+    kg_ids = list(set(kg_ids))
+
+
+    relation_list = []
+    for i in range(len(relation_to_kgid_map)):
+        if relation_to_kgid_map[i] in kg_ids:
+            # print(i+1)
+            relation_list.append(i+1)
+
+    kg_ids_1 = []
     for query in queries:
         #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+
+        sel_kg = faiss.IDSelectorArray(relation_list)
+        # print(sel_kg)
+        params = faiss.SearchParameters()
+        params.sel = sel_kg
         
         query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
         query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
-        distances, indices = faiss_index_kg.search(query_emb,1000)
-        entities = process_gpt(query)
-        shared_kg = find_chunk_id(entities)
+
+        distances, indices = faiss_index_kg.search(query_emb,100,params=params)
         relation_rank_index = indices[0]
         for i in relation_rank_index:
-            if relation_to_kgid_map[i] in shared_kg:
-                kg_ids.append(relation_to_kgid_map[i])
-        if len(kg_ids) == 0:
-            print('KG method failed')
-            print('return the dense retrieval')
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
-        else:
-            chunk_id_list = []
-            for kg_id in kg_ids:
-                chunk_id_list.extend([i for i in range(5*kg_id, 5*kg_id+5)])
-                chunk_id_list = list(set(chunk_id_list))
-            sel = faiss.IDSelectorArray(chunk_id_list)
-            params = faiss.SearchParameters()
-            params.sel = sel
-            return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+            if relation_to_kgid_map[i] in kg_ids:
+                kg_ids_1.append(relation_to_kgid_map[i])
+    if len(kg_ids_1) == 0:
+        print('KG method failed')
+        print('return the dense retrieval')
+        return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5)
+    else:
+        chunk_id_list = []
+        for kg_id in kg_ids_1:
+            chunk_id_list.extend([i for i in range(5*kg_id-4, 5*kg_id+1)])
+            chunk_id_list = list(set(chunk_id_list))
+        sel = faiss.IDSelectorArray(chunk_id_list)
+        params = faiss.SearchParameters()
+        params.sel = sel
+        return dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index_chunk, all_chucks, top_k=5,params=params)
+
 
 if __name__ == "__main__":
     data =  {
-        "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
-        "answer": "Hagrid's mention of Fluffy's weakness to music foreshadows Quirrell's knowledge.",
+        "question": "What spell does Harry use to save himself and Dudley from Dementors?",
+        "answer": "Expecto Patronum",
         "list of reference": [
             {
-                "ref_id": 425,
-                "passage": "He was being made a cup of strong tea back in Hagrid's hut, with Ron and Hermione. \"It was Snape,\" Ron was explaining, \"Hermione and I saw him. He was cursing your broomstick, muttering, he wouldn't take his eyes off you.\" \"Rubbish,\" said Hagrid, who hadn't heard a word of what had gone on next to him in the stands. \"Why would Snape do somethin' like that?\" Harry, Ron, and Hermione looked at one another, wondering what to tell him. Harry decided on the truth. \"I found out something about him,\" he told Hagrid. \"He tried to get past that three-headed dog on Halloween. It bit him. We think he was trying to steal whatever it's guarding.\" Hagrid dropped the teapot. \"How do you know about Fluffy?\" he said. \"Fluffy?\"",
-                "book": 1,
-                "chapter": 11
+                "ref_id": 4176,
+                "passage": "\"Expecto Patronum!\" A silvery wisp of vapor shot from the tip of the wand and the dementor slowed, but the spell hadn't worked properly; tripping over his feet, Harry retreated farther as the dementor bore down upon him, panic fogging his brain - concentrate -\nA pair of gray, slimy, scabbed hands slid from inside the dementor's robes, reaching for him. A rushing noise filled Harry's ears. \"Expecto Patronum!\" His voice sounded dim and distant. ... Another wisp of silver smoke, feebler than the last, drifted from the wand - he couldn't do it anymore, he couldn't work the spell -\nThere was laughter inside his own head, shrill, high-pitched laughter. ... He could smell the dementor's putrid, death-cold breath, filling his own lungs, drowning him - Think ... something happy. ... But there was no happiness in him. ... The dementor's icy fingers were closing on his throat - the high-pitched laughter was growing louder and louder, and a voice spoke inside his head - \"Bow to death, Harry.",
+                "book": 5,
+                "chapter": 1
             },
             {
-                "ref_id": 426,
-                "passage": "\"Yeah - he's mine - bought him off a Greek chappie I met in the pub las' year - I lent him to Dumbledore to guard the -\"\n\"Yes?\" said Harry eagerly. \"Now, don't ask me anymore,\" said Hagrid gruffly. \"That's top secret, that is.\" \"But Snape's trying to steal it.\"",
-                "book": 1,
-                "chapter": 11
+                "ref_id": 4177,
+                "passage": "... It might even be painless. ... I would not know. ... I have never died.",
+                "book": 5,
+                "chapter": 1
+            },
+            {
+                "ref_id": 4178,
+                "passage": "...\"\nHe was never going to see Ron and Hermione again -\nAnd their faces burst clearly into his mind as he fought for breath -\n\"EXPECTO PATRONUM!\" An enormous silver stag erupted from the tip of Harry's wand; its antlers caught the dementor in the place where the heart should have been; it was thrown backward, weightless as darkness, and as the stag charged, the dementor swooped away, batlike and defeated. \"THIS WAY!\" Harry shouted at the stag. Wheeling around, he sprinted down the alleyway, holding the lit wand aloft. \"DUDLEY? DUDLEY!\" He had run barely a dozen steps when he reached them: Dudley was curled on the ground, his arms clamped over his face; a second dementor was crouching low over him, gripping his wrists in its slimy hands, prizing them slowly, almost lovingly apart, lowering its hooded head toward Dudley's face as though about to kiss him. ...\n\"GET IT!\"",
+                "book": 5,
+                "chapter": 1
             }
         ],
-        "id": 1,
-        "question_variants": "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?",
+        "id": 36,
+        "question_variants": "Which incantation does Harry employ to protect himself and Dudley from the Dementors' influence?",
         "sub_questions": [
-            "Who is the character that mentions the magical creature?",
-            "What is the name of the magical creature being discussed?",
-            "What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
+            "What is the name of the spell that Harry uses to protect himself and Dudley from the Dementors?",
+            "How does this spell work to counteract the effects of the Dementors' influence?",
+            "Are there any other characters in the Harry Potter series who have used this spell?"
         ],
-        "category": "hard_single_labeled"
+        "category": "medium_single_labeled"
     }
-    EMBEDDING_PATH = "./embedding"
+    CATEGORY = data["category"]
+    EMBEDDING_PATH = "../embedding"
     DATA_PATH = "./data"
     KG_PATH = f"{DATA_PATH}/KG_result_cleaned.json"
     relation_to_kgid_map = []
@@ -206,15 +267,22 @@ if __name__ == "__main__":
             relation = relation.replace("|", " ")
             relation_to_kgid_map.append(i+1)
 
-    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/hard_single_labeled_embeddings.index")
-    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_labeled.json")
+    EASY_INDEX = faiss.read_index(f"embedding/BAAI/bge-base-en-v1.5_finetuned/{CATEGORY}_embeddings.index")
+    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/{CATEGORY}.json")
     CORPUS_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
-    KG_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_all_BAAI/bge-base-en-v1.5_finetuned.index')
+    KG_EMBEDDING = faiss.read_index('embedding/BAAI/bge-base-en-v1.5_finetuned/hp_kg_BAAI/bge-base-en-v1.5_finetuned.index')
     CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
     with open(CORPUS_FILE, 'r') as f:
         CORPUS_DATA = json.load(f)
     # result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
     result = KG_dense_retrieval(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, KG_EMBEDDING, CORPUS_EMBEDDING, CORPUS_DATA, relation_to_kgid_map, top_k=5)
     result_1 = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
-    print(result)
+    
+    result_chunk_ids = [item['chunk_id'] for item in result]
+    result1_chunk_ids = [item['chunk_id'] for item in result_1]
+    print("kg+retrieval: ", result_chunk_ids)
+    print("retrieval: ", result1_chunk_ids)
     print(result_1)
+
+    text_enrichment = KG_on_the_fly(result_1)
+    print(text_enrichment)
