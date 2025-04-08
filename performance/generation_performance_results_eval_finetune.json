@@ -1,1 +1,852 @@
-[]
+[
+  {
+    "data_set": "easy_single",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.38254254144936684
+      },
+      "GPT Score": {
+        "average GPTscore": 0.4984189723320159
+      },
+      "bertscore": {
+        "precision": 0.3536796271800995,
+        "recall": 0.5306175947189331,
+        "f1": 0.41918137669563293
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.36038983024273935
+      },
+      "GPT Score": {
+        "average GPTscore": 0.46877470355731227
+      },
+      "bertscore": {
+        "precision": 0.35626086592674255,
+        "recall": 0.5272107720375061,
+        "f1": 0.4200814664363861
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4810253266951901
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7359683794466407
+      },
+      "bertscore": {
+        "precision": 0.38123810291290283,
+        "recall": 0.6368786692619324,
+        "f1": 0.4711644947528839
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.43032320116907946
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6509881422924904
+      },
+      "bertscore": {
+        "precision": 0.372283935546875,
+        "recall": 0.5993188619613647,
+        "f1": 0.4532817006111145
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.42232730601115426
+      },
+      "GPT Score": {
+        "average GPTscore": 0.625691699604743
+      },
+      "bertscore": {
+        "precision": 0.37010180950164795,
+        "recall": 0.5826528668403625,
+        "f1": 0.4470563530921936
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.42216190440661233
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6187747035573118
+      },
+      "bertscore": {
+        "precision": 0.36788636445999146,
+        "recall": 0.5842396020889282,
+        "f1": 0.444806843996048
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4269652936438268
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6312252964426871
+      },
+      "bertscore": {
+        "precision": 0.3688969016075134,
+        "recall": 0.5868144035339355,
+        "f1": 0.4462960362434387
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4767533555118875
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7335968379446643
+      },
+      "bertscore": {
+        "precision": 0.3795190155506134,
+        "recall": 0.6370643377304077,
+        "f1": 0.4696941673755646
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4805556635037359
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7341897233201585
+      },
+      "bertscore": {
+        "precision": 0.3796861469745636,
+        "recall": 0.6388112306594849,
+        "f1": 0.47031453251838684
+      }
+    }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "KG_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.43279799523030815
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6770750988142294
+      },
+      "bertscore": {
+        "precision": 0.37141281366348267,
+        "recall": 0.5940544605255127,
+        "f1": 0.4507565200328827
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3844046504697302
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7021978021978019
+      },
+      "bertscore": {
+        "precision": 0.36480993032455444,
+        "recall": 0.60847008228302,
+        "f1": 0.45161283016204834
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.38809385750401804
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6989010989010987
+      },
+      "bertscore": {
+        "precision": 0.3660534918308258,
+        "recall": 0.6062365770339966,
+        "f1": 0.45180946588516235
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.41251810291106555
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7582417582417581
+      },
+      "bertscore": {
+        "precision": 0.3707421123981476,
+        "recall": 0.6206092238426208,
+        "f1": 0.45915111899375916
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3972460333728692
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7379120879120878
+      },
+      "bertscore": {
+        "precision": 0.3712649643421173,
+        "recall": 0.6145237684249878,
+        "f1": 0.4578147828578949
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4042564479142919
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7494505494505495
+      },
+      "bertscore": {
+        "precision": 0.36818501353263855,
+        "recall": 0.6094074249267578,
+        "f1": 0.45416733622550964
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3795205332993806
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6978021978021975
+      },
+      "bertscore": {
+        "precision": 0.36221450567245483,
+        "recall": 0.6115387082099915,
+        "f1": 0.4501069486141205
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3789413539017295
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6956043956043955
+      },
+      "bertscore": {
+        "precision": 0.36924681067466736,
+        "recall": 0.6035000085830688,
+        "f1": 0.45372965931892395
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3981049917842988
+      },
+      "GPT Score": {
+        "average GPTscore": 0.8406593406593403
+      },
+      "bertscore": {
+        "precision": 0.37082797288894653,
+        "recall": 0.6123313903808594,
+        "f1": 0.4572696387767792
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.39239205358611357
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7296703296703294
+      },
+      "bertscore": {
+        "precision": 0.366435706615448,
+        "recall": 0.6133296489715576,
+        "f1": 0.4537346065044403
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "KG_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.33280702472592777
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6120879120879119
+      },
+      "bertscore": {
+        "precision": 0.3559647500514984,
+        "recall": 0.5558896064758301,
+        "f1": 0.4282648265361786
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.520219915679523
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5228571428571428
+      },
+      "bertscore": {
+        "precision": 0.5758164525032043,
+        "recall": 0.6229935884475708,
+        "f1": 0.5955789685249329
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5320574483701161
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5428571428571428
+      },
+      "bertscore": {
+        "precision": 0.5652449727058411,
+        "recall": 0.6172755360603333,
+        "f1": 0.5873501300811768
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5239275395870209
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5371428571428573
+      },
+      "bertscore": {
+        "precision": 0.5771578550338745,
+        "recall": 0.6313956379890442,
+        "f1": 0.6008501648902893
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5657047454799925
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6114285714285714
+      },
+      "bertscore": {
+        "precision": 0.5738827586174011,
+        "recall": 0.6264761686325073,
+        "f1": 0.5949563384056091
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5634659064667565
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6171428571428571
+      },
+      "bertscore": {
+        "precision": 0.5813505053520203,
+        "recall": 0.6312900185585022,
+        "f1": 0.6018660664558411
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5477765304701668
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5714285714285714
+      },
+      "bertscore": {
+        "precision": 0.5584250092506409,
+        "recall": 0.6220481991767883,
+        "f1": 0.5856205821037292
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5490146858351571
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5471428571428572
+      },
+      "bertscore": {
+        "precision": 0.5695378184318542,
+        "recall": 0.6241877675056458,
+        "f1": 0.5931580662727356
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5021465380276953
+      },
+      "GPT Score": {
+        "average GPTscore": 0.4457142857142856
+      },
+      "bertscore": {
+        "precision": 0.550016462802887,
+        "recall": 0.6144509315490723,
+        "f1": 0.5781211853027344
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.49008691736630033
+      },
+      "GPT Score": {
+        "average GPTscore": 0.44571428571428573
+      },
+      "bertscore": {
+        "precision": 0.552666187286377,
+        "recall": 0.6052727103233337,
+        "f1": 0.5754278898239136
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "KG_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5294906839728355
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5299999999999999
+      },
+      "bertscore": {
+        "precision": 0.5827051401138306,
+        "recall": 0.6247340440750122,
+        "f1": 0.6005198359489441
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.13754978640512985
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2727272727272727
+      },
+      "bertscore": {
+        "precision": 0.3845991790294647,
+        "recall": 0.4807780086994171,
+        "f1": 0.4263862669467926
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.11108924719420346
+      },
+      "GPT Score": {
+        "average GPTscore": 0.21818181818181817
+      },
+      "bertscore": {
+        "precision": 0.39380377531051636,
+        "recall": 0.47828447818756104,
+        "f1": 0.4310057461261749
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.15682933471080931
+      },
+      "GPT Score": {
+        "average GPTscore": 0.3363636363636365
+      },
+      "bertscore": {
+        "precision": 0.40166595578193665,
+        "recall": 0.5076287984848022,
+        "f1": 0.44599905610084534
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.11499421518634666
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2545454545454546
+      },
+      "bertscore": {
+        "precision": 0.38447654247283936,
+        "recall": 0.46512269973754883,
+        "f1": 0.419895738363266
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.06806573398749936
+      },
+      "GPT Score": {
+        "average GPTscore": 0.30000000000000004
+      },
+      "bertscore": {
+        "precision": 0.38338783383369446,
+        "recall": 0.4721054136753082,
+        "f1": 0.4220271110534668
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.18873921925710005
+      },
+      "GPT Score": {
+        "average GPTscore": 0.30000000000000004
+      },
+      "bertscore": {
+        "precision": 0.39588481187820435,
+        "recall": 0.49242153763771057,
+        "f1": 0.43814122676849365
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.19770972735502504
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2727272727272727
+      },
+      "bertscore": {
+        "precision": 0.3811969459056854,
+        "recall": 0.4732474088668823,
+        "f1": 0.42095261812210083
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.16162968968803232
+      },
+      "GPT Score": {
+        "average GPTscore": 0.30000000000000004
+      },
+      "bertscore": {
+        "precision": 0.4071391820907593,
+        "recall": 0.5197151899337769,
+        "f1": 0.45460987091064453
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.08644015299664302
+      },
+      "GPT Score": {
+        "average GPTscore": 0.18181818181818182
+      },
+      "bertscore": {
+        "precision": 0.40659192204475403,
+        "recall": 0.48663529753685,
+        "f1": 0.44195231795310974
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "KG_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.16800586515190927
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2818181818181818
+      },
+      "bertscore": {
+        "precision": 0.41215312480926514,
+        "recall": 0.5078468322753906,
+        "f1": 0.45350706577301025
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5499551345904669
+      },
+      "GPT Score": {
+        "average GPTscore": 0.4833333333333334
+      },
+      "bertscore": {
+        "precision": 0.637051522731781,
+        "recall": 0.6402192711830139,
+        "f1": 0.6375016570091248
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5420005942384402
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5083333333333334
+      },
+      "bertscore": {
+        "precision": 0.6348097920417786,
+        "recall": 0.6407900452613831,
+        "f1": 0.6361639499664307
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5874667999645075
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6416666666666667
+      },
+      "bertscore": {
+        "precision": 0.6396715641021729,
+        "recall": 0.6392017006874084,
+        "f1": 0.6364465355873108
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5397630756100019
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6083333333333333
+      },
+      "bertscore": {
+        "precision": 0.6288022994995117,
+        "recall": 0.6334010362625122,
+        "f1": 0.628692090511322
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5629176124930382
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6541666666666667
+      },
+      "bertscore": {
+        "precision": 0.6334578394889832,
+        "recall": 0.6383022665977478,
+        "f1": 0.6338434815406799
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5649533681571484
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5499999999999999
+      },
+      "bertscore": {
+        "precision": 0.6232435703277588,
+        "recall": 0.6304602026939392,
+        "f1": 0.6254119277000427
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5663941005865732
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5708333333333334
+      },
+      "bertscore": {
+        "precision": 0.630605161190033,
+        "recall": 0.6352689862251282,
+        "f1": 0.6313303112983704
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5750034227967262
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5041666666666667
+      },
+      "bertscore": {
+        "precision": 0.6262251734733582,
+        "recall": 0.6371824741363525,
+        "f1": 0.6285315155982971
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5504649418095747
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5375
+      },
+      "bertscore": {
+        "precision": 0.6218701004981995,
+        "recall": 0.6292367577552795,
+        "f1": 0.6223375797271729
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "KG_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5685653487841288
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5874999999999999
+      },
+      "bertscore": {
+        "precision": 0.6207108497619629,
+        "recall": 0.6319219470024109,
+        "f1": 0.6236291527748108
+      }
+    }
+  }
+]
