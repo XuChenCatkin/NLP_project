@@ -96,7 +96,7 @@ args = {
     "hard_multi_file": HARD_M,
     "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "aaron-cui990810-ucl",
+    "wandbusername": "xiangzhang350-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
@@ -181,7 +181,6 @@ class TimedCallback:
             neg_sim = (sim_matrix.sum()-sim_matrix.diag().sum())/((sim_matrix.shape[0])*(sim_matrix.shape[1]-1))
             pos_similarities.append(pos_sim)
             neg_similarities.append(neg_sim)
-            break  # 只取一个batch，减少计算开销
         avg_pos_sim = sum(pos_similarities) / len(pos_similarities)
         avg_neg_sim = sum(neg_similarities) / len(neg_similarities)
         
@@ -365,7 +364,7 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    #train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
     train_loss = losses.MultipleNegativesRankingLoss(model,scale=30)
 
