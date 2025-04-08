@@ -223,22 +223,34 @@ def KG_dense_retrieval(queries, all_queries_list, sub_queries_index, faiss_index
 
 if __name__ == "__main__":
     data =  {
-        "question": "What creature does Hermione turn into after using Polyjuice Potion?",
-        "answer": "Cat",
+        "question": "What spell does Harry use to save himself and Dudley from Dementors?",
+        "answer": "Expecto Patronum",
         "list of reference": [
             {
-                "ref_id": 1217,
-                "passage": "Her face was covered in black fur. Her eyes had turned yellow and there were long, pointed ears poking through her hair. \"It was a c-cat hair!\" she howled. \"M-Millicent Bulstrode m-must have a cat! And the p-potion isn't supposed to be used for animal transformations!\" \"Uh-oh,\" said Ron. \"You'll be teased something dreadful,\" said Myrtle happily. \"It's okay, Hermione,\" said Harry quickly. \"We'll take you up to the hospital wing. Madam Pomfrey never asks too many questions. ...\"\nIt took a long time to persuade Hermione to leave the bathroom. Moaning Myrtle sped them on their way with a hearty guffaw. \"Wait till everyone finds out you've got a tail!\"",
-                "book": 2,
-                "chapter": 12
+                "ref_id": 4176,
+                "passage": "\"Expecto Patronum!\" A silvery wisp of vapor shot from the tip of the wand and the dementor slowed, but the spell hadn't worked properly; tripping over his feet, Harry retreated farther as the dementor bore down upon him, panic fogging his brain - concentrate -\nA pair of gray, slimy, scabbed hands slid from inside the dementor's robes, reaching for him. A rushing noise filled Harry's ears. \"Expecto Patronum!\" His voice sounded dim and distant. ... Another wisp of silver smoke, feebler than the last, drifted from the wand - he couldn't do it anymore, he couldn't work the spell -\nThere was laughter inside his own head, shrill, high-pitched laughter. ... He could smell the dementor's putrid, death-cold breath, filling his own lungs, drowning him - Think ... something happy. ... But there was no happiness in him. ... The dementor's icy fingers were closing on his throat - the high-pitched laughter was growing louder and louder, and a voice spoke inside his head - \"Bow to death, Harry.",
+                "book": 5,
+                "chapter": 1
+            },
+            {
+                "ref_id": 4177,
+                "passage": "... It might even be painless. ... I would not know. ... I have never died.",
+                "book": 5,
+                "chapter": 1
+            },
+            {
+                "ref_id": 4178,
+                "passage": "...\"\nHe was never going to see Ron and Hermione again -\nAnd their faces burst clearly into his mind as he fought for breath -\n\"EXPECTO PATRONUM!\" An enormous silver stag erupted from the tip of Harry's wand; its antlers caught the dementor in the place where the heart should have been; it was thrown backward, weightless as darkness, and as the stag charged, the dementor swooped away, batlike and defeated. \"THIS WAY!\" Harry shouted at the stag. Wheeling around, he sprinted down the alleyway, holding the lit wand aloft. \"DUDLEY? DUDLEY!\" He had run barely a dozen steps when he reached them: Dudley was curled on the ground, his arms clamped over his face; a second dementor was crouching low over him, gripping his wrists in its slimy hands, prizing them slowly, almost lovingly apart, lowering its hooded head toward Dudley's face as though about to kiss him. ...\n\"GET IT!\"",
+                "book": 5,
+                "chapter": 1
             }
         ],
-        "id": 56,
-        "question_variants": "Which animal does Hermione transform into when she drinks the Polyjuice Potion?",
+        "id": 36,
+        "question_variants": "Which incantation does Harry employ to protect himself and Dudley from the Dementors' influence?",
         "sub_questions": [
-            "What is the Polyjuice Potion?",
-            "How does Hermione use the Polyjuice Potion?",
-            "What creature does Hermione turn into after using the Polyjuice Potion?"
+            "What is the name of the spell that Harry uses to protect himself and Dudley from the Dementors?",
+            "How does this spell work to counteract the effects of the Dementors' influence?",
+            "Are there any other characters in the Harry Potter series who have used this spell?"
         ],
         "category": "medium_single_labeled"
     }
