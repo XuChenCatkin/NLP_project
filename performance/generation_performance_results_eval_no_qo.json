@@ -1,0 +1,614 @@
+[
+  {
+    "data_set": "medium_single",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3891851866392644
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6637362637362636
+      },
+      "bertscore": {
+        "precision": 0.3295091688632965,
+        "recall": 0.579688310623169,
+        "f1": 0.41534310579299927
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4062700528283041
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6604395604395602
+      },
+      "bertscore": {
+        "precision": 0.33257314562797546,
+        "recall": 0.5791264772415161,
+        "f1": 0.4174269437789917
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4431162725028756
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7868131868131866
+      },
+      "bertscore": {
+        "precision": 0.35608765482902527,
+        "recall": 0.6312842965126038,
+        "f1": 0.45099136233329773
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4272782700136304
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7516483516483515
+      },
+      "bertscore": {
+        "precision": 0.35521137714385986,
+        "recall": 0.6258912086486816,
+        "f1": 0.44899412989616394
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.419426787654859
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7681318681318678
+      },
+      "bertscore": {
+        "precision": 0.3620425760746002,
+        "recall": 0.6244824528694153,
+        "f1": 0.45422106981277466
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3942465287745818
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6549450549450548
+      },
+      "bertscore": {
+        "precision": 0.33265426754951477,
+        "recall": 0.5738383531570435,
+        "f1": 0.41592663526535034
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4007123964378139
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6653846153846152
+      },
+      "bertscore": {
+        "precision": 0.3380028307437897,
+        "recall": 0.580868124961853,
+        "f1": 0.4218604862689972
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.45130087853828954
+      },
+      "GPT Score": {
+        "average GPTscore": 0.8038461538461538
+      },
+      "bertscore": {
+        "precision": 0.3460516333580017,
+        "recall": 0.6387162804603577,
+        "f1": 0.4446274936199188
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4748199767955057
+      },
+      "GPT Score": {
+        "average GPTscore": 0.8390109890109888
+      },
+      "bertscore": {
+        "precision": 0.3484153151512146,
+        "recall": 0.6508997678756714,
+        "f1": 0.45021066069602966
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5593269177845546
+      },
+      "GPT Score": {
+        "average GPTscore": 0.527142857142857
+      },
+      "bertscore": {
+        "precision": 0.5271660685539246,
+        "recall": 0.6476659178733826,
+        "f1": 0.5794826745986938
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.541616843002183
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5314285714285713
+      },
+      "bertscore": {
+        "precision": 0.524490237236023,
+        "recall": 0.6481911540031433,
+        "f1": 0.5780053734779358
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5565052824360984
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6428571428571428
+      },
+      "bertscore": {
+        "precision": 0.5762166976928711,
+        "recall": 0.6654648184776306,
+        "f1": 0.6147241592407227
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5595662261758532
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6357142857142856
+      },
+      "bertscore": {
+        "precision": 0.5727980732917786,
+        "recall": 0.6608909964561462,
+        "f1": 0.6105051636695862
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5616204193660191
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5757142857142856
+      },
+      "bertscore": {
+        "precision": 0.5682616233825684,
+        "recall": 0.6591728925704956,
+        "f1": 0.6068214178085327
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5642619737557002
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5614285714285713
+      },
+      "bertscore": {
+        "precision": 0.5276654958724976,
+        "recall": 0.6505432724952698,
+        "f1": 0.5811497569084167
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5482099294662476
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5242857142857142
+      },
+      "bertscore": {
+        "precision": 0.527998149394989,
+        "recall": 0.6474867463111877,
+        "f1": 0.5798596739768982
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5418921274798257
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6514285714285712
+      },
+      "bertscore": {
+        "precision": 0.5407437086105347,
+        "recall": 0.650646984577179,
+        "f1": 0.5869745016098022
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.536428964989526
+      },
+      "GPT Score": {
+        "average GPTscore": 0.63
+      },
+      "bertscore": {
+        "precision": 0.5472593307495117,
+        "recall": 0.6552072167396545,
+        "f1": 0.5930254459381104
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3426870448853482
+      },
+      "GPT Score": {
+        "average GPTscore": 0.28181818181818186
+      },
+      "bertscore": {
+        "precision": 0.36342117190361023,
+        "recall": 0.4926457703113556,
+        "f1": 0.4162621796131134
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.320700408721512
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2636363636363636
+      },
+      "bertscore": {
+        "precision": 0.3647300899028778,
+        "recall": 0.49428921937942505,
+        "f1": 0.417201966047287
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.33354574805972254
+      },
+      "GPT Score": {
+        "average GPTscore": 0.390909090909091
+      },
+      "bertscore": {
+        "precision": 0.37107694149017334,
+        "recall": 0.5457847118377686,
+        "f1": 0.4382423162460327
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.28582544303075835
+      },
+      "GPT Score": {
+        "average GPTscore": 0.3727272727272728
+      },
+      "bertscore": {
+        "precision": 0.3918633460998535,
+        "recall": 0.56291663646698,
+        "f1": 0.4588370621204376
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.21465620000592686
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2863636363636364
+      },
+      "bertscore": {
+        "precision": 0.37075623869895935,
+        "recall": 0.49467021226882935,
+        "f1": 0.41992273926734924
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.3177709019827572
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2545454545454546
+      },
+      "bertscore": {
+        "precision": 0.3530019521713257,
+        "recall": 0.4795265197753906,
+        "f1": 0.40424051880836487
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.2923189892687581
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2545454545454545
+      },
+      "bertscore": {
+        "precision": 0.3587060272693634,
+        "recall": 0.49204352498054504,
+        "f1": 0.41220977902412415
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.385744616558606
+      },
+      "GPT Score": {
+        "average GPTscore": 0.4727272727272727
+      },
+      "bertscore": {
+        "precision": 0.3684639036655426,
+        "recall": 0.5378108620643616,
+        "f1": 0.43316447734832764
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.43968094208023767
+      },
+      "GPT Score": {
+        "average GPTscore": 0.48181818181818187
+      },
+      "bertscore": {
+        "precision": 0.3672455847263336,
+        "recall": 0.5387586951255798,
+        "f1": 0.43305352330207825
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5729630216956139
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5583333333333335
+      },
+      "bertscore": {
+        "precision": 0.5656411647796631,
+        "recall": 0.6426029801368713,
+        "f1": 0.6000118255615234
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5570497239629427
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5458333333333334
+      },
+      "bertscore": {
+        "precision": 0.5641334056854248,
+        "recall": 0.6422837376594543,
+        "f1": 0.5989292860031128
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.6122265954812368
+      },
+      "GPT Score": {
+        "average GPTscore": 0.725
+      },
+      "bertscore": {
+        "precision": 0.6109718680381775,
+        "recall": 0.6731216311454773,
+        "f1": 0.6373555660247803
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "tfidf_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.604041206339995
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6625
+      },
+      "bertscore": {
+        "precision": 0.6156131625175476,
+        "recall": 0.6739042401313782,
+        "f1": 0.641293466091156
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "bm25_dense",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.6072070052226385
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6666666666666666
+      },
+      "bertscore": {
+        "precision": 0.61604243516922,
+        "recall": 0.6641232967376709,
+        "f1": 0.6360228657722473
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_tfidf",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5369734639922777
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5416666666666666
+      },
+      "bertscore": {
+        "precision": 0.561184823513031,
+        "recall": 0.6282015442848206,
+        "f1": 0.591136634349823
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_bm25",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5668256990611553
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6
+      },
+      "bertscore": {
+        "precision": 0.5731871128082275,
+        "recall": 0.6465650796890259,
+        "f1": 0.6056787371635437
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_tfidf_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.6450479502479235
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7666666666666666
+      },
+      "bertscore": {
+        "precision": 0.6160754561424255,
+        "recall": 0.6677669882774353,
+        "f1": 0.6374995112419128
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "dense_bm25_parallel",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.6049814025561014
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7916666666666669
+      },
+      "bertscore": {
+        "precision": 0.5908825993537903,
+        "recall": 0.6643425226211548,
+        "f1": 0.6231096982955933
+      }
+    }
+  }
+]
