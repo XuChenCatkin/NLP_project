@@ -25,7 +25,7 @@ class CohereGenerator:
         if len(subquestions) > 1:
             for i, sub_query in enumerate(subquestions):
                 # Get top passages for this sub-question
-                top_chunks = [chunk for chunk in retrieval_results if chunk['sub_query'] == sub_query][:top_k]
+                top_chunks = [chunk for chunk in retrieval_results if chunk['query'] == sub_query][:top_k]
                 
                 context = "\n".join(
                     [f"- Passage {j+1}: {chunk['passage']}" for j, chunk in enumerate(top_chunks)]
@@ -74,7 +74,7 @@ class CohereGenerator:
 
         else:
             # Only one sub-question, generate directly
-            top_chunks = [chunk for chunk in retrieval_results if chunk['sub_query'] == origin_question][:top_k]
+            top_chunks = [chunk for chunk in retrieval_results if chunk['query'] == origin_question][:top_k]
             context = "\n".join(
                     [f"- Passage {j+1}: {chunk['passage']}" for j, chunk in enumerate(top_chunks)]
                 )
@@ -95,3 +95,20 @@ class CohereGenerator:
             final_answer = response.message.content[0].text.strip()
 
         return previous_qa, final_answer
+    def generation_answer_base(self, origin_question, max_tokens=60):
+        
+        prompt = (
+            "You are a helpful assistant specializing in answering questions about the Harry Potter series.\n"
+            "Provide concise and accurate answers based on the input you receive.\n\n"
+            f"Question: {origin_question}\n\n"
+            f"Answer:"
+        )
+
+        response = self.client.chat(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        final_answer = response.message.content[0].text.strip()
+
+        return final_answer
