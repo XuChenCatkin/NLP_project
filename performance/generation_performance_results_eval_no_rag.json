@@ -1,0 +1,82 @@
+[
+  {
+    "data_set": "easy_single",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.4210667122273224
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6250988142292483
+      },
+      "bertscore": {
+        "precision": 0.37434613704681396,
+        "recall": 0.5807653069496155,
+        "f1": 0.44789502024650574
+      }
+    }
+  },
+  {
+    "data_set": "medium_single",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.40097070608165236
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6692307692307693
+      },
+      "bertscore": {
+        "precision": 0.34399423003196716,
+        "recall": 0.5815883278846741,
+        "f1": 0.42547810077667236
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5559797593525477
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6028571428571428
+      },
+      "bertscore": {
+        "precision": 0.5309700965881348,
+        "recall": 0.648251473903656,
+        "f1": 0.5818385481834412
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.24369075064632026
+      },
+      "GPT Score": {
+        "average GPTscore": 0.2636363636363636
+      },
+      "bertscore": {
+        "precision": 0.36537739634513855,
+        "recall": 0.5013974905014038,
+        "f1": 0.42042285203933716
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5771077796816826
+      },
+      "GPT Score": {
+        "average GPTscore": 0.5708333333333333
+      },
+      "bertscore": {
+        "precision": 0.5674008131027222,
+        "recall": 0.6432422995567322,
+        "f1": 0.6015451550483704
+      }
+    }
+  }
+]

@@ -95,3 +95,20 @@ class CohereGenerator:
             final_answer = response.message.content[0].text.strip()
 
         return previous_qa, final_answer
+    def generation_answer_base(self, origin_question, max_tokens=60):
+        
+        prompt = (
+            "You are a helpful assistant specializing in answering questions about the Harry Potter series.\n"
+            "Provide concise and accurate answers based on the input you receive.\n\n"
+            f"Question: {origin_question}\n\n"
+            f"Answer:"
+        )
+
+        response = self.client.chat(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        final_answer = response.message.content[0].text.strip()
+
+        return final_answer
