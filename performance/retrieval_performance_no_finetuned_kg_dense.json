@@ -4,13 +4,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes flowers appear?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 0.3333333333333333,
-      "ndcg@5": 0.36331756126716835,
-      "ndcg@10": 0.36331756126716835
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.3333333333333333,
+      "precision@10": 0.3333333333333333,
+      "mrr": 0.5,
+      "ndcg@5": 0.24630238874073,
+      "ndcg@10": 0.24630238874073
     },
     "id": 209,
     "category": "easy_single_labeled"
@@ -20,13 +20,13 @@
     "retrieval": "KG_dense",
     "question": "Which language does Harry discover he can speak, shocking his classmates?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 1.0,
-      "ndcg@5": 0.8318724637288826,
-      "ndcg@10": 0.8318724637288826
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.0
     },
     "id": 7,
     "category": "easy_single_labeled"
@@ -40,9 +40,9 @@
       "recall@10": 0.3333333333333333,
       "precision@5": 0.2857142857142857,
       "precision@10": 0.2857142857142857,
-      "mrr": 0.5,
-      "ndcg@5": 0.33569303626165203,
-      "ndcg@10": 0.33569303626165203
+      "mrr": 1.0,
+      "ndcg@5": 0.7653606369886217,
+      "ndcg@10": 0.7653606369886217
     },
     "id": 80,
     "category": "easy_single_labeled"
@@ -68,13 +68,13 @@
     "retrieval": "KG_dense",
     "question": "Who gives Harry a Firebolt broomstick?",
     "performance": {
-      "recall@5": 0.125,
-      "recall@10": 0.125,
-      "precision@5": 0.16666666666666666,
-      "precision@10": 0.16666666666666666,
-      "mrr": 0.25,
-      "ndcg@5": 0.123151194370365,
-      "ndcg@10": 0.123151194370365
+      "recall@5": 0.375,
+      "recall@10": 0.375,
+      "precision@5": 0.375,
+      "precision@10": 0.375,
+      "mrr": 1.0,
+      "ndcg@5": 0.6951900249960509,
+      "ndcg@10": 0.6951900249960509
     },
     "id": 118,
     "category": "easy_single_labeled"
@@ -84,13 +84,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that protects against Dementors?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 1.0,
-      "ndcg@5": 0.6366824387328317,
-      "ndcg@10": 0.6366824387328317
+      "recall@5": 0.375,
+      "recall@10": 0.375,
+      "precision@5": 0.375,
+      "precision@10": 0.375,
+      "mrr": 0.625,
+      "ndcg@5": 0.40240498750197456,
+      "ndcg@10": 0.40240498750197456
     },
     "id": 185,
     "category": "easy_single_labeled"
@@ -100,13 +100,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes objects stick together?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
       "mrr": 1.0,
-      "ndcg@5": 0.8318724637288826,
-      "ndcg@10": 0.8318724637288826
+      "ndcg@5": 0.3903800499921017,
+      "ndcg@10": 0.3903800499921017
     },
     "id": 201,
     "category": "easy_single_labeled"
@@ -121,8 +121,8 @@
       "precision@5": 0.6666666666666666,
       "precision@10": 0.6666666666666666,
       "mrr": 1.0,
-      "ndcg@5": 0.7039180890341347,
-      "ndcg@10": 0.7039180890341347
+      "ndcg@5": 0.7653606369886217,
+      "ndcg@10": 0.7653606369886217
     },
     "id": 199,
     "category": "easy_single_labeled"
@@ -132,13 +132,13 @@
     "retrieval": "KG_dense",
     "question": "Which new Defense Against the Dark Arts teacher is actually a werewolf?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 1.0,
-      "ndcg@5": 0.5855700749881525,
-      "ndcg@10": 0.5855700749881525
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.0
     },
     "id": 10,
     "category": "easy_single_labeled"
@@ -148,13 +148,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of Harry Potter's owl?",
     "performance": {
-      "recall@5": 0.3333333333333333,
-      "recall@10": 0.3333333333333333,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.5,
-      "ndcg@5": 0.2960819109658652,
-      "ndcg@10": 0.2960819109658652
+      "recall@5": 0.6666666666666666,
+      "recall@10": 0.6666666666666666,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 1.0,
+      "ndcg@5": 0.6713860725233041,
+      "ndcg@10": 0.6713860725233041
     },
     "id": 31,
     "category": "easy_single_labeled"
@@ -196,13 +196,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the magical candy that makes you float?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 0.6366824387328317,
-      "ndcg@10": 0.6366824387328317
+      "ndcg@5": 1.0,
+      "ndcg@10": 1.0
     },
     "id": 228,
     "category": "easy_single_labeled"
@@ -212,13 +212,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the magical plant that strangles people?",
     "performance": {
-      "recall@5": 0.6666666666666666,
-      "recall@10": 0.6666666666666666,
-      "precision@5": 0.5714285714285714,
-      "precision@10": 0.5714285714285714,
-      "mrr": 1.0,
-      "ndcg@5": 0.7346393630113782,
-      "ndcg@10": 0.7346393630113782
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "precision@5": 0.125,
+      "precision@10": 0.125,
+      "mrr": 0.16666666666666666,
+      "ndcg@5": 0.11731968150568911,
+      "ndcg@10": 0.11731968150568911
     },
     "id": 223,
     "category": "easy_single_labeled"
@@ -228,13 +228,13 @@
     "retrieval": "KG_dense",
     "question": "What creature does Harry face in the first task of the Triwizard Tournament?",
     "performance": {
-      "recall@5": 0.625,
-      "recall@10": 0.625,
-      "precision@5": 0.625,
-      "precision@10": 0.625,
+      "recall@5": 0.375,
+      "recall@10": 0.375,
+      "precision@5": 0.375,
+      "precision@10": 0.375,
       "mrr": 1.0,
-      "ndcg@5": 0.6951900249960509,
-      "ndcg@10": 0.6951900249960509
+      "ndcg@5": 0.5135312443624667,
+      "ndcg@10": 0.5135312443624667
     },
     "id": 137,
     "category": "easy_single_labeled"
@@ -244,13 +244,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that causes a person to be revealed?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.5,
-      "ndcg@5": 0.24630238874073,
-      "ndcg@10": 0.24630238874073
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 1.0,
+      "ndcg@5": 0.6366824387328317,
+      "ndcg@10": 0.6366824387328317
     },
     "id": 69,
     "category": "easy_single_labeled"
@@ -260,13 +260,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the first person to greet Harry at Platform Nine and Three-Quarters?",
     "performance": {
-      "recall@5": 0.3333333333333333,
-      "recall@10": 0.3333333333333333,
-      "precision@5": 0.3333333333333333,
-      "precision@10": 0.3333333333333333,
-      "mrr": 1.0,
-      "ndcg@5": 0.46927872602275644,
-      "ndcg@10": 0.46927872602275644
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.375,
+      "precision@10": 0.375,
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.33569303626165203,
+      "ndcg@10": 0.33569303626165203
     },
     "id": 198,
     "category": "easy_single_labeled"
@@ -276,13 +276,13 @@
     "retrieval": "KG_dense",
     "question": "Which big sporting event do Harry and the Weasleys attend before returning to Hogwarts?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 1.0,
-      "ndcg@5": 0.5855700749881525,
-      "ndcg@10": 0.5855700749881525
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.0
     },
     "id": 16,
     "category": "easy_single_labeled"
@@ -292,13 +292,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that controls fire?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 0.3333333333333333,
-      "ndcg@5": 0.36331756126716835,
-      "ndcg@10": 0.36331756126716835
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.25,
+      "ndcg@5": 0.16812753627111746,
+      "ndcg@10": 0.16812753627111746
     },
     "id": 97,
     "category": "easy_single_labeled"
@@ -308,13 +308,13 @@
     "retrieval": "KG_dense",
     "question": "Which book does Dumbledore leave to Hermione in his will?",
     "performance": {
-      "recall@5": 1.0,
-      "recall@10": 1.0,
-      "precision@5": 1.0,
-      "precision@10": 1.0,
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
       "mrr": 1.0,
-      "ndcg@5": 1.0,
-      "ndcg@10": 1.0
+      "ndcg@5": 0.3903800499921017,
+      "ndcg@10": 0.3903800499921017
     },
     "id": 25,
     "category": "easy_single_labeled"
@@ -356,13 +356,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the librarian at Hogwarts?",
     "performance": {
-      "recall@5": 0.0,
-      "recall@10": 0.0,
-      "precision@5": 0.0,
-      "precision@10": 0.0,
-      "mrr": 0.0,
-      "ndcg@5": 0.0,
-      "ndcg@10": 0.0
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "precision@5": 0.75,
+      "precision@10": 0.75,
+      "mrr": 1.0,
+      "ndcg@5": 0.9060254355346823,
+      "ndcg@10": 0.9060254355346823
     },
     "id": 121,
     "category": "easy_single_labeled"
@@ -377,8 +377,8 @@
       "precision@5": 0.5,
       "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 0.5855700749881525,
-      "ndcg@10": 0.5855700749881525
+      "ndcg@5": 0.6366824387328317,
+      "ndcg@10": 0.6366824387328317
     },
     "id": 153,
     "category": "easy_single_labeled"
@@ -388,13 +388,13 @@
     "retrieval": "KG_dense",
     "question": "What is the core of Harry Potter's wand?",
     "performance": {
-      "recall@5": 0.3333333333333333,
-      "recall@10": 0.3333333333333333,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.6666666666666666,
-      "ndcg@5": 0.35195904451706733,
-      "ndcg@10": 0.35195904451706733
+      "recall@5": 0.6666666666666666,
+      "recall@10": 0.6666666666666666,
+      "precision@5": 0.5714285714285714,
+      "precision@10": 0.5714285714285714,
+      "mrr": 1.0,
+      "ndcg@5": 0.7039180890341347,
+      "ndcg@10": 0.7039180890341347
     },
     "id": 34,
     "category": "easy_single_labeled"
@@ -404,13 +404,13 @@
     "retrieval": "KG_dense",
     "question": "What magical object helps Harry breathe underwater in the Triwizard Tournament?",
     "performance": {
-      "recall@5": 1.0,
-      "recall@10": 1.0,
-      "precision@5": 1.0,
-      "precision@10": 1.0,
-      "mrr": 1.0,
-      "ndcg@5": 1.0,
-      "ndcg@10": 1.0
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.36331756126716835,
+      "ndcg@10": 0.36331756126716835
     },
     "id": 125,
     "category": "easy_single_labeled"
@@ -420,13 +420,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes objects stretch?",
     "performance": {
-      "recall@5": 0.375,
-      "recall@10": 0.375,
-      "precision@5": 0.375,
-      "precision@10": 0.375,
-      "mrr": 0.625,
-      "ndcg@5": 0.3633175612671683,
-      "ndcg@10": 0.3633175612671683
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 0.75,
+      "ndcg@5": 0.5,
+      "ndcg@10": 0.5
     },
     "id": 251,
     "category": "easy_single_labeled"
@@ -452,10 +452,10 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the magical bus that rescues Harry from Privet Drive?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
+      "recall@5": 0.75,
+      "recall@10": 0.75,
+      "precision@5": 0.75,
+      "precision@10": 0.75,
       "mrr": 1.0,
       "ndcg@5": 0.8318724637288826,
       "ndcg@10": 0.8318724637288826
@@ -468,13 +468,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes a loud noise?",
     "performance": {
-      "recall@5": 0.4166666666666667,
-      "recall@10": 0.4166666666666667,
-      "precision@5": 0.4166666666666667,
-      "precision@10": 0.4166666666666667,
-      "mrr": 0.5833333333333334,
-      "ndcg@5": 0.44541835751407827,
-      "ndcg@10": 0.44541835751407827
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.6666666666666666,
+      "ndcg@5": 0.3253167083267514,
+      "ndcg@10": 0.3253167083267514
     },
     "id": 181,
     "category": "easy_single_labeled"
@@ -486,11 +486,11 @@
     "performance": {
       "recall@5": 0.3333333333333333,
       "recall@10": 0.3333333333333333,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.5,
-      "ndcg@5": 0.5307212739772434,
-      "ndcg@10": 0.5307212739772434
+      "precision@5": 0.3333333333333333,
+      "precision@10": 0.3333333333333333,
+      "mrr": 1.0,
+      "ndcg@5": 0.46927872602275644,
+      "ndcg@10": 0.46927872602275644
     },
     "id": 174,
     "category": "easy_single_labeled"
@@ -500,13 +500,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes light?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.41666666666666663,
-      "ndcg@5": 0.22074620686839042,
-      "ndcg@10": 0.22074620686839042
+      "recall@5": 0.125,
+      "recall@10": 0.125,
+      "precision@5": 0.125,
+      "precision@10": 0.125,
+      "mrr": 0.25,
+      "ndcg@5": 0.123151194370365,
+      "ndcg@10": 0.123151194370365
     },
     "id": 98,
     "category": "easy_single_labeled"
@@ -516,13 +516,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes objects fly away?",
     "performance": {
-      "recall@5": 0.375,
-      "recall@10": 0.375,
-      "precision@5": 0.375,
-      "precision@10": 0.375,
-      "mrr": 0.6666666666666666,
-      "ndcg@5": 0.4159362318644413,
-      "ndcg@10": 0.4159362318644413
+      "recall@5": 0.125,
+      "recall@10": 0.125,
+      "precision@5": 0.125,
+      "precision@10": 0.125,
+      "mrr": 0.5,
+      "ndcg@5": 0.19519002499605084,
+      "ndcg@10": 0.19519002499605084
     },
     "id": 149,
     "category": "easy_single_labeled"
@@ -532,13 +532,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that makes objects shrink?",
     "performance": {
-      "recall@5": 0.5833333333333334,
-      "recall@10": 0.5833333333333334,
-      "precision@5": 0.5833333333333334,
-      "precision@10": 0.5833333333333334,
-      "mrr": 1.0,
-      "ndcg@5": 0.7146925537504573,
-      "ndcg@10": 0.7146925537504573
+      "recall@5": 0.08333333333333333,
+      "recall@10": 0.08333333333333333,
+      "precision@5": 0.1111111111111111,
+      "precision@10": 0.1111111111111111,
+      "mrr": 0.1111111111111111,
+      "ndcg@5": 0.06506334166535029,
+      "ndcg@10": 0.06506334166535029
     },
     "id": 247,
     "category": "easy_single_labeled"
@@ -552,9 +552,9 @@
       "recall@10": 0.3333333333333333,
       "precision@5": 0.3333333333333333,
       "precision@10": 0.3333333333333333,
-      "mrr": 1.0,
-      "ndcg@5": 0.7653606369886217,
-      "ndcg@10": 0.7653606369886217
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.23463936301137822,
+      "ndcg@10": 0.23463936301137822
     },
     "id": 221,
     "category": "easy_single_labeled"
@@ -569,8 +569,8 @@
       "precision@5": 0.5,
       "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 1.0,
-      "ndcg@10": 1.0
+      "ndcg@5": 0.8318724637288826,
+      "ndcg@10": 0.8318724637288826
     },
     "id": 26,
     "category": "easy_single_labeled"
@@ -612,13 +612,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that causes a person to be tortured?",
     "performance": {
-      "recall@5": 0.0,
-      "recall@10": 0.0,
-      "precision@5": 0.0,
-      "precision@10": 0.0,
-      "mrr": 0.0,
-      "ndcg@5": 0.0,
-      "ndcg@10": 0.0
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 1.0,
+      "ndcg@5": 0.8048099750039491,
+      "ndcg@10": 0.8048099750039491
     },
     "id": 76,
     "category": "easy_single_labeled"
@@ -628,13 +628,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the head of Ravenclaw house?",
     "performance": {
-      "recall@5": 0.6666666666666666,
-      "recall@10": 0.6666666666666666,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 0.5,
-      "ndcg@5": 0.49818925746641285,
-      "ndcg@10": 0.49818925746641285
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.3333333333333333,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.25,
+      "ndcg@5": 0.20210734650054757,
+      "ndcg@10": 0.20210734650054757
     },
     "id": 138,
     "category": "easy_single_labeled"
@@ -676,13 +676,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the Gryffindor girl who loves fashion?",
     "performance": {
-      "recall@5": 0.0,
-      "recall@10": 0.0,
-      "precision@5": 0.0,
-      "precision@10": 0.0,
-      "mrr": 0.0,
-      "ndcg@5": 0.0,
-      "ndcg@10": 0.0
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.3333333333333333,
+      "precision@10": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.19519002499605084,
+      "ndcg@10": 0.19519002499605084
     },
     "id": 237,
     "category": "easy_single_labeled"
@@ -692,13 +692,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the ghost of Ravenclaw house?",
     "performance": {
-      "recall@5": 0.0,
-      "recall@10": 0.0,
-      "precision@5": 0.0,
-      "precision@10": 0.0,
-      "mrr": 0.0,
-      "ndcg@5": 0.0,
-      "ndcg@10": 0.0
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 1.0,
+      "ndcg@5": 0.6366824387328317,
+      "ndcg@10": 0.6366824387328317
     },
     "id": 163,
     "category": "easy_single_labeled"
@@ -712,9 +712,9 @@
       "recall@10": 0.3333333333333333,
       "precision@5": 0.25,
       "precision@10": 0.25,
-      "mrr": 0.5,
-      "ndcg@5": 0.49818925746641285,
-      "ndcg@10": 0.49818925746641285
+      "mrr": 0.25,
+      "ndcg@5": 0.20210734650054757,
+      "ndcg@10": 0.20210734650054757
     },
     "id": 46,
     "category": "easy_single_labeled"
@@ -724,13 +724,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that causes a person to be protected?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.3333333333333333,
-      "ndcg@5": 0.19519002499605084,
-      "ndcg@10": 0.19519002499605084
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.0
     },
     "id": 67,
     "category": "easy_single_labeled"
@@ -745,8 +745,8 @@
       "precision@5": 0.5,
       "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 0.5585075862632192,
-      "ndcg@10": 0.5585075862632192
+      "ndcg@5": 0.5855700749881525,
+      "ndcg@10": 0.5855700749881525
     },
     "id": 17,
     "category": "easy_single_labeled"
@@ -772,13 +772,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the Ravenclaw girl who wears radish earrings?",
     "performance": {
-      "recall@5": 0.75,
-      "recall@10": 0.75,
-      "precision@5": 0.75,
-      "precision@10": 0.75,
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 1.0,
-      "ndcg@10": 1.0
+      "ndcg@5": 0.6366824387328317,
+      "ndcg@10": 0.6366824387328317
     },
     "id": 206,
     "category": "easy_single_labeled"
@@ -788,13 +788,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the Gryffindor boy who loves photography?",
     "performance": {
-      "recall@5": 1.0,
-      "recall@10": 1.0,
-      "precision@5": 1.0,
-      "precision@10": 1.0,
-      "mrr": 1.0,
-      "ndcg@5": 1.0,
-      "ndcg@10": 1.0
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.3333333333333333,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.4367467095119258,
+      "ndcg@10": 0.4367467095119258
     },
     "id": 200,
     "category": "easy_single_labeled"
@@ -804,13 +804,13 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the spell that lifts objects into the air upside and down?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.7777777777777777,
-      "ndcg@5": 0.44642256208247416,
-      "ndcg@10": 0.44642256208247416
+      "recall@5": 0.4166666666666667,
+      "recall@10": 0.4166666666666667,
+      "precision@5": 0.45454545454545453,
+      "precision@10": 0.45454545454545453,
+      "mrr": 0.8333333333333334,
+      "ndcg@5": 0.4804974712455936,
+      "ndcg@10": 0.4804974712455936
     },
     "id": 177,
     "category": "easy_single_labeled"
@@ -820,13 +820,13 @@
     "retrieval": "KG_dense",
     "question": "Who teaches Potions in Harry's sixth year?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
       "mrr": 1.0,
-      "ndcg@5": 0.5585075862632192,
-      "ndcg@10": 0.5585075862632192
+      "ndcg@5": 0.3903800499921017,
+      "ndcg@10": 0.3903800499921017
     },
     "id": 41,
     "category": "medium_single_labeled"
@@ -836,13 +836,13 @@
     "retrieval": "KG_dense",
     "question": "What position does Percy Weasley take at the Ministry of Magic?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 1.0,
-      "ndcg@5": 0.3903800499921017,
-      "ndcg@10": 0.3903800499921017
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.0
     },
     "id": 23,
     "category": "medium_single_labeled"
@@ -868,13 +868,13 @@
     "retrieval": "KG_dense",
     "question": "Who becomes the Gryffindor Quidditch captain after Oliver Wood?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.2857142857142857,
-      "precision@10": 0.2857142857142857,
-      "mrr": 0.5,
-      "ndcg@5": 0.4159362318644413,
-      "ndcg@10": 0.4159362318644413
+      "recall@5": 0.125,
+      "recall@10": 0.125,
+      "precision@5": 0.125,
+      "precision@10": 0.125,
+      "mrr": 0.25,
+      "ndcg@5": 0.123151194370365,
+      "ndcg@10": 0.123151194370365
     },
     "id": 89,
     "category": "medium_single_labeled"
@@ -900,13 +900,13 @@
     "retrieval": "KG_dense",
     "question": "What object does Harry use to summon his broom during the first task?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.5,
-      "ndcg@5": 0.24630238874073,
-      "ndcg@10": 0.24630238874073
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 1.0,
+      "ndcg@5": 0.5855700749881525,
+      "ndcg@10": 0.5855700749881525
     },
     "id": 27,
     "category": "medium_single_labeled"
@@ -916,13 +916,13 @@
     "retrieval": "KG_dense",
     "question": "What potion does Harry use to disguise himself as Goyle?",
     "performance": {
-      "recall@5": 0.375,
-      "recall@10": 0.375,
-      "precision@5": 0.375,
-      "precision@10": 0.375,
-      "mrr": 0.6666666666666666,
-      "ndcg@5": 0.5975950124980255,
-      "ndcg@10": 0.5975950124980255
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
+      "mrr": 1.0,
+      "ndcg@5": 0.8183412193664159,
+      "ndcg@10": 0.8183412193664159
     },
     "id": 40,
     "category": "medium_single_labeled"
@@ -950,11 +950,11 @@
     "performance": {
       "recall@5": 0.25,
       "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 0.75369761125927,
-      "ndcg@10": 0.75369761125927
+      "ndcg@5": 0.3903800499921017,
+      "ndcg@10": 0.3903800499921017
     },
     "id": 11,
     "category": "medium_single_labeled"
@@ -964,10 +964,10 @@
     "retrieval": "KG_dense",
     "question": "What is the name of the charm that repels water?",
     "performance": {
-      "recall@5": 0.375,
-      "recall@10": 0.375,
-      "precision@5": 0.375,
-      "precision@10": 0.375,
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5714285714285714,
+      "precision@10": 0.5714285714285714,
       "mrr": 1.0,
       "ndcg@5": 0.6111262568604922,
       "ndcg@10": 0.6111262568604922
@@ -984,9 +984,9 @@
       "recall@10": 0.5,
       "precision@5": 0.5,
       "precision@10": 0.5,
-      "mrr": 0.3333333333333333,
-      "ndcg@5": 0.36331756126716835,
-      "ndcg@10": 0.36331756126716835
+      "mrr": 1.0,
+      "ndcg@5": 0.6366824387328317,
+      "ndcg@10": 0.6366824387328317
     },
     "id": 86,
     "category": "medium_single_labeled"
@@ -1001,8 +1001,8 @@
       "precision@5": 0.5833333333333334,
       "precision@10": 0.5833333333333334,
       "mrr": 1.0,
-      "ndcg@5": 0.701745780398182,
-      "ndcg@10": 0.701745780398182
+      "ndcg@5": 0.7577882924885545,
+      "ndcg@10": 0.7577882924885545
     },
     "id": 36,
     "category": "medium_single_labeled"
@@ -1012,13 +1012,13 @@
     "retrieval": "KG_dense",
     "question": "What creature does Hagrid breed?",
     "performance": {
-      "recall@5": 0.375,
-      "recall@10": 0.375,
-      "precision@5": 0.375,
-      "precision@10": 0.375,
-      "mrr": 0.41666666666666663,
-      "ndcg@5": 0.3048099750039492,
-      "ndcg@10": 0.3048099750039492
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5714285714285714,
+      "precision@10": 0.5714285714285714,
+      "mrr": 1.0,
+      "ndcg@5": 0.6951900249960509,
+      "ndcg@10": 0.6951900249960509
     },
     "id": 71,
     "category": "medium_single_labeled"
@@ -1028,13 +1028,13 @@
     "retrieval": "KG_dense",
     "question": "What object does Hermione use to destroy Hufflepuff's Cup?",
     "performance": {
-      "recall@5": 1.0,
-      "recall@10": 1.0,
-      "precision@5": 1.0,
-      "precision@10": 1.0,
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
       "mrr": 1.0,
-      "ndcg@5": 1.0,
-      "ndcg@10": 1.0
+      "ndcg@5": 0.3903800499921017,
+      "ndcg@10": 0.3903800499921017
     },
     "id": 63,
     "category": "medium_single_labeled"
@@ -1048,9 +1048,9 @@
       "recall@10": 0.25,
       "precision@5": 0.25,
       "precision@10": 0.25,
-      "mrr": 0.5,
-      "ndcg@5": 0.24630238874073,
-      "ndcg@10": 0.24630238874073
+      "mrr": 0.3333333333333333,
+      "ndcg@5": 0.19519002499605084,
+      "ndcg@10": 0.19519002499605084
     },
     "id": 13,
     "category": "medium_single_labeled"
@@ -1060,13 +1060,13 @@
     "retrieval": "KG_dense",
     "question": "Which Quidditch position does Ron Weasley play for Gryffindor?",
     "performance": {
-      "recall@5": 0.5,
-      "recall@10": 0.5,
-      "precision@5": 0.5,
-      "precision@10": 0.5,
-      "mrr": 0.5,
-      "ndcg@5": 0.4144299250118475,
-      "ndcg@10": 0.4144299250118475
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.3333333333333333,
+      "precision@10": 0.3333333333333333,
+      "mrr": 1.0,
+      "ndcg@5": 0.3903800499921017,
+      "ndcg@10": 0.3903800499921017
     },
     "id": 5,
     "category": "medium_single_labeled"
@@ -1092,13 +1092,13 @@
     "retrieval": "KG_dense",
     "question": "Who is the ghost of Ravenclaw Tower?",
     "performance": {
-      "recall@5": 0.75,
-      "recall@10": 0.75,
-      "precision@5": 0.75,
-      "precision@10": 0.75,
+      "recall@5": 0.5,
+      "recall@10": 0.5,
+      "precision@5": 0.5,
+      "precision@10": 0.5,
       "mrr": 1.0,
-      "ndcg@5": 0.8048099750039491,
-      "ndcg@10": 0.8048099750039491
+      "ndcg@5": 0.6366824387328317,
+      "ndcg@10": 0.6366824387328317
     },
     "id": 29,
     "category": "medium_single_labeled"
@@ -1124,13 +1124,13 @@
     "retrieval": "KG_dense",
     "question": "What does Harry learn about the invisibility cloak in the first book, and how does this knowledge shape his actions in the seventh book?",
     "performance": {
-      "recall@5": 0.2857142857142857,
-      "recall@10": 0.2857142857142857,
-      "precision@5": 0.2857142857142857,
-      "precision@10": 0.2857142857142857,
-      "mrr": 0.41666666666666663,
-      "ndcg@5": 0.24563596798095805,
-      "ndcg@10": 0.24563596798095805
+      "recall@5": 0.42857142857142855,
+      "recall@10": 0.42857142857142855,
+      "precision@5": 0.375,
+      "precision@10": 0.375,
+      "mrr": 0.75,
+      "ndcg@5": 0.46638217484934846,
+      "ndcg@10": 0.46638217484934846
     },
     "id": 27,
     "category": "medium_multi_labeled"
@@ -1140,13 +1140,13 @@
     "retrieval": "KG_dense",
     "question": "What secret does Harry uncover about Tom Riddle in the second book, and how does it impact his actions in the sixth book?",
     "performance": {
-      "recall@5": 0.4166666666666667,
-      "recall@10": 0.4166666666666667,
-      "precision@5": 0.4166666666666667,
-      "precision@10": 0.4166666666666667,
-      "mrr": 0.6666666666666666,
-      "ndcg@5": 0.5195025287544064,
-      "ndcg@10": 0.5195025287544064
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.3333333333333333,
+      "precision@5": 0.3333333333333333,
+      "precision@10": 0.3333333333333333,
+      "mrr": 0.7777777777777778,
+      "ndcg@5": 0.44642256208247416,
+      "ndcg@10": 0.44642256208247416
     },
     "id": 14,
     "category": "medium_multi_labeled"
@@ -1156,13 +1156,13 @@
     "retrieval": "KG_dense",
     "question": "In the third book, what does Harry learn about the map, and how does it aid him in the sixth book?",
     "performance": {
-      "recall@5": 0.0,
-      "recall@10": 0.0,
-      "precision@5": 0.0,
-      "precision@10": 0.0,
-      "mrr": 0.0,
-      "ndcg@5": 0.0,
-      "ndcg@10": 0.0
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.5,
+      "ndcg@5": 0.24630238874073,
+      "ndcg@10": 0.24630238874073
     },
     "id": 25,
     "category": "medium_multi_labeled"
@@ -1188,13 +1188,13 @@
     "retrieval": "KG_dense",
     "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
     "performance": {
-      "recall@5": 0.08333333333333333,
-      "recall@10": 0.08333333333333333,
-      "precision@5": 0.1,
-      "precision@10": 0.1,
-      "mrr": 0.08333333333333333,
-      "ndcg@5": 0.05604251209037248,
-      "ndcg@10": 0.05604251209037248
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.75,
+      "ndcg@5": 0.44642256208247416,
+      "ndcg@10": 0.44642256208247416
     },
     "id": 16,
     "category": "medium_multi_labeled"
@@ -1206,11 +1206,11 @@
     "performance": {
       "recall@5": 0.25,
       "recall@10": 0.25,
-      "precision@5": 0.3333333333333333,
-      "precision@10": 0.3333333333333333,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
       "mrr": 0.75,
-      "ndcg@5": 0.31834121936641585,
-      "ndcg@10": 0.31834121936641585
+      "ndcg@5": 0.5,
+      "ndcg@10": 0.5
     },
     "id": 30,
     "category": "medium_multi_labeled"
@@ -1220,13 +1220,13 @@
     "retrieval": "KG_dense",
     "question": "What does Harry witness in the Pensieve in the fourth book, and how does it foreshadow an event in the sixth book?",
     "performance": {
-      "recall@5": 0.26666666666666666,
-      "recall@10": 0.26666666666666666,
-      "precision@5": 0.26666666666666666,
-      "precision@10": 0.26666666666666666,
-      "mrr": 0.4277777777777778,
-      "ndcg@5": 0.31851649908526775,
-      "ndcg@10": 0.31851649908526775
+      "recall@5": 0.25,
+      "recall@10": 0.25,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.5666666666666667,
+      "ndcg@5": 0.33772685391878393,
+      "ndcg@10": 0.33772685391878393
     },
     "id": 20,
     "category": "medium_multi_labeled"
@@ -1236,13 +1236,13 @@
     "retrieval": "KG_dense",
     "question": "Which creature's behavior in the forest contradicts its usual nature, hinting at a hidden protector?",
     "performance": {
-      "recall@5": 0.3333333333333333,
-      "recall@10": 0.3333333333333333,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.25,
-      "ndcg@5": 0.20210734650054757,
-      "ndcg@10": 0.20210734650054757
+      "recall@5": 0.6666666666666666,
+      "recall@10": 0.6666666666666666,
+      "precision@5": 0.5714285714285714,
+      "precision@10": 0.5714285714285714,
+      "mrr": 1.0,
+      "ndcg@5": 0.7346393630113782,
+      "ndcg@10": 0.7346393630113782
     },
     "id": 6,
     "category": "hard_single_labeled"
@@ -1252,13 +1252,13 @@
     "retrieval": "KG_dense",
     "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
     "performance": {
-      "recall@5": 0.16666666666666666,
-      "recall@10": 0.16666666666666666,
-      "precision@5": 0.125,
-      "precision@10": 0.125,
-      "mrr": 0.5,
-      "ndcg@5": 0.38268031849431083,
-      "ndcg@10": 0.38268031849431083
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.3333333333333333,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.16666666666666666,
+      "ndcg@5": 0.2183733547559629,
+      "ndcg@10": 0.2183733547559629
     },
     "id": 1,
     "category": "hard_single_labeled"
@@ -1268,13 +1268,13 @@
     "retrieval": "KG_dense",
     "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
     "performance": {
-      "recall@5": 0.25,
-      "recall@10": 0.25,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.3333333333333333,
-      "ndcg@5": 0.19519002499605084,
-      "ndcg@10": 0.19519002499605084
+      "recall@5": 0.75,
+      "recall@10": 0.75,
+      "precision@5": 0.75,
+      "precision@10": 0.75,
+      "mrr": 1.0,
+      "ndcg@5": 0.8048099750039491,
+      "ndcg@10": 0.8048099750039491
     },
     "id": 10,
     "category": "hard_single_labeled"
@@ -1284,13 +1284,13 @@
     "retrieval": "KG_dense",
     "question": "How does the portrayal of the Dursley family contrast with the magical world, and what impact does this have on Harry's character?",
     "performance": {
-      "recall@5": 0.2,
-      "recall@10": 0.2,
-      "precision@5": 0.125,
-      "precision@10": 0.125,
-      "mrr": 0.5,
-      "ndcg@5": 0.23463936301137822,
-      "ndcg@10": 0.23463936301137822
+      "recall@5": 0.4,
+      "recall@10": 0.4,
+      "precision@5": 0.25,
+      "precision@10": 0.25,
+      "mrr": 0.625,
+      "ndcg@5": 0.3666734242976737,
+      "ndcg@10": 0.3666734242976737
     },
     "id": 11,
     "category": "hard_multi_labeled"
@@ -1300,13 +1300,13 @@
     "retrieval": "KG_dense",
     "question": "What role does Hagrid play in transforming Harry's fate, and how is his character introduced in the narrative?",
     "performance": {
-      "recall@5": 0.3333333333333333,
-      "recall@10": 0.3333333333333333,
-      "precision@5": 0.25,
-      "precision@10": 0.25,
-      "mrr": 0.25,
-      "ndcg@5": 0.2653606369886217,
-      "ndcg@10": 0.2653606369886217
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "mrr": 0.0,
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.0
     },
     "id": 10,
     "category": "hard_multi_labeled"
@@ -1316,13 +1316,13 @@
     "retrieval": "KG_dense",
     "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
     "performance": {
-      "recall@5": 0.42857142857142855,
-      "recall@10": 0.42857142857142855,
-      "precision@5": 0.42857142857142855,
-      "precision@10": 0.42857142857142855,
-      "mrr": 1.0,
-      "ndcg@5": 0.7850853059962855,
-      "ndcg@10": 0.7850853059962855
+      "recall@5": 0.14285714285714285,
+      "recall@10": 0.14285714285714285,
+      "precision@5": 0.125,
+      "precision@10": 0.125,
+      "mrr": 0.5,
+      "ndcg@5": 0.19519002499605084,
+      "ndcg@10": 0.19519002499605084
     },
     "id": 1,
     "category": "hard_multi_labeled"
