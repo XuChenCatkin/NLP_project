@@ -1,0 +1,72 @@
+[
+    {
+        "dataset": "easy_single",
+        "sas": {
+            "mean_similarity": 0.3850033020806819
+        },
+        "GPT Score": {
+            "average GPTscore": 0.5460474308300396
+        },
+        "bertscore": {
+            "precision": 0.3570389747619629,
+            "recall": 0.5559531450271606,
+            "f1": 0.4287292957305908
+        }
+    },
+    {
+        "dataset": "medium_single",
+        "sas": {
+            "mean_similarity": 0.30863924327582776
+        },
+        "GPT Score": {
+            "average GPTscore": 0.5516483516483517
+        },
+        "bertscore": {
+            "precision": 0.3571709394454956,
+            "recall": 0.5621165037155151,
+            "f1": 0.4309832453727722
+        }
+    },
+    {
+        "dataset": "medium_multi",
+        "sas": {
+            "mean_similarity": 0.4981065720319748
+        },
+        "GPT Score": {
+            "average GPTscore": 0.4357142857142857
+        },
+        "bertscore": {
+            "precision": 0.5657804012298584,
+            "recall": 0.6205782294273376,
+            "f1": 0.5887861847877502
+        }
+    },
+    {
+        "dataset": "hard_single",
+        "sas": {
+            "mean_similarity": 0.10577626077627594
+        },
+        "GPT Score": {
+            "average GPTscore": 0.23636363636363636
+        },
+        "bertscore": {
+            "precision": 0.38121750950813293,
+            "recall": 0.4877602458000183,
+            "f1": 0.42608442902565
+        }
+    },
+    {
+        "dataset": "hard_multi",
+        "sas": {
+            "mean_similarity": 0.5367578193545341
+        },
+        "GPT Score": {
+            "average GPTscore": 0.5
+        },
+        "bertscore": {
+            "precision": 0.6379678249359131,
+            "recall": 0.6367091536521912,
+            "f1": 0.6362115740776062
+        }
+    }
+]
