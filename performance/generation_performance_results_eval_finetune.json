@@ -848,5 +848,73 @@
         "f1": 0.6236291527748108
       }
     }
+  },
+  {
+    "data_set": "easy_single",
+    "generation_model": "KG_on_fly",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.47299593545334495
+      },
+      "GPT Score": {
+        "average GPTscore": 0.7509881422924907
+      },
+      "bertscore": {
+        "precision": 0.3684168756008148,
+        "recall": 0.6338720321655273,
+        "f1": 0.46054813265800476
+      }
+    }
+  },
+  {
+    "data_set": "hard_multi",
+    "generation_model": "KG_on_fly",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.619868149360021
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6749999999999999
+      },
+      "bertscore": {
+        "precision": 0.6496057510375977,
+        "recall": 0.6541162729263306,
+        "f1": 0.6504945755004883
+      }
+    }
+  },
+  {
+    "data_set": "hard_single",
+    "generation_model": "KG_on_fly",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.2136266024952585
+      },
+      "GPT Score": {
+        "average GPTscore": 0.40909090909090917
+      },
+      "bertscore": {
+        "precision": 0.4179324209690094,
+        "recall": 0.5460755825042725,
+        "f1": 0.47033926844596863
+      }
+    }
+  },
+  {
+    "data_set": "medium_multi",
+    "generation_model": "KG_on_fly",
+    "performance": {
+      "sas": {
+        "mean_similarity": 0.5698200481278556
+      },
+      "GPT Score": {
+        "average GPTscore": 0.6257142857142857
+      },
+      "bertscore": {
+        "precision": 0.5768910646438599,
+        "recall": 0.6307904720306396,
+        "f1": 0.600296676158905
+      }
+    }
   }
 ]
