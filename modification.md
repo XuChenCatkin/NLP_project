@@ -7,3 +7,5 @@
     - current code only did the question embedding once and not update after that
 2. clean the repo and remove the useless files
 3. adding the parser/unified python file that can run directly.
+4. test file and Jupyter notebooks for explaining
+5. Requirements
