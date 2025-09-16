@@ -8,3 +8,4 @@ key.env
 checkpoints/
 logs/
 wandb/
+rag-dual/
