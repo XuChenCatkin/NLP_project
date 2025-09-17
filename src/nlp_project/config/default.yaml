@@ -1,0 +1,10 @@
+seed: 42
+logging:
+  level: INFO
+paths:
+  data_dir: data
+  artifacts_dir: artifacts
+embeddings:
+  model_name: BAAI/bge-base-en-v1.5
+retrieval:
+  top_k: 5

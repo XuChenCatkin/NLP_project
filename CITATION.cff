@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: NLP_project
+message: If you use this software, please cite it.
+authors:
+  - family-names: Xu
+    given-names: Chen
+license: MIT
+version: 0.1.0
