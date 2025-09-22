@@ -20,6 +20,7 @@ import wandb
 import logging
 from utils import create_logger
 
+from tqdm import tqdm
 import time
 import faiss
 
@@ -92,9 +93,9 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 2,
+    "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "xiangzhang350-ucl",
+    "wandbusername": "chenjiakangmicro-ucl",
     "epochs": 30,
     "margin": 0.3,              # not used by MNRL
     "test_size": 0.2,
@@ -427,7 +428,7 @@ def train(run_args, logger: logging.Logger):
     doc_encoder.train()
 
     global_step = 0
-    for epoch in range(run_args.epochs):
+    for epoch in tqdm(range(run_args.epochs)):
         epoch_loss = 0.0
         t0 = time.time()
         for batch_idx, (features, _labels) in enumerate(train_dataloader):
@@ -467,11 +468,11 @@ def train(run_args, logger: logging.Logger):
                 })
 
         epoch_time = time.time() - t0
-        with torch.no_grad():
-            eval_scores = evaluate_ir(query_encoder, doc_encoder, test_query_map, corpus_map, test_relevant_map, ks=(1,5,10))
+        # with torch.no_grad():
+            # eval_scores = evaluate_ir(query_encoder, doc_encoder, test_query_map, corpus_map, test_relevant_map, ks=(1,5,10))
         # wandb.log({ "epoch": epoch})
         wandb.log({
-                   **{f"eval_{k}": v for k, v in eval_scores.items()},
+                #    **{f"eval_{k}": v for k, v in eval_scores.items()},
                    "epoch_avg_loss": epoch_loss / max(1, len(train_dataloader)),
                    "epoch_time_sec": epoch_time,
                    "epoch": epoch})
@@ -481,8 +482,8 @@ def train(run_args, logger: logging.Logger):
     doc_encoder.eval()
 
     logger.info("Evaluating model (IR Recall@K)")
-    # eval_scores = evaluate_ir(query_encoder, doc_encoder, test_query_map, corpus_map, test_relevant_map, ks=(1,5,10))
-    # wandb.log({**{f"eval_{k}": v for k, v in eval_scores.items()}, "epoch": run_args.epochs})
+    eval_scores = evaluate_ir(query_encoder, doc_encoder, test_query_map, corpus_map, test_relevant_map, ks=(1,5,10))
+    wandb.log({**{f"eval_{k}": v for k, v in eval_scores.items()}, "epoch": run_args.epochs})
 
     wandb.finish()
 

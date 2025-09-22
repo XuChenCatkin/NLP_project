@@ -1,0 +1,1179 @@
+[
+  {
+    "path": "D:\\NLP_project-1\\file_track.py",
+    "lines": 3,
+    "has_main": true,
+    "functions": [
+      "analyze_py",
+      "walk_repo",
+      "main",
+      "row"
+    ],
+    "classes": [],
+    "imports": [
+      "ast",
+      "collections",
+      "json",
+      "os",
+      "typing"
+    ],
+    "io_calls": [
+      "pd.read_parquet",
+      "pd.read_csv",
+      "pd.read_json",
+      "json.load",
+      "json.dump",
+      "pandas.read_parquet",
+      "pandas.read_csv",
+      "pandas.read_json",
+      "open"
+    ],
+    "argparse": true,
+    "typer": true,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\KG_retrieval.py",
+    "lines": 18,
+    "has_main": true,
+    "functions": [
+      "process_gpt",
+      "find_chunk_id",
+      "augment_subqueries",
+      "KG_on_the_fly"
+    ],
+    "classes": [],
+    "imports": [
+      "collections",
+      "json",
+      "openai",
+      "string"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\NER.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [
+      "datasets",
+      "transformers",
+      "utils"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\QA.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [
+      "datasets",
+      "transformers",
+      "utils"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\QO.py",
+    "lines": 2,
+    "has_main": false,
+    "functions": [
+      "__init__",
+      "generate"
+    ],
+    "classes": [
+      "MyLLM"
+    ],
+    "imports": [
+      "cohere",
+      "dotenv",
+      "os",
+      "utils"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\QO_to_files.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "process_and_save_queries",
+      "__init__",
+      "generate"
+    ],
+    "classes": [
+      "MyLLM"
+    ],
+    "imports": [
+      "cohere",
+      "dotenv",
+      "json",
+      "os",
+      "time",
+      "utils"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "load_passages_and_chunk_ids",
+      "build_tfidf_index",
+      "tfidf_retrieval",
+      "build_bm25_index",
+      "bm25_retrieval_subqueries",
+      "query_embed_search",
+      "dense_retrieval_subqueries",
+      "retrieve_all_subqueries",
+      "dense_retrieval_subqueries_for_finetune"
+    ],
+    "classes": [],
+    "imports": [
+      "faiss",
+      "json",
+      "nltk",
+      "numpy",
+      "os",
+      "rank_bm25",
+      "sklearn"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval2.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [
+      "load_passages_and_chunk_ids",
+      "build_tfidf_index",
+      "tfidf_retrieval",
+      "build_bm25_index",
+      "bm25_retrieval_subqueries",
+      "dense_retrieval_subqueries",
+      "hybrid_retrieval"
+    ],
+    "classes": [],
+    "imports": [
+      "json",
+      "nltk",
+      "numpy",
+      "os",
+      "rank_bm25",
+      "sklearn"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval_finetune.py",
+    "lines": 7,
+    "has_main": true,
+    "functions": [
+      "load_index_and_all_subqueries",
+      "parse_args",
+      "load_json_data",
+      "random_sample",
+      "hard_negative_mining",
+      "process_data",
+      "process_data_MNRL",
+      "train",
+      "__init__",
+      "__call__"
+    ],
+    "classes": [
+      "TimedCallback"
+    ],
+    "imports": [
+      "datetime",
+      "faiss",
+      "huggingface_hub",
+      "json",
+      "logging",
+      "numpy",
+      "retrieval",
+      "sentence_transformers",
+      "sklearn",
+      "time",
+      "torch",
+      "types",
+      "typing",
+      "utils",
+      "wandb"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval_finetune_best.py",
+    "lines": 7,
+    "has_main": true,
+    "functions": [
+      "load_index_and_all_subqueries",
+      "parse_args",
+      "load_json_data",
+      "random_sample",
+      "hard_negative_mining",
+      "process_data",
+      "process_data_MNRL",
+      "train",
+      "__init__",
+      "__call__"
+    ],
+    "classes": [
+      "TimedCallback"
+    ],
+    "imports": [
+      "datetime",
+      "faiss",
+      "huggingface_hub",
+      "json",
+      "logging",
+      "numpy",
+      "retrieval",
+      "sentence_transformers",
+      "sklearn",
+      "time",
+      "torch",
+      "types",
+      "typing",
+      "utils",
+      "wandb"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval_finetune_test.py",
+    "lines": 7,
+    "has_main": true,
+    "functions": [
+      "load_index_and_all_subqueries",
+      "parse_args",
+      "load_json_data",
+      "random_sample",
+      "hard_negative_mining",
+      "process_data",
+      "process_data_MNRL",
+      "train",
+      "__init__",
+      "__call__",
+      "__init__",
+      "forward"
+    ],
+    "classes": [
+      "TimedCallback",
+      "TripletLoss_self"
+    ],
+    "imports": [
+      "datetime",
+      "faiss",
+      "huggingface_hub",
+      "json",
+      "logging",
+      "numpy",
+      "retrieval",
+      "sentence_transformers",
+      "sklearn",
+      "time",
+      "torch",
+      "types",
+      "typing",
+      "utils",
+      "wandb"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval_finetune_test_MNRL.py",
+    "lines": 7,
+    "has_main": true,
+    "functions": [
+      "load_index_and_all_subqueries",
+      "parse_args",
+      "load_json_data",
+      "random_sample",
+      "hard_negative_mining",
+      "process_data",
+      "process_data_MNRL",
+      "train",
+      "__init__",
+      "__call__"
+    ],
+    "classes": [
+      "TimedCallback"
+    ],
+    "imports": [
+      "datetime",
+      "faiss",
+      "huggingface_hub",
+      "json",
+      "logging",
+      "numpy",
+      "retrieval",
+      "sentence_transformers",
+      "sklearn",
+      "time",
+      "torch",
+      "types",
+      "typing",
+      "utils",
+      "wandb"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\retrieval_plus_KG.py",
+    "lines": 7,
+    "has_main": true,
+    "functions": [
+      "load_passages_and_chunk_ids",
+      "build_tfidf_index",
+      "tfidf_retrieval",
+      "build_bm25_index",
+      "bm25_retrieval_subqueries",
+      "query_embed_search",
+      "dense_retrieval_subqueries",
+      "retrieve_all_subqueries",
+      "dense_retrieval_subqueries_for_finetune",
+      "KG_dense_retrieval"
+    ],
+    "classes": [],
+    "imports": [
+      "KG_retrieval",
+      "faiss",
+      "json",
+      "nltk",
+      "numpy",
+      "os",
+      "rank_bm25",
+      "sklearn"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\run.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "clean_subquestions",
+      "load_query",
+      "get_sub_questions",
+      "load_subquestion_list",
+      "perform_retrieval",
+      "save_results",
+      "generate_final_answer",
+      "main"
+    ],
+    "classes": [],
+    "imports": [
+      "dotenv",
+      "faiss",
+      "generation",
+      "json",
+      "numpy",
+      "os",
+      "re",
+      "retrieval",
+      "utils"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\sort_questions.py",
+    "lines": 3,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [
+      "glob",
+      "json",
+      "re"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\test.py",
+    "lines": 2,
+    "has_main": false,
+    "functions": [
+      "convert_float32_to_float",
+      "combine_subwords",
+      "process_paragraph"
+    ],
+    "classes": [],
+    "imports": [
+      "json",
+      "nltk",
+      "numpy",
+      "pysbd",
+      "tqdm",
+      "transformers"
+    ],
+    "io_calls": [
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\utils.py",
+    "lines": 12,
+    "has_main": true,
+    "functions": [
+      "ensure_nltk_data",
+      "normalize_special_chars",
+      "process_book_text",
+      "make_chunked_json_file",
+      "create_logger",
+      "__init__",
+      "preprocess_function",
+      "train",
+      "__init__",
+      "preprocess_function",
+      "train",
+      "eval",
+      "__init__",
+      "generate",
+      "__init__",
+      "preprocess_function",
+      "train",
+      "__init__",
+      "hyde",
+      "step_back",
+      "semantic_routing",
+      "metadata_filter",
+      "multi_query",
+      "sub_questions",
+      "__init__",
+      "hyde",
+      "step_back",
+      "semantic_routing",
+      "metadata_filter",
+      "multi_query",
+      "sub_questions",
+      "__init__",
+      "process_text",
+      "_tokenize",
+      "_add_context",
+      "_calculate_similarity",
+      "_identify_breakpoints",
+      "_create_chunks",
+      "_merge_small_chunks",
+      "_merge_small_chunks_natural_order",
+      "_merge_small_chunks_similarity_order"
+    ],
+    "classes": [
+      "NLPBase",
+      "NER",
+      "MyLLM",
+      "QA",
+      "QO",
+      "QOAdvanced",
+      "Chapter",
+      "Book",
+      "TextChunker"
+    ],
+    "imports": [
+      "cohere",
+      "dataclasses",
+      "datasets",
+      "json",
+      "logging",
+      "nltk",
+      "numpy",
+      "os",
+      "re",
+      "rich",
+      "sentence_transformers",
+      "sklearn",
+      "transformers",
+      "typing"
+    ],
+    "io_calls": [
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\__init__.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\embedding\\embedding.py",
+    "lines": 7,
+    "has_main": true,
+    "functions": [
+      "load_all_passages",
+      "embed_texts",
+      "embed_texts_dpr",
+      "store_faiss_index",
+      "store_faiss_index_dpr",
+      "process_all_hp_passages",
+      "process_all_hp_passages_dpr",
+      "load_qa_questions",
+      "process_qa_queries",
+      "process_qa_queries_dpr",
+      "load_qa_subqueries",
+      "process_qa_subqueries",
+      "process_qa_subqueries_dpr"
+    ],
+    "classes": [],
+    "imports": [
+      "faiss",
+      "gc",
+      "glob",
+      "json",
+      "numpy",
+      "os",
+      "sentence_transformers",
+      "torch",
+      "tqdm",
+      "transformers"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\embedding\\KG_relation_to_embedding.py",
+    "lines": 2,
+    "has_main": true,
+    "functions": [
+      "load_kg",
+      "embed_texts",
+      "store_faiss_index",
+      "process_all_KG_relations"
+    ],
+    "classes": [],
+    "imports": [
+      "faiss",
+      "gc",
+      "glob",
+      "json",
+      "numpy",
+      "os",
+      "sentence_transformers",
+      "torch",
+      "tqdm",
+      "transformers"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\embedding\\__init__.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\evaluation\\eval_utils.py",
+    "lines": 13,
+    "has_main": false,
+    "functions": [
+      "__init__",
+      "name",
+      "metric_type",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "__init__",
+      "__init__",
+      "k",
+      "correct",
+      "total",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "k",
+      "correct",
+      "total",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "reciprocal_ranks",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "k",
+      "ndcg_scores",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "bleu_scores",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "rouge_scores",
+      "type",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "model_name_or_path",
+      "batch_size",
+      "device",
+      "predictions",
+      "references",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "model_name_or_path",
+      "batch_size",
+      "device",
+      "predictions",
+      "references",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "model_name_or_path",
+      "batch_size",
+      "device",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "model_name_or_path",
+      "batch_size",
+      "device",
+      "predictions",
+      "references",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "update",
+      "compute",
+      "reset",
+      "get_metrics_by_type"
+    ],
+    "classes": [
+      "Metric",
+      "RetrievalMetric",
+      "GenerationMetric",
+      "RecallAtK",
+      "PrecisionAtK",
+      "MRR",
+      "nDCG",
+      "BLEU",
+      "ROUGE",
+      "BERTScore",
+      "SASScore",
+      "CohereGPTScore",
+      "DeepSeekGPTScore",
+      "MetricCollection"
+    ],
+    "imports": [
+      "abc",
+      "bert_score",
+      "cohere",
+      "math",
+      "nltk",
+      "openai",
+      "os",
+      "rouge_score",
+      "sentence_transformers",
+      "torch",
+      "typing"
+    ],
+    "io_calls": [
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\evaluation\\eval_utils_ret.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [
+      "__init__",
+      "name",
+      "metric_type",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "__init__",
+      "__init__",
+      "k",
+      "correct",
+      "total",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "k",
+      "correct",
+      "total",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "reciprocal_ranks",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "k",
+      "ndcg_scores",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "bleu_scores",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "rouge_scores",
+      "type",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "model_name_or_path",
+      "batch_size",
+      "device",
+      "predictions",
+      "references",
+      "__str__",
+      "__repr__",
+      "update",
+      "compute",
+      "reset",
+      "__init__",
+      "update",
+      "compute",
+      "reset",
+      "get_metrics_by_type"
+    ],
+    "classes": [
+      "Metric",
+      "RetrievalMetric",
+      "GenerationMetric",
+      "RecallAtK",
+      "PrecisionAtK",
+      "MRR",
+      "nDCG",
+      "BLEU",
+      "ROUGE",
+      "BERTScore",
+      "MetricCollection"
+    ],
+    "imports": [
+      "abc",
+      "bert_score",
+      "math",
+      "nltk",
+      "rouge_score",
+      "typing"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\evaluation\\Generative_QA.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "create_json_chunked_files"
+    ],
+    "classes": [],
+    "imports": [
+      "evaluation",
+      "multiprocessing",
+      "tqdm",
+      "types",
+      "utils"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\evaluation\\retrieval_evaluation.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [],
+    "classes": [],
+    "imports": [
+      "evaluation",
+      "json"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\evaluation\\__init__.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\generation\\cohere_generation.py",
+    "lines": 47,
+    "has_main": false,
+    "functions": [
+      "__init__",
+      "generation_answer",
+      "generation_answer_base"
+    ],
+    "classes": [
+      "CohereGenerator"
+    ],
+    "imports": [
+      "cohere",
+      "dotenv",
+      "os",
+      "pathlib"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\generation\\dataCleaning.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "adding_label"
+    ],
+    "classes": [],
+    "imports": [
+      "json",
+      "os"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\generation\\fine_tunning2.py",
+    "lines": 5,
+    "has_main": false,
+    "functions": [
+      "format_prompt",
+      "tokenize_function"
+    ],
+    "classes": [],
+    "imports": [
+      "datasets",
+      "json",
+      "numpy",
+      "os",
+      "pandas",
+      "re",
+      "torch",
+      "transformers",
+      "wandb"
+    ],
+    "io_calls": [
+      "json.load",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": true
+  },
+  {
+    "path": "D:\\NLP_project-1\\generation\\pythia_generation.py",
+    "lines": 5,
+    "has_main": false,
+    "functions": [
+      "embed_text",
+      "load_model_and_tokenizer",
+      "generation_answer"
+    ],
+    "classes": [],
+    "imports": [
+      "numpy",
+      "torch",
+      "transformers"
+    ],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\generation\\shuffle_options.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "shuffle_options"
+    ],
+    "classes": [],
+    "imports": [
+      "json",
+      "os",
+      "random"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\generation\\__init__.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\performance\\generation_performance.py",
+    "lines": 2,
+    "has_main": false,
+    "functions": [
+      "tfidf_retrieval",
+      "bm25_retrieval",
+      "dense_retrieval_subqueries",
+      "query_embed_search",
+      "hybrid",
+      "load_corpus",
+      "retrieve_all_subqueries"
+    ],
+    "classes": [],
+    "imports": [
+      "evaluation",
+      "faiss",
+      "generation",
+      "json",
+      "matplotlib",
+      "nltk",
+      "numpy",
+      "os",
+      "rank_bm25",
+      "sklearn",
+      "sys"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\performance\\QO_experiment.py",
+    "lines": 1,
+    "has_main": true,
+    "functions": [
+      "process_question_block"
+    ],
+    "classes": [],
+    "imports": [
+      "dotenv",
+      "faiss",
+      "generation",
+      "itertools",
+      "json",
+      "os",
+      "retrieval",
+      "sentence_transformers",
+      "sys",
+      "transformers"
+    ],
+    "io_calls": [
+      "json.load",
+      "json.dump",
+      "open"
+    ],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  },
+  {
+    "path": "D:\\NLP_project-1\\performance\\__init__.py",
+    "lines": 1,
+    "has_main": false,
+    "functions": [],
+    "classes": [],
+    "imports": [],
+    "io_calls": [],
+    "argparse": false,
+    "typer": false,
+    "uses_cuda": false
+  }
+]
