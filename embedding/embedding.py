@@ -14,10 +14,10 @@ from transformers import (
     DPRQuestionEncoder, DPRQuestionEncoderTokenizer,
     PreTrainedModel, PreTrainedTokenizer
 )
-
+import os
 # --- Configuration ---
 # Use Pathlib for cleaner path management
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data"
 EMBEDDING_PATH = BASE_DIR / "embedding"
 ALL_CHUNKS_FILE = DATA_PATH / "chunked_text_all_together_cleaned.json"
@@ -179,48 +179,48 @@ def main():
             output_filename=f"{base_name}_subquestions.index"
         )
         
-    # --- DPR Model Workflow ---
-    print("\nInitializing DPR models...")
-    dpr_model_name = "dpr"
+    # # --- DPR Model Workflow ---
+    # print("\nInitializing DPR models...")
+    # dpr_model_name = "dpr"
     
-    # Context model for encoding passages
-    ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
-    dpr_context_model = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base").to(DEVICE)
-    dpr_ctx_embedder = lambda texts: embed_with_dpr(texts, dpr_context_model, ctx_tokenizer)
+    # # Context model for encoding passages
+    # ctx_tokenizer = DPRContextEncoderTokenizer.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base")
+    # dpr_context_model = DPRContextEncoder.from_pretrained("facebook/dpr-ctx_encoder-single-nq-base").to(DEVICE)
+    # dpr_ctx_embedder = lambda texts: embed_with_dpr(texts, dpr_context_model, ctx_tokenizer)
     
-    # Question model for encoding queries
-    qs_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
-    dpr_question_model = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base").to(DEVICE)
-    dpr_qs_embedder = lambda texts: embed_with_dpr(texts, dpr_question_model, qs_tokenizer)
+    # # Question model for encoding queries
+    # qs_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained("facebook/dpr-question_encoder-single-nq-base")
+    # dpr_question_model = DPRQuestionEncoder.from_pretrained("facebook/dpr-question_encoder-single-nq-base").to(DEVICE)
+    # dpr_qs_embedder = lambda texts: embed_with_dpr(texts, dpr_question_model, qs_tokenizer)
     
-    # Process all passages with DPR Context Encoder
-    run_processing_pipeline(
-        model_name=dpr_model_name,
-        embedder_func=dpr_ctx_embedder,
-        data_source=ALL_CHUNKS_FILE,
-        text_extractor=get_passages,
-        output_filename=f"{dpr_model_name}_passages.index"
-    )
+    # # Process all passages with DPR Context Encoder
+    # run_processing_pipeline(
+    #     model_name=dpr_model_name,
+    #     embedder_func=dpr_ctx_embedder,
+    #     data_source=ALL_CHUNKS_FILE,
+    #     text_extractor=get_passages,
+    #     output_filename=f"{dpr_model_name}_passages.index"
+    # )
 
-    # Process QA files with DPR Question Encoder
-    for qa_file in qa_files:
-        base_name = qa_file.stem
-        # Process original questions
-        run_processing_pipeline(
-            model_name=dpr_model_name,
-            embedder_func=dpr_qs_embedder,
-            data_source=qa_file,
-            text_extractor=get_questions,
-            output_filename=f"{base_name}_questions.index"
-        )
-        # Process sub-questions
-        run_processing_pipeline(
-            model_name=dpr_model_name,
-            embedder_func=dpr_qs_embedder,
-            data_source=qa_file,
-            text_extractor=get_subquestions,
-            output_filename=f"{base_name}_subquestions.index"
-        )
+    # # Process QA files with DPR Question Encoder
+    # for qa_file in qa_files:
+    #     base_name = qa_file.stem
+    #     # Process original questions
+    #     run_processing_pipeline(
+    #         model_name=dpr_model_name,
+    #         embedder_func=dpr_qs_embedder,
+    #         data_source=qa_file,
+    #         text_extractor=get_questions,
+    #         output_filename=f"{base_name}_questions.index"
+    #     )
+    #     # Process sub-questions
+    #     run_processing_pipeline(
+    #         model_name=dpr_model_name,
+    #         embedder_func=dpr_qs_embedder,
+    #         data_source=qa_file,
+    #         text_extractor=get_subquestions,
+    #         output_filename=f"{base_name}_subquestions.index"
+    #     )
 
 if __name__ == "__main__":
     main()
