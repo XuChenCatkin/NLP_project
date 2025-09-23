@@ -1,0 +1,5268 @@
+{
+    "Spec_1": {
+        "name": "Admonitor",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_2": {
+        "name": "Advertising blackboard",
+        "type": "Magical Object",
+        "list of appear": [
+            29,
+            159,
+            165,
+            709,
+            931
+        ]
+    },
+    "Spec_3": {
+        "name": "Category:Amulets",
+        "type": "Magical Object",
+        "list of appear": [
+            226
+        ]
+    },
+    "Spec_4": {
+        "name": "Anti-Cheating Quill",
+        "type": "Magical Object",
+        "list of appear": [
+            163,
+            171,
+            323,
+            951,
+            953,
+            1166
+        ]
+    },
+    "Spec_5": {
+        "name": "Artefact taxonomy",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_6": {
+        "name": "Astronomy Table",
+        "type": "Magical Object",
+        "list of appear": [
+            613,
+            733
+        ]
+    },
+    "Spec_7": {
+        "name": "Auto-Answer Quill",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_8": {
+        "name": "Baby Niffler Cage",
+        "type": "Magical Object",
+        "list of appear": [
+            734
+        ]
+    },
+    "Spec_9": {
+        "name": "Balloon Carriage",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_10": {
+        "name": "Beast Feeder",
+        "type": "Magical Object",
+        "list of appear": [
+            401
+        ]
+    },
+    "Spec_11": {
+        "name": "Beater's bat",
+        "type": "Magical Object",
+        "list of appear": [
+            191
+        ]
+    },
+    "Spec_12": {
+        "name": "Beautifying robes",
+        "type": "Magical Object",
+        "list of appear": [
+            171,
+            248,
+            566,
+            1292
+        ]
+    },
+    "Spec_13": {
+        "name": "Bell Jar of Time",
+        "type": "Magical Object",
+        "list of appear": [
+            1199,
+            1200
+        ]
+    },
+    "Spec_14": {
+        "name": "Bewitched tea set",
+        "type": "Magical Object",
+        "list of appear": [
+            150,
+            159,
+            1152,
+            1631
+        ]
+    },
+    "Spec_15": {
+        "name": "Bewitched teapot",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_16": {
+        "name": "Sirius Black's motorbike",
+        "type": "Magical Object",
+        "list of appear": [
+            7,
+            8,
+            387,
+            388,
+            891,
+            1534,
+            1535,
+            1538,
+            1539,
+            1540
+        ]
+    },
+    "Spec_17": {
+        "name": "Sirius Black's penknife",
+        "type": "Magical Object",
+        "list of appear": [
+            1199,
+            1749
+        ]
+    },
+    "Spec_18": {
+        "name": "Category:Bludgers",
+        "type": "Magical Object",
+        "list of appear": [
+            75,
+            83,
+            190,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            300,
+            358,
+            375,
+            438,
+            439,
+            511,
+            530,
+            542,
+            955,
+            964,
+            1015,
+            1016,
+            1415
+        ]
+    },
+    "Spec_19": {
+        "name": "Bow staff",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_20": {
+        "name": "British Ministry of Magic fleet of cars",
+        "type": "Magical Object",
+        "list of appear": [
+            325,
+            1290,
+            1532
+        ]
+    },
+    "Spec_21": {
+        "name": "Category:Broomstick accessories",
+        "type": "Magical Object",
+        "list of appear": [
+            399,
+            1130
+        ]
+    },
+    "Spec_22": {
+        "name": "Category:Broomsticks",
+        "type": "Magical Object",
+        "list of appear": [
+            29,
+            32,
+            64,
+            65,
+            73,
+            74,
+            83,
+            85,
+            102,
+            130,
+            147,
+            165,
+            189,
+            192,
+            300,
+            317,
+            373,
+            374,
+            375,
+            380,
+            395,
+            396,
+            399,
+            400,
+            401,
+            406,
+            407,
+            408,
+            410,
+            411,
+            412,
+            413,
+            438,
+            506,
+            511,
+            513,
+            524,
+            541,
+            564,
+            570,
+            857,
+            905,
+            907,
+            953,
+            962,
+            1015,
+            1043,
+            1064,
+            1151,
+            1338,
+            1490,
+            1535
+        ]
+    },
+    "Spec_23": {
+        "name": "Bubble Bow Booster",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_24": {
+        "name": "Bug Blasting Pellets",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_25": {
+        "name": "Caged Bathtub",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_26": {
+        "name": "Calamity Incident Map",
+        "type": "Magical Object",
+        "list of appear": [
+            381,
+            658,
+            1020
+        ]
+    },
+    "Spec_27": {
+        "name": "Caractacus the Candy-Conjurer",
+        "type": "Magical Object",
+        "list of appear": [
+            475
+        ]
+    },
+    "Spec_28": {
+        "name": "Rancorous Carpe's trap",
+        "type": "Magical Object",
+        "list of appear": [
+            128,
+            620,
+            1668
+        ]
+    },
+    "Spec_29": {
+        "name": "Category:Cauldrons",
+        "type": "Magical Object",
+        "list of appear": [
+            29,
+            35,
+            183,
+            348,
+            506,
+            521,
+            566,
+            783,
+            784,
+            871,
+            882,
+            1031,
+            1266,
+            1340
+        ]
+    },
+    "Spec_30": {
+        "name": "The Cave boat",
+        "type": "Magical Object",
+        "list of appear": [
+            724,
+            1483
+        ]
+    },
+    "Spec_31": {
+        "name": "Challenge Shield",
+        "type": "Magical Object",
+        "list of appear": [
+            247
+        ]
+    },
+    "Spec_32": {
+        "name": "Challenge Star",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_33": {
+        "name": "Charge",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_34": {
+        "name": "Charmed leather gloves",
+        "type": "Magical Object",
+        "list of appear": [
+            185,
+            1367
+        ]
+    },
+    "Spec_35": {
+        "name": "Charmed Wizarding Tent",
+        "type": "Magical Object",
+        "list of appear": [
+            531,
+            1573,
+            1616,
+            1630,
+            1634,
+            1661,
+            1738
+        ]
+    },
+    "Spec_36": {
+        "name": "Chinese Fortune Sticks",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_37": {
+        "name": "Category:Chocolate Frog Cards",
+        "type": "Magical Object",
+        "list of appear": [
+            11,
+            29,
+            45,
+            46,
+            89,
+            98,
+            143,
+            209,
+            238,
+            403,
+            678,
+            732,
+            749,
+            891,
+            917,
+            1043,
+            1064,
+            1069,
+            1407,
+            1471,
+            1524,
+            1561,
+            1650
+        ]
+    },
+    "Spec_38": {
+        "name": "Clankers",
+        "type": "Magical Object",
+        "list of appear": [
+            1695,
+            1752
+        ]
+    },
+    "Spec_39": {
+        "name": "Cloak of Invisibility",
+        "type": "Magical Object",
+        "list of appear": [
+            38,
+            95,
+            136,
+            147,
+            278,
+            380,
+            382,
+            421,
+            445,
+            454,
+            483,
+            494,
+            648,
+            678,
+            706,
+            708,
+            798,
+            806,
+            1150,
+            1482,
+            1586,
+            1594,
+            1626,
+            1637,
+            1655,
+            1671,
+            1689,
+            1690,
+            1691,
+            1694,
+            1698,
+            1700,
+            1701,
+            1724,
+            1729,
+            1732,
+            1746,
+            1747,
+            1758,
+            1759,
+            1779,
+            1804,
+            1805,
+            1823,
+            1825,
+            1827,
+            1833,
+            1834
+        ]
+    },
+    "Spec_40": {
+        "name": "Colour-Change Ink",
+        "type": "Magical Object",
+        "list of appear": [
+            35,
+            567,
+            595,
+            958,
+            1041,
+            1266
+        ]
+    },
+    "Spec_41": {
+        "name": "Colour-changing gloves",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_42": {
+        "name": "Concentration Capsules",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_43": {
+        "name": "Cribbage's Wizarding Crackers",
+        "type": "Magical Object",
+        "list of appear": [
+            678
+        ]
+    },
+    "Spec_44": {
+        "name": "Crown of courage",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_45": {
+        "name": "Category:Crystal balls",
+        "type": "Magical Object",
+        "list of appear": [
+            318,
+            339,
+            341,
+            431,
+            432,
+            442,
+            586,
+            660,
+            1170,
+            1174,
+            1202,
+            1801
+        ]
+    },
+    "Spec_46": {
+        "name": "Crystal casket",
+        "type": "Magical Object",
+        "list of appear": [
+            1426
+        ]
+    },
+    "Spec_47": {
+        "name": "Curious Travel Tote",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_48": {
+        "name": "Daedalian Key",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_49": {
+        "name": "Dancing glass",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_50": {
+        "name": "Category:Dark Magic artefacts",
+        "type": "Magical Object",
+        "list of appear": [
+            118,
+            168,
+            188,
+            212,
+            243,
+            401,
+            416,
+            642,
+            785,
+            886,
+            1008,
+            1279,
+            1348,
+            1402,
+            1456,
+            1492,
+            1508,
+            1732,
+            1756
+        ]
+    },
+    "Spec_51": {
+        "name": "Death Light",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_52": {
+        "name": "Deluminator",
+        "type": "Magical Object",
+        "list of appear": [
+            8,
+            382,
+            637,
+            858,
+            859,
+            1569,
+            1573,
+            1588,
+            1589,
+            1601,
+            1678,
+            1679,
+            1681,
+            1708,
+            1719,
+            1720,
+            1727
+        ]
+    },
+    "Spec_53": {
+        "name": "Desk of Description",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_54": {
+        "name": "Detachable Cribbing Cuff",
+        "type": "Magical Object",
+        "list of appear": [
+            456,
+            458,
+            823,
+            863,
+            882,
+            1058,
+            1166,
+            1639
+        ]
+    },
+    "Spec_55": {
+        "name": "Dictograph",
+        "type": "Magical Object",
+        "list of appear": [
+            168,
+            737,
+            867
+        ]
+    },
+    "Spec_56": {
+        "name": "Disappearing Ink",
+        "type": "Magical Object",
+        "list of appear": [
+            951,
+            1041
+        ]
+    },
+    "Spec_57": {
+        "name": "Disillusionment Chest",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_58": {
+        "name": "Dissimulator",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_59": {
+        "name": "Dragon brazier",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_60": {
+        "name": "Dragon of Duality",
+        "type": "Magical Object",
+        "list of appear": [
+            1077,
+            1153
+        ]
+    },
+    "Spec_61": {
+        "name": "Dumbledore's Army coin",
+        "type": "Magical Object",
+        "list of appear": [
+            275,
+            425,
+            454,
+            499,
+            511,
+            596,
+            597,
+            612,
+            706,
+            707,
+            750,
+            767,
+            842,
+            903,
+            1012,
+            1478,
+            1493,
+            1585,
+            1771,
+            1786,
+            1791
+        ]
+    },
+    "Spec_62": {
+        "name": "Albus Dumbledore's gloves",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_63": {
+        "name": "Albus Dumbledore's secret letter to Bunty Broadacre",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_64": {
+        "name": "Albus Dumbledore's silver instruments",
+        "type": "Magical Object",
+        "list of appear": [
+            493,
+            749,
+            1048,
+            1222,
+            1225,
+            1480,
+            1508
+        ]
+    },
+    "Spec_65": {
+        "name": "Durmstrang Ship",
+        "type": "Magical Object",
+        "list of appear": [
+            606,
+            623,
+            638,
+            692,
+            749
+        ]
+    },
+    "Spec_66": {
+        "name": "EaziKleen Self-Propelling Scourers",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_67": {
+        "name": "The Elite",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_68": {
+        "name": "Enchanted Ceiling",
+        "type": "Magical Object",
+        "list of appear": [
+            334,
+            1784
+        ]
+    },
+    "Spec_69": {
+        "name": "Enchanted coin",
+        "type": "Magical Object",
+        "list of appear": [
+            1616
+        ]
+    },
+    "Spec_70": {
+        "name": "Enchanted crystallised stone",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_71": {
+        "name": "Enchanted Fireworks",
+        "type": "Magical Object",
+        "list of appear": [
+            171,
+            200,
+            568,
+            569,
+            657,
+            857,
+            1129,
+            1130,
+            1131,
+            1566
+        ]
+    },
+    "Spec_72": {
+        "name": "Enchanted heated rock",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_73": {
+        "name": "Enchanted mirror",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_74": {
+        "name": "Enchanted razor",
+        "type": "Magical Object",
+        "list of appear": [
+            10,
+            1292,
+            1565
+        ]
+    },
+    "Spec_75": {
+        "name": "Enchanted ring",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_76": {
+        "name": "Enchanted snow",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_77": {
+        "name": "Enchanted Staircase",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_78": {
+        "name": "Enchanted window",
+        "type": "Magical Object",
+        "list of appear": [
+            891
+        ]
+    },
+    "Spec_79": {
+        "name": "Eternally spotless handkerchief",
+        "type": "Magical Object",
+        "list of appear": [
+            311,
+            355,
+            358,
+            401,
+            677,
+            872
+        ]
+    },
+    "Spec_80": {
+        "name": "Everchanging Ink",
+        "type": "Magical Object",
+        "list of appear": [
+            291,
+            409,
+            958
+        ]
+    },
+    "Spec_81": {
+        "name": "Everlasting candle",
+        "type": "Magical Object",
+        "list of appear": [
+            372,
+            1026,
+            1370
+        ]
+    },
+    "Spec_82": {
+        "name": "Everlasting icicle",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_83": {
+        "name": "Everlasting Ink",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_84": {
+        "name": "Exploding pumpkin",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_85": {
+        "name": "Exploding Snap",
+        "type": "Magical Object",
+        "list of appear": [
+            227,
+            237,
+            397,
+            497,
+            669,
+            825,
+            1242,
+            1383
+        ]
+    },
+    "Spec_86": {
+        "name": "Exploding Tuba",
+        "type": "Magical Object",
+        "list of appear": [
+            1234
+        ]
+    },
+    "Spec_87": {
+        "name": "False ear",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_88": {
+        "name": "Fastidio's chest",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_89": {
+        "name": "Faux Floo",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_90": {
+        "name": "Fine Fettle Belt",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_91": {
+        "name": "Fire Faerie",
+        "type": "Magical Object",
+        "list of appear": [
+            1375
+        ]
+    },
+    "Spec_92": {
+        "name": "Nicolas Flamel's card",
+        "type": "Magical Object",
+        "list of appear": [
+            46,
+            301,
+            1142
+        ]
+    },
+    "Spec_93": {
+        "name": "Flipendo Button",
+        "type": "Magical Object",
+        "list of appear": [
+            1687
+        ]
+    },
+    "Spec_94": {
+        "name": "Floating golden lantern",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_95": {
+        "name": "Floo powder",
+        "type": "Magical Object",
+        "list of appear": [
+            16,
+            17,
+            22,
+            27,
+            28,
+            29,
+            30,
+            31,
+            166,
+            167,
+            170,
+            171,
+            174,
+            297,
+            314,
+            315,
+            383,
+            392,
+            394,
+            407,
+            497,
+            510,
+            511,
+            515,
+            517,
+            518,
+            519,
+            533,
+            561,
+            614,
+            657,
+            685,
+            712,
+            837,
+            854,
+            887,
+            889,
+            890,
+            967,
+            1129,
+            1147,
+            1181,
+            1195,
+            1246,
+            1247,
+            1252,
+            1278,
+            1358,
+            1391,
+            1535,
+            1612,
+            1618
+        ]
+    },
+    "Spec_96": {
+        "name": "Flooboost Pro",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_97": {
+        "name": "Flooboost regular",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_98": {
+        "name": "Floor polisher",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_99": {
+        "name": "Category:Flying carpets",
+        "type": "Magical Object",
+        "list of appear": [
+            981
+        ]
+    },
+    "Spec_100": {
+        "name": "Flying Ford Anglia",
+        "type": "Magical Object",
+        "list of appear": [
+            1,
+            9,
+            12,
+            15,
+            17,
+            20,
+            28,
+            34,
+            38,
+            86,
+            134,
+            156,
+            157,
+            159,
+            163,
+            174,
+            175,
+            176,
+            177,
+            180,
+            262,
+            263,
+            265,
+            299,
+            302,
+            318,
+            323,
+            384,
+            498,
+            587,
+            730,
+            855,
+            889,
+            962,
+            1065,
+            1195,
+            1534,
+            1663,
+            1703
+        ]
+    },
+    "Spec_101": {
+        "name": "Flying light-blue scooter",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_102": {
+        "name": "Flying pumpkin",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_103": {
+        "name": "Foundable tracker clock",
+        "type": "Magical Object",
+        "list of appear": [
+            702
+        ]
+    },
+    "Spec_104": {
+        "name": "French Ministry of Magic emergency alarm",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_105": {
+        "name": "French Ministry of Magic Wallace fountain",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_106": {
+        "name": "Frolicsome Feline plates",
+        "type": "Magical Object",
+        "list of appear": [
+            950
+        ]
+    },
+    "Spec_107": {
+        "name": "Fumos Bat Flamer",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_108": {
+        "name": "Ghost band",
+        "type": "Magical Object",
+        "list of appear": [
+            201,
+            657,
+            682,
+            1579
+        ]
+    },
+    "Spec_109": {
+        "name": "Ghost letter",
+        "type": "Magical Object",
+        "list of appear": [
+            197,
+            990
+        ]
+    },
+    "Spec_110": {
+        "name": "Giant's Helm",
+        "type": "Magical Object",
+        "list of appear": [
+            285,
+            1426,
+            1739,
+            1754,
+            1821
+        ]
+    },
+    "Spec_111": {
+        "name": "Category:Goblin-made objects",
+        "type": "Magical Object",
+        "list of appear": [
+            28,
+            32,
+            34,
+            37,
+            168,
+            864,
+            871,
+            886,
+            1026,
+            1425,
+            1427,
+            1506,
+            1577,
+            1644,
+            1734,
+            1740
+        ]
+    },
+    "Spec_112": {
+        "name": "Gobstone",
+        "type": "Magical Object",
+        "list of appear": [
+            316,
+            323,
+            747,
+            823,
+            948,
+            1082,
+            1421,
+            1471
+        ]
+    },
+    "Spec_113": {
+        "name": "Golden Balloons",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_114": {
+        "name": "Category:Golden Snitches",
+        "type": "Magical Object",
+        "list of appear": [
+            36,
+            66,
+            73,
+            74,
+            75,
+            76,
+            80,
+            83,
+            84,
+            85,
+            134,
+            147,
+            182,
+            190,
+            218,
+            220,
+            222,
+            242,
+            300,
+            317,
+            358,
+            373,
+            375,
+            377,
+            384,
+            396,
+            411,
+            413,
+            433,
+            437,
+            438,
+            439,
+            498,
+            502,
+            511,
+            524,
+            541,
+            542,
+            545,
+            546,
+            564,
+            610,
+            615,
+            631,
+            650,
+            651,
+            653,
+            655,
+            657,
+            689,
+            693,
+            695,
+            706,
+            830,
+            848,
+            886,
+            964,
+            1015,
+            1016,
+            1019,
+            1090,
+            1100,
+            1135,
+            1164,
+            1261,
+            1368,
+            1386,
+            1415,
+            1538,
+            1566,
+            1570,
+            1571,
+            1573,
+            1574,
+            1650,
+            1664,
+            1671,
+            1680,
+            1689,
+            1701,
+            1702,
+            1703,
+            1704,
+            1719,
+            1804,
+            1825,
+            1844,
+            1846,
+            1847
+        ]
+    },
+    "Spec_115": {
+        "name": "Porpentina Goldstein's admonitor bracelet",
+        "type": "Magical Object",
+        "list of appear": [
+            418,
+            1630
+        ]
+    },
+    "Spec_116": {
+        "name": "Grand Staircase",
+        "type": "Magical Object",
+        "list of appear": [
+            235,
+            334,
+            581,
+            1769
+        ]
+    },
+    "Spec_117": {
+        "name": "Hermione Granger's beaded handbag",
+        "type": "Magical Object",
+        "list of appear": [
+            170,
+            209,
+            352,
+            854,
+            981,
+            1523,
+            1586,
+            1587,
+            1611,
+            1615,
+            1616,
+            1631,
+            1632,
+            1642,
+            1644,
+            1648,
+            1650,
+            1652,
+            1661,
+            1664,
+            1669,
+            1680,
+            1685,
+            1688,
+            1747,
+            1752
+        ]
+    },
+    "Spec_118": {
+        "name": "Great Hall floating candles",
+        "type": "Magical Object",
+        "list of appear": [
+            53,
+            87,
+            238,
+            334,
+            335,
+            394,
+            398,
+            524,
+            573,
+            578,
+            581,
+            700,
+            922,
+            1370,
+            1375
+        ]
+    },
+    "Spec_119": {
+        "name": "Victor Gridley's caravan",
+        "type": "Magical Object",
+        "list of appear": [
+            658
+        ]
+    },
+    "Spec_120": {
+        "name": "Gellert Grindelwald's dark banners",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_121": {
+        "name": "Gellert Grindelwald's Deathly Hallows necklace",
+        "type": "Magical Object",
+        "list of appear": [
+            1688,
+            1698,
+            1703,
+            1827,
+            1835
+        ]
+    },
+    "Spec_122": {
+        "name": "Gellert Grindelwald's pendant",
+        "type": "Magical Object",
+        "list of appear": [
+            279,
+            1349,
+            1579,
+            1610,
+            1649,
+            1657,
+            1827,
+            1835
+        ]
+    },
+    "Spec_123": {
+        "name": "Gellert Grindelwald's skull-hookah",
+        "type": "Magical Object",
+        "list of appear": [
+            870,
+            1625,
+            1698,
+            1827
+        ]
+    },
+    "Spec_124": {
+        "name": "Grow-Your-Own-Warts kit",
+        "type": "Magical Object",
+        "list of appear": [
+            91,
+            358
+        ]
+    },
+    "Spec_125": {
+        "name": "Gryffindor girls' staircase",
+        "type": "Magical Object",
+        "list of appear": [
+            581,
+            638,
+            989
+        ]
+    },
+    "Spec_126": {
+        "name": "Hagpipes",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_127": {
+        "name": "Hagrid's Pink Umbrella",
+        "type": "Magical Object",
+        "list of appear": [
+            21,
+            25,
+            26,
+            28,
+            31,
+            195,
+            483,
+            638,
+            1156,
+            1801
+        ]
+    },
+    "Spec_128": {
+        "name": "Rubeus Hagrid's moleskin overcoat",
+        "type": "Magical Object",
+        "list of appear": [
+            21,
+            27
+        ]
+    },
+    "Spec_129": {
+        "name": "Haunted mirror",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_130": {
+        "name": "Hedge clipper",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_131": {
+        "name": "Herbologist Orb",
+        "type": "Magical Object",
+        "list of appear": [
+            60,
+            595,
+            1242
+        ]
+    },
+    "Spec_132": {
+        "name": "Hidden doors",
+        "type": "Magical Object",
+        "list of appear": [
+            657,
+            662,
+            1435,
+            1472
+        ]
+    },
+    "Spec_133": {
+        "name": "Hogwarts boats",
+        "type": "Magical Object",
+        "list of appear": [
+            50,
+            51,
+            581
+        ]
+    },
+    "Spec_134": {
+        "name": "Hogwarts Express",
+        "type": "Magical Object",
+        "list of appear": [
+            29,
+            39,
+            40,
+            41,
+            42,
+            50,
+            63,
+            174,
+            175,
+            180,
+            301,
+            325,
+            327,
+            512,
+            567,
+            569,
+            581,
+            658,
+            732,
+            771,
+            889,
+            1237,
+            1509,
+            1811,
+            1850
+        ]
+    },
+    "Spec_135": {
+        "name": "Hogwarts Express conductor's pocket watch",
+        "type": "Magical Object",
+        "list of appear": [
+            23,
+            581,
+            1531
+        ]
+    },
+    "Spec_136": {
+        "name": "Hogwarts House animal-topped hat",
+        "type": "Magical Object",
+        "list of appear": [
+            59,
+            181,
+            581,
+            604,
+            1508
+        ]
+    },
+    "Spec_137": {
+        "name": "Hogwarts Pensieve",
+        "type": "Magical Object",
+        "list of appear": [
+            51,
+            72,
+            87,
+            92,
+            210,
+            215,
+            270,
+            271,
+            272,
+            287,
+            338,
+            378,
+            394,
+            427,
+            513,
+            581,
+            741,
+            763,
+            770,
+            1006,
+            1435,
+            1466,
+            1769
+        ]
+    },
+    "Spec_138": {
+        "name": "Hogwarts school loudspeakers",
+        "type": "Magical Object",
+        "list of appear": [
+            581
+        ]
+    },
+    "Spec_139": {
+        "name": "Hungry Bin",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_140": {
+        "name": "Inflate-a-Troll",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_141": {
+        "name": "Instant Darkness Powder",
+        "type": "Magical Object",
+        "list of appear": [
+            1293,
+            1504,
+            1573
+        ]
+    },
+    "Spec_142": {
+        "name": "Instant Warming Socks",
+        "type": "Magical Object",
+        "list of appear": [
+            348,
+            582
+        ]
+    },
+    "Spec_143": {
+        "name": "Intercontinental Trophy",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_144": {
+        "name": "Category:Interdepartmental memos",
+        "type": "Magical Object",
+        "list of appear": [
+            165,
+            311,
+            562,
+            564,
+            844,
+            890,
+            891
+        ]
+    },
+    "Spec_145": {
+        "name": "Invisibility Booster",
+        "type": "Magical Object",
+        "list of appear": [
+            175
+        ]
+    },
+    "Spec_146": {
+        "name": "Invisibility Cloak",
+        "type": "Magical Object",
+        "list of appear": [
+            90,
+            91,
+            92,
+            94,
+            108,
+            109,
+            110,
+            121,
+            125,
+            126,
+            127,
+            141,
+            147,
+            151,
+            153,
+            223,
+            257,
+            259,
+            260,
+            265,
+            308,
+            309,
+            314,
+            420,
+            421,
+            423,
+            428,
+            444,
+            447,
+            448,
+            454,
+            458,
+            459,
+            478,
+            480,
+            501,
+            513,
+            623,
+            635,
+            636,
+            637,
+            641,
+            692,
+            699,
+            702,
+            703,
+            704,
+            705,
+            711,
+            712,
+            721,
+            736,
+            792,
+            798,
+            799,
+            801,
+            802,
+            804,
+            805,
+            838,
+            851,
+            856,
+            998,
+            1006,
+            1020,
+            1029,
+            1032,
+            1107,
+            1146,
+            1147,
+            1149,
+            1160,
+            1180,
+            1181,
+            1266,
+            1277,
+            1290,
+            1295,
+            1300,
+            1304,
+            1306,
+            1308,
+            1309,
+            1310,
+            1312,
+            1379,
+            1406,
+            1407,
+            1435,
+            1436,
+            1438,
+            1439,
+            1440,
+            1445,
+            1446,
+            1447,
+            1451,
+            1477,
+            1478,
+            1479,
+            1490,
+            1523,
+            1534,
+            1585,
+            1587,
+            1593,
+            1610,
+            1611,
+            1613,
+            1615,
+            1616,
+            1617,
+            1621,
+            1622,
+            1623,
+            1624,
+            1635,
+            1648,
+            1651,
+            1652,
+            1654,
+            1656,
+            1669,
+            1679,
+            1684,
+            1685,
+            1693,
+            1697,
+            1698,
+            1751,
+            1752,
+            1760,
+            1774,
+            1775,
+            1778,
+            1780,
+            1800,
+            1801,
+            1802,
+            1804,
+            1822,
+            1824,
+            1827,
+            1841,
+            1846
+        ]
+    },
+    "Spec_147": {
+        "name": "Invisibility Token",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_148": {
+        "name": "Invisible Ink",
+        "type": "Magical Object",
+        "list of appear": [
+            296,
+            426,
+            513,
+            823,
+            950
+        ]
+    },
+    "Spec_149": {
+        "name": "Jacob's sibling's Remembrall",
+        "type": "Magical Object",
+        "list of appear": [
+            306,
+            511,
+            849
+        ]
+    },
+    "Spec_150": {
+        "name": "Jet black candle",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_151": {
+        "name": "Jinx Block",
+        "type": "Magical Object",
+        "list of appear": [
+            342,
+            1577
+        ]
+    },
+    "Spec_152": {
+        "name": "Gwenog Jones's gift statue",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_153": {
+        "name": "Kelpie robe",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_154": {
+        "name": "Silvanus Kettleburn's prosthetics",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_155": {
+        "name": "Knight Bus",
+        "type": "Magical Object",
+        "list of appear": [
+            309,
+            310,
+            311,
+            313,
+            314,
+            323,
+            551,
+            1062,
+            1076,
+            1336
+        ]
+    },
+    "Spec_156": {
+        "name": "Lantern",
+        "type": "Magical Object",
+        "list of appear": [
+            331,
+            1312
+        ]
+    },
+    "Spec_157": {
+        "name": "Leprechaun gold",
+        "type": "Magical Object",
+        "list of appear": [
+            27,
+            171,
+            734,
+            736,
+            825,
+            1093,
+            1295
+        ]
+    },
+    "Spec_158": {
+        "name": "Lestrange family tree box",
+        "type": "Magical Object",
+        "list of appear": [
+            1269,
+            1331,
+            1457,
+            1598,
+            1601,
+            1631,
+            1636,
+            1842
+        ]
+    },
+    "Spec_159": {
+        "name": "Levioso statue",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_160": {
+        "name": "Levitation socks",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_161": {
+        "name": "Location Orb",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_162": {
+        "name": "Luna Lovegood's eagle hat",
+        "type": "Magical Object",
+        "list of appear": [
+            1014,
+            1015
+        ]
+    },
+    "Spec_163": {
+        "name": "Luna Lovegood's lion-topped hat",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_164": {
+        "name": "Luminous pumpkin",
+        "type": "Magical Object",
+        "list of appear": [
+            700
+        ]
+    },
+    "Spec_165": {
+        "name": "MACUSA Real-Time Hex Indicator map",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_166": {
+        "name": "MACUSA revolving door",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_167": {
+        "name": "MACUSA USA Spell Contraventions map",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_168": {
+        "name": "Magi-Me-More",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_169": {
+        "name": "Magic lantern",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_170": {
+        "name": "Magical chest",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_171": {
+        "name": "Magical Exposure Threat Level measurer",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_172": {
+        "name": "Magical lock",
+        "type": "Magical Object",
+        "list of appear": [
+            78
+        ]
+    },
+    "Spec_173": {
+        "name": "Magical Measurer",
+        "type": "Magical Object",
+        "list of appear": [
+            35
+        ]
+    },
+    "Spec_174": {
+        "name": "Magical megaphone",
+        "type": "Magical Object",
+        "list of appear": [
+            255,
+            256,
+            437,
+            438,
+            1368
+        ]
+    },
+    "Spec_175": {
+        "name": "Magical tape measure",
+        "type": "Magical Object",
+        "list of appear": [
+            37,
+            233,
+            564,
+            950
+        ]
+    },
+    "Spec_176": {
+        "name": "Magics Hydrometer",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_177": {
+        "name": "Mahoutokoro uniform",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_178": {
+        "name": "Map to Forgotten Grounds",
+        "type": "Magical Object",
+        "list of appear": [
+            1742
+        ]
+    },
+    "Spec_179": {
+        "name": "Marine life communication artefact",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_180": {
+        "name": "Material Refiner",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_181": {
+        "name": "Merlin's Self-supporting Socks",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_182": {
+        "name": "Metamorph Medal",
+        "type": "Magical Object",
+        "list of appear": [
+            907,
+            1280
+        ]
+    },
+    "Spec_183": {
+        "name": "Mine Cart",
+        "type": "Magical Object",
+        "list of appear": [
+            33,
+            1751
+        ]
+    },
+    "Spec_184": {
+        "name": "Miniature fireworks display",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_185": {
+        "name": "Ministry of Magic Landmark Flag",
+        "type": "Magical Object",
+        "list of appear": [
+            907
+        ]
+    },
+    "Spec_186": {
+        "name": "Ministry of Magic tannoy",
+        "type": "Magical Object",
+        "list of appear": [
+            892
+        ]
+    },
+    "Spec_187": {
+        "name": "Mirror of Erised",
+        "type": "Magical Object",
+        "list of appear": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            136,
+            137,
+            142,
+            143,
+            235,
+            272,
+            318,
+            646,
+            700,
+            1046,
+            1105,
+            1196,
+            1221,
+            1238,
+            1460,
+            1515,
+            1618,
+            1694,
+            1760,
+            1765,
+            1789,
+            1836
+        ]
+    },
+    "Spec_188": {
+        "name": "Mokeskin pouch",
+        "type": "Magical Object",
+        "list of appear": [
+            1566,
+            1573,
+            1595,
+            1601,
+            1664,
+            1785
+        ]
+    },
+    "Spec_189": {
+        "name": "Moody's Trunk",
+        "type": "Magical Object",
+        "list of appear": [
+            646,
+            707,
+            1601
+        ]
+    },
+    "Spec_190": {
+        "name": "Alastor Moody's magical eye",
+        "type": "Magical Object",
+        "list of appear": [
+            588,
+            646,
+            706,
+            707,
+            708,
+            749,
+            796,
+            798,
+            853,
+            907,
+            1635
+        ]
+    },
+    "Spec_191": {
+        "name": "Alastor Moody's walking stick",
+        "type": "Magical Object",
+        "list of appear": [
+            706,
+            707,
+            708,
+            744,
+            749,
+            796,
+            798,
+            1161
+        ]
+    },
+    "Spec_192": {
+        "name": "Moth painting",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_193": {
+        "name": "Muggle Guard",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_194": {
+        "name": "Muggle-Deterring Gate",
+        "type": "Magical Object",
+        "list of appear": [
+            242,
+            1639
+        ]
+    },
+    "Spec_195": {
+        "name": "Music box",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_196": {
+        "name": "Nab-sack",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_197": {
+        "name": "Never-tangle wool",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_198": {
+        "name": "New Look Mirror",
+        "type": "Magical Object",
+        "list of appear": [
+            854
+        ]
+    },
+    "Spec_199": {
+        "name": "Nicolas and Perenelle Flamel Fountain",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_200": {
+        "name": "Noisy Hitter",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_201": {
+        "name": "Omnioculars",
+        "type": "Magical Object",
+        "list of appear": [
+            537,
+            539,
+            541,
+            542,
+            543,
+            544,
+            546,
+            551,
+            595,
+            644,
+            725
+        ]
+    },
+    "Spec_202": {
+        "name": "Orrery",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_203": {
+        "name": "Owl Lecturn",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_204": {
+        "name": "Palmistry Model",
+        "type": "Magical Object",
+        "list of appear": [
+            401
+        ]
+    },
+    "Spec_205": {
+        "name": "Patrick Delaney-Podmore's letter to Nicholas de Mimsy-Porpington",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_206": {
+        "name": "Pensieve",
+        "type": "Magical Object",
+        "list of appear": [
+            249,
+            250,
+            272,
+            278,
+            280,
+            318,
+            364,
+            382,
+            383,
+            398,
+            426,
+            493,
+            494,
+            706,
+            707,
+            711,
+            755,
+            756,
+            762,
+            764,
+            765,
+            766,
+            798,
+            800,
+            885,
+            894,
+            1007,
+            1065,
+            1077,
+            1078,
+            1079,
+            1082,
+            1109,
+            1131,
+            1133,
+            1134,
+            1140,
+            1143,
+            1146,
+            1149,
+            1195,
+            1204,
+            1231,
+            1327,
+            1328,
+            1343,
+            1351,
+            1352,
+            1353,
+            1385,
+            1393,
+            1395,
+            1396,
+            1398,
+            1403,
+            1422,
+            1423,
+            1424,
+            1428,
+            1438,
+            1451,
+            1453,
+            1463,
+            1466,
+            1482,
+            1484,
+            1501,
+            1597,
+            1611,
+            1657,
+            1689,
+            1699,
+            1774,
+            1791,
+            1807,
+            1821,
+            1846
+        ]
+    },
+    "Spec_207": {
+        "name": "Perkins's tent",
+        "type": "Magical Object",
+        "list of appear": [
+            1631
+        ]
+    },
+    "Spec_208": {
+        "name": "Philosopher's Stone",
+        "type": "Magical Object",
+        "list of appear": [
+            28,
+            72,
+            87,
+            99,
+            102,
+            103,
+            104,
+            105,
+            120,
+            121,
+            123,
+            125,
+            132,
+            134,
+            136,
+            137,
+            138,
+            139,
+            140,
+            142,
+            143,
+            300,
+            406,
+            609,
+            712,
+            716,
+            749,
+            789,
+            797,
+            808,
+            879,
+            985,
+            1256,
+            1358,
+            1401,
+            1410,
+            1427,
+            1434,
+            1454,
+            1456,
+            1488,
+            1635,
+            1672,
+            1689,
+            1691,
+            1698,
+            1702,
+            1704,
+            1733,
+            1740,
+            1746,
+            1786,
+            1804,
+            1834
+        ]
+    },
+    "Spec_209": {
+        "name": "Phoenix Fire Lighters",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_210": {
+        "name": "Phoenix flint",
+        "type": "Magical Object",
+        "list of appear": [
+            1560
+        ]
+    },
+    "Spec_211": {
+        "name": "Photograph of Lily and Severus",
+        "type": "Magical Object",
+        "list of appear": [
+            1560,
+            1664,
+            1701,
+            1821
+        ]
+    },
+    "Spec_212": {
+        "name": "Pickup",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_213": {
+        "name": "Pint Timer",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_214": {
+        "name": "Portkey Portmanteau",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_215": {
+        "name": "Category:Portkeys",
+        "type": "Magical Object",
+        "list of appear": [
+            18,
+            22,
+            242,
+            293,
+            511,
+            527,
+            528,
+            530,
+            560,
+            561,
+            610,
+            642,
+            688,
+            782,
+            790,
+            793,
+            806,
+            844,
+            854,
+            889,
+            890,
+            892,
+            1048,
+            1049,
+            1143,
+            1195,
+            1219,
+            1220,
+            1358,
+            1492,
+            1504,
+            1535,
+            1542,
+            1543,
+            1647,
+            1679,
+            1712,
+            1721
+        ]
+    },
+    "Spec_216": {
+        "name": "Potion station",
+        "type": "Magical Object",
+        "list of appear": [
+            317,
+            950,
+            962,
+            1278,
+            1400,
+            1401,
+            1421
+        ]
+    },
+    "Spec_217": {
+        "name": "Category:Potions",
+        "type": "Magical Object",
+        "list of appear": [
+            29,
+            32,
+            35,
+            129,
+            133,
+            134,
+            188,
+            215,
+            216,
+            217,
+            296,
+            317,
+            320,
+            506,
+            562,
+            564,
+            566,
+            657,
+            669,
+            783,
+            871,
+            881,
+            949,
+            979,
+            994,
+            1005,
+            1008,
+            1151,
+            1234,
+            1278,
+            1321,
+            1335,
+            1336,
+            1340,
+            1343,
+            1386,
+            1400,
+            1401,
+            1403,
+            1427,
+            1428,
+            1446,
+            1466,
+            1493,
+            1756
+        ]
+    },
+    "Spec_218": {
+        "name": "Potter memorial",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_219": {
+        "name": "Lily Potter (II)'s fairy wings",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_220": {
+        "name": "Category:Prank devices",
+        "type": "Magical Object",
+        "list of appear": [
+            199,
+            227,
+            380,
+            384,
+            519,
+            526,
+            564,
+            625,
+            657,
+            658,
+            872,
+            880,
+            881,
+            891,
+            933,
+            1002,
+            1119,
+            1151,
+            1279,
+            1292,
+            1293,
+            1318,
+            1577,
+            1601,
+            1621,
+            1781
+        ]
+    },
+    "Spec_221": {
+        "name": "Category:Protective objects",
+        "type": "Magical Object",
+        "list of appear": [
+            1293
+        ]
+    },
+    "Spec_222": {
+        "name": "Quaffle",
+        "type": "Magical Object",
+        "list of appear": [
+            64,
+            74,
+            75,
+            76,
+            80,
+            83,
+            84,
+            85,
+            147,
+            171,
+            190,
+            218,
+            254,
+            255,
+            287,
+            298,
+            300,
+            358,
+            384,
+            399,
+            436,
+            438,
+            439,
+            502,
+            511,
+            530,
+            537,
+            541,
+            542,
+            544,
+            545,
+            563,
+            611,
+            614,
+            644,
+            653,
+            693,
+            871,
+            886,
+            954,
+            963,
+            964,
+            990,
+            1013,
+            1014,
+            1016,
+            1071,
+            1140,
+            1153,
+            1164,
+            1167,
+            1242,
+            1292,
+            1303,
+            1335,
+            1404,
+            1415,
+            1564,
+            1680
+        ]
+    },
+    "Spec_223": {
+        "name": "Quick-Quotes Quill",
+        "type": "Magical Object",
+        "list of appear": [
+            35,
+            60,
+            165,
+            171,
+            182,
+            187,
+            216,
+            535,
+            561,
+            567,
+            587,
+            595,
+            596,
+            597,
+            630,
+            631,
+            632,
+            642,
+            656,
+            696,
+            697,
+            720,
+            733,
+            768,
+            891,
+            918,
+            932,
+            939,
+            954,
+            955,
+            962,
+            966,
+            973,
+            1018,
+            1041,
+            1067,
+            1095,
+            1096,
+            1097,
+            1098,
+            1102,
+            1242,
+            1526,
+            1527,
+            1604,
+            1611
+        ]
+    },
+    "Spec_224": {
+        "name": "Quidditch Score-Keeper",
+        "type": "Magical Object",
+        "list of appear": [
+            1289
+        ]
+    },
+    "Spec_225": {
+        "name": "Quidditch strategy blackboard",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_226": {
+        "name": "Quill of Acceptance",
+        "type": "Magical Object",
+        "list of appear": [
+            87,
+            341,
+            507,
+            754,
+            970
+        ]
+    },
+    "Spec_227": {
+        "name": "Quod",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_228": {
+        "name": "R's notes",
+        "type": "Magical Object",
+        "list of appear": [
+            420,
+            1683
+        ]
+    },
+    "Spec_229": {
+        "name": "R's quills",
+        "type": "Magical Object",
+        "list of appear": [
+            291,
+            409,
+            595,
+            1683
+        ]
+    },
+    "Spec_230": {
+        "name": "Rainbow Bath Taps",
+        "type": "Magical Object",
+        "list of appear": [
+            700
+        ]
+    },
+    "Spec_231": {
+        "name": "Re-Visibility Spectacles",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_232": {
+        "name": "Refilling Bowl",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_233": {
+        "name": "Registry Research Board",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_234": {
+        "name": "Remembrall",
+        "type": "Magical Object",
+        "list of appear": [
+            64,
+            65,
+            74,
+            171,
+            197,
+            247,
+            281,
+            299,
+            328,
+            507,
+            511,
+            708,
+            907,
+            916,
+            1174,
+            1523,
+            1535,
+            1570
+        ]
+    },
+    "Spec_235": {
+        "name": "Resurrection Stone",
+        "type": "Magical Object",
+        "list of appear": [
+            286,
+            785,
+            1206,
+            1331,
+            1334,
+            1359,
+            1426,
+            1454,
+            1457,
+            1458,
+            1501,
+            1510,
+            1560,
+            1598,
+            1632,
+            1636,
+            1649,
+            1671,
+            1672,
+            1674,
+            1675,
+            1676,
+            1680,
+            1688,
+            1689,
+            1690,
+            1691,
+            1693,
+            1698,
+            1699,
+            1700,
+            1701,
+            1702,
+            1703,
+            1704,
+            1719,
+            1736,
+            1737,
+            1756,
+            1757,
+            1797,
+            1804,
+            1817,
+            1820,
+            1825,
+            1827,
+            1831,
+            1832,
+            1833,
+            1834,
+            1836,
+            1837,
+            1844,
+            1845,
+            1847
+        ]
+    },
+    "Spec_236": {
+        "name": "Revealer",
+        "type": "Magical Object",
+        "list of appear": [
+            247,
+            426,
+            646,
+            1008,
+            1325,
+            1343,
+            1349
+        ]
+    },
+    "Spec_237": {
+        "name": "Robust Belt",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_238": {
+        "name": "Rotating tower",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_239": {
+        "name": "Rune stone",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_240": {
+        "name": "Luna Scamander's suitcase",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_241": {
+        "name": "Newton Scamander's photograph of Leta Lestrange",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_242": {
+        "name": "Newton Scamander's suitcase",
+        "type": "Magical Object",
+        "list of appear": [
+            80,
+            300,
+            301,
+            344,
+            425,
+            805,
+            1007,
+            1324,
+            1344,
+            1405,
+            1652,
+            1685,
+            1745,
+            1793
+        ]
+    },
+    "Spec_243": {
+        "name": "Scrying mirror",
+        "type": "Magical Object",
+        "list of appear": [
+            646
+        ]
+    },
+    "Spec_244": {
+        "name": "Self-Correcting Ink",
+        "type": "Magical Object",
+        "list of appear": [
+            186,
+            1166
+        ]
+    },
+    "Spec_245": {
+        "name": "Self-ironing robes",
+        "type": "Magical Object",
+        "list of appear": [
+            238,
+            317,
+            1842
+        ]
+    },
+    "Spec_246": {
+        "name": "Self-Knitting Needles",
+        "type": "Magical Object",
+        "list of appear": [
+            946,
+            988,
+            1005
+        ]
+    },
+    "Spec_247": {
+        "name": "Self-Playing Harp",
+        "type": "Magical Object",
+        "list of appear": [
+            127,
+            248,
+            1375
+        ]
+    },
+    "Spec_248": {
+        "name": "Self-repairing robes",
+        "type": "Magical Object",
+        "list of appear": [
+            255,
+            317,
+            571
+        ]
+    },
+    "Spec_249": {
+        "name": "Self-Shuffling playing cards",
+        "type": "Magical Object",
+        "list of appear": [
+            164
+        ]
+    },
+    "Spec_250": {
+        "name": "Self-Soaping Dishcloth",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_251": {
+        "name": "Self-Spelling Quill",
+        "type": "Magical Object",
+        "list of appear": [
+            161,
+            238,
+            296,
+            409,
+            513,
+            566,
+            596,
+            938,
+            939,
+            958,
+            1140,
+            1318,
+            1431,
+            1432,
+            1689
+        ]
+    },
+    "Spec_252": {
+        "name": "Category:Sentient objects",
+        "type": "Magical Object",
+        "list of appear": [
+            133
+        ]
+    },
+    "Spec_253": {
+        "name": "Serpent (instrument)",
+        "type": "Magical Object",
+        "list of appear": [
+            1375
+        ]
+    },
+    "Spec_254": {
+        "name": "Percival Shacklehorn's tent",
+        "type": "Magical Object",
+        "list of appear": [
+            1721,
+            1724
+        ]
+    },
+    "Spec_255": {
+        "name": "Shamrock hat",
+        "type": "Magical Object",
+        "list of appear": [
+            537,
+            541,
+            604,
+            673
+        ]
+    },
+    "Spec_256": {
+        "name": "Shell instrument",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_257": {
+        "name": "Shouren's Tent",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_258": {
+        "name": "Skeleton Key (Victor Gridley)",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_259": {
+        "name": "Slughorn's Hourglass",
+        "type": "Magical Object",
+        "list of appear": [
+            1126,
+            1168,
+            1236
+        ]
+    },
+    "Spec_260": {
+        "name": "Small Potions Station",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_261": {
+        "name": "Snake Cane",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_262": {
+        "name": "Sorcerous Gloves",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_263": {
+        "name": "Category:Speaking objects",
+        "type": "Magical Object",
+        "list of appear": [
+            1625
+        ]
+    },
+    "Spec_264": {
+        "name": "Spectrespecs",
+        "type": "Magical Object",
+        "list of appear": [
+            1242,
+            1301,
+            1302,
+            1303,
+            1375,
+            1687
+        ]
+    },
+    "Spec_265": {
+        "name": "Speed Boost",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_266": {
+        "name": "Spellbook vault key",
+        "type": "Magical Object",
+        "list of appear": [
+            699,
+            709,
+            1573
+        ]
+    },
+    "Spec_267": {
+        "name": "Spongify Carpet",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_268": {
+        "name": "The Spore Scrolls' box",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_269": {
+        "name": "Staircase between the ground-floor and second-floor corridor",
+        "type": "Magical Object",
+        "list of appear": [
+            581,
+            741
+        ]
+    },
+    "Spec_270": {
+        "name": "Staircases that led somewhere else on Friday",
+        "type": "Magical Object",
+        "list of appear": [
+            581,
+            775
+        ]
+    },
+    "Spec_271": {
+        "name": "Staircases with vanishing steps",
+        "type": "Magical Object",
+        "list of appear": [
+            581,
+            775
+        ]
+    },
+    "Spec_272": {
+        "name": "Stamina Belt",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_273": {
+        "name": "Statue of an old wizard",
+        "type": "Magical Object",
+        "list of appear": [
+            754,
+            1217
+        ]
+    },
+    "Spec_274": {
+        "name": "Statute of Secrecy Task Force Public Notice",
+        "type": "Magical Object",
+        "list of appear": [
+            1102
+        ]
+    },
+    "Spec_275": {
+        "name": "Storm Lantern",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_276": {
+        "name": "Sum-solving ink",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_277": {
+        "name": "Sunken Relic",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_278": {
+        "name": "Super Wizard Cracker",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_279": {
+        "name": "Sweeper",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_280": {
+        "name": "Swooping Evil Kite",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_281": {
+        "name": "Tarot cards",
+        "type": "Magical Object",
+        "list of appear": [
+            318,
+            938,
+            1474
+        ]
+    },
+    "Spec_282": {
+        "name": "Teacher Plinth",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_283": {
+        "name": "Category:Telescopes",
+        "type": "Magical Object",
+        "list of appear": [
+            29,
+            32,
+            35,
+            595,
+            1170,
+            1222,
+            1285,
+            1622
+        ]
+    },
+    "Spec_284": {
+        "name": "Tempest in a Bottle",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_285": {
+        "name": "Thestral-drawn carriage",
+        "type": "Magical Object",
+        "list of appear": [
+            345,
+            573,
+            604,
+            605,
+            613,
+            638,
+            922,
+            1510,
+            1850
+        ]
+    },
+    "Spec_286": {
+        "name": "Threat meter",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_287": {
+        "name": "Three Sisters Bells",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_288": {
+        "name": "Thunderbird calling box",
+        "type": "Magical Object",
+        "list of appear": [
+            341
+        ]
+    },
+    "Spec_289": {
+        "name": "Time-Turner",
+        "type": "Magical Object",
+        "list of appear": [
+            253,
+            272,
+            477,
+            478,
+            490,
+            495,
+            497,
+            688,
+            719,
+            1174,
+            1262,
+            1341,
+            1469,
+            1564
+        ]
+    },
+    "Spec_290": {
+        "name": "Todd and Corrine Cribb's enchanted chest",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_291": {
+        "name": "Tower of Magical Knowledge",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_292": {
+        "name": "Category:Triwizard Tournament objects",
+        "type": "Magical Object",
+        "list of appear": [
+            290,
+            579,
+            601,
+            609,
+            610,
+            611,
+            614,
+            618,
+            623,
+            642,
+            650,
+            657,
+            669,
+            683,
+            703,
+            738,
+            739,
+            771,
+            780,
+            781,
+            782,
+            783,
+            790,
+            796,
+            826,
+            933,
+            985,
+            1152
+        ]
+    },
+    "Spec_293": {
+        "name": "Lottie Turner's brush",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_294": {
+        "name": "Two-way mirror",
+        "type": "Magical Object",
+        "list of appear": [
+            256,
+            707,
+            1143,
+            1237,
+            1238,
+            1523,
+            1527,
+            1573,
+            1719,
+            1720,
+            1761
+        ]
+    },
+    "Spec_295": {
+        "name": "Typewriter",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_296": {
+        "name": "Underwater Viewing Scope",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_297": {
+        "name": "Unpoppable Bubble",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_298": {
+        "name": "Veil",
+        "type": "Magical Object",
+        "list of appear": [
+            1195,
+            1198,
+            1199,
+            1213,
+            1483,
+            1799
+        ]
+    },
+    "Spec_299": {
+        "name": "Vigorous Belt",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_300": {
+        "name": "Walls pretending to be doors",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_301": {
+        "name": "Wand Weigher",
+        "type": "Magical Object",
+        "list of appear": [
+            36,
+            1750
+        ]
+    },
+    "Spec_302": {
+        "name": "Watering can",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_303": {
+        "name": "Weasley Clock",
+        "type": "Magical Object",
+        "list of appear": [
+            160,
+            564,
+            565,
+            1048,
+            1279,
+            1280
+        ]
+    },
+    "Spec_304": {
+        "name": "Ronald Weasley's wireless radio",
+        "type": "Magical Object",
+        "list of appear": [
+            1682
+        ]
+    },
+    "Spec_305": {
+        "name": "Winged catapult",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_306": {
+        "name": "Winged Keys",
+        "type": "Magical Object",
+        "list of appear": [
+            130,
+            131
+        ]
+    },
+    "Spec_307": {
+        "name": "Wireless",
+        "type": "Magical Object",
+        "list of appear": [
+            732,
+            1383,
+            1434,
+            1641,
+            1682,
+            1705
+        ]
+    },
+    "Spec_308": {
+        "name": "Wizard Cracker",
+        "type": "Magical Object",
+        "list of appear": [
+            91,
+            561,
+            678,
+            736,
+            933,
+            1301
+        ]
+    },
+    "Spec_309": {
+        "name": "Wizard Skittles",
+        "type": "Magical Object",
+        "list of appear": []
+    },
+    "Spec_310": {
+        "name": "Wizard's Checkers",
+        "type": "Magical Object",
+        "list of appear": [
+            89,
+            132,
+            231,
+            564,
+            677,
+            1169,
+            1242
+        ]
+    },
+    "Spec_311": {
+        "name": "Wizengamot Accusation Chair",
+        "type": "Magical Object",
+        "list of appear": [
+            756,
+            893,
+            962
+        ]
+    },
+    "Spec_312": {
+        "name": "Ageing Potion",
+        "type": "Potion",
+        "list of appear": [
+            5,
+            221,
+            333,
+            581,
+            610,
+            611
+        ]
+    },
+    "Spec_313": {
+        "name": "Alihotsy Draught",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_314": {
+        "name": "Amortentia",
+        "type": "Potion",
+        "list of appear": [
+            1322,
+            1354
+        ]
+    },
+    "Spec_315": {
+        "name": "Angel's Trumpet Draught",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_316": {
+        "name": "Anti-Paralysis Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_317": {
+        "name": "Antidote to Common Poisons",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_318": {
+        "name": "Antidote to Uncommon Poisons",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_319": {
+        "name": "Antidote to Veritaserum",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_320": {
+        "name": "Armadillo Bile Mixture",
+        "type": "Potion",
+        "list of appear": [
+            723
+        ]
+    },
+    "Spec_321": {
+        "name": "Babbling Beverage",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_322": {
+        "name": "Baneberry Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_323": {
+        "name": "Baruffio's Brain Elixir",
+        "type": "Potion",
+        "list of appear": [
+            1166
+        ]
+    },
+    "Spec_324": {
+        "name": "Beautification Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_325": {
+        "name": "Befuddlement Draught",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_326": {
+        "name": "Beguiling Bubbles",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_327": {
+        "name": "Black Fire Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_328": {
+        "name": "Blemish Blitzer",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_329": {
+        "name": "Blood-Replenishing Potion",
+        "type": "Potion",
+        "list of appear": [
+            1056,
+            1726
+        ]
+    },
+    "Spec_330": {
+        "name": "Bloodroot Poison",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_331": {
+        "name": "Bruise removal paste",
+        "type": "Potion",
+        "list of appear": [
+            1293
+        ]
+    },
+    "Spec_332": {
+        "name": "Bulgeye Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_333": {
+        "name": "Bundimun Pomade",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_334": {
+        "name": "Bundimun Secretion",
+        "type": "Potion",
+        "list of appear": [
+            583,
+            733,
+            1071,
+            1086
+        ]
+    },
+    "Spec_335": {
+        "name": "Burn-Healing Paste",
+        "type": "Potion",
+        "list of appear": [
+            1022,
+            1506,
+            1662
+        ]
+    },
+    "Spec_336": {
+        "name": "Burning Bitterroot Balm",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_337": {
+        "name": "Draught of Living Death",
+        "type": "Potion",
+        "list of appear": [
+            61,
+            1323,
+            1378,
+            1485
+        ]
+    },
+    "Spec_338": {
+        "name": "Draught of Peace",
+        "type": "Potion",
+        "list of appear": [
+            332,
+            365,
+            366,
+            936
+        ]
+    },
+    "Spec_339": {
+        "name": "Dreamless Sleep Potion",
+        "type": "Potion",
+        "list of appear": [
+            811,
+            818,
+            1115,
+            1343
+        ]
+    },
+    "Spec_340": {
+        "name": "Drink of Despair",
+        "type": "Potion",
+        "list of appear": [
+            1484,
+            1486,
+            1487,
+            1598
+        ]
+    },
+    "Spec_341": {
+        "name": "Drowsiness Draught",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_342": {
+        "name": "Edurus Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_343": {
+        "name": "Elixir 7",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_344": {
+        "name": "Elixir of Life",
+        "type": "Potion",
+        "list of appear": [
+            120,
+            138,
+            142,
+            1270,
+            1453,
+            1454,
+            1456,
+            1560,
+            1693
+        ]
+    },
+    "Spec_345": {
+        "name": "Elixir to Induce Euphoria",
+        "type": "Potion",
+        "list of appear": [
+            1263,
+            1443
+        ]
+    },
+    "Spec_346": {
+        "name": "Emerald Potion",
+        "type": "Potion",
+        "list of appear": [
+            135,
+            317,
+            1485
+        ]
+    },
+    "Spec_347": {
+        "name": "Erumpent Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_348": {
+        "name": "Everklena",
+        "type": "Potion",
+        "list of appear": [
+            36,
+            38,
+            1289
+        ]
+    },
+    "Spec_349": {
+        "name": "Essence of Insanity",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_350": {
+        "name": "Everlasting Elixirs",
+        "type": "Potion",
+        "list of appear": [
+            1371
+        ]
+    },
+    "Spec_351": {
+        "name": "Exploding Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_352": {
+        "name": "Exstimulo Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_353": {
+        "name": "Fake Protective Potions",
+        "type": "Potion",
+        "list of appear": [
+            521,
+            571,
+            1279
+        ]
+    },
+    "Spec_354": {
+        "name": "Fatiguing Infusion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_355": {
+        "name": "Felix Felicis",
+        "type": "Potion",
+        "list of appear": [
+            406,
+            1322,
+            1323,
+            1325,
+            1326,
+            1369,
+            1406,
+            1442,
+            1444,
+            1445,
+            1449,
+            1450,
+            1451,
+            1462,
+            1463,
+            1478,
+            1484
+        ]
+    },
+    "Spec_356": {
+        "name": "Fergus Fungal Budge",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_357": {
+        "name": "Fire-Breathing Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_358": {
+        "name": "Fire Protection Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_359": {
+        "name": "Flesh-Eating Slug Repellent",
+        "type": "Potion",
+        "list of appear": [
+            169,
+            254
+        ]
+    },
+    "Spec_360": {
+        "name": "Focus Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_361": {
+        "name": "Forgetfulness Potion",
+        "type": "Potion",
+        "list of appear": [
+            121
+        ]
+    },
+    "Spec_362": {
+        "name": "Frog Parts Mixture",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_363": {
+        "name": "Fungiface Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_364": {
+        "name": "Hair-Dyeing Potion",
+        "type": "Potion",
+        "list of appear": [
+            15,
+            689
+        ]
+    },
+    "Spec_365": {
+        "name": "Hair-Raising Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_366": {
+        "name": "Hate Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_367": {
+        "name": "Healing Potion",
+        "type": "Potion",
+        "list of appear": [
+            1144,
+            1629
+        ]
+    },
+    "Spec_368": {
+        "name": "Heartbreak Teardrops",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_369": {
+        "name": "Herbicide Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_370": {
+        "name": "Hiccoughing Solution",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_371": {
+        "name": "Laugh-inducing Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_372": {
+        "name": "Laxative Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_373": {
+        "name": "Love Potion",
+        "type": "Potion",
+        "list of appear": [
+            248,
+            1294,
+            1333,
+            1334,
+            1371,
+            1372,
+            1408,
+            1564,
+            1579,
+            1616
+        ]
+    },
+    "Spec_374": {
+        "name": "Love Potion Antidote",
+        "type": "Potion",
+        "list of appear": [
+            1372,
+            1409
+        ]
+    },
+    "Spec_375": {
+        "name": "citation needed",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_376": {
+        "name": "Madame Glossy's Silver Polish",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_377": {
+        "name": "Malevolent Mixture",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_378": {
+        "name": "Mandrake Restorative Draught",
+        "type": "Potion",
+        "list of appear": [
+            184,
+            207,
+            254,
+            290,
+            1790
+        ]
+    },
+    "Spec_379": {
+        "name": "Manegro Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_380": {
+        "name": "Maxima Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_381": {
+        "name": "Maximum Turbo Farts Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_382": {
+        "name": "Memory Potion",
+        "type": "Potion",
+        "list of appear": [
+            950
+        ]
+    },
+    "Spec_383": {
+        "name": "Moonseed Poison",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_384": {
+        "name": "Mopsus Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_385": {
+        "name": "Mouth Itching Antidote",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_386": {
+        "name": "Muffling Draught",
+        "type": "Potion",
+        "list of appear": [
+            581
+        ]
+    },
+    "Spec_387": {
+        "name": "Mrs Scower's All-Purpose Magical Mess Remover",
+        "type": "Potion",
+        "list of appear": [
+            208,
+            630,
+            631
+        ]
+    },
+    "Spec_388": {
+        "name": "Murtlap Essence",
+        "type": "Potion",
+        "list of appear": [
+            976,
+            977,
+            978,
+            979,
+            1100,
+            1233
+        ]
+    },
+    "Spec_389": {
+        "name": "Pepperup Elixir",
+        "type": "Potion",
+        "list of appear": [
+            225,
+            238,
+            335,
+            405,
+            795
+        ]
+    },
+    "Spec_390": {
+        "name": "Pepperup Potion",
+        "type": "Potion",
+        "list of appear": [
+            723,
+            956,
+            1543,
+            1744,
+            1756
+        ]
+    },
+    "Spec_391": {
+        "name": "Poison Antidote",
+        "type": "Potion",
+        "list of appear": [
+            1402
+        ]
+    },
+    "Spec_392": {
+        "name": "Polyjuice Potion",
+        "type": "Potion",
+        "list of appear": [
+            60,
+            215,
+            217,
+            222,
+            225,
+            237,
+            238,
+            239,
+            240,
+            352,
+            398,
+            457,
+            701,
+            722,
+            795,
+            797,
+            799,
+            800,
+            804,
+            805,
+            810,
+            1169,
+            1322,
+            1324,
+            1343,
+            1434,
+            1444,
+            1462,
+            1536,
+            1537,
+            1556,
+            1575,
+            1587,
+            1615,
+            1616,
+            1617,
+            1629,
+            1651,
+            1652,
+            1741,
+            1746,
+            1820
+        ]
+    },
+    "Spec_393": {
+        "name": "Pomfrey's Pick-Me-Up",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_394": {
+        "name": "Pompion Potion",
+        "type": "Potion",
+        "list of appear": [
+            1281
+        ]
+    },
+    "Spec_395": {
+        "name": "Potion N. 220",
+        "type": "Potion",
+        "list of appear": [
+            1051
+        ]
+    },
+    "Spec_396": {
+        "name": "Potion No. 07",
+        "type": "Potion",
+        "list of appear": [
+            321,
+            1433
+        ]
+    },
+    "Spec_397": {
+        "name": "Potion No. 113",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_398": {
+        "name": "Potion No. 86",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_399": {
+        "name": "Potion No. 329",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_400": {
+        "name": "Potion of All Potential",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_401": {
+        "name": "Potion of Invisibility",
+        "type": "Potion",
+        "list of appear": [
+            713
+        ]
+    },
+    "Spec_402": {
+        "name": "Ten-Second Pimple Vanisher",
+        "type": "Potion",
+        "list of appear": [
+            1294
+        ]
+    },
+    "Spec_403": {
+        "name": "Thick golden potion",
+        "type": "Potion",
+        "list of appear": [
+            1817
+        ]
+    },
+    "Spec_404": {
+        "name": "Thunderbrew",
+        "type": "Potion",
+        "list of appear": [
+            104
+        ]
+    },
+    "Spec_405": {
+        "name": "Tonic for Trace Detection",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_406": {
+        "name": "Truth Serum",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_407": {
+        "name": "Twilight Moonbeams",
+        "type": "Potion",
+        "list of appear": [
+            107
+        ]
+    },
+    "Spec_408": {
+        "name": "Veritaserum",
+        "type": "Potion",
+        "list of appear": [
+            722,
+            723,
+            798,
+            800,
+            803,
+            852,
+            1143,
+            1184,
+            1227,
+            1233,
+            1321,
+            1397,
+            1398,
+            1399,
+            1431,
+            1467,
+            1716,
+            1760
+        ]
+    },
+    "Spec_409": {
+        "name": "Vitamix Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_410": {
+        "name": "Volubilis Potion",
+        "type": "Potion",
+        "list of appear": []
+    },
+    "Spec_411": {
+        "name": "Aberto",
+        "type": "Spell",
+        "list of appear": [
+            1168
+        ]
+    },
+    "Spec_412": {
+        "name": "Accio",
+        "type": "Spell",
+        "list of appear": [
+            147,
+            249,
+            308,
+            363,
+            498,
+            511,
+            526,
+            554,
+            556,
+            648,
+            649,
+            652,
+            750,
+            769,
+            773,
+            777,
+            779,
+            793,
+            798,
+            841,
+            844,
+            890,
+            1011,
+            1051,
+            1135,
+            1150,
+            1168,
+            1203,
+            1207,
+            1210,
+            1217,
+            1270,
+            1321,
+            1335,
+            1357,
+            1480,
+            1481,
+            1484,
+            1486,
+            1490,
+            1540,
+            1559,
+            1564,
+            1575,
+            1596,
+            1622,
+            1629,
+            1630,
+            1657,
+            1658,
+            1671,
+            1680,
+            1682,
+            1735,
+            1753,
+            1793,
+            1831
+        ]
+    },
+    "Spec_413": {
+        "name": "Aguamenti",
+        "type": "Spell",
+        "list of appear": [
+            81,
+            713,
+            1218,
+            1487,
+            1499,
+            1610,
+            1796
+        ]
+    },
+    "Spec_414": {
+        "name": "Alohomora",
+        "type": "Spell",
+        "list of appear": [
+            13,
+            71,
+            130,
+            275,
+            488,
+            705,
+            769,
+            943,
+            1068,
+            1143,
+            1199,
+            1207,
+            1210,
+            1247,
+            1311,
+            1354,
+            1589,
+            1596,
+            1616
+        ]
+    },
+    "Spec_415": {
+        "name": "Anapneo",
+        "type": "Spell",
+        "list of appear": [
+            46,
+            142
+        ]
+    },
+    "Spec_416": {
+        "name": "Aparecium",
+        "type": "Spell",
+        "list of appear": [
+            246
+        ]
+    },
+    "Spec_417": {
+        "name": "Apparate",
+        "type": "Spell",
+        "list of appear": [
+            525,
+            526,
+            554,
+            568,
+            829,
+            854,
+            879,
+            890,
+            1268,
+            1392,
+            1393,
+            1404,
+            1405,
+            1431,
+            1440,
+            1478,
+            1489,
+            1535
+        ]
+    },
+    "Spec_418": {
+        "name": "Ascendio",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_419": {
+        "name": "Avada Kedavra",
+        "type": "Spell",
+        "list of appear": [
+            60,
+            253,
+            312,
+            407,
+            471,
+            556,
+            592,
+            593,
+            763,
+            782,
+            785,
+            788,
+            790,
+            792,
+            802,
+            805,
+            879,
+            1124,
+            1175,
+            1185,
+            1207,
+            1217,
+            1218,
+            1252,
+            1397,
+            1454,
+            1480,
+            1502,
+            1540,
+            1544,
+            1588,
+            1641,
+            1660,
+            1701,
+            1717,
+            1735,
+            1760,
+            1795,
+            1796,
+            1803,
+            1846
+        ]
+    },
+    "Spec_420": {
+        "name": "Avis",
+        "type": "Spell",
+        "list of appear": [
+            159,
+            1169,
+            1370
+        ]
+    },
+    "Spec_421": {
+        "name": "Bat",
+        "type": "Spell",
+        "list of appear": [
+            1386
+        ]
+    },
+    "Spec_422": {
+        "name": "Bombardo",
+        "type": "Spell",
+        "list of appear": [
+            161,
+            1697,
+            1794
+        ]
+    },
+    "Spec_423": {
+        "name": "Brackium Emendo",
+        "type": "Spell",
+        "list of appear": [
+            620,
+            1560
+        ]
+    },
+    "Spec_424": {
+        "name": "Capacious Extremis",
+        "type": "Spell",
+        "list of appear": [
+            523,
+            1503,
+            1586
+        ]
+    },
+    "Spec_425": {
+        "name": "Confundo",
+        "type": "Spell",
+        "list of appear": [
+            440,
+            1750,
+            1820
+        ]
+    },
+    "Spec_426": {
+        "name": "Conjunctivitis Curse",
+        "type": "Spell",
+        "list of appear": [
+            1027
+        ]
+    },
+    "Spec_427": {
+        "name": "Crinus Muto",
+        "type": "Spell",
+        "list of appear": [
+            627
+        ]
+    },
+    "Spec_428": {
+        "name": "Crucio",
+        "type": "Spell",
+        "list of appear": [
+            591,
+            592,
+            593,
+            628,
+            657,
+            752,
+            761,
+            763,
+            776,
+            790,
+            791,
+            879,
+            1071,
+            1175,
+            1212,
+            1215,
+            1216,
+            1454,
+            1717,
+            1735,
+            1795
+        ]
+    },
+    "Spec_429": {
+        "name": "Diffindo",
+        "type": "Spell",
+        "list of appear": [
+            645,
+            1210,
+            1588,
+            1626,
+            1662,
+            1671,
+            1754
+        ]
+    },
+    "Spec_430": {
+        "name": "Disillusionment Charm",
+        "type": "Spell",
+        "list of appear": [
+            856,
+            1083,
+            1639,
+            1737,
+            1794
+        ]
+    },
+    "Spec_431": {
+        "name": "Disapparate",
+        "type": "Spell",
+        "list of appear": [
+            560,
+            829,
+            1585,
+            1613,
+            1669,
+            1723
+        ]
+    },
+    "Spec_432": {
+        "name": "Engorgio",
+        "type": "Spell",
+        "list of appear": [
+            195,
+            518,
+            591,
+            1682
+        ]
+    },
+    "Spec_433": {
+        "name": "Episkey",
+        "type": "Spell",
+        "list of appear": [
+            1310,
+            1362
+        ]
+    },
+    "Spec_434": {
+        "name": "Expecto patronum",
+        "type": "Spell",
+        "list of appear": [
+            332,
+            379,
+            380,
+            402,
+            403,
+            404,
+            406,
+            413,
+            472,
+            473,
+            483,
+            486,
+            487,
+            774,
+            836,
+            845,
+            852,
+            894,
+            897,
+            1115,
+            1169,
+            1233,
+            1310,
+            1440,
+            1567,
+            1585,
+            1591,
+            1626,
+            1627,
+            1641,
+            1672,
+            1679,
+            1703,
+            1759,
+            1761,
+            1801,
+            1820
+        ]
+    },
+    "Spec_435": {
+        "name": "Erecto",
+        "type": "Spell",
+        "list of appear": [
+            469,
+            1630
+        ]
+    },
+    "Spec_436": {
+        "name": "Evanesco",
+        "type": "Spell",
+        "list of appear": [
+            950
+        ]
+    },
+    "Spec_437": {
+        "name": "Expelliarmus",
+        "type": "Spell",
+        "list of appear": [
+            193,
+            228,
+            249,
+            274,
+            279,
+            308,
+            450,
+            471,
+            645,
+            750,
+            779,
+            790,
+            792,
+            833,
+            834,
+            940,
+            941,
+            943,
+            1010,
+            1017,
+            1080,
+            1126,
+            1137,
+            1183,
+            1187,
+            1200,
+            1207,
+            1263,
+            1306,
+            1329,
+            1363,
+            1491,
+            1539,
+            1540,
+            1544,
+            1571,
+            1640,
+            1641,
+            1659,
+            1663,
+            1672,
+            1695,
+            1717,
+            1723,
+            1735,
+            1796,
+            1846
+        ]
+    },
+    "Spec_438": {
+        "name": "Ferula",
+        "type": "Spell",
+        "list of appear": [
+            469,
+            1781
+        ]
+    },
+    "Spec_439": {
+        "name": "Fidelius Charm",
+        "type": "Spell",
+        "list of appear": [
+            274,
+            387,
+            1228,
+            1229,
+            1454,
+            1629,
+            1631,
+            1655,
+            1697,
+            1726
+        ]
+    },
+    "Spec_440": {
+        "name": "Fiendfyre Curse",
+        "type": "Spell",
+        "list of appear": [
+            1753,
+            1797
+        ]
+    },
+    "Spec_441": {
+        "name": "Finite Incantatem",
+        "type": "Spell",
+        "list of appear": [
+            229,
+            1620,
+            1795
+        ]
+    },
+    "Spec_442": {
+        "name": "Furnunculus Curse",
+        "type": "Spell",
+        "list of appear": [
+            627
+        ]
+    },
+    "Spec_443": {
+        "name": "Geminio",
+        "type": "Spell",
+        "list of appear": [
+            1626,
+            1753
+        ]
+    },
+    "Spec_444": {
+        "name": "Glisseo",
+        "type": "Spell",
+        "list of appear": [
+            1800
+        ]
+    },
+    "Spec_445": {
+        "name": "Homenum Revelio",
+        "type": "Spell",
+        "list of appear": [
+            1590,
+            1696
+        ]
+    },
+    "Spec_446": {
+        "name": "Homonculus Charm",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_447": {
+        "name": "Immobulus",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_448": {
+        "name": "Impedimenta",
+        "type": "Spell",
+        "list of appear": [
+            751,
+            767,
+            776,
+            779,
+            793,
+            1011,
+            1017,
+            1137,
+            1213,
+            1487,
+            1497,
+            1539
+        ]
+    },
+    "Spec_449": {
+        "name": "Incarcerous",
+        "type": "Spell",
+        "list of appear": [
+            1189,
+            1487,
+            1587
+        ]
+    },
+    "Spec_450": {
+        "name": "Imperio",
+        "type": "Spell",
+        "list of appear": [
+            591,
+            593,
+            600,
+            791,
+            797,
+            801,
+            802,
+            803,
+            804,
+            1079,
+            1106,
+            1107,
+            1252,
+            1333,
+            1431,
+            1454,
+            1493,
+            1604,
+            1750,
+            1751,
+            1752,
+            1778
+        ]
+    },
+    "Spec_451": {
+        "name": "Impervius",
+        "type": "Spell",
+        "list of appear": [
+            1002,
+            1620,
+            1754
+        ]
+    },
+    "Spec_452": {
+        "name": "Incendio",
+        "type": "Spell",
+        "list of appear": [
+            85,
+            652,
+            1197,
+            1218,
+            1357,
+            1488,
+            1780
+        ]
+    },
+    "Spec_453": {
+        "name": "Langlock",
+        "type": "Spell",
+        "list of appear": [
+            1289,
+            1419
+        ]
+    },
+    "Spec_454": {
+        "name": "Legilimens",
+        "type": "Spell",
+        "list of appear": [
+            369,
+            1077,
+            1079,
+            1080,
+            1081,
+            1083,
+            1108,
+            1109,
+            1124,
+            1133,
+            1153,
+            1154,
+            1224,
+            1225,
+            1329,
+            1397,
+            1398,
+            1399,
+            1571,
+            1613
+        ]
+    },
+    "Spec_455": {
+        "name": "Levicorpus",
+        "type": "Spell",
+        "list of appear": [
+            1343,
+            1344,
+            1385,
+            1499,
+            1753,
+            1754
+        ]
+    },
+    "Spec_456": {
+        "name": "Locomotor Mortis",
+        "type": "Spell",
+        "list of appear": [
+            100,
+            418
+        ]
+    },
+    "Spec_457": {
+        "name": "Lumos",
+        "type": "Spell",
+        "list of appear": [
+            276,
+            309,
+            382,
+            411,
+            448,
+            450,
+            548,
+            711,
+            743,
+            773,
+            835,
+            851,
+            852,
+            1157,
+            1269,
+            1276,
+            1479,
+            1480,
+            1484,
+            1567,
+            1592,
+            1593,
+            1653,
+            1658,
+            1663,
+            1669,
+            1670,
+            1753,
+            1825
+        ]
+    },
+    "Spec_458": {
+        "name": "Morsmordre",
+        "type": "Spell",
+        "list of appear": [
+            521,
+            552,
+            555,
+            1489
+        ]
+    },
+    "Spec_459": {
+        "name": "Mucus Ad Nauseam",
+        "type": "Spell",
+        "list of appear": [
+            1508,
+            1572
+        ]
+    },
+    "Spec_460": {
+        "name": "Muffliato",
+        "type": "Spell",
+        "list of appear": [
+            53,
+            55,
+            178,
+            235,
+            283,
+            284,
+            285,
+            291,
+            574,
+            575,
+            576,
+            863,
+            923,
+            1360,
+            1395,
+            1419,
+            1460,
+            1573,
+            1589,
+            1611,
+            1625,
+            1630,
+            1639,
+            1813,
+            1841,
+            1850
+        ]
+    },
+    "Spec_461": {
+        "name": "Nox",
+        "type": "Spell",
+        "list of appear": [
+            384,
+            450,
+            693,
+            1589,
+            1802
+        ]
+    },
+    "Spec_462": {
+        "name": "Obliviate",
+        "type": "Spell",
+        "list of appear": [
+            159,
+            273,
+            530,
+            801,
+            1588,
+            1697
+        ]
+    },
+    "Spec_463": {
+        "name": "Obscuro",
+        "type": "Spell",
+        "list of appear": [
+            1642
+        ]
+    },
+    "Spec_464": {
+        "name": "Oculus Reparo",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_465": {
+        "name": "Oppugno",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_466": {
+        "name": "Petrificus Totalus",
+        "type": "Spell",
+        "list of appear": [
+            126,
+            1138,
+            1208,
+            1309,
+            1487,
+            1497,
+            1575,
+            1588,
+            1796
+        ]
+    },
+    "Spec_467": {
+        "name": "Periculum",
+        "type": "Spell",
+        "list of appear": [
+            777
+        ]
+    },
+    "Spec_468": {
+        "name": "Piertotum Locomotor",
+        "type": "Spell",
+        "list of appear": [
+            1781,
+            1782
+        ]
+    },
+    "Spec_469": {
+        "name": "Protean Charm",
+        "type": "Spell",
+        "list of appear": [
+            248,
+            1012
+        ]
+    },
+    "Spec_470": {
+        "name": "Protego",
+        "type": "Spell",
+        "list of appear": [
+            767,
+            950,
+            1108,
+            1109,
+            1169,
+            1196,
+            1203,
+            1215,
+            1216,
+            1218,
+            1319,
+            1454,
+            1480,
+            1486,
+            1499,
+            1585,
+            1630,
+            1647,
+            1677,
+            1697,
+            1735,
+            1752,
+            1780,
+            1781,
+            1841
+        ]
+    },
+    "Spec_471": {
+        "name": "Reducto",
+        "type": "Spell",
+        "list of appear": [
+            592,
+            767,
+            774,
+            1011,
+            1754,
+            1780
+        ]
+    },
+    "Spec_472": {
+        "name": "Reducio",
+        "type": "Spell",
+        "list of appear": [
+            1682
+        ]
+    },
+    "Spec_473": {
+        "name": "Renneverate",
+        "type": "Spell",
+        "list of appear": [
+            555,
+            743,
+            800,
+            1487
+        ]
+    },
+    "Spec_474": {
+        "name": "Reparifors",
+        "type": "Spell",
+        "list of appear": [
+            1464,
+            1626
+        ]
+    },
+    "Spec_475": {
+        "name": "Reparo",
+        "type": "Spell",
+        "list of appear": [
+            556,
+            572,
+            979,
+            1055,
+            1109,
+            1152,
+            1330,
+            1344,
+            1357,
+            1361,
+            1372,
+            1420,
+            1449,
+            1481,
+            1656,
+            1663,
+            1800,
+            1847
+        ]
+    },
+    "Spec_476": {
+        "name": "Rictusempra",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_477": {
+        "name": "Riddikulus",
+        "type": "Spell",
+        "list of appear": [
+            216,
+            229,
+            354,
+            355,
+            356,
+            357,
+            404,
+            440,
+            774,
+            1117
+        ]
+    },
+    "Spec_478": {
+        "name": "Scourgify",
+        "type": "Spell",
+        "list of appear": [
+            98,
+            751,
+            855,
+            868,
+            916,
+            1032,
+            1137,
+            1197,
+            1312,
+            1556
+        ]
+    },
+    "Spec_479": {
+        "name": "Sectumsempra",
+        "type": "Spell",
+        "list of appear": [
+            1055,
+            1208,
+            1431,
+            1463,
+            1464,
+            1481,
+            1488,
+            1499,
+            1512,
+            1659,
+            1711,
+            1735,
+            1791,
+            1820
+        ]
+    },
+    "Spec_480": {
+        "name": "Serpensortia",
+        "type": "Spell",
+        "list of appear": [
+            230,
+            1580
+        ]
+    },
+    "Spec_481": {
+        "name": "Silencio",
+        "type": "Spell",
+        "list of appear": [
+            1000,
+            1208
+        ]
+    },
+    "Spec_482": {
+        "name": "Sonorus",
+        "type": "Spell",
+        "list of appear": [
+            540,
+            713,
+            773
+        ]
+    },
+    "Spec_483": {
+        "name": "Spongify",
+        "type": "Spell",
+        "list of appear": []
+    },
+    "Spec_484": {
+        "name": "Stupefy",
+        "type": "Spell",
+        "list of appear": [
+            652,
+            750,
+            776,
+            779,
+            791,
+            797,
+            798,
+            805,
+            943,
+            1130,
+            1175,
+            1189,
+            1204,
+            1207,
+            1208,
+            1211,
+            1213,
+            1216,
+            1398,
+            1418,
+            1539,
+            1587,
+            1616,
+            1625,
+            1626,
+            1695,
+            1716,
+            1723,
+            1735,
+            1754,
+            1795,
+            1796,
+            1800
+        ]
+    },
+    "Spec_485": {
+        "name": "Tarantallegra",
+        "type": "Spell",
+        "list of appear": [
+            229
+        ]
+    },
+    "Spec_486": {
+        "name": "Unbreakable Vow",
+        "type": "Spell",
+        "list of appear": [
+            1260,
+            1329,
+            1380,
+            1381,
+            1454,
+            1814
+        ]
+    },
+    "Spec_487": {
+        "name": "Wingardium Leviosa",
+        "type": "Spell",
+        "list of appear": [
+            36,
+            47,
+            58,
+            60,
+            69,
+            76,
+            79,
+            129,
+            159,
+            170,
+            179,
+            214,
+            275,
+            277,
+            282,
+            309,
+            353,
+            374,
+            440,
+            498,
+            511,
+            522,
+            523,
+            550,
+            602,
+            632,
+            644,
+            647,
+            652,
+            685,
+            709,
+            713,
+            714,
+            767,
+            828,
+            837,
+            855,
+            856,
+            962,
+            1033,
+            1040,
+            1055,
+            1111,
+            1168,
+            1169,
+            1200,
+            1215,
+            1263,
+            1265,
+            1278,
+            1335,
+            1336,
+            1387,
+            1398,
+            1408,
+            1433,
+            1454,
+            1482,
+            1539,
+            1566,
+            1661,
+            1663,
+            1671,
+            1696,
+            1697,
+            1735,
+            1746,
+            1796,
+            1801,
+            1802,
+            1847
+        ]
+    }
+}
