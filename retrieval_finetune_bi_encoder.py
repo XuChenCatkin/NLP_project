@@ -19,6 +19,7 @@ from huggingface_hub import notebook_login
 import wandb
 import logging
 from utils import create_logger
+from tqdm import tqdm
 
 import time
 import faiss
@@ -92,7 +93,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 2,
+    "batch_size": 10,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "xiangzhang350-ucl",
     "epochs": 30,
@@ -427,7 +428,7 @@ def train(run_args, logger: logging.Logger):
     doc_encoder.train()
 
     global_step = 0
-    for epoch in range(run_args.epochs):
+    for epoch in tqdm(range(run_args.epochs)):
         epoch_loss = 0.0
         t0 = time.time()
         for batch_idx, (features, _labels) in enumerate(train_dataloader):
